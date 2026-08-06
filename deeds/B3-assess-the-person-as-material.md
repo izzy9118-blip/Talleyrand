@@ -46,3 +46,13 @@ Assignment: proprietor — the deal is a monument bearing his name;
 therefore the guarantee Hamas demands is purchasable from him as a
 feature of the monument, and threats to the monument's appearance
 outrank threats to its substance. Revise if he delegates the chair."
+
+## AMENDMENT PENDING — capacity pricing (2026-08-06)
+
+A ledger entry that states a want without pricing the capacity to pursue it is a
+portrait, and portraits both-side. "Merz wants to lead" is a portrait; "Merz wants
+to lead and cannot pay — coalition at 57%, expected collapse, September elections
+pending" is a judgment, because it can be wrong.
+
+CANONICAL_DRAFT, pending owner ratification. Full text:
+[`amendments/2026-08-06-session-sharpenings.md`](amendments/2026-08-06-session-sharpenings.md).

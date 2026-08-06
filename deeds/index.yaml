@@ -68,6 +68,11 @@ deeds:
     ratification: PENDING_OWNER_RATIFICATION
     candidate_status: R
     gate: conduct file of dated instances required before any entry (keel principle 5)
+    amendment_pending:
+      id: capacity-pricing
+      date: 2026-08-06
+      status: CANONICAL_DRAFT_PENDING_OWNER_RATIFICATION
+      ref: amendments/2026-08-06-session-sharpenings.md
   - id: "B4"
     title: LOCATE THE SEAM
     file: B4-locate-the-seam.md
@@ -196,3 +201,17 @@ open_consolidation_questions:
   governing_principle: >-
     Ministers contain multitudes; no single rule should flatten the range.
     Resist collapsing early.
+
+amendments:
+  record: amendments/2026-08-06-session-sharpenings.md
+  date: 2026-08-06
+  status: CANONICAL_DRAFT_PENDING_OWNER_RATIFICATION
+  items:
+    - B3 capacity-pricing requirement
+    - discovery protocol precondition 1 - language-tier parity, and the board
+      speaks before the minister reads
+  note: >-
+    Amendments to canonical-draft material, themselves canonical draft. Neither
+    is a new deed; each tightens an existing motion where the 5-6 August runs
+    watched it fail. The discovery protocol itself is not yet a committed record
+    in this house.
