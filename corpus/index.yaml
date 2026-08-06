@@ -1,0 +1,125 @@
+record_type: talleyrand_corpus_index
+house: talleyrand
+version: 1.0.0
+status: FOUNDING
+completeness: PENDING_PROBE
+governing_rule: >-
+  Primary above derivative: the thing itself outranks accounts of the thing.
+  Voice imitation licenses only from quotation-grade ground (keel principle 9).
+  A silence in this registry means NOT ACQUIRED, never "nothing there."
+
+quotation_grade_ground:
+  status: NOT_ACQUIRED
+  target: Pallain (ed.), Correspondance inédite du prince de Talleyrand et du roi
+    Louis XVIII pendant le Congrès de Vienne. Paris, 1881. French edition.
+  consequence: >-
+    Until acquired, no voice imitation is licensed. What may be reproduced is the
+    motion's shape, not the tongue's costume. Every verbal finding in the reading
+    is marked [V] and remains provisional.
+
+sources:
+  - id: TAL-SRC-001
+    title: The Correspondence of Prince Talleyrand and King Louis XVIII during the
+      Congress of Vienna
+    editor: Pallain
+    edition: English printing, 1881
+    working_copy: Internet Archive OCR scan of the 1881 English printing
+    role: ACCESS_COPY
+    authority: NOT_AUTHORITATIVE_FOR_WORDING
+    chain_of_custody:
+      - Pallain's French edition (Paris, 1881)
+      - 1881 English printing
+      - OCR scan
+    survives_translation:
+      - order
+      - inclusion
+      - omission
+      - sequence
+      - scene architecture
+      - who said what
+      - action taken
+    does_not_survive_translation:
+      - diction
+      - phrasing
+      - emphasis
+    read_state: Letters I-XI read; I-IX compiled
+    study: ../studies/vienna-correspondence/README.md
+  - id: TAL-SRC-002
+    title: Pallain's 1881 editorial apparatus (preface and framing)
+    role: CURATOR_S_GIVEN
+    authority: NONE
+    note: >-
+      Registered separately and carrying no authority. Pallain published in 1881;
+      that the strategic clause on German unity had been vindicated in 1870 is a
+      curatorial fact to hold in view when reading what he chose to print.
+  - id: TAL-SRC-003
+    title: Primary matter transmitted through Pallain's footnotes
+    instances:
+      - department letters
+      - Jaucourt
+      - Noailles
+    role: PRIMARY_THROUGH_EDITOR
+    marked_in_study_as: "[ED-PRIMARY]"
+  - id: TAL-SRC-004
+    title: Friedrich von Gentz, diary
+    role: EXTERNAL_CORROBORATING_WITNESS
+    status: VERIFIED_ONLINE
+    corroborates:
+      - the 30 September preliminary conference (plans upset; roughly two hours;
+        a scene he would never forget)
+      - Labrador's line, present in both accounts
+    evidentiary_use: >-
+      Establishes the register divergence: the dispatch renders cool surgery, the
+      diary records heat and duration. Facts check; presentation composed.
+
+evidence_types:
+  DF: documented finding (in the text, or corroborated externally)
+  HT: his testimony, awaiting corroboration (his account of his own acts)
+  SI: supported inference
+  WH: working hypothesis
+  UU: unresolved uncertainty
+  V: verbal - provisional pending the French edition
+  ED-PRIMARY: primary matter transmitted through Pallain's notes
+
+corroboration_state:
+  corroborated:
+    - the 30 September conference (Gentz)
+  externally_supported:
+    - the candor strategy's effect (Bavarian surveillance, via Noailles)
+    - Castlereagh's regret at not convening the Congress (department letter,
+      24 October)
+  uncorroborated_and_high_value:
+    - Jacobi-Kloest
+    - both Alexander audiences
+    - the Letter IX counter-construction
+
+witnesses_to_pursue:
+  - id: Gentz
+    state: VERIFIED_ONLINE
+  - id: Castlereagh correspondence, volume 10
+    state: PRESENT
+  - id: Metternich, memoirs
+    state: PRESENT
+  - id: Muenster
+    state: NOT_ACQUIRED
+  - id: d'Angeberg, documents
+    state: NOT_ACQUIRED
+  - id: Jaucourt
+    state: NOT_ACQUIRED
+  - id: Wellington, supplementary despatches
+    state: NOT_ACQUIRED
+  - id: Nesselrode
+    state: NOT_ACQUIRED
+
+most_wanted:
+  id: the letters to the Duchesse de Courlande
+  state: NOT_ACQUIRED
+  reason: >-
+    The private register of the same weeks. Pairing King's dispatch / Courland
+    letter / Gentz diary would show the mind in three lights.
+
+predecessor_corpus:
+  status: HISTORY_ONLY_NO_AUTHORITY
+  note: >-
+    The predecessor Talleyrand corpus assembled before the fire is history only.
+    It confers no authority on this house and is not loaded at runtime.
