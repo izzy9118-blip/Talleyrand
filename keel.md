@@ -2,7 +2,7 @@
 record: talleyrand_keel
 sailing: second
 status: OWNER_RATIFIED
-supersedes: deeds-draft-0.1 entire (preserved in custos_talleyrand, condemned)
+supersedes: deeds-draft-0.1 entire (preserved in memory_talleyrand, condemned)
 text_source: TALLEYRAND — THE KEEL, AND DEED C1 CANONICAL, transferred unaltered
 ---
 
@@ -66,6 +66,6 @@ proof. Ratification per deed remains the owner's.
 | the ore, not yet deeds | [`candidates/deed-candidates.md`](candidates/deed-candidates.md) |
 | the reading behind the ground | [`studies/vienna-correspondence/`](studies/vienna-correspondence/) |
 | the source chain and its limits (principle 9) | [`corpus/index.yaml`](corpus/index.yaml) |
-| the fire (principle 3's first harvest) | [`custos_talleyrand/first-sailing.md`](custos_talleyrand/first-sailing.md) |
+| the fire (principle 3's first harvest) | [`memory_talleyrand/first-sailing.md`](memory_talleyrand/first-sailing.md) |
 
 Principle 8's `NOT_OPERATIONAL` governs this whole house at founding.

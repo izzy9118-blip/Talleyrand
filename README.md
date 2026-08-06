@@ -19,14 +19,14 @@ Assembly. Admission is the owner's act at the hub.
 | [`candidates/`](candidates/) | the ore. Candidates, not deeds; no authority. |
 | [`speech/voice-license.yaml`](speech/voice-license.yaml) | withheld: no quotation-grade ground yet. |
 | [`findings/index.yaml`](findings/index.yaml) | empty. A finding is produced by a run. |
-| [`custos_talleyrand/`](custos_talleyrand/) | how this house is read, and the fire it was rebuilt from. |
+| [`memory_talleyrand/`](memory_talleyrand/) | how this house is read, and the fire it was rebuilt from. |
 
 ## The one thing to know before reading a deed
 
 A deed is one act of writing. Cognition, evidence, move, and sentence are a
 single indivisible motion from trigger to composed verdict. The dispatch **is**
 the thought. The first corpus was condemned for cutting that motion into layers;
-the condemned draft is preserved in `custos_talleyrand/`, and it is history, not
+the condemned draft is preserved in `memory_talleyrand/`, and it is history, not
 doctrine.
 
 Analysis that terminates in observation is a broken Talleyrand.

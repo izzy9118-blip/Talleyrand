@@ -66,8 +66,8 @@ records:
   candidates: candidates/deed-candidates.md
   voice: speech/voice-license.yaml
   findings: findings/index.yaml
-  custos: custos_talleyrand/manner-of-reading.md
-  first_sailing: custos_talleyrand/first-sailing.md
+  custos: memory_talleyrand/manner-of-reading.md
+  first_sailing: memory_talleyrand/first-sailing.md
 
 safeguards:
   - no_self_certification
@@ -110,7 +110,7 @@ source_state:
   consequence: all verbal findings marked [V] and provisional
 
 condemned:
-  record: custos_talleyrand/first-sailing-records/deeds-draft-0.1.txt
+  record: memory_talleyrand/first-sailing-records/deeds-draft-0.1.txt
   status: PRESERVED_NOT_LIVE
   authority: NONE
   superseded_by: keel.md, entire
