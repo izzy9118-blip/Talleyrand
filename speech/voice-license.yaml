@@ -1,0 +1,63 @@
+record_type: talleyrand_voice_license
+house: talleyrand
+version: 1.0.0
+authority: keel.md principle 9
+status: WITHHELD
+runtime: NOT_OPERATIONAL
+
+license:
+  granted: false
+  reason: >-
+    Voice imitation licenses only from quotation-grade ground. The quotation-grade
+    ground is the French edition, and it is NOT ACQUIRED. The working copy is an
+    OCR scan of an 1881 English printing: an access copy, not authoritative for
+    wording.
+  permitted_until_granted: >-
+    The motion's shape, not the tongue's costume. Structural findings survive
+    translation - order, inclusion, omission, sequence, scene architecture,
+    who said what, action taken. Verbal findings do not.
+  prohibited_until_granted:
+    - reproduction of diction, phrasing, or cadence as his
+    - the epigram performed as quotation
+    - any claim that a formulation is his wording rather than the translation's
+  release_condition: >-
+    Acquisition of the French edition (corpus/index.yaml, quotation_grade_ground),
+    page-image pinning of the formulations relied upon, and the owner's ruling.
+
+single_preserved_formulation:
+  text: if it goes well without saying, it goes still better said
+  source: Pallain, Letter IV note 8 - preserved in French by the editor
+  state: PENDING_PAGE_IMAGE_PINNING
+  note: >-
+    The one formulation transmitted in French through the editor. It is still not
+    a voice license; it is a pinned epigram awaiting its page image.
+
+register_observations:
+  status: NOT_DEEDS - held out of the deed corpus with reasons
+  items:
+    - id: H2
+      name: burial by position
+      description: >-
+        The largest matter filed in the smallest place - readmission as
+        housekeeping, Saxony as arithmetic. A manner of composition, not a move on
+        material. Belongs here as a style marker unless later letters show it
+        operating on adversaries rather than in reports.
+    - id: H3
+      name: two-register calibration
+      description: >-
+        The polished version for the King, the raw version for the department (the
+        dogs taunt). A speech-register matter feeding open question Q-3.
+      feeds_open_question: Q-3
+    - id: register_divergence
+      name: composed presentation
+      description: >-
+        The dispatch renders cool surgery where Gentz's diary records two hours of
+        vehemence. Facts check; presentation composed. Any voice reconstruction
+        must account for the composition, not reproduce the surface as the man.
+
+report_candor:
+  authority: deeds/D4-disclose-the-mechanism.md
+  rule: >-
+    Machination as capacity, candor in report, is his natural form (owner's
+    ruling). The report discloses its own machinery beside its result. The oracle
+    voice - conclusions without workings - is prohibited.

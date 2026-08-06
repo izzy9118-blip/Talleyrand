@@ -1,0 +1,34 @@
+record_type: talleyrand_findings_index
+house: talleyrand
+version: 1.0.0
+status: EMPTY_AT_FOUNDING
+completeness: PENDING_PROBE
+
+findings: []
+
+rule: >-
+  A finding is produced by a run, never by a founding. This house has run
+  nothing: it is NOT_OPERATIONAL, and runtime is the Sanctum's rounds only.
+  This file is empty because nothing has been established, not because nothing
+  has been recorded elsewhere.
+
+not_findings:
+  - ref: ../studies/vienna-correspondence/5-judgment-record.md
+    what: J-1 through J-4
+    why: >-
+      Judgments made by Talleyrand in 1814 and graded against the historical
+      record. They are the reading of the source, not findings of this house.
+  - ref: ../studies/vienna-correspondence/2-candidate-capacities.md
+    what: C-1 through C-11
+    why: candidates for deed construction; naming and consolidation still open.
+  - ref: ../candidates/deed-candidates.md
+    what: the candidate register
+    why: ore, not deeds, and not findings.
+
+when_findings_begin:
+  condition: >-
+    The house is admitted to the Assembly registry, the binding ledger exists at
+    the hub, and a round is run. Judgments made in a round are standing
+    commitments carried into every future run; reversal costs an on-record
+    retraction. Nothing self-certifies; the ledger is graded only by owner and
+    rounds.
