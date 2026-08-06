@@ -1,0 +1,134 @@
+schema_version: 1.0
+record_type: talleyrand_house_manifest
+version: 1.0.0
+
+identity:
+  house: talleyrand
+  minister_id: talleyrand
+  title: Talleyrand
+  repository: izzy9118-blip/Talleyrand
+  role: a minister house of the Sanctum - the lens over the evidence
+  sailing: second (the keel)
+
+status:
+  lifecycle: FOUNDING
+  runtime: NOT_OPERATIONAL
+  completeness: PENDING_PROBE
+  semantic_completion: INCOMPLETE
+  final_teaching_authorized: false
+  self_certification: PROHIBITED
+  governing_notice: >-
+    Founding this house does not establish a minister. It commits the corpus that
+    survived the fire, in the structure the keel requires. Admission to the
+    Assembly is the owner's act, through the hub's registry, and has not occurred.
+
+sanctum_contract:
+  hub: izzy9118-blip/Sanctum
+  registry_state: not_yet_established
+  registry_ref: registry/ministers.yaml (future_repositories)
+  admission_condition: >-
+    A committed manifest, after the corpus, method, safeguards, and the house's
+    interface exist. The hub receives only attributable ministerial records
+    through the common contract; the corpus stays here.
+  runtime_rule: >-
+    Runtime is the Sanctum's rounds only (keel principle 8). No freelance
+    prototypes. NOT_OPERATIONAL means not run.
+
+ratification:
+  keel: OWNER_RATIFIED
+  deed_C1: OWNER_RATIFIED
+  deed_corpus_1_0: CANONICAL_DRAFT_PENDING_OWNER_RATIFICATION_PER_DEED
+  counterfeit_registry: LIVING - ratified as keel principle 3
+  candidates: WORKING_FILE - not deeds, no authority
+  vienna_reading: LETTERS_I_XI_READ - I_IX_COMPILED
+  voice_license: WITHHELD - quotation-grade ground not acquired
+  findings: NONE
+
+load_order:
+  note: >-
+    What this house contributes to its own segment of a run, and in what order.
+    It is a house record; the order of the segments themselves is law and lives
+    in the hub's assembly-spec, versioned there. The manner of reading is not
+    listed here - the hub loads it as its own segment, after the house.
+  records:
+    - manifest.yaml
+    - keel.md
+    - counterfeits/registry.md
+    - deeds/index.yaml
+    - deeds/ in index order
+
+records:
+  keel: keel.md
+  deeds: deeds/index.yaml
+  counterfeits: counterfeits/registry.md
+  corpus: corpus/index.yaml
+  studies: studies/vienna-correspondence/README.md
+  candidates: candidates/deed-candidates.md
+  voice: speech/voice-license.yaml
+  findings: findings/index.yaml
+  custos: custos_talleyrand/manner-of-reading.md
+  first_sailing: custos_talleyrand/first-sailing.md
+
+safeguards:
+  - no_self_certification
+  - deed_is_one_act_of_writing
+  - verdict_is_the_terminus_of_a_cited_chain
+  - counterfeit_registry_is_living
+  - constitutive_cut_precedes_pricing
+  - persons_and_bodies_never_merged
+  - no_ledger_entry_without_dated_instances
+  - the_board_is_one_board
+  - the_briefing_is_an_artifact_apart
+  - runtime_is_the_rounds_only
+  - voice_imitation_requires_quotation_grade_ground
+  - nothing_self_certifies
+
+evidence_types:
+  reference: corpus/index.yaml
+  marks:
+    - DF
+    - HT
+    - SI
+    - WH
+    - UU
+    - V
+    - ED-PRIMARY
+
+open_questions:
+  count: 5
+  ref: studies/vienna-correspondence/4-open-questions.md
+  standing: >-
+    Q-1 through Q-5 remain open. Q-2 (paternity of doctrine) must not be
+    silently resolved in Talleyrand's favor by any deed that uses Letter I.
+    Unresolved questions are positive results.
+
+source_state:
+  quotation_grade_ground: NOT_ACQUIRED
+  working_copy: >-
+    OCR of the 1881 English printing - an access copy, not authoritative for
+    wording
+  consequence: all verbal findings marked [V] and provisional
+
+condemned:
+  record: custos_talleyrand/first-sailing-records/deeds-draft-0.1.txt
+  status: PRESERVED_NOT_LIVE
+  authority: NONE
+  superseded_by: keel.md, entire
+
+next_required_actions:
+  - id: TAL-NEXT-001
+    action: >-
+      Owner ratification, deed by deed, of the eighteen canonical drafts. C1 and
+      the keel are already ratified.
+  - id: TAL-NEXT-002
+    action: >-
+      Resume the Vienna reading at Letter XII with the inverted lens - Vienna as
+      Horus's specification: how the information moved, not only how the judgment
+      fired.
+  - id: TAL-NEXT-003
+    action: >-
+      Acquire the French edition and pin page images, releasing the voice license.
+  - id: TAL-NEXT-004
+    action: >-
+      Test the thin and [HT] candidates against Letters X-XXV and the named
+      witnesses. They thicken or they die.
