@@ -26,3 +26,25 @@ jobs:
           PY
       - name: Run discovery protocol regressions
         run: python -m pytest -q tests/test_discovery_protocol.py
+      - name: Validate committed discovery records
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          import yaml
+          from jsonschema import Draft202012Validator
+          from discovery_protocol import validate_discovery_record
+
+          schema = json.load(open('contracts/discovery-record.schema.json'))
+          validator = Draft202012Validator(schema)
+          records = sorted(Path('studies/vienna-correspondence').glob('*discovery-record*.yaml'))
+          if not records:
+              raise SystemExit('no committed discovery records found')
+          for path in records:
+              record = yaml.safe_load(path.read_text())
+              errors = sorted(validator.iter_errors(record), key=lambda e: list(e.path))
+              if errors:
+                  raise SystemExit(f'{path}: schema failure: {errors[0].message}')
+              validate_discovery_record(record)
+              print(f'validated {path}')
+          PY
