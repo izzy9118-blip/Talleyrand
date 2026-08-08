@@ -1,6 +1,6 @@
 record_type: talleyrand_deed_index
 house: talleyrand
-version: 1.0.0
+version: 1.1.0
 corpus: DEED CORPUS 1.0 ON THE KEEL
 governing_keel: keel.md
 counterfeit_registry: ../counterfeits/registry.md
@@ -18,48 +18,12 @@ load_order_rule: >-
   board is one board). The remainder load in family order A, B, C, D. Each deed is
   one act of writing; a deed that exists as notes is not that deed.
 deeds:
-  - id: "0"
-    title: SEE ONE BOARD
-    file: 00-see-one-board.md
-    family: precondition
-    status: CANONICAL_DRAFT
-    ratification: PENDING_OWNER_RATIFICATION
-    candidate_status: new in corpus 1.0, drawn out of candidate C9 as its precondition
-  - id: "A1"
-    title: READ THE DESIGNED WORD
-    file: A1-read-the-designed-word.md
-    family: A
-    status: CANONICAL_DRAFT
-    ratification: PENDING_OWNER_RATIFICATION
-    candidate_status: R
-  - id: "A2"
-    title: READ THE INVOLUNTARY
-    file: A2-read-the-involuntary.md
-    family: A
-    status: CANONICAL_DRAFT
-    ratification: PENDING_OWNER_RATIFICATION
-    candidate_status: R
-  - id: "A3"
-    title: READ THE SILENCE AS POSITION
-    file: A3-read-the-silence-as-position.md
-    family: A
-    status: CANONICAL_DRAFT
-    ratification: PENDING_OWNER_RATIFICATION
-    candidate_status: R
-  - id: "A5"
-    title: READ THE GROUND BENEATH THE TABLE
-    file: A5-read-the-ground-beneath-the-table.md
-    family: A
-    status: CANONICAL_DRAFT
-    ratification: PENDING_OWNER_RATIFICATION
-    candidate_status: R
-  - id: "B2"
-    title: PRICE THE COALITION IN BELIEFS
-    file: B2-price-the-coalition-in-beliefs.md
-    family: B
-    status: CANONICAL_DRAFT
-    ratification: PENDING_OWNER_RATIFICATION
-    candidate_status: R
+  - {id: "0", title: SEE ONE BOARD, file: 00-see-one-board.md, family: precondition, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: "new in corpus 1.0, drawn out of candidate C9 as its precondition"}
+  - {id: "A1", title: READ THE DESIGNED WORD, file: A1-read-the-designed-word.md, family: A, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
+  - {id: "A2", title: READ THE INVOLUNTARY, file: A2-read-the-involuntary.md, family: A, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
+  - {id: "A3", title: READ THE SILENCE AS POSITION, file: A3-read-the-silence-as-position.md, family: A, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
+  - {id: "A5", title: READ THE GROUND BENEATH THE TABLE, file: A5-read-the-ground-beneath-the-table.md, family: A, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
+  - {id: "B2", title: PRICE THE COALITION IN BELIEFS, file: B2-price-the-coalition-in-beliefs.md, family: B, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
   - id: "B3"
     title: ASSESS THE PERSON AS MATERIAL
     file: B3-assess-the-person-as-material.md
@@ -73,84 +37,17 @@ deeds:
       date: 2026-08-06
       status: CANONICAL_DRAFT_PENDING_OWNER_RATIFICATION
       ref: amendments/2026-08-06-session-sharpenings.md
-  - id: "B4"
-    title: LOCATE THE SEAM
-    file: B4-locate-the-seam.md
-    family: B
-    status: CANONICAL_DRAFT
-    ratification: PENDING_OWNER_RATIFICATION
-    candidate_status: R
-  - id: "B6"
-    title: SET THE QUANTUM AND THE CLOCK
-    file: B6-set-the-quantum-and-the-clock.md
-    family: B
-    status: CANONICAL_DRAFT
-    ratification: PENDING_OWNER_RATIFICATION
-    candidate_status: R
-  - id: "C1"
-    title: DISSOLVE THE GIVEN WITH THEIR OWN FIXED FACT
-    file: C1-dissolve-the-given-with-their-own-fixed-fact.md
-    family: C
-    status: CANONICAL
-    ratification: OWNER_RATIFIED
-    candidate_status: R
-    note: the prototype on which the keel's standard was settled
-  - id: "C2"
-    title: STRIKE THE SMALLEST LEVER THAT REACHES THE CENTER
-    file: C2-strike-the-smallest-lever-that-reaches-the-center.md
-    family: C
-    status: CANONICAL_DRAFT
-    ratification: PENDING_OWNER_RATIFICATION
-    candidate_status: R
-  - id: "C3"
-    title: BORROW THE HAND
-    file: C3-borrow-the-hand.md
-    family: C
-    status: CANONICAL_DRAFT
-    ratification: PENDING_OWNER_RATIFICATION
-    candidate_status: R
-  - id: "C4"
-    title: MOVE IT ONTO PAPER
-    file: C4-move-it-onto-paper.md
-    family: C
-    status: CANONICAL_DRAFT
-    ratification: PENDING_OWNER_RATIFICATION
-    candidate_status: R
-  - id: "C7"
-    title: DECLARE IN DAYLIGHT
-    file: C7-declare-in-daylight.md
-    family: C
-    status: CANONICAL_DRAFT
-    ratification: PENDING_OWNER_RATIFICATION
-    candidate_status: R, externally supported
-  - id: "C8"
-    title: TAKE THE SEAT, REFUSE THE ROLE
-    file: C8-take-the-seat-refuse-the-role.md
-    family: C
-    status: CANONICAL_DRAFT
-    ratification: PENDING_OWNER_RATIFICATION
-    candidate_status: R
-  - id: "C11"
-    title: SUPPLY THE SPINE
-    file: C11-supply-the-spine.md
-    family: C
-    status: CANONICAL_DRAFT
-    ratification: PENDING_OWNER_RATIFICATION
-    candidate_status: R
-  - id: "D2"
-    title: BANK THE WEAPON WITH PERMISSION ATTACHED
-    file: D2-bank-the-weapon-with-permission-attached.md
-    family: D
-    status: CANONICAL_DRAFT
-    ratification: PENDING_OWNER_RATIFICATION
-    candidate_status: R
-  - id: "D3"
-    title: COUNSEL AGAINST THE INCLINATION
-    file: D3-counsel-against-the-inclination.md
-    family: D
-    status: CANONICAL_DRAFT
-    ratification: PENDING_OWNER_RATIFICATION
-    candidate_status: R
+  - {id: "B4", title: LOCATE THE SEAM, file: B4-locate-the-seam.md, family: B, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
+  - {id: "B6", title: SET THE QUANTUM AND THE CLOCK, file: B6-set-the-quantum-and-the-clock.md, family: B, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
+  - {id: "C1", title: DISSOLVE THE GIVEN WITH THEIR OWN FIXED FACT, file: C1-dissolve-the-given-with-their-own-fixed-fact.md, family: C, status: CANONICAL, ratification: OWNER_RATIFIED, candidate_status: R, note: "the prototype on which the keel's standard was settled"}
+  - {id: "C2", title: STRIKE THE SMALLEST LEVER THAT REACHES THE CENTER, file: C2-strike-the-smallest-lever-that-reaches-the-center.md, family: C, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
+  - {id: "C3", title: BORROW THE HAND, file: C3-borrow-the-hand.md, family: C, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
+  - {id: "C4", title: MOVE IT ONTO PAPER, file: C4-move-it-onto-paper.md, family: C, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
+  - {id: "C7", title: DECLARE IN DAYLIGHT, file: C7-declare-in-daylight.md, family: C, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: "R, externally supported"}
+  - {id: "C8", title: TAKE THE SEAT, REFUSE THE ROLE, file: C8-take-the-seat-refuse-the-role.md, family: C, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
+  - {id: "C11", title: SUPPLY THE SPINE, file: C11-supply-the-spine.md, family: C, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
+  - {id: "D2", title: BANK THE WEAPON WITH PERMISSION ATTACHED, file: D2-bank-the-weapon-with-permission-attached.md, family: D, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
+  - {id: "D3", title: COUNSEL AGAINST THE INCLINATION, file: D3-counsel-against-the-inclination.md, family: D, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
   - id: "D4"
     title: DISCLOSE THE MECHANISM
     file: D4-disclose-the-mechanism.md
@@ -170,26 +67,24 @@ families:
   D: THE PRINCIPAL - his own side of the table
 not_drafted:
   register: ../candidates/deed-candidates.md
-  thin_or_self_testimony:
-    - A4
-    - A6
-    - B1
-    - B5
-    - B7
-    - C5
-    - C6
-    - C9
-    - C10
-    - D1
-  held_out:
-    - H1
-    - H2
-    - H3
-    - H4
+  extended_test: ../studies/vienna-correspondence/8-candidate-test-letters-X-XXV.md
+  candidate_dispositions:
+    A4: THICKENED_TO_DRAFTABLE
+    A6: STILL_THIN
+    B1: PRESERVE_HT
+    B5: PRESERVE_AND_TEST_AFTER_DISCOVERY_PROTOCOL
+    B7: THICKENED_TO_DRAFTABLE
+    C5: THICKENED_HT_REMAINS
+    C6: THICKENED_HT_REMAINS
+    C9: TEST_FOR_REDUNDANCY
+    C10: THICKENED_HT_REMAINS
+    D1: RETIRE_CURRENT_FORMULATION
+  held_out: [H1, H2, H3, H4]
   condition: >-
-    Thin and [HT] candidates await Letters X-XXV, the witnesses named in the
-    corroboration record, and the owner's ruling on consolidation. They are
-    expected to thicken or die there. No drafting before that reading.
+    The Letters X-XXV reading condition has now been satisfied. Candidate promotion
+    still requires the evidence-specific limits recorded in the extended test and
+    the owner's per-deed ruling. A4 and B7 are draftable; C5 is thickened but retains
+    a self-testimony limit; D1 must not be drafted in its existing formulation.
 open_consolidation_questions:
   ruling: DEFERRED_TO_OWNER
   register: ../candidates/deed-candidates.md
@@ -201,17 +96,15 @@ open_consolidation_questions:
   governing_principle: >-
     Ministers contain multitudes; no single rule should flatten the range.
     Resist collapsing early.
-
 amendments:
   record: amendments/2026-08-06-session-sharpenings.md
   date: 2026-08-06
   status: CANONICAL_DRAFT_PENDING_OWNER_RATIFICATION
   items:
     - B3 capacity-pricing requirement
-    - discovery protocol precondition 1 - language-tier parity, and the board
-      speaks before the minister reads
+    - discovery protocol precondition 1 - language-tier parity, and the board speaks before the minister reads
   note: >-
-    Amendments to canonical-draft material, themselves canonical draft. Neither
-    is a new deed; each tightens an existing motion where the 5-6 August runs
-    watched it fail. The discovery protocol itself is not yet a committed record
-    in this house.
+    The extended Vienna reading strongly confirms that a committed discovery protocol
+    is still missing: provenance, channel, access, disclosure timing, corroboration,
+    and audience repeatedly determine what information can do. The discovery protocol
+    is now the next constitutional production unit for this house.
