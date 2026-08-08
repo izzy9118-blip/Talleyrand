@@ -1,0 +1,38 @@
+record_type: talleyrand_source_scan_fingerprint
+house: talleyrand
+source_id: TAL-SRC-001
+date_registered: 2026-08-08
+status: ACQUIRED_ACCESS_COPY
+completeness: PENDING_PROBE
+
+identity:
+  title: The Correspondence of Prince Talleyrand and King Louis XVIII during the Congress of Vienna
+  edition: New York, Harper & Brothers, 1881
+  language: en
+  uploaded_filename: correspondenceof00tall-2.pdf
+  internet_archive_identifier_from_pdf_metadata: correspondenceof00tall
+
+file_fingerprint:
+  format: PDF
+  bytes: 18219076
+  pdf_page_objects: 344
+  sha256: 7d311aed06cd8b677d8629973e164df7dd3aa6f1fd51f72473264fb191617514
+
+role: ACCESS_COPY
+wording_authority: NOT_AUTHORITATIVE_FOR_FRENCH_WORDING
+permitted_use:
+  - structural comparison
+  - sequence and letter-order verification
+  - English-access reading
+  - checking prior working notes against a fixed scan
+prohibited_use:
+  - releasing the Talleyrand voice license
+  - treating translated diction as Talleyrand's French wording
+
+relationship_to_house:
+  corpus_entry: corpus/index.yaml#TAL-SRC-001
+  french_quotation_grade_witness: TAL-SRC-005
+  note: >-
+    This record fingerprints the exact user-supplied scan used as the English
+    access witness. It does not replace or downgrade the page-image requirement
+    attached to TAL-SRC-005.
