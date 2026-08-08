@@ -23,6 +23,7 @@ SUPPRESSION = {"NONE", "ALLEGED", "DOCUMENTED"}
 DISCLOSURE = {"PUBLIC", "FORMAL", "CONFIDENTIAL", "PRIVATE", "WITHHELD", "SELECTIVELY_DISCLOSED", "NOT_YET_DISCLOSED"}
 ABSENCE = {"NONE", "NOT_SEARCHED", "SEARCHED_NOT_FOUND", "SOURCE_EXISTS_NOT_ACQUIRED", "SOURCE_ACQUIRED_INCOMPLETE", "DOCUMENTED_ABSENCE"}
 UNRESOLVED_ABSENCE = {"NOT_SEARCHED", "SEARCHED_NOT_FOUND", "SOURCE_EXISTS_NOT_ACQUIRED", "SOURCE_ACQUIRED_INCOMPLETE"}
+QUALIFYING_INDEPENDENT_TYPES = {"PAGE_IMAGE_PRIMARY", "PRIMARY_TRANSCRIPTION", "DIRECT_WITNESS", "ATTRIBUTED_REPORT", "EDITORIAL_TRANSMISSION"}
 
 
 class DiscoveryProtocolError(ValueError):
@@ -32,6 +33,15 @@ class DiscoveryProtocolError(ValueError):
 def _require(condition: bool, message: str) -> None:
     if not condition:
         raise DiscoveryProtocolError(message)
+
+
+def _has_independent_qualifying_support(support: list[dict], excluded_types: set[str]) -> bool:
+    excluded_groups = {item["independence_group"] for item in support if item["source_type"] in excluded_types}
+    return any(
+        item["source_type"] in QUALIFYING_INDEPENDENT_TYPES
+        and item["independence_group"] not in excluded_groups
+        for item in support
+    )
 
 
 def validate_discovery_record(record: dict) -> dict:
@@ -68,7 +78,9 @@ def validate_discovery_record(record: dict) -> dict:
             _require(isinstance(ref, str) and ref, f"{label}.support[{sidx}].source_ref missing")
             _require(isinstance(group, str) and group, f"{label}.support[{sidx}].independence_group missing")
             _require(stype in SOURCE_TYPES, f"{label}.support[{sidx}].source_type invalid")
-            source_refs.add(ref); groups.add(group); types.add(stype)
+            source_refs.add(ref)
+            groups.add(group)
+            types.add(stype)
 
         channel = obs.get("channel")
         _require(isinstance(channel, dict), f"{label}.channel missing")
@@ -82,9 +94,9 @@ def validate_discovery_record(record: dict) -> dict:
             _require(len(groups) >= 2, f"{label}: corroborated requires two independent provenance groups")
 
         if evidence_class == "DF" and "RUMOR" in types:
-            _require(any(t not in {"RUMOR", "DERIVATIVE_ACCOUNT"} for t in types), f"{label}: rumor cannot become DF without qualifying independent ground")
+            _require(_has_independent_qualifying_support(support, {"RUMOR", "DERIVATIVE_ACCOUNT"}), f"{label}: rumor cannot become DF without qualifying independent ground")
         if evidence_class == "DF" and "SELF_TESTIMONY" in types:
-            _require(any(t not in {"SELF_TESTIMONY", "RUMOR", "DERIVATIVE_ACCOUNT"} for t in types), f"{label}: self-testimony cannot become DF without independent qualifying ground")
+            _require(_has_independent_qualifying_support(support, {"SELF_TESTIMONY", "RUMOR", "DERIVATIVE_ACCOUNT"}), f"{label}: self-testimony cannot become DF without independent qualifying ground")
 
         audience = obs.get("audience")
         _require(isinstance(audience, dict) and isinstance(audience.get("immediate"), str) and audience["immediate"], f"{label}.audience missing")
