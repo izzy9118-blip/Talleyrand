@@ -1,0 +1,80 @@
+record_type: talleyrand_voice_page_pin
+id: TAL-VOICE-PIN-001
+date: 2026-08-08
+status: PAGE_PINNED_READY_FOR_OWNER_REVIEW
+completeness: PENDING_PROBE
+self_certification: PROHIBITED
+
+source:
+  source_id: TAL-SRC-005
+  work: Correspondance inédite du prince de Talleyrand et du roi Louis XVIII pendant le Congrès de Vienne
+  editor: Georges Pallain
+  edition: Troisième édition
+  publisher: E. Plon et cie
+  year: 1881
+  language: fr
+  letter:
+    number: 4
+    date: 1814-10-09
+    printed_start_page: 25
+  printed_page: 35
+
+page_image_pin:
+  google_books:
+    volume_id: 45YFAAAAQAAJ
+    holding_copy: Oxford University
+    digitized: 2006-12-12
+    page_label: 35
+    evidence: >-
+      Google Books' indexed page-image record for the French 1881 third edition
+      returns the formulation under Popular passages at printed page 35.
+  internet_archive:
+    item_id: correspondancei00louigoog
+    ark: ark:/13960/t6c24zt69
+    source_google_books_volume: 45YFAAAAQAAJ
+    scan_date: 2006-12-12
+    page_number_confidence: 100
+    item_pages_reported: 572
+    physical_pagination: xxviii, 528 pages
+  locator_rule: >-
+    The stable page-image locator is the Oxford/Google digitization identified by
+    volume 45YFAAAAQAAJ, Internet Archive item correspondancei00louigoog, printed
+    page label 35. No inferred BookReader leaf number is recorded because the
+    provider exposes printed-page mapping directly and an unverified leaf offset
+    would be a weaker pin.
+
+formulation:
+  french: "Je lui répondis que si cela allait bien sans le dire, cela irait encore mieux en le disant."
+  speaker: Talleyrand
+  interlocutor_context: Hardenberg objecting to explicit reference to public law
+  textual_status: VERIFIED_AT_PRINTED_PAGE_35
+  modern_short_form_status: NOT_THE_VERBATIM_FORM
+  popular_short_form: "Si cela va sans dire, cela ira encore mieux en le disant."
+  rule: >-
+    Runtime may quote only the pinned French formulation as the historical wording.
+    The popular short form is a later condensation and may be labeled only as such.
+
+cross_checks:
+  - source_id: TAL-SRC-006
+    locator: Mémoires du prince de Talleyrand, vol. II, Project Gutenberg page marker 346
+    result: SAME_CONDITIONAL_FORMULATION
+  - source_id: TAL-SRC-001
+    locator: 1881 English printing, Google Books page 43
+    result: FRENCH_FORMULATION_RETAINED_IN_ENGLISH_EDITION
+
+correction:
+  prior_repository_pointer: "Pallain, Letter IV note 8 - preserved in French by the editor"
+  corrected_pointer: "Pallain, Letter No. 4, 9 October 1814, body text, printed p. 35"
+  reason: >-
+    The 1881 French edition places the words in Talleyrand's dispatch itself. They
+    are not an editorial note. The previous pointer correctly identified Letter IV
+    but misclassified the textual location.
+
+license_effect:
+  removes_page_pinning_blocker_for_this_formulation: true
+  releases_voice_license: false
+  owner_ruling_still_required: true
+  note: >-
+    This pin authenticates one formulation only. It does not license generalized
+    imitation of Talleyrand's diction, cadence, or persona and is not a completeness
+    certification of the speech corpus.
