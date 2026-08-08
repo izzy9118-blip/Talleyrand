@@ -1,6 +1,6 @@
 record_type: talleyrand_deed_index
 house: talleyrand
-version: 1.1.0
+version: 1.2.0
 corpus: DEED CORPUS 1.0 ON THE KEEL
 governing_keel: keel.md
 counterfeit_registry: ../counterfeits/registry.md
@@ -14,9 +14,9 @@ counts:
   owner_ratified: 1
   canonical_draft_pending_ratification: 18
 load_order_rule: >-
-  Deed 0 loads first: it is the precondition, not a stroke (keel principle 6, the
-  board is one board). The remainder load in family order A, B, C, D. Each deed is
-  one act of writing; a deed that exists as notes is not that deed.
+  Deed 0 loads first: it is the precondition, not a stroke. The remainder load in
+  family order A, B, C, D. Each deed is one act of writing; a deed that exists as
+  notes is not that deed.
 deeds:
   - {id: "0", title: SEE ONE BOARD, file: 00-see-one-board.md, family: precondition, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: "new in corpus 1.0, drawn out of candidate C9 as its precondition"}
   - {id: "A1", title: READ THE DESIGNED WORD, file: A1-read-the-designed-word.md, family: A, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
@@ -57,8 +57,7 @@ deeds:
     candidate_status: R
     note: >-
       The corpus grounding of report-candor. Machination as capacity, candor in
-      report, is his natural form (owner's ruling). D4 is what makes the C-family
-      governable.
+      report, is his natural form. D4 is what makes the C-family governable.
 families:
   precondition: the board before the move
   A: READING - the surface as testimony
@@ -68,23 +67,25 @@ families:
 not_drafted:
   register: ../candidates/deed-candidates.md
   extended_test: ../studies/vienna-correspondence/8-candidate-test-letters-X-XXV.md
+  high_value_probe: ../studies/vienna-correspondence/9-high-value-discovery-record.yaml
+  post_discovery_dispositions: ../studies/vienna-correspondence/10-post-discovery-candidate-dispositions.md
   candidate_dispositions:
     A4: THICKENED_TO_DRAFTABLE
     A6: STILL_THIN
-    B1: PRESERVE_HT
-    B5: PRESERVE_AND_TEST_AFTER_DISCOVERY_PROTOCOL
+    B1: PARTIALLY_CORROBORATED_BOUNDED_ONLY
+    B5: PRESERVE_AND_TEST_UNDER_DISCOVERY_PROTOCOL
     B7: THICKENED_TO_DRAFTABLE
     C5: THICKENED_HT_REMAINS
     C6: THICKENED_HT_REMAINS
     C9: TEST_FOR_REDUNDANCY
-    C10: THICKENED_HT_REMAINS
+    C10: RETIRE_ONE_WAY_CONVERSION_FORMULATION
     D1: RETIRE_CURRENT_FORMULATION
   held_out: [H1, H2, H3, H4]
   condition: >-
-    The Letters X-XXV reading condition has now been satisfied. Candidate promotion
-    still requires the evidence-specific limits recorded in the extended test and
-    the owner's per-deed ruling. A4 and B7 are draftable; C5 is thickened but retains
-    a self-testimony limit; D1 must not be drafted in its existing formulation.
+    The Letters X-XXV reading condition and first high-value independent-source probe
+    are complete. A4 and B7 are draftable. B1 may survive only in bounded form.
+    C5 and C6 retain self-testimony limits. C10's current one-way causal formulation
+    and D1's current principal-capture formulation may not enter the deed corpus.
 open_consolidation_questions:
   ruling: DEFERRED_TO_OWNER
   register: ../candidates/deed-candidates.md
@@ -94,8 +95,7 @@ open_consolidation_questions:
     - Is C8 a compound of A1 and C2 in sequence, or its own move?
     - Is the displaced man a mode of B4 or a deed of its own?
   governing_principle: >-
-    Ministers contain multitudes; no single rule should flatten the range.
-    Resist collapsing early.
+    Ministers contain multitudes; no single rule should flatten the range. Resist collapsing early.
 amendments:
   record: amendments/2026-08-06-session-sharpenings.md
   date: 2026-08-06
@@ -103,8 +103,11 @@ amendments:
   items:
     - B3 capacity-pricing requirement
     - discovery protocol precondition 1 - language-tier parity, and the board speaks before the minister reads
+  discovery_host:
+    id: TAL-DISCOVERY-001
+    path: ../method/discovery-protocol.yaml
+    status: PROPOSED_PENDING_OWNER_RATIFICATION
   note: >-
-    The extended Vienna reading strongly confirms that a committed discovery protocol
-    is still missing: provenance, channel, access, disclosure timing, corroboration,
-    and audience repeatedly determine what information can do. The discovery protocol
-    is now the next constitutional production unit for this house.
+    The discovery protocol is now committed and executable. Its application to the
+    high-value Vienna claims changed the candidate queue; the changes are preserved
+    here without owner-ratifying any candidate.

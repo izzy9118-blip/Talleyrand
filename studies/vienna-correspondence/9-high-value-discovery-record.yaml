@@ -1,0 +1,180 @@
+record_type: talleyrand_discovery_record
+protocol: TAL-DISCOVERY-001
+inquiry_id: TAL-VIENNA-HIGH-VALUE-001
+board_frozen_before_reading: true
+horus_source_selection_independent: true
+certification: NONE_SELF_CERTIFICATION_PROHIBITED
+observations:
+  - observation_id: OBS-ALEXANDER-EARLY-OCT
+    proposition: >-
+      Talleyrand reports a consequential early-October audience with Alexander.
+      The dialogue that grounds the proposed move remains Talleyrand's own account,
+      and this probe located no independent contemporary witness covering the decisive exchange.
+    evidence_class: HT
+    support:
+      - source_ref: TAL-SRC-005:Letter-IV:Alexander-audience
+        independence_group: talleyrand-royal-dispatch
+        source_type: SELF_TESTIMONY
+    channel:
+      origin: Alexander I as reported by Talleyrand
+      immediate_sender: Talleyrand
+      intermediaries: []
+      receiver: Louis XVIII
+      access_state: private audience reported afterward
+      formality: official ministerial dispatch
+    corroboration_state: UNCORROBORATED
+    audience:
+      immediate: Louis XVIII
+      secondary: []
+      true_audience_claim: false
+      basis_source_refs: []
+    disclosure_state: PRIVATE
+    suppression:
+      state: NONE
+      mechanism_source_refs: []
+    technical_jurisdiction:
+      requires_specialist: false
+      competence_source_refs: []
+    source_absence:
+      state: SEARCHED_NOT_FOUND
+      negative_claim: false
+    action_link:
+      kind: DEED
+      ref: C6
+      could_change: >-
+        Whether the audience can support an owner-ratified deed rather than a
+        self-testimonial candidate.
+
+  - observation_id: OBS-ALEXANDER-17-NOV
+    proposition: >-
+      Talleyrand reports the 17 November Alexander audience and an honorable route
+      by which Alexander could reduce the Saxon consequence while preserving his
+      prior commitment to Prussia. The decisive dialogue remains self-testimonial
+      after this probe.
+    evidence_class: HT
+    support:
+      - source_ref: TAL-SRC-005:Letter-XII:17-November-Alexander-audience
+        independence_group: talleyrand-royal-dispatch
+        source_type: SELF_TESTIMONY
+    channel:
+      origin: Alexander I as reported by Talleyrand
+      immediate_sender: Talleyrand
+      intermediaries: []
+      receiver: Louis XVIII
+      access_state: private audience reported afterward
+      formality: official ministerial dispatch
+    corroboration_state: UNCORROBORATED
+    audience:
+      immediate: Louis XVIII
+      secondary: []
+      true_audience_claim: false
+      basis_source_refs: []
+    disclosure_state: PRIVATE
+    suppression:
+      state: NONE
+      mechanism_source_refs: []
+    technical_jurisdiction:
+      requires_specialist: false
+      competence_source_refs: []
+    source_absence:
+      state: SEARCHED_NOT_FOUND
+      negative_claim: false
+    action_link:
+      kind: DEED
+      ref: C5
+      could_change: >-
+        Whether BUILD THE DOOR FOR HIS WORD can move from a thickened
+        self-testimonial candidate to independently corroborated ground.
+
+  - observation_id: OBS-LETTER-IX-COUNTER-CONSTRUCTION
+    proposition: >-
+      The anonymous Letter IX counter-construction remains unverified as a whole.
+      Independent British records support narrower elements: British policy actively
+      managed French influence, used Wellington as an additional channel, and did not
+      treat France as an unrestricted confidential partner during the early Vienna phase.
+    evidence_class: SI
+    support:
+      - source_ref: TAL-SRC-005:Letter-IX:anonymous-informant
+        independence_group: talleyrand-anonymous-informant-chain
+        source_type: ATTRIBUTED_REPORT
+      - source_ref: TAL-SRC-007:Castlereagh-to-Wellington:1814-11-21:pp446-447
+        independence_group: british-castlereagh-chain
+        source_type: DIRECT_WITNESS
+      - source_ref: TAL-SRC-008:Castlereagh-document-sequence:1814-10-to-1815-01
+        independence_group: british-castlereagh-chain
+        source_type: PRIMARY_TRANSCRIPTION
+    channel:
+      origin: anonymous informant plus independent British ministerial correspondence
+      immediate_sender: Talleyrand and Castlereagh document chains
+      intermediaries:
+        - edited documentary collections
+      receiver: repository
+      access_state: digitized edited primary collections
+      formality: ministerial correspondence
+    corroboration_state: PARTIALLY_CORROBORATED
+    audience:
+      immediate: Louis XVIII and British governmental addressees
+      secondary: []
+      true_audience_claim: false
+      basis_source_refs: []
+    disclosure_state: CONFIDENTIAL
+    suppression:
+      state: NONE
+      mechanism_source_refs: []
+    technical_jurisdiction:
+      requires_specialist: false
+      competence_source_refs: []
+    source_absence:
+      state: NONE
+      negative_claim: false
+    action_link:
+      kind: DEED
+      ref: B1
+      could_change: >-
+        The counter-construction may support a bounded reconstruction but may not
+        ground a deed that treats the anonymous informant's entire theory as established.
+
+  - observation_id: OBS-CASTLEREAGH-ALIGNMENT-CAUSATION
+    proposition: >-
+      The later Franco-British alignment is documented, but Talleyrand's one-way
+      causal account of converting Castlereagh conflicts with Castlereagh's own
+      21 November account, which credits Wellington with making French influence
+      more accommodating and describes Talleyrand as becoming less obstructive.
+    evidence_class: DF
+    support:
+      - source_ref: TAL-SRC-006:Letter-XIX:1815-01-04:causal-ledger
+        independence_group: talleyrand-royal-dispatch
+        source_type: SELF_TESTIMONY
+      - source_ref: TAL-SRC-007:Castlereagh-to-Wellington:1814-11-21:pp446-447
+        independence_group: british-castlereagh-chain
+        source_type: DIRECT_WITNESS
+    channel:
+      origin: Talleyrand and Castlereagh competing participant accounts
+      immediate_sender: the two principals
+      intermediaries:
+        - edited documentary collections
+      receiver: repository
+      access_state: digitized primary correspondence
+      formality: ministerial correspondence
+    corroboration_state: CONTRADICTED
+    audience:
+      immediate: Louis XVIII and Wellington
+      secondary: []
+      true_audience_claim: false
+      basis_source_refs: []
+    disclosure_state: CONFIDENTIAL
+    suppression:
+      state: NONE
+      mechanism_source_refs: []
+    technical_jurisdiction:
+      requires_specialist: false
+      competence_source_refs: []
+    source_absence:
+      state: NONE
+      negative_claim: false
+    action_link:
+      kind: DEED
+      ref: C10
+      could_change: >-
+        C10 cannot retain a one-direction conversion claim. Alignment must be
+        reconstructed as reciprocal and multi-channel or the candidate retired.

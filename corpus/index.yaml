@@ -1,6 +1,6 @@
 record_type: talleyrand_corpus_index
 house: talleyrand
-version: 1.2.0
+version: 1.3.0
 status: FOUNDING
 completeness: PENDING_PROBE
 governing_rule: >-
@@ -25,7 +25,7 @@ sources:
     role: ACCESS_COPY
     authority: NOT_AUTHORITATIVE_FOR_WORDING
     read_state: superseded as active reading witness by French TAL-SRC-006; retained for comparison
-    survives_translation: [order, inclusion, omission, sequence, scene architecture, who_said_what, action_taken]
+    survives_translation: [order, inclusion, omission, sequence, scene_architecture, who_said_what, action_taken]
     does_not_survive_translation: [diction, phrasing, emphasis]
   - id: TAL-SRC-002
     title: Pallain's 1881 editorial apparatus
@@ -73,6 +73,32 @@ sources:
     note: >-
       Used to complete the founding read in French. Exact wording for speech or
       quotation remains governed by TAL-SRC-005 page-image pinning.
+  - id: TAL-SRC-007
+    title: Supplementary Despatches and Memoranda of Field Marshal Arthur, Duke of Wellington, K.G., vol. 9
+    editor: Arthur Richard Wellesley, 2nd Duke of Wellington
+    edition: London, John Murray, 1862
+    language: en
+    role: PRIMARY_EDITED_CORRESPONDENCE_WITNESS
+    status: ACQUIRED_DIGITAL_ACCESS_WITNESS
+    acquisition_record: acquisitions/TAL-SRC-007-008-british-vienna-witnesses.yaml
+    decisive_locator: Castlereagh to Wellington, Vienna, 21 November 1814, printed pp. 446-447
+    independence_group: british-castlereagh-chain
+    evidentiary_use: >-
+      Independent British-side participant account testing Talleyrand's causal
+      description of the changing Franco-British relationship at Vienna.
+  - id: TAL-SRC-008
+    title: British Diplomacy, 1813-1815 — Select Documents Dealing with the Reconstruction of Europe
+    editor: Charles Kingsley Webster
+    edition: London, G. Bell and Sons, 1921
+    language: en
+    role: PRIMARY_DOCUMENT_COLLECTION_ACCESS_WITNESS
+    status: ACQUIRED_DIGITAL_ACCESS_WITNESS
+    acquisition_record: acquisitions/TAL-SRC-007-008-british-vienna-witnesses.yaml
+    independence_group: british-castlereagh-chain
+    evidentiary_use: >-
+      Documentary sequence for British policy at Vienna. Separate documents in this
+      edited collection are not counted as independent merely because they are separate
+      citations when they share the Castlereagh chain.
 evidence_types:
   DF: documented finding
   HT: his testimony, awaiting corroboration where material
@@ -82,24 +108,31 @@ evidence_types:
   V: verbal - provisional until checked and page-pinned against TAL-SRC-005
   ED-PRIMARY: primary matter transmitted through editorial apparatus
 corroboration_state:
+  discovery_protocol: TAL-DISCOVERY-001
+  record: ../studies/vienna-correspondence/9-high-value-discovery-record.yaml
   corroborated:
     - the 30 September conference (Gentz)
   externally_supported:
     - the candor strategy's effect (Bavarian surveillance, via Noailles)
     - Castlereagh's regret at not convening the Congress (department letter, 24 October)
-  uncorroborated_and_high_value:
-    - Jacobi-Kloest
-    - both Alexander audiences
-    - the Letter IX counter-construction
-    - causal detail of Castlereagh's conversion into the 3 January alignment
+  high_value_results:
+    Alexander_early_October_audience: UNCORROBORATED_SEARCHED_NOT_FOUND
+    Alexander_17_November_audience: UNCORROBORATED_SEARCHED_NOT_FOUND
+    Letter_IX_counter_construction: PARTIALLY_CORROBORATED_BOUNDED_ONLY
+    Castlereagh_conversion_causal_account: CONTRADICTED_BY_INDEPENDENT_PARTICIPANT_ACCOUNT
+  interpretation_limits:
+    - SEARCHED_NOT_FOUND is not evidence that no independent Alexander witness exists.
+    - The Letter IX anonymous informant's whole theory is not established by narrower British parallels.
+    - The 3 January Franco-British-Austrian alignment is not disputed by the causal contradiction.
+    - C10's one-way conversion formulation may not survive without revision.
 witnesses_to_pursue:
   - {id: Gentz, state: VERIFIED_ONLINE}
-  - {id: "Castlereagh correspondence, volume 10", state: PRESENT}
+  - {id: "Castlereagh correspondence", state: ACQUIRED_IN_PART_AS_TAL_SRC_007_008}
   - {id: "Metternich, memoirs", state: PRESENT}
   - {id: Muenster, state: NOT_ACQUIRED}
   - {id: "d'Angeberg, documents", state: NOT_ACQUIRED}
   - {id: Jaucourt, state: NOT_ACQUIRED}
-  - {id: "Wellington, supplementary despatches", state: NOT_ACQUIRED}
+  - {id: "Wellington, supplementary despatches", state: ACQUIRED_AS_TAL_SRC_007}
   - {id: Nesselrode, state: NOT_ACQUIRED}
 most_wanted:
   id: the letters to the Duchesse de Courlande
@@ -110,8 +143,9 @@ most_wanted:
 founding_read_state:
   letters_read: I-XXV
   letters_compiled: I-XXV
-  status: EXTENDED_VIENNA_TEST_COMPLETE_PENDING_CORROBORATION_AND_OWNER_RULINGS
+  status: EXTENDED_VIENNA_TEST_COMPLETE_HIGH_VALUE_CORROBORATION_PROBE_RECORDED
   candidate_test: ../studies/vienna-correspondence/8-candidate-test-letters-X-XXV.md
+  discovery_probe: ../studies/vienna-correspondence/9-high-value-discovery-record.yaml
 predecessor_corpus:
   status: HISTORY_ONLY_NO_AUTHORITY
   note: >-

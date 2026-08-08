@@ -1,0 +1,61 @@
+record_type: talleyrand_source_acquisition_bundle
+id: TAL-ACQ-BRITISH-VIENNA-001
+date: 2026-08-08
+status: ACQUIRED_DIGITAL_ACCESS_WITNESSES
+completeness: PENDING_PROBE
+self_certification: PROHIBITED
+
+sources:
+  - id: TAL-SRC-007
+    title: Supplementary Despatches and Memoranda of Field Marshal Arthur, Duke of Wellington, K.G.
+    volume: 9
+    subtitle: South of France, embassy to Paris, and Congress of Vienna, 1814-1815
+    editor: Arthur Richard Wellesley, 2nd Duke of Wellington
+    publisher: John Murray
+    year: 1862
+    language: en
+    role: PRIMARY_EDITED_CORRESPONDENCE_WITNESS
+    stable_surfaces:
+      - provider: Google Books
+        identifier: QZUgAAAAMAAJ
+        locator: https://books.google.com/books?id=QZUgAAAAMAAJ
+      - provider: Wikimedia Commons / Internet Archive mirror
+        identifier: cu31924088001759
+        locator: https://commons.wikimedia.org/wiki/File:Supplementary_despatches_and_memoranda_of_Field_Marshal_Arthur,_duke_of_Wellington,_K._G_(IA_cu31924088001759).pdf
+    decisive_locator:
+      item: Castlereagh to Wellington, Vienna, 21 November 1814
+      printed_pages: 446-447
+    use: >-
+      Independent British-side primary correspondence for testing Talleyrand's account of
+      the development of the Franco-British relationship at Vienna. It records Castlereagh's
+      own causal account and therefore must remain distinct from Talleyrand's dispatch chain.
+
+  - id: TAL-SRC-008
+    title: British Diplomacy, 1813-1815 — Select Documents Dealing with the Reconstruction of Europe
+    editor: Charles Kingsley Webster
+    publisher: G. Bell and Sons
+    year: 1921
+    language: en
+    role: PRIMARY_DOCUMENT_COLLECTION_ACCESS_WITNESS
+    stable_surfaces:
+      - provider: Google Books
+        identifier: koRbAAAAIAAJ
+        locator: https://books.google.com/books?id=koRbAAAAIAAJ
+    relevant_document_sequence:
+      - Castlereagh to Liverpool, 2 October 1814, printed page 197
+      - Castlereagh to Liverpool, 9 October 1814, printed page 203
+      - first memorandum on the Polish question, printed page 209
+      - memorandum on Prussia over Saxony, printed page 213
+      - Castlereagh to Liverpool, 21 November 1814, printed pages 233 and 240
+      - Castlereagh to Liverpool, 11 January 1815, printed page 287
+      - Castlereagh to Liverpool, 29 January 1815, printed page 294
+    use: >-
+      Independent British documentary sequence for testing narrower elements of the Letter IX
+      counter-construction and the later alignment. Editorial selection is visible and the
+      collection does not by itself prove the anonymous informant's full theory.
+
+admission_limits:
+  - These sources corroborate or contradict only propositions they actually cover.
+  - Publication in an edited collection does not make two documents independent if they share one originating chain.
+  - Neither source supplies an independent witness to the decisive dialogue inside Talleyrand's Alexander audiences found during this probe.
+  - Failure to locate such a witness is SEARCHED_NOT_FOUND, not evidence that no witness exists.
