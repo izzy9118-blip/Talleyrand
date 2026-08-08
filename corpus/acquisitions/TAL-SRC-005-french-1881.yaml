@@ -1,0 +1,59 @@
+record_type: talleyrand_source_acquisition
+id: TAL-SRC-005
+date: 2026-08-08
+status: ACQUIRED_DIGITAL_WITNESS_PENDING_PAGE_PINNING
+completeness: PENDING_PROBE
+self_certification: PROHIBITED
+
+work:
+  title: Correspondance inédite du prince de Talleyrand et du roi Louis XVIII pendant le Congrès de Vienne
+  editor: Georges Pallain
+  publication:
+    place: Paris
+    publisher: E. Plon et cie
+    year: 1881
+    edition: Troisième édition
+    printed_pagination: "xxviii, 528 pages"
+  language: fr
+
+witness:
+  type: digitized_page-image_scan
+  public_domain: true
+  stable_identifiers:
+    open_library: OL177943M
+    internet_archive: correspondancei00louigoog
+  public_surfaces:
+    - provider: Open Library
+      role: bibliographic_and_download_surface
+      locator: https://openlibrary.org/books/OL177943M/
+    - provider: Wikimedia Commons
+      role: public_domain_page_image_pdf_mirror
+      locator: https://commons.wikimedia.org/wiki/File:Correspondance_in%C3%A9dite_du_prince_de_Talleyrand_et_du_roi_Louis_XVIII_pendant_le_congres_de_Vienne.pdf
+  commons_file_record:
+    scan_pages: 569
+    bytes: 11533563
+    sha1: 1412a646e22c071674ad47533da880453088e1a8
+    mime_type: application/pdf
+  source_chain: >-
+    Digitized page-image witness of the 1881 French third edition. Open Library identifies
+    the Internet Archive item as correspondancei00louigoog; Wikimedia Commons identifies its
+    PDF source as Internet Archive and publishes the file metadata above.
+
+admission:
+  corpus_role: QUOTATION_GRADE_SOURCE_CANDIDATE
+  wording_authority: >-
+    The French page image may ground exact wording once the exact printed page and scan page
+    used for a formulation are pinned in a separate citation record.
+  structural_authority: PRIMARY_EDITED_CORRESPONDENCE_WITNESS
+  voice_license_effect: >-
+    Acquisition removes the NOT_ACQUIRED blocker but does not release the voice license.
+    Voice remains WITHHELD until quotation-bearing page images are individually pinned and the
+    owner rules on release.
+  no_retroactive_upgrade: >-
+    Existing [V] findings remain provisional until each relied-upon formulation is checked
+    against this witness. Acquisition alone does not silently upgrade prior English-OCR wording.
+
+next_actions:
+  - Pin exact scan-page and printed-page locators for every formulation used by the speech mechanism.
+  - Recheck the Vienna correspondence verbal findings against the French witness as the reading proceeds.
+  - Preserve discrepancies between the English access copy and French witness rather than normalizing them.

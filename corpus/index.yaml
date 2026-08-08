@@ -1,6 +1,6 @@
 record_type: talleyrand_corpus_index
 house: talleyrand
-version: 1.0.0
+version: 1.1.0
 status: FOUNDING
 completeness: PENDING_PROBE
 governing_rule: >-
@@ -9,13 +9,16 @@ governing_rule: >-
   A silence in this registry means NOT ACQUIRED, never "nothing there."
 
 quotation_grade_ground:
-  status: NOT_ACQUIRED
+  status: ACQUIRED_PENDING_PAGE_PINNING
+  source_id: TAL-SRC-005
   target: Pallain (ed.), Correspondance inédite du prince de Talleyrand et du roi
-    Louis XVIII pendant le Congrès de Vienne. Paris, 1881. French edition.
+    Louis XVIII pendant le Congrès de Vienne. Paris, 1881. French third edition.
+  acquisition_record: acquisitions/TAL-SRC-005-french-1881.yaml
   consequence: >-
-    Until acquired, no voice imitation is licensed. What may be reproduced is the
-    motion's shape, not the tongue's costume. Every verbal finding in the reading
-    is marked [V] and remains provisional.
+    The French page-image witness is now acquired, removing the former
+    NOT_ACQUIRED blocker. No voice imitation is licensed yet. Exact formulations
+    remain provisional until the printed page and scan page actually relied upon
+    are pinned and checked against this witness, followed by the owner's ruling.
 
 sources:
   - id: TAL-SRC-001
@@ -71,6 +74,22 @@ sources:
     evidentiary_use: >-
       Establishes the register divergence: the dispatch renders cool surgery, the
       diary records heat and duration. Facts check; presentation composed.
+  - id: TAL-SRC-005
+    title: Correspondance inédite du prince de Talleyrand et du roi Louis XVIII pendant le Congrès de Vienne
+    editor: Georges Pallain
+    edition: French, troisième édition, Paris, E. Plon et cie, 1881
+    language: fr
+    role: QUOTATION_GRADE_PAGE_IMAGE_WITNESS
+    status: ACQUIRED_PENDING_PAGE_PINNING
+    authority: AUTHORITATIVE_FOR_WORDING_ONLY_AT_PINNED_PAGE_LOCATORS
+    acquisition_record: acquisitions/TAL-SRC-005-french-1881.yaml
+    stable_identifiers:
+      open_library: OL177943M
+      internet_archive: correspondancei00louigoog
+    commons_file_sha1: 1412a646e22c071674ad47533da880453088e1a8
+    note: >-
+      Acquisition does not retroactively validate verbal findings drawn from the
+      English OCR. Each formulation used must be checked and page-pinned.
 
 evidence_types:
   DF: documented finding (in the text, or corroborated externally)
@@ -78,7 +97,7 @@ evidence_types:
   SI: supported inference
   WH: working hypothesis
   UU: unresolved uncertainty
-  V: verbal - provisional pending the French edition
+  V: verbal - provisional until checked and page-pinned against TAL-SRC-005
   ED-PRIMARY: primary matter transmitted through Pallain's notes
 
 corroboration_state:

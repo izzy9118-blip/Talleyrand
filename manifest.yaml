@@ -1,6 +1,6 @@
 schema_version: 1.0
 record_type: talleyrand_house_manifest
-version: 1.0.0
+version: 1.1.0
 
 identity:
   house: talleyrand
@@ -18,9 +18,8 @@ status:
   final_teaching_authorized: false
   self_certification: PROHIBITED
   governing_notice: >-
-    Founding this house does not establish a minister. It commits the corpus that
-    survived the fire, in the structure the keel requires. Admission to the
-    Assembly is the owner's act, through the hub's registry, and has not occurred.
+    Founding this house does not establish a minister. Admission to the Assembly
+    is the owner's act through Sanctum's registry and has not occurred.
 
 sanctum_contract:
   hub: izzy9118-blip/Sanctum
@@ -31,8 +30,8 @@ sanctum_contract:
     interface exist. The hub receives only attributable ministerial records
     through the common contract; the corpus stays here.
   runtime_rule: >-
-    Runtime is the Sanctum's rounds only (keel principle 8). No freelance
-    prototypes. NOT_OPERATIONAL means not run.
+    Runtime is Sanctum's rounds only (keel principle 8). No freelance prototypes.
+    NOT_OPERATIONAL means not run.
 
 ratification:
   keel: OWNER_RATIFIED
@@ -41,7 +40,7 @@ ratification:
   counterfeit_registry: LIVING - ratified as keel principle 3
   candidates: WORKING_FILE - not deeds, no authority
   vienna_reading: LETTERS_I_XI_READ - I_IX_COMPILED
-  voice_license: WITHHELD - quotation-grade ground not acquired
+  voice_license: WITHHELD - French witness acquired, page-image pins and owner ruling still required
   findings: NONE
 
 load_order:
@@ -103,11 +102,15 @@ open_questions:
     Unresolved questions are positive results.
 
 source_state:
-  quotation_grade_ground: NOT_ACQUIRED
+  quotation_grade_ground: ACQUIRED_PENDING_PAGE_PINNING
+  quotation_grade_source: TAL-SRC-005
+  acquisition_record: corpus/acquisitions/TAL-SRC-005-french-1881.yaml
   working_copy: >-
-    OCR of the 1881 English printing - an access copy, not authoritative for
-    wording
-  consequence: all verbal findings marked [V] and provisional
+    OCR of the 1881 English printing remains an access copy, not authoritative
+    for wording.
+  consequence: >-
+    Existing verbal findings remain [V] and provisional until checked and pinned
+    against the French page-image witness. Acquisition does not release voice.
 
 condemned:
   record: memory_talleyrand/first-sailing-records/deeds-draft-0.1.txt
@@ -118,17 +121,23 @@ condemned:
 next_required_actions:
   - id: TAL-NEXT-001
     action: >-
-      Owner ratification, deed by deed, of the eighteen canonical drafts. C1 and
-      the keel are already ratified.
-  - id: TAL-NEXT-002
-    action: >-
       Resume the Vienna reading at Letter XII with the inverted lens - Vienna as
       Horus's specification: how the information moved, not only how the judgment
       fired.
+  - id: TAL-NEXT-002
+    action: >-
+      Compile Letters X-XI with the next reading block and continue through Letter
+      XXV; test the thin and [HT] candidates against that ground and named witnesses.
   - id: TAL-NEXT-003
     action: >-
-      Acquire the French edition and pin page images, releasing the voice license.
+      Pin exact printed-page and scan-page images in TAL-SRC-005 for every verbal
+      formulation relied upon; then submit the voice license for owner ruling.
   - id: TAL-NEXT-004
     action: >-
-      Test the thin and [HT] candidates against Letters X-XXV and the named
-      witnesses. They thicken or they die.
+      Resolve the canonical-draft deed corpus only after the extended Vienna reading
+      has tested its thin candidates and amendment sharpenings. Owner ratification
+      remains per deed; no batch self-certification is permitted.
+  - id: TAL-NEXT-005
+    action: >-
+      Build and validate the sovereign minister interface only after corpus, method,
+      safeguards, and ratified deed set are in a state suitable for owner admission.
