@@ -48,7 +48,7 @@ deeds:
   - {id: "C3", title: BORROW THE HAND, file: C3-borrow-the-hand.md, family: C, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
   - {id: "C4", title: MOVE IT ONTO PAPER, file: C4-move-it-onto-paper.md, family: C, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
   - {id: "C7", title: DECLARE IN DAYLIGHT, file: C7-declare-in-daylight.md, family: C, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: "R, externally supported"}
-  - {id: "C8", title: TAKE THE SEAT, REFUSE THE ROLE, file: C8-take-the-seat-refuse-the-role.md, family: C, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
+  - {id: "C8", title: "TAKE THE SEAT, REFUSE THE ROLE", file: C8-take-the-seat-refuse-the-role.md, family: C, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
   - {id: "C11", title: SUPPLY THE SPINE, file: C11-supply-the-spine.md, family: C, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
   - {id: "D2", title: BANK THE WEAPON WITH PERMISSION ATTACHED, file: D2-bank-the-weapon-with-permission-attached.md, family: D, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
   - {id: "D3", title: COUNSEL AGAINST THE INCLINATION, file: D3-counsel-against-the-inclination.md, family: D, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
