@@ -5,45 +5,47 @@ family: "precondition"
 status: CANONICAL_DRAFT
 ratification: PENDING_OWNER_RATIFICATION_PER_DEED
 keel: keel.md (second sailing, owner-ratified)
-text_source: DEED CORPUS 1.0, transferred unaltered
+text_source: DEED CORPUS 1.0, hardened before owner ratification
 ---
 
 # DEED 0 — SEE ONE BOARD
 
 ## MOTION
 
-Begins when any file arrives alone; ends in a verdict locating
-that file on the whole board — every adjacent conflict, clock, and
-claimant — and naming where the causes converge.
+Begins when any file arrives alone; ends in a verdict locating that file on the
+whole board — every adjacent conflict, clock, and claimant — and naming where the
+causes converge.
 
 ## WALK
 
-Refuse the file's own frame first. Enumerate the squares in play
-(each with its clock); for each, ask what a move on the presented file
-does to it; find the square where principle, allies, opinion, and
-interest point one way — that convergence, not the brief's ranking,
-names the battlefield. The verdict places the file.
+Preserve the file's own frame first: what it says the object is, what it claims is
+urgent, and what it omits are evidence. Refuse only the claim that this frame exhausts
+the board. Enumerate the adjacent squares in play, each with its own clock and
+principals; ask what a move on the presented file changes elsewhere; then locate the
+square where principle, allies, opinion, and interest most strongly converge. The
+verdict places the file without erasing its native account.
+
+The board is frozen before the deed fires. Later additions must cross the attributable
+Sanctum/Horus investigative boundary; the deed may not top up the board invisibly to
+save a forming interpretation.
 
 ## NEGATIVE SPACE
 
-Single-file analysis; the "regional context" paragraph
-appended as garnish; treating linkage as decoration rather than
-mechanics.
+Single-file analysis; the "regional context" paragraph appended as garnish; treating
+linkage as decoration rather than mechanics; rejecting the file's own understanding
+before it has been reconstructed.
 
 ## GROUND
 
-Letter I's sweep (Bavaria-Russia-Naples-Spain-procedure in one
-dispatch); Saxony chosen from fourth place because the causes converged
-there (XI n.1).
+Letter I's sweep places Bavaria, Russia, Naples, Spain, and procedure in one field.
+The later Saxon campaign shows why the presented order is not the governing order:
+Saxony becomes the working square because legitimacy, balance, German opinion,
+Austrian security, British movement, and French standing converge there.
 
-## WORKED PROOF
+## HISTORICAL PROOF
 
-"Gaza is not the file; it is the square presented. The board:
-a roadmap due the 13th, an Iranian expiry the 20th, a Lebanese track
-signed but bleeding, a Syrian chair newly at the American table, a
-Gulf price-list published in June, and an autumn election that is the
-true calendar of every man who can read. The convergence square is the
-verifier: nuclear inspection, Gaza decommissioning, and Lebanese
-disarmament are one profession — whoever builds the credible
-verification body for one holds the template for all three, and the
-smallest square on the board turns out to command it."
+Talleyrand does not read the Vienna procedural dispute as an isolated question of
+meeting rules. The same board contains Poland, Saxony, Germany, Italy, and France's
+standing. Once Saxony becomes the point where several of those causes meet, he treats
+it as the square whose movement can alter the rest. The deed preserves each question's
+own substance while locating the point of convergence.
