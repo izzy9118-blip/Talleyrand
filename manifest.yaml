@@ -1,6 +1,6 @@
 schema_version: 1.0
 record_type: talleyrand_house_manifest
-version: 1.3.0
+version: 1.4.0
 identity:
   house: talleyrand
   minister_id: talleyrand
@@ -37,6 +37,7 @@ ratification:
   counterfeit_registry: LIVING - ratified as keel principle 3
   candidates: WORKING_FILE - not deeds, no authority
   vienna_reading: LETTERS_I_XXV_READ_AND_COMPILED - extended candidate test complete
+  high_value_corroboration: RECORDED_UNDER_TAL_DISCOVERY_001
   voice_license: WITHHELD - French witness acquired, page-image pins and owner ruling still required
   findings: NONE
 load_order:
@@ -61,6 +62,8 @@ records:
   studies: studies/vienna-correspondence/README.md
   extended_vienna_flow: studies/vienna-correspondence/7-flow-of-action-letters-X-XXV.md
   extended_candidate_test: studies/vienna-correspondence/8-candidate-test-letters-X-XXV.md
+  high_value_discovery_record: studies/vienna-correspondence/9-high-value-discovery-record.yaml
+  post_discovery_dispositions: studies/vienna-correspondence/10-post-discovery-candidate-dispositions.md
   candidates: candidates/deed-candidates.md
   voice: speech/voice-license.yaml
   findings: findings/index.yaml
@@ -77,6 +80,7 @@ safeguards:
   - search_failure_is_not_negative_evidence
   - documented_suppression_requires_mechanism_ground
   - specialist_claim_requires_competent_ground
+  - conflicting_participant_accounts_remain_visible
   - counterfeit_registry_is_living
   - constitutive_cut_precedes_pricing
   - persons_and_bodies_never_merged
@@ -94,12 +98,13 @@ open_questions:
   ref: studies/vienna-correspondence/4-open-questions.md
   standing: >-
     Q-1, Q-2, Q-4, and Q-5 remain open; Q-3 is narrowed but not closed. Q-2
-    now more strongly bars any deed from assigning Talleyrand sole doctrinal
-    paternity over Louis XVIII. Unresolved questions are positive results.
+    bars any deed from assigning Talleyrand sole doctrinal paternity over Louis XVIII.
+    Unresolved questions are positive results.
 source_state:
   quotation_grade_ground: ACQUIRED_PENDING_PAGE_PINNING
   quotation_grade_source: TAL-SRC-005
   french_reading_witness: TAL-SRC-006
+  british_primary_witnesses: [TAL-SRC-007, TAL-SRC-008]
   french_reading_state: LETTERS_X_XXV_READ_AND_COMPILED
   consequence: >-
     Existing verbal findings remain [V] until checked and pinned against the
@@ -107,15 +112,16 @@ source_state:
 candidate_test_state:
   A4: THICKENED_TO_DRAFTABLE
   A6: STILL_THIN
-  B1: PRESERVE_HT
-  B5: PRESERVE_AND_TEST_AFTER_DISCOVERY_PROTOCOL
+  B1: PARTIALLY_CORROBORATED_BOUNDED_ONLY
+  B5: PRESERVE_AND_TEST_UNDER_DISCOVERY_PROTOCOL
   B7: THICKENED_TO_DRAFTABLE
   C5: THICKENED_HT_REMAINS
   C6: THICKENED_HT_REMAINS
   C9: TEST_FOR_REDUNDANCY
-  C10: THICKENED_HT_REMAINS
+  C10: RETIRE_ONE_WAY_CONVERSION_FORMULATION
   D1: RETIRE_CURRENT_FORMULATION
-  authority: studies/vienna-correspondence/8-candidate-test-letters-X-XXV.md
+  extended_test: studies/vienna-correspondence/8-candidate-test-letters-X-XXV.md
+  post_discovery_test: studies/vienna-correspondence/10-post-discovery-candidate-dispositions.md
 condemned:
   record: memory_talleyrand/first-sailing-records/deeds-draft-0.1.txt
   status: PRESERVED_NOT_LIVE
@@ -124,12 +130,13 @@ condemned:
 next_required_actions:
   - id: TAL-NEXT-001
     action: >-
-      Apply TAL-DISCOVERY-001 to the high-value corroboration targets, especially
-      the Alexander audiences, Letter IX counter-construction, and Castlereagh conversion.
+      Resolve the deed corpus against the completed extended reading and discovery probe:
+      draft A4 and B7, bound or rewrite B1, test C9 redundancy, preserve C5/C6 as
+      self-testimonial candidates, and retire D1 and the current C10 formulation.
   - id: TAL-NEXT-002
     action: >-
-      Draft or retire the now-tested undeveloped candidates and resolve redundancy;
-      preserve owner ratification per deed. D1 may not be drafted in its former form.
+      Submit the resulting deed set and TAL-DISCOVERY-001 for explicit owner rulings;
+      do not batch self-ratify unresolved or self-testimonial candidates.
   - id: TAL-NEXT-003
     action: >-
       Pin exact printed-page and scan-page images in TAL-SRC-005 for every verbal
