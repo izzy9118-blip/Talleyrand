@@ -1,45 +1,50 @@
 record_type: talleyrand_voice_license
 house: talleyrand
-version: 1.1.0
+version: 1.2.0
 authority: keel.md principle 9
-status: WITHHELD
+status: READY_FOR_OWNER_RULING
 runtime: NOT_OPERATIONAL
 
 license:
   granted: false
   reason: >-
-    Voice imitation licenses only from quotation-grade ground. The French 1881
-    page-image witness is now acquired as TAL-SRC-005, but the exact formulations
-    relied upon have not yet been individually checked and pinned to printed-page
-    and scan-page locators. Acquisition alone does not license a voice.
+    The only preserved formulation currently proposed for quotation use has now
+    been pinned to the French 1881 page-image witness at printed page 35. This
+    removes the documentary page-pinning blocker for that formulation, but voice
+    imitation remains unlicensed until the owner rules on scope.
   permitted_until_granted: >-
     The motion's shape, not the tongue's costume. Structural findings survive
     translation - order, inclusion, omission, sequence, scene architecture,
-    who said what, action taken. Verbal findings remain provisional until pinned
-    against TAL-SRC-005.
+    who said what, action taken. The page-pinned formulation may be discussed as a
+    verified historical quotation but may not be generalized into a persona voice.
   prohibited_until_granted:
-    - reproduction of diction, phrasing, or cadence as his without a page-pinned French witness
-    - the epigram performed as quotation before its exact page image is pinned
-    - any claim that an English-access-copy formulation is his French wording
+    - generalized reproduction of Talleyrand's diction, phrasing, or cadence as a persona
+    - treating one page-pinned formulation as a license to invent new Talleyrand-style language
+    - presenting the popular short form as the verbatim 1881 wording
+    - any claim that the speech corpus is complete
   release_condition: >-
-    Page-image pinning of the formulations relied upon against TAL-SRC-005,
-    reconciliation of any discrepancies with prior English-OCR [V] findings,
-    and the owner's ruling.
+    Owner ruling on the exact scope of the voice license. The documentary pin for
+    TAL-VOICE-PIN-001 is complete; broader voice remains a constitutional decision,
+    not an automatic consequence of source acquisition.
 
 quotation_grade_witness:
   source_id: TAL-SRC-005
   acquisition_record: corpus/acquisitions/TAL-SRC-005-french-1881.yaml
-  state: ACQUIRED_PENDING_PAGE_PINNING
+  state: ACQUIRED_WITH_ONE_VERIFIED_PAGE_PIN
+  page_pin: speech/page-pins/TAL-VOICE-PIN-001.yaml
   no_retroactive_upgrade: true
 
 single_preserved_formulation:
-  text: if it goes well without saying, it goes still better said
-  source: Pallain, Letter IV note 8 - preserved in French by the editor
-  state: PENDING_PAGE_IMAGE_PINNING
-  note: >-
-    The formulation remains held until the exact French page image is pinned.
-    Source acquisition changes the ability to perform the check; it does not
-    substitute for the check.
+  french: "Je lui répondis que si cela allait bien sans le dire, cela irait encore mieux en le disant."
+  source: Pallain, Letter No. 4, 9 October 1814, body text, printed page 35
+  page_pin: speech/page-pins/TAL-VOICE-PIN-001.yaml
+  state: VERIFIED_PAGE_PINNED
+  popular_short_form: "Si cela va sans dire, cela ira encore mieux en le disant."
+  popular_short_form_status: LATER_CONDENSATION_NOT_VERBATIM_1881_FORM
+  correction_note: >-
+    The previous repository pointer said 'Letter IV note 8'. Letter IV was correct;
+    the note classification was not. The formulation is in Talleyrand's dispatch
+    itself on printed page 35.
 
 register_observations:
   status: NOT_DEEDS - held out of the deed corpus with reasons
