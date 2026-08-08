@@ -1,0 +1,28 @@
+name: Talleyrand Discovery Protocol Safeguard
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  discovery-protocol:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install validation dependencies
+        run: python -m pip install pyyaml jsonschema pytest
+      - name: Compile hard discovery boundary
+        run: python -m py_compile discovery_protocol.py
+      - name: Parse protocol and schema
+        run: |
+          python - <<'PY'
+          import json, yaml
+          json.load(open('contracts/discovery-record.schema.json'))
+          yaml.safe_load(open('method/discovery-protocol.yaml'))
+          PY
+      - name: Run discovery protocol regressions
+        run: python -m pytest -q tests/test_discovery_protocol.py

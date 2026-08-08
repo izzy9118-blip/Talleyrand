@@ -50,11 +50,16 @@ nothing.
 
 ## 2. Discovery protocol — precondition 1, sharpened
 
-**Status of the host record:** the discovery protocol is not yet a committed
-record in this house. It exists in the session's working practice, and this
-amendment is written so that its first precondition exists in the estate before
-the protocol around it does. The protocol itself remains to be drafted and
-ratified.
+**Historical status at 6 August:** the discovery protocol was not yet a committed
+record in this house. It existed in the session's working practice, and this
+amendment recorded its first precondition before the protocol around it existed.
+
+**Subsequent implementation record, 8 August:** `method/discovery-protocol.yaml`
+now supplies the proposed host record as `TAL-DISCOVERY-001`, with executable
+validation in `discovery_protocol.py` and the contract at
+`contracts/discovery-record.schema.json`. The protocol remains
+`PROPOSED_PENDING_OWNER_RATIFICATION`; this note does not retroactively ratify this
+amendment or the host protocol.
 
 **Precondition 1, as sharpened, has two parts.**
 

@@ -1,0 +1,94 @@
+record_type: talleyrand_discovery_protocol
+id: TAL-DISCOVERY-001
+version: 1.0.0
+status: PROPOSED_PENDING_OWNER_RATIFICATION
+completeness: PENDING_PROBE
+self_certification: PROHIBITED
+
+purpose: >-
+  Preserve how information reaches judgment. Source, channel, access,
+  independence, corroboration, audience, disclosure timing, suppression,
+  and subject-matter competence remain visible before a fact becomes a lever.
+
+preconditions:
+  frozen_board: >-
+    The common board is laid out and frozen before any deed fires. Later
+    investigative additions must cross the attributable Sanctum/Horus boundary.
+  language_tier: >-
+    No judgment about a principal may rise above the evidentiary tier at which
+    that principal was actually heard.
+  source_selection: >-
+    The minister states the information need and evidentiary characteristics;
+    Horus retains ordinary source-selection independence.
+
+source_types:
+  - PAGE_IMAGE_PRIMARY
+  - PRIMARY_TRANSCRIPTION
+  - DIRECT_WITNESS
+  - ATTRIBUTED_REPORT
+  - SELF_TESTIMONY
+  - RUMOR
+  - EDITORIAL_TRANSMISSION
+  - DERIVATIVE_ACCOUNT
+
+corroboration_states:
+  - UNCORROBORATED
+  - PARTIALLY_CORROBORATED
+  - CORROBORATED
+  - CONTRADICTED
+
+suppression_states:
+  - NONE
+  - ALLEGED
+  - DOCUMENTED
+
+laws:
+  channel: >-
+    Record origin, immediate sender, intermediaries, receiver, access state,
+    and formality. Multiple carriers from one originating chain are not
+    independent corroboration.
+  corroboration: >-
+    CORROBORATED requires at least two distinct independence groups.
+    SELF_TESTIMONY remains self-testimony unless independent ground covers
+    the material conduct claim.
+  suppression: >-
+    Silence is not positive evidence merely because it is noticed.
+    DOCUMENTED suppression requires exact source references for the mechanism.
+  source_absence: >-
+    Search failure is unresolved, not negative evidence. DOCUMENTED_ABSENCE
+    requires positive source ground and explicit scope.
+  audience: >-
+    Distinguish immediate recipient from secondary, public, or archival
+    audiences. A true-audience claim requires supporting source ground.
+  disclosure: >-
+    Record whether information was public, formal, confidential, private,
+    withheld, selectively disclosed, or not yet disclosed at the relevant time.
+    Historical secrecy never licenses hidden provenance in an Assembly report.
+  subject_matter_competence: >-
+    If a decisive fact requires specialized competence, identify competent
+    ground or mark it unresolved. The minister may not invent expertise.
+  person_as_channel: >-
+    Personal characteristics may affect access or channel quality only when
+    supported by dated conduct instances. Persons and bodies remain separate.
+  formalization: >-
+    Rumor, private convergence, confidential note, formal communication,
+    public declaration, and signed instrument are distinct states.
+  action_link: >-
+    Each retained observation states what judgment, deed, query, or decision
+    it could change. Otherwise it remains documentary ground, not a lever.
+
+hard_failures:
+  - rumor promoted to documented finding without independent qualifying ground
+  - self-testimony promoted to documented finding without independent corroboration
+  - corroborated status without two distinct independence groups
+  - documented suppression without mechanism source references
+  - decisive specialized claim marked resolved without competent ground
+  - true-audience claim without supporting source references
+  - search failure represented as documented absence
+  - missing provenance chain
+  - self-certification of truth or completeness
+
+output_contract:
+  schema: contracts/discovery-record.schema.json
+  validator: discovery_protocol.py
+  pass_status: STRUCTURAL_DISCOVERY_PROTOCOL_PASS_NOT_TRUTH_CERTIFICATION
