@@ -1,0 +1,42 @@
+record_type: talleyrand_source_scan_fingerprint
+house: talleyrand
+source_id: TAL-SRC-007
+date_registered: 2026-08-08
+status: ACQUIRED_DOCUMENTARY_EDITION
+completeness: PENDING_PROBE
+
+identity:
+  title: Le Ministère de Talleyrand sous le Directoire
+  series: Correspondance diplomatique de Talleyrand
+  editor: Georges Pallain
+  publication: Paris, Librairie Plon, E. Plon, Nourrit et Cie, 1891
+  language: fr
+  uploaded_filename: correspondance00tall.pdf
+  internet_archive_identifier_from_pdf_metadata: correspondance00tall
+
+file_fingerprint:
+  format: PDF
+  bytes: 35439164
+  pdf_page_objects: 542
+  sha256: 337c5131d3d5a67cb725d4ac0f016f9229000e139cc637e1cabba1441ca2379f
+
+role: FRENCH_DOCUMENTARY_EDITION_DIRECTOIRE
+source_character: >-
+  Pallain editorial volume printing diplomatic correspondence, memoranda,
+  reports, and related documents for Talleyrand's ministry under the Directory.
+  It is a documentary edition, not a facsimile of the underlying archival manuscripts.
+
+permitted_use:
+  - Directoire-period documentary study
+  - testing deed candidates against additional French-language conduct
+  - identifying further primary documents and archival leads
+  - comparing strategic continuities and discontinuities across periods
+
+not_the_vienna_french_witness: true
+vienna_voice_effect: NONE
+note: >-
+  This volume must never be substituted for TAL-SRC-005. Its title page identifies
+  it as Le Ministère de Talleyrand sous le Directoire; the volume separately advertises
+  Pallain's Correspondance inédite du prince de Talleyrand et du roi Louis XVIII pendant
+  le Congrès de Vienne. It therefore enlarges the corpus but does not satisfy the
+  page-image condition for the Vienna voice license.
