@@ -1,6 +1,6 @@
 schema_version: 1.0
 record_type: talleyrand_house_manifest
-version: 1.4.0
+version: 1.5.0
 identity:
   house: talleyrand
   minister_id: talleyrand
@@ -32,12 +32,13 @@ sanctum_contract:
 ratification:
   keel: OWNER_RATIFIED
   deed_C1: OWNER_RATIFIED
-  deed_corpus_1_0: CANONICAL_DRAFT_PENDING_OWNER_RATIFICATION_PER_DEED
+  deed_corpus_2_0: CANONICAL_DRAFT_PENDING_OWNER_RATIFICATION_PER_DEED
   discovery_protocol: PROPOSED_PENDING_OWNER_RATIFICATION
   counterfeit_registry: LIVING - ratified as keel principle 3
   candidates: WORKING_FILE - not deeds, no authority
   vienna_reading: LETTERS_I_XXV_READ_AND_COMPILED - extended candidate test complete
   high_value_corroboration: RECORDED_UNDER_TAL_DISCOVERY_001
+  candidate_resolution: COMMITTED_NO_OWNER_RATIFICATION_REQUIRED_FOR_UNDRAFTED_ORE
   voice_license: WITHHELD - French witness acquired, page-image pins and owner ruling still required
   findings: NONE
 load_order:
@@ -57,6 +58,8 @@ records:
   discovery_contract: contracts/discovery-record.schema.json
   discovery_validator: discovery_protocol.py
   deeds: deeds/index.yaml
+  deed_resolution: deeds/resolutions/2026-08-08-post-vienna-candidate-resolution.md
+  deed_validator: deed_corpus.py
   counterfeits: counterfeits/registry.md
   corpus: corpus/index.yaml
   studies: studies/vienna-correspondence/README.md
@@ -81,6 +84,8 @@ safeguards:
   - documented_suppression_requires_mechanism_ground
   - specialist_claim_requires_competent_ground
   - conflicting_participant_accounts_remain_visible
+  - unresolved_candidates_cannot_enter_deed_load_order
+  - retired_candidates_cannot_enter_deed_load_order
   - counterfeit_registry_is_living
   - constitutive_cut_precedes_pricing
   - persons_and_bodies_never_merged
@@ -99,7 +104,7 @@ open_questions:
   standing: >-
     Q-1, Q-2, Q-4, and Q-5 remain open; Q-3 is narrowed but not closed. Q-2
     bars any deed from assigning Talleyrand sole doctrinal paternity over Louis XVIII.
-    Unresolved questions are positive results.
+    Unresolved questions are positive results and do not block bounded operational use.
 source_state:
   quotation_grade_ground: ACQUIRED_PENDING_PAGE_PINNING
   quotation_grade_source: TAL-SRC-005
@@ -109,19 +114,17 @@ source_state:
   consequence: >-
     Existing verbal findings remain [V] until checked and pinned against the
     French page-image witness. Reading completion does not release voice.
-candidate_test_state:
-  A4: THICKENED_TO_DRAFTABLE
-  A6: STILL_THIN
-  B1: PARTIALLY_CORROBORATED_BOUNDED_ONLY
-  B5: PRESERVE_AND_TEST_UNDER_DISCOVERY_PROTOCOL
-  B7: THICKENED_TO_DRAFTABLE
-  C5: THICKENED_HT_REMAINS
-  C6: THICKENED_HT_REMAINS
-  C9: TEST_FOR_REDUNDANCY
-  C10: RETIRE_ONE_WAY_CONVERSION_FORMULATION
-  D1: RETIRE_CURRENT_FORMULATION
-  extended_test: studies/vienna-correspondence/8-candidate-test-letters-X-XXV.md
-  post_discovery_test: studies/vienna-correspondence/10-post-discovery-candidate-dispositions.md
+deed_corpus_state:
+  version: 2.0.0
+  indexed_deeds: 22
+  owner_ratified: 1
+  pending_owner_ratification: 21
+  new_resolved_drafts: [A4, B1, B7]
+  unresolved_ore: [C5, C6]
+  absorbed_not_drafted: [A6, B5, C9]
+  retired_current_formulations: [C10, D1]
+  structural_validator: deed_corpus.py
+  structural_pass_is_not_truth_certification: true
 condemned:
   record: memory_talleyrand/first-sailing-records/deeds-draft-0.1.txt
   status: PRESERVED_NOT_LIVE
@@ -130,19 +133,14 @@ condemned:
 next_required_actions:
   - id: TAL-NEXT-001
     action: >-
-      Resolve the deed corpus against the completed extended reading and discovery probe:
-      draft A4 and B7, bound or rewrite B1, test C9 redundancy, preserve C5/C6 as
-      self-testimonial candidates, and retire D1 and the current C10 formulation.
+      Obtain explicit owner rulings on TAL-DISCOVERY-001 and the 21 pending deeds in
+      corpus 2.0. C5, C6, absorbed candidates, and retired formulations are not part
+      of that ratification package.
   - id: TAL-NEXT-002
-    action: >-
-      Submit the resulting deed set and TAL-DISCOVERY-001 for explicit owner rulings;
-      do not batch self-ratify unresolved or self-testimonial candidates.
-  - id: TAL-NEXT-003
     action: >-
       Pin exact printed-page and scan-page images in TAL-SRC-005 for every verbal
       formulation relied upon; then submit the voice license for owner ruling.
-  - id: TAL-NEXT-004
+  - id: TAL-NEXT-003
     action: >-
-      Build and validate the sovereign minister interface only after the discovery
-      protocol, corpus, safeguards, deed set, and voice limits are in a state suitable
-      for owner admission.
+      Build and validate the sovereign minister interface only from the owner-ratified
+      deed set, with unresolved ore and voice limits explicitly excluded from runtime.

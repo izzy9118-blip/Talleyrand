@@ -1,28 +1,31 @@
 record_type: talleyrand_deed_index
 house: talleyrand
-version: 1.2.0
-corpus: DEED CORPUS 1.0 ON THE KEEL
+version: 2.0.0
+corpus: DEED CORPUS 2.0 ON THE KEEL
 governing_keel: keel.md
 counterfeit_registry: ../counterfeits/registry.md
+resolution_record: resolutions/2026-08-08-post-vienna-candidate-resolution.md
 status:
   corpus: CANONICAL_DRAFT
   ratification: PER_DEED_BY_OWNER
   runtime: NOT_OPERATIONAL
   completeness: PENDING_PROBE
 counts:
-  deeds: 19
+  deeds: 22
   owner_ratified: 1
-  canonical_draft_pending_ratification: 18
+  canonical_draft_pending_ratification: 21
 load_order_rule: >-
   Deed 0 loads first: it is the precondition, not a stroke. The remainder load in
   family order A, B, C, D. Each deed is one act of writing; a deed that exists as
   notes is not that deed.
 deeds:
-  - {id: "0", title: SEE ONE BOARD, file: 00-see-one-board.md, family: precondition, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: "new in corpus 1.0, drawn out of candidate C9 as its precondition"}
+  - {id: "0", title: SEE ONE BOARD, file: 00-see-one-board.md, family: precondition, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
   - {id: "A1", title: READ THE DESIGNED WORD, file: A1-read-the-designed-word.md, family: A, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
   - {id: "A2", title: READ THE INVOLUNTARY, file: A2-read-the-involuntary.md, family: A, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
   - {id: "A3", title: READ THE SILENCE AS POSITION, file: A3-read-the-silence-as-position.md, family: A, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
+  - {id: "A4", title: READ THE DOCUMENT BY ITS TRUE AUDIENCE, file: A4-read-the-document-by-its-true-audience.md, family: A, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: RESOLVED_FROM_EXTENDED_TEST}
   - {id: "A5", title: READ THE GROUND BENEATH THE TABLE, file: A5-read-the-ground-beneath-the-table.md, family: A, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
+  - {id: "B1", title: RECOVER THE DESIGN FROM FRAGMENTS, file: B1-recover-the-design-from-fragments.md, family: B, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: PARTIALLY_CORROBORATED_BOUNDED_ONLY}
   - {id: "B2", title: PRICE THE COALITION IN BELIEFS, file: B2-price-the-coalition-in-beliefs.md, family: B, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
   - id: "B3"
     title: ASSESS THE PERSON AS MATERIAL
@@ -39,55 +42,41 @@ deeds:
       ref: amendments/2026-08-06-session-sharpenings.md
   - {id: "B4", title: LOCATE THE SEAM, file: B4-locate-the-seam.md, family: B, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
   - {id: "B6", title: SET THE QUANTUM AND THE CLOCK, file: B6-set-the-quantum-and-the-clock.md, family: B, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
+  - {id: "B7", title: REFUSE THE FALSE SCALE, file: B7-refuse-the-false-scale.md, family: B, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: RESOLVED_FROM_EXTENDED_TEST}
   - {id: "C1", title: DISSOLVE THE GIVEN WITH THEIR OWN FIXED FACT, file: C1-dissolve-the-given-with-their-own-fixed-fact.md, family: C, status: CANONICAL, ratification: OWNER_RATIFIED, candidate_status: R, note: "the prototype on which the keel's standard was settled"}
   - {id: "C2", title: STRIKE THE SMALLEST LEVER THAT REACHES THE CENTER, file: C2-strike-the-smallest-lever-that-reaches-the-center.md, family: C, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
   - {id: "C3", title: BORROW THE HAND, file: C3-borrow-the-hand.md, family: C, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
   - {id: "C4", title: MOVE IT ONTO PAPER, file: C4-move-it-onto-paper.md, family: C, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
   - {id: "C7", title: DECLARE IN DAYLIGHT, file: C7-declare-in-daylight.md, family: C, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: "R, externally supported"}
-  - {id: "C8", title: TAKE THE SEAT, REFUSE THE ROLE, file: C8-take-the-seat-refuse-the-role.md, family: C, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
+  - {id: "C8", title: "TAKE THE SEAT, REFUSE THE ROLE", file: C8-take-the-seat-refuse-the-role.md, family: C, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
   - {id: "C11", title: SUPPLY THE SPINE, file: C11-supply-the-spine.md, family: C, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
   - {id: "D2", title: BANK THE WEAPON WITH PERMISSION ATTACHED, file: D2-bank-the-weapon-with-permission-attached.md, family: D, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
   - {id: "D3", title: COUNSEL AGAINST THE INCLINATION, file: D3-counsel-against-the-inclination.md, family: D, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
-  - id: "D4"
-    title: DISCLOSE THE MECHANISM
-    file: D4-disclose-the-mechanism.md
-    family: D
-    status: CANONICAL_DRAFT
-    ratification: PENDING_OWNER_RATIFICATION
-    candidate_status: R
-    note: >-
-      The corpus grounding of report-candor. Machination as capacity, candor in
-      report, is his natural form. D4 is what makes the C-family governable.
+  - {id: "D4", title: DISCLOSE THE MECHANISM, file: D4-disclose-the-mechanism.md, family: D, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
 families:
   precondition: the board before the move
   A: READING - the surface as testimony
   B: CONSTRUCTION - judgment before the stroke
   C: THE STROKE
   D: THE PRINCIPAL - his own side of the table
-not_drafted:
-  register: ../candidates/deed-candidates.md
-  extended_test: ../studies/vienna-correspondence/8-candidate-test-letters-X-XXV.md
-  high_value_probe: ../studies/vienna-correspondence/9-high-value-discovery-record.yaml
-  post_discovery_dispositions: ../studies/vienna-correspondence/10-post-discovery-candidate-dispositions.md
-  candidate_dispositions:
-    A4: THICKENED_TO_DRAFTABLE
-    A6: STILL_THIN
-    B1: PARTIALLY_CORROBORATED_BOUNDED_ONLY
-    B5: PRESERVE_AND_TEST_UNDER_DISCOVERY_PROTOCOL
-    B7: THICKENED_TO_DRAFTABLE
-    C5: THICKENED_HT_REMAINS
-    C6: THICKENED_HT_REMAINS
-    C9: TEST_FOR_REDUNDANCY
-    C10: RETIRE_ONE_WAY_CONVERSION_FORMULATION
-    D1: RETIRE_CURRENT_FORMULATION
+candidate_resolution:
+  source: resolutions/2026-08-08-post-vienna-candidate-resolution.md
+  preserved_unresolved:
+    C5: CANDIDATE_HT_HOLD
+    C6: CANDIDATE_HT_HOLD
+  absorbed_not_drafted:
+    A6: absorbed into A5/B4
+    B5: absorbed into bounded B1 plus TAL-DISCOVERY-001
+    C9: absorbed into Deed 0 and existing execution deeds
+  retired_current_formulations:
+    C10: one-way conversion account contradicted by independent participant evidence
+    D1: principal-capture formulation conflicts with Louis XVIII independent agency
   held_out: [H1, H2, H3, H4]
-  condition: >-
-    The Letters X-XXV reading condition and first high-value independent-source probe
-    are complete. A4 and B7 are draftable. B1 may survive only in bounded form.
-    C5 and C6 retain self-testimony limits. C10's current one-way causal formulation
-    and D1's current principal-capture formulation may not enter the deed corpus.
+  law: >-
+    Candidates have no authority. No unresolved, absorbed, held-out, or retired item
+    may enter runtime as a deed merely because it remains in the historical ore file.
 open_consolidation_questions:
-  ruling: DEFERRED_TO_OWNER
+  status: NON_BLOCKING_OPEN_RESEARCH
   register: ../candidates/deed-candidates.md
   items:
     - Are A1, A2, A3 one deed with three materials, or three deeds?
@@ -95,7 +84,8 @@ open_consolidation_questions:
     - Is C8 a compound of A1 and C2 in sequence, or its own move?
     - Is the displaced man a mode of B4 or a deed of its own?
   governing_principle: >-
-    Ministers contain multitudes; no single rule should flatten the range. Resist collapsing early.
+    These questions no longer block a bounded operational interface. The current
+    deed distinctions remain open to later correction after further corpus work.
 amendments:
   record: amendments/2026-08-06-session-sharpenings.md
   date: 2026-08-06
@@ -107,7 +97,3 @@ amendments:
     id: TAL-DISCOVERY-001
     path: ../method/discovery-protocol.yaml
     status: PROPOSED_PENDING_OWNER_RATIFICATION
-  note: >-
-    The discovery protocol is now committed and executable. Its application to the
-    high-value Vienna claims changed the candidate queue; the changes are preserved
-    here without owner-ratifying any candidate.
