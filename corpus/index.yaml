@@ -1,79 +1,50 @@
 record_type: talleyrand_corpus_index
 house: talleyrand
-version: 1.1.0
+version: 1.2.0
 status: FOUNDING
 completeness: PENDING_PROBE
 governing_rule: >-
   Primary above derivative: the thing itself outranks accounts of the thing.
   Voice imitation licenses only from quotation-grade ground (keel principle 9).
   A silence in this registry means NOT ACQUIRED, never "nothing there."
-
 quotation_grade_ground:
   status: ACQUIRED_PENDING_PAGE_PINNING
   source_id: TAL-SRC-005
-  target: Pallain (ed.), Correspondance inédite du prince de Talleyrand et du roi
-    Louis XVIII pendant le Congrès de Vienne. Paris, 1881. French third edition.
+  target: Pallain (ed.), Correspondance inédite du prince de Talleyrand et du roi Louis XVIII pendant le Congrès de Vienne. Paris, 1881. French third edition.
   acquisition_record: acquisitions/TAL-SRC-005-french-1881.yaml
   consequence: >-
-    The French page-image witness is now acquired, removing the former
-    NOT_ACQUIRED blocker. No voice imitation is licensed yet. Exact formulations
-    remain provisional until the printed page and scan page actually relied upon
-    are pinned and checked against this witness, followed by the owner's ruling.
-
+    No voice imitation is licensed yet. Exact formulations remain provisional until
+    the printed page and scan page actually relied upon are pinned and checked,
+    followed by the owner's ruling.
 sources:
   - id: TAL-SRC-001
-    title: The Correspondence of Prince Talleyrand and King Louis XVIII during the
-      Congress of Vienna
+    title: The Correspondence of Prince Talleyrand and King Louis XVIII during the Congress of Vienna
     editor: Pallain
     edition: English printing, 1881
-    working_copy: Internet Archive OCR scan of the 1881 English printing
+    working_copy: Internet Archive OCR scan
     role: ACCESS_COPY
     authority: NOT_AUTHORITATIVE_FOR_WORDING
-    chain_of_custody:
-      - Pallain's French edition (Paris, 1881)
-      - 1881 English printing
-      - OCR scan
-    survives_translation:
-      - order
-      - inclusion
-      - omission
-      - sequence
-      - scene architecture
-      - who said what
-      - action taken
-    does_not_survive_translation:
-      - diction
-      - phrasing
-      - emphasis
-    read_state: Letters I-XI read; I-IX compiled
-    study: ../studies/vienna-correspondence/README.md
+    read_state: superseded as active reading witness by French TAL-SRC-006; retained for comparison
+    survives_translation: [order, inclusion, omission, sequence, scene architecture, who_said_what, action_taken]
+    does_not_survive_translation: [diction, phrasing, emphasis]
   - id: TAL-SRC-002
-    title: Pallain's 1881 editorial apparatus (preface and framing)
+    title: Pallain's 1881 editorial apparatus
     role: CURATOR_S_GIVEN
     authority: NONE
-    note: >-
-      Registered separately and carrying no authority. Pallain published in 1881;
-      that the strategic clause on German unity had been vindicated in 1870 is a
-      curatorial fact to hold in view when reading what he chose to print.
   - id: TAL-SRC-003
     title: Primary matter transmitted through Pallain's footnotes
-    instances:
-      - department letters
-      - Jaucourt
-      - Noailles
     role: PRIMARY_THROUGH_EDITOR
+    instances: [department_letters, Jaucourt, Noailles]
     marked_in_study_as: "[ED-PRIMARY]"
   - id: TAL-SRC-004
     title: Friedrich von Gentz, diary
     role: EXTERNAL_CORROBORATING_WITNESS
     status: VERIFIED_ONLINE
     corroborates:
-      - the 30 September preliminary conference (plans upset; roughly two hours;
-        a scene he would never forget)
+      - the 30 September preliminary conference
       - Labrador's line, present in both accounts
     evidentiary_use: >-
-      Establishes the register divergence: the dispatch renders cool surgery, the
-      diary records heat and duration. Facts check; presentation composed.
+      Establishes register divergence: facts check while presentation differs.
   - id: TAL-SRC-005
     title: Correspondance inédite du prince de Talleyrand et du roi Louis XVIII pendant le Congrès de Vienne
     editor: Georges Pallain
@@ -87,56 +58,60 @@ sources:
       open_library: OL177943M
       internet_archive: correspondancei00louigoog
     commons_file_sha1: 1412a646e22c071674ad47533da880453088e1a8
+  - id: TAL-SRC-006
+    title: Mémoires du prince de Talleyrand, volumes II-III — Congrès de Vienne correspondence
+    edition: Paris, Calmann Lévy, 1891
+    language: fr
+    role: FRENCH_READING_AND_CROSS_CHECK_WITNESS
+    status: ACQUIRED_ACCESS_TRANSCRIPTION
+    authority: NOT_QUOTATION_GRADE
+    acquisition_record: acquisitions/TAL-SRC-006-gutenberg-memoires-v2-v3.yaml
+    provider: Project Gutenberg
+    source_image_chain: BnF/Gallica for volume III as stated by Gutenberg
+    read_state: Letters X-XXV read and compiled
+    study: ../studies/vienna-correspondence/7-flow-of-action-letters-X-XXV.md
     note: >-
-      Acquisition does not retroactively validate verbal findings drawn from the
-      English OCR. Each formulation used must be checked and page-pinned.
-
+      Used to complete the founding read in French. Exact wording for speech or
+      quotation remains governed by TAL-SRC-005 page-image pinning.
 evidence_types:
-  DF: documented finding (in the text, or corroborated externally)
-  HT: his testimony, awaiting corroboration (his account of his own acts)
+  DF: documented finding
+  HT: his testimony, awaiting corroboration where material
   SI: supported inference
   WH: working hypothesis
   UU: unresolved uncertainty
   V: verbal - provisional until checked and page-pinned against TAL-SRC-005
-  ED-PRIMARY: primary matter transmitted through Pallain's notes
-
+  ED-PRIMARY: primary matter transmitted through editorial apparatus
 corroboration_state:
   corroborated:
     - the 30 September conference (Gentz)
   externally_supported:
     - the candor strategy's effect (Bavarian surveillance, via Noailles)
-    - Castlereagh's regret at not convening the Congress (department letter,
-      24 October)
+    - Castlereagh's regret at not convening the Congress (department letter, 24 October)
   uncorroborated_and_high_value:
     - Jacobi-Kloest
     - both Alexander audiences
     - the Letter IX counter-construction
-
+    - causal detail of Castlereagh's conversion into the 3 January alignment
 witnesses_to_pursue:
-  - id: Gentz
-    state: VERIFIED_ONLINE
-  - id: Castlereagh correspondence, volume 10
-    state: PRESENT
-  - id: Metternich, memoirs
-    state: PRESENT
-  - id: Muenster
-    state: NOT_ACQUIRED
-  - id: d'Angeberg, documents
-    state: NOT_ACQUIRED
-  - id: Jaucourt
-    state: NOT_ACQUIRED
-  - id: Wellington, supplementary despatches
-    state: NOT_ACQUIRED
-  - id: Nesselrode
-    state: NOT_ACQUIRED
-
+  - {id: Gentz, state: VERIFIED_ONLINE}
+  - {id: "Castlereagh correspondence, volume 10", state: PRESENT}
+  - {id: "Metternich, memoirs", state: PRESENT}
+  - {id: Muenster, state: NOT_ACQUIRED}
+  - {id: "d'Angeberg, documents", state: NOT_ACQUIRED}
+  - {id: Jaucourt, state: NOT_ACQUIRED}
+  - {id: "Wellington, supplementary despatches", state: NOT_ACQUIRED}
+  - {id: Nesselrode, state: NOT_ACQUIRED}
 most_wanted:
   id: the letters to the Duchesse de Courlande
   state: NOT_ACQUIRED
   reason: >-
     The private register of the same weeks. Pairing King's dispatch / Courland
     letter / Gentz diary would show the mind in three lights.
-
+founding_read_state:
+  letters_read: I-XXV
+  letters_compiled: I-XXV
+  status: EXTENDED_VIENNA_TEST_COMPLETE_PENDING_CORROBORATION_AND_OWNER_RULINGS
+  candidate_test: ../studies/vienna-correspondence/8-candidate-test-letters-X-XXV.md
 predecessor_corpus:
   status: HISTORY_ONLY_NO_AUTHORITY
   note: >-

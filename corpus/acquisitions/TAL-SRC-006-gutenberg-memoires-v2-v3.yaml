@@ -1,0 +1,46 @@
+record_type: talleyrand_source_acquisition
+id: TAL-SRC-006
+date: 2026-08-08
+status: ACQUIRED_ACCESS_TRANSCRIPTION
+completeness: PENDING_PROBE
+self_certification: PROHIBITED
+
+work:
+  title: Mémoires du prince de Talleyrand, volumes II-III
+  publisher_of_print_source: Calmann Lévy
+  print_years: [1891]
+  language: fr
+  section: Congrès de Vienne, 1814-1815
+
+witness:
+  type: public_domain_french_transcription
+  provider: Project Gutenberg
+  volume_ii:
+    ebook_id: 28427
+    locator: https://www.gutenberg.org/files/28427/28427-h/28427-h.htm
+    coverage_used: Talleyrand letters X-XIX and associated royal/departmental records
+  volume_iii:
+    ebook_id: 30913
+    locator: https://www.gutenberg.org/cache/epub/30913/pg30913-images.html
+    coverage_used: Talleyrand letters XX-XXV and associated royal/departmental records
+    source_image_statement: Bibliothèque nationale de France (BnF/Gallica)
+  transcription_note: >-
+    Project Gutenberg states that obvious typographical errors introduced by the printer were
+    corrected in volume III while original spelling was otherwise retained. This is therefore
+    an access transcription, not the page-image authority for exact wording.
+
+admission:
+  corpus_role: FRENCH_READING_AND_CROSS_CHECK_WITNESS
+  structural_authority: ACCESS_TRANSCRIPTION_FOR_ORDER_SEQUENCE_AND_TEXTUAL_COMPARISON
+  wording_authority: NOT_QUOTATION_GRADE
+  relationship_to_TAL_SRC_005: >-
+    TAL-SRC-006 permits the Vienna reading to proceed in French and permits candidate testing.
+    TAL-SRC-005 remains the quotation-grade 1881 Pallain page-image witness. Any formulation
+    used for voice or exact wording must still be pinned to TAL-SRC-005.
+  no_retroactive_upgrade: true
+
+coverage_decision:
+  letters_read: X-XXV
+  purpose: >-
+    Complete the extended Vienna test explicitly required by the founding manifest before
+    thin or self-testimonial deed candidates are promoted, rewritten, or rejected.
