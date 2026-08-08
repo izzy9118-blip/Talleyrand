@@ -1,7 +1,6 @@
 schema_version: 1.0
 record_type: talleyrand_house_manifest
-version: 1.1.0
-
+version: 1.2.0
 identity:
   house: talleyrand
   minister_id: talleyrand
@@ -9,7 +8,6 @@ identity:
   repository: izzy9118-blip/Talleyrand
   role: a minister house of the Sanctum - the lens over the evidence
   sailing: second (the keel)
-
 status:
   lifecycle: FOUNDING
   runtime: NOT_OPERATIONAL
@@ -20,7 +18,6 @@ status:
   governing_notice: >-
     Founding this house does not establish a minister. Admission to the Assembly
     is the owner's act through Sanctum's registry and has not occurred.
-
 sanctum_contract:
   hub: izzy9118-blip/Sanctum
   registry_state: not_yet_established
@@ -32,42 +29,38 @@ sanctum_contract:
   runtime_rule: >-
     Runtime is Sanctum's rounds only (keel principle 8). No freelance prototypes.
     NOT_OPERATIONAL means not run.
-
 ratification:
   keel: OWNER_RATIFIED
   deed_C1: OWNER_RATIFIED
   deed_corpus_1_0: CANONICAL_DRAFT_PENDING_OWNER_RATIFICATION_PER_DEED
   counterfeit_registry: LIVING - ratified as keel principle 3
   candidates: WORKING_FILE - not deeds, no authority
-  vienna_reading: LETTERS_I_XI_READ - I_IX_COMPILED
+  vienna_reading: LETTERS_I_XXV_READ_AND_COMPILED - extended candidate test complete
   voice_license: WITHHELD - French witness acquired, page-image pins and owner ruling still required
   findings: NONE
-
 load_order:
   note: >-
     What this house contributes to its own segment of a run, and in what order.
-    It is a house record; the order of the segments themselves is law and lives
-    in the hub's assembly-spec, versioned there. The manner of reading is not
-    listed here - the hub loads it as its own segment, after the house.
+    The hub's versioned assembly-spec governs segment order.
   records:
     - manifest.yaml
     - keel.md
     - counterfeits/registry.md
     - deeds/index.yaml
     - deeds/ in index order
-
 records:
   keel: keel.md
   deeds: deeds/index.yaml
   counterfeits: counterfeits/registry.md
   corpus: corpus/index.yaml
   studies: studies/vienna-correspondence/README.md
+  extended_vienna_flow: studies/vienna-correspondence/7-flow-of-action-letters-X-XXV.md
+  extended_candidate_test: studies/vienna-correspondence/8-candidate-test-letters-X-XXV.md
   candidates: candidates/deed-candidates.md
   voice: speech/voice-license.yaml
   findings: findings/index.yaml
   custos: memory_talleyrand/manner-of-reading.md
   first_sailing: memory_talleyrand/first-sailing.md
-
 safeguards:
   - no_self_certification
   - deed_is_one_act_of_writing
@@ -81,63 +74,62 @@ safeguards:
   - runtime_is_the_rounds_only
   - voice_imitation_requires_quotation_grade_ground
   - nothing_self_certifies
-
 evidence_types:
   reference: corpus/index.yaml
-  marks:
-    - DF
-    - HT
-    - SI
-    - WH
-    - UU
-    - V
-    - ED-PRIMARY
-
+  marks: [DF, HT, SI, WH, UU, V, ED-PRIMARY]
 open_questions:
   count: 5
   ref: studies/vienna-correspondence/4-open-questions.md
   standing: >-
-    Q-1 through Q-5 remain open. Q-2 (paternity of doctrine) must not be
-    silently resolved in Talleyrand's favor by any deed that uses Letter I.
-    Unresolved questions are positive results.
-
+    Q-1, Q-2, Q-4, and Q-5 remain open; Q-3 is narrowed but not closed. Q-2
+    now more strongly bars any deed from assigning Talleyrand sole doctrinal
+    paternity over Louis XVIII. Unresolved questions are positive results.
 source_state:
   quotation_grade_ground: ACQUIRED_PENDING_PAGE_PINNING
   quotation_grade_source: TAL-SRC-005
-  acquisition_record: corpus/acquisitions/TAL-SRC-005-french-1881.yaml
-  working_copy: >-
-    OCR of the 1881 English printing remains an access copy, not authoritative
-    for wording.
+  french_reading_witness: TAL-SRC-006
+  french_reading_state: LETTERS_X_XXV_READ_AND_COMPILED
   consequence: >-
-    Existing verbal findings remain [V] and provisional until checked and pinned
-    against the French page-image witness. Acquisition does not release voice.
-
+    Existing verbal findings remain [V] until checked and pinned against the
+    French page-image witness. Reading completion does not release voice.
+candidate_test_state:
+  A4: THICKENED_TO_DRAFTABLE
+  A6: STILL_THIN
+  B1: PRESERVE_HT
+  B5: PRESERVE_AND_TEST_AFTER_DISCOVERY_PROTOCOL
+  B7: THICKENED_TO_DRAFTABLE
+  C5: THICKENED_HT_REMAINS
+  C6: THICKENED_HT_REMAINS
+  C9: TEST_FOR_REDUNDANCY
+  C10: THICKENED_HT_REMAINS
+  D1: RETIRE_CURRENT_FORMULATION
+  authority: studies/vienna-correspondence/8-candidate-test-letters-X-XXV.md
 condemned:
   record: memory_talleyrand/first-sailing-records/deeds-draft-0.1.txt
   status: PRESERVED_NOT_LIVE
   authority: NONE
   superseded_by: keel.md, entire
-
 next_required_actions:
   - id: TAL-NEXT-001
     action: >-
-      Resume the Vienna reading at Letter XII with the inverted lens - Vienna as
-      Horus's specification: how the information moved, not only how the judgment
-      fired.
+      Commit the missing Talleyrand discovery protocol. The extended Vienna reading
+      shows that provenance, channel quality, access, corroboration, disclosure
+      timing, audience, and documented suppression are constitutional inputs to
+      judgment rather than optional research notes.
   - id: TAL-NEXT-002
     action: >-
-      Compile Letters X-XI with the next reading block and continue through Letter
-      XXV; test the thin and [HT] candidates against that ground and named witnesses.
+      Apply that protocol to the high-value corroboration targets, especially the
+      Alexander audiences, Letter IX counter-construction, and Castlereagh conversion.
   - id: TAL-NEXT-003
+    action: >-
+      Draft or retire the now-tested undeveloped candidates and resolve redundancy;
+      preserve owner ratification per deed. D1 may not be drafted in its former form.
+  - id: TAL-NEXT-004
     action: >-
       Pin exact printed-page and scan-page images in TAL-SRC-005 for every verbal
       formulation relied upon; then submit the voice license for owner ruling.
-  - id: TAL-NEXT-004
-    action: >-
-      Resolve the canonical-draft deed corpus only after the extended Vienna reading
-      has tested its thin candidates and amendment sharpenings. Owner ratification
-      remains per deed; no batch self-certification is permitted.
   - id: TAL-NEXT-005
     action: >-
-      Build and validate the sovereign minister interface only after corpus, method,
-      safeguards, and ratified deed set are in a state suitable for owner admission.
+      Build and validate the sovereign minister interface only after the discovery
+      protocol, corpus, safeguards, deed set, and voice limits are in a state suitable
+      for owner admission.
