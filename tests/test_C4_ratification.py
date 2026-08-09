@@ -43,11 +43,11 @@ def test_C4_letter_spirit_credit_rules_are_mandatory():
 def test_manifest_loads_C4_and_moves_next_to_C11_after_C8():
     manifest = yaml.safe_load(Path("manifest.yaml").read_text(encoding="utf-8"))
     state = manifest["deed_corpus_state"]
-    assert state["effective_owner_ratified_count"] == 16
-    assert state["effective_pending_deed_rulings"] == 4
+    assert state["effective_owner_ratified_count"] == 17
+    assert state["effective_pending_deed_rulings"] == 3
     assert state["deed_C4_owner_decision"] == "RATIFY"
     assert state["deed_C4_owner_sharpening"] == "TAL-DEED-C4-SHARP-001"
     assert manifest["records"]["deed_C4_interpretive_sharpening"] == str(SHARPENING_PATH)
     review = manifest["ratification_review_state"]
-    assert review["next_pending_deed"] == "C11"
+    assert review["next_pending_deed"] == "D2"
     assert "TAL-DEED-C4-SHARP-001" in review["owner_ratified_deed_sharpenings"]

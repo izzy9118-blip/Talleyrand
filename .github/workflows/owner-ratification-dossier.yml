@@ -18,6 +18,6 @@ jobs:
       - name: Compile ratification guard
         run: python -m py_compile ratification_guard.py
       - name: Validate ratification dossier and owner-decision boundary
-        run: python -m pytest -q tests/test_ratification_guard.py tests/test_B1_ratification.py tests/test_B2_ratification.py tests/test_B3_ratification.py tests/test_B4_ratification.py tests/test_B6_ratification.py tests/test_B7_ratification.py tests/test_C3_ratification.py tests/test_C4_ratification.py tests/test_C7_ratification.py tests/test_C8_ratification.py
+        run: python -m pytest -q tests/test_ratification_guard.py tests/test_B1_ratification.py tests/test_B2_ratification.py tests/test_B3_ratification.py tests/test_B4_ratification.py tests/test_B6_ratification.py tests/test_B7_ratification.py tests/test_C3_ratification.py tests/test_C4_ratification.py tests/test_C7_ratification.py tests/test_C8_ratification.py tests/test_C11_ratification.py
       - name: Re-run deed corpus structural safeguard
         run: python -m pytest -q tests/test_deed_corpus.py
