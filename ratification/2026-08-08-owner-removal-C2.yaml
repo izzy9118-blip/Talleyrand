@@ -1,0 +1,33 @@
+record_type: talleyrand_owner_deed_removal
+id: TAL-DEED-REMOVE-C2-001
+date: "2026-08-08"
+status: OWNER_DIRECTIVE_EXECUTED
+authority: REPOSITORY_OWNER_DIRECTIVE
+self_certification: PROHIBITED
+owner_directive: "delete c2"
+deed:
+  id: C2
+  title: STRIKE THE SMALLEST LEVER THAT REACHES THE CENTER
+  former_path: deeds/C2-strike-the-smallest-lever-that-reaches-the-center.md
+  historical_git_blob_sha1: 1b926abd0162e67538c8b4fd00de7ebb495a23bb
+disposition:
+  live_corpus: REMOVED
+  future_owner_ratification_scope: EXCLUDED
+  runtime_eligibility: PROHIBITED
+  file_in_live_tree: ABSENT
+  historical_recoverability: GIT_HISTORY_ONLY
+reason_scope: >-
+  This record executes the repository owner's direct instruction to delete C2. It
+  does not generalize a substantive criticism into a new deed or doctrine and does
+  not decide any other pending deed.
+non_effects:
+  - prior Git history is not rewritten
+  - no already-ratified deed is reopened
+  - A5 remains owner-removed
+  - TAL-DISCOVERY-001 remains owner-ratified
+  - TAL-METHOD-DEEP-ANALYSIS-001 remains owner-ratified
+  - voice remains ungranted
+  - runtime remains NOT_OPERATIONAL
+  - semantic completion remains INCOMPLETE
+  - completeness remains PENDING_PROBE
+  - Sanctum establishment does not occur
