@@ -1,6 +1,6 @@
 schema_version: 1.0
 record_type: talleyrand_house_manifest
-version: 1.10.0
+version: 1.11.0
 identity:
   house: talleyrand
   minister_id: talleyrand
@@ -35,7 +35,8 @@ ratification:
   keel_amendment_connected_boards_record: amendments/2026-08-08-connected-boards-keel-amendment.md
   deed_C1: OWNER_RATIFIED
   deed_0_connected_boards: OWNER_RATIFIED_BY_RECORD
-  deed_0_connected_boards_record: ratification/2026-08-08-owner-deed-decisions-v2-in-progress.yaml
+  deed_A1: OWNER_RATIFIED_BY_RECORD
+  deed_owner_decision_record: ratification/2026-08-08-owner-deed-decisions-v2-in-progress.yaml
   deed_corpus_2_1: FROZEN_REVIEW_SURFACE_INCREMENTAL_OWNER_RATIFICATION_BY_RECORD
   discovery_protocol: OWNER_RATIFIED_BY_RECORD
   discovery_protocol_record: ratification/2026-08-08-owner-decisions-in-progress.yaml
@@ -152,16 +153,17 @@ deed_corpus_state:
   indexed_deeds: 22
   frozen_index_owner_ratified: 1
   frozen_index_pending_owner_ratification: 21
-  effective_owner_ratified_deeds: ["0", C1]
-  effective_owner_ratified_count: 2
-  effective_pending_deed_rulings: 20
+  effective_owner_ratified_deeds: ["0", A1, C1]
+  effective_owner_ratified_count: 3
+  effective_pending_deed_rulings: 19
   frozen_index_note: >-
     Corpus 2.1 is the exact review surface bound by TAL-RAT-DOSSIER-2026-08-08-002.
     Incremental owner acts are authoritative through ratification records and do not
     rewrite the frozen deed text or index while the review cycle remains open.
   deed_0_active: SEE THE CONNECTED BOARDS
   deed_0_owner_decision: RATIFY
-  deed_0_owner_decision_record: ratification/2026-08-08-owner-deed-decisions-v2-in-progress.yaml
+  deed_A1_owner_decision: RATIFY
+  deed_owner_decision_record: ratification/2026-08-08-owner-deed-decisions-v2-in-progress.yaml
   deed_0_historical_draft_preserved: SEE ONE BOARD
   new_resolved_drafts: [A4, B1, B7]
   unresolved_ore: [C5, C6]
@@ -179,9 +181,10 @@ ratification_review_state:
   status: OWNER_REVIEW_IN_PROGRESS
   prior_owner_decisions_not_reopened: [TAL-DISCOVERY-001, C1]
   owner_ratified_keel_amendment_not_a_deed_ruling: [TAL-KEEL-AMD-001]
-  decided_deed_units: 1
-  owner_ratified_deeds_this_cycle: ["0"]
-  pending_deed_units: 20
+  decided_deed_units: 2
+  owner_ratified_deeds_this_cycle: ["0", A1]
+  pending_deed_units: 19
+  next_pending_deed: A2
   unresolved_self_testimonial_ore_excluded: [C5, C6]
   absorbed_not_deeds_excluded: [A6, B5, C9]
   retired_formulations_excluded: [C10, D1]
@@ -200,10 +203,9 @@ condemned:
 next_required_actions:
   - id: TAL-NEXT-001
     action: >-
-      Continue substantive owner review of the 20 remaining pending deeds against
-      ratification/2026-08-08-owner-review-dossier-v2.yaml. Revised Deed 0 is now
-      owner-ratified by the active decision record; the prior SEE ONE BOARD draft
-      remains historical only.
+      Continue substantive owner review of the 19 remaining pending deeds against
+      ratification/2026-08-08-owner-review-dossier-v2.yaml. Deed 0 and A1 are now
+      owner-ratified by the active decision record; A2 is the next pending deed.
   - id: TAL-NEXT-002
     action: >-
       Obtain the owner's explicit ruling on the scope of the voice license. The only
