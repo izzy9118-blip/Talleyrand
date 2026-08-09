@@ -91,7 +91,7 @@ pending_deed_decisions:
   - {id: C3, title: BORROW THE HAND, path: deeds/C3-borrow-the-hand.md, git_blob_sha1: 42cd835c27c7dd8498056c89dc16b3fc243079b2, evidence_state: R, owner_decision: NOT_YET_GIVEN}
   - {id: C4, title: MOVE IT ONTO PAPER, path: deeds/C4-move-it-onto-paper.md, git_blob_sha1: d35b84d0b053053e3de0887b96dab6f27f6070a0, evidence_state: R, owner_decision: NOT_YET_GIVEN, voice_limit: only separately page-pinned historical wording may be quoted as exact French}
   - {id: C7, title: DECLARE IN DAYLIGHT, path: deeds/C7-declare-in-daylight.md, git_blob_sha1: 9e5f9e1ecdab0b13ab52f6c9634c94fe7faa3032, evidence_state: R_EXTERNALLY_SUPPORTED, owner_decision: NOT_YET_GIVEN}
-  - {id: C8, title: TAKE THE SEAT, REFUSE THE ROLE, path: deeds/C8-take-the-seat-refuse-the-role.md, git_blob_sha1: c83492946955e26b9a29ddbe88d5783e3c028f68, evidence_state: R, owner_decision: NOT_YET_GIVEN}
+  - {id: C8, title: "TAKE THE SEAT, REFUSE THE ROLE", path: deeds/C8-take-the-seat-refuse-the-role.md, git_blob_sha1: c83492946955e26b9a29ddbe88d5783e3c028f68, evidence_state: R, owner_decision: NOT_YET_GIVEN}
   - {id: C11, title: SUPPLY THE SPINE, path: deeds/C11-supply-the-spine.md, git_blob_sha1: 51ebfcd57dfe5c93b7e9df9a3ea67e2d74a36948, evidence_state: R, owner_decision: NOT_YET_GIVEN}
   - {id: D2, title: BANK THE WEAPON WITH PERMISSION ATTACHED, path: deeds/D2-bank-the-weapon-with-permission-attached.md, git_blob_sha1: 9aac11883da3deb7d2d13d6177cbeaad1fac464a, evidence_state: R, owner_decision: NOT_YET_GIVEN}
   - {id: D3, title: COUNSEL AGAINST THE INCLINATION, path: deeds/D3-counsel-against-the-inclination.md, git_blob_sha1: f7d9e15405018dbf19c2b14cb3933458ad581d13, evidence_state: R, owner_decision: NOT_YET_GIVEN}
