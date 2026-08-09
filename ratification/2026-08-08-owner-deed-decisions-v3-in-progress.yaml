@@ -4,16 +4,15 @@ dossier_id: TAL-RAT-DOSSIER-2026-08-08-003
 status: OWNER_DECISIONS_IN_PROGRESS
 authority: REPOSITORY_OWNER_DIRECTIVE
 owner_directive: >-
-  In the controlling conversation, B1 — RECOVER THE DESIGN FROM FRAGMENTS — had
-  already been ratified under TAL-DEED-B1-SHARP-001. B2 — PRICE THE COALITION IN
-  BELIEFS — was then reviewed and recommended for ratification with an additive
-  sharpening requiring member-by-member reconstruction before any belief lever is
-  used, limiting the "cheapest belief to change" to the least costly truthful change
-  in attributable ground, preserving the possibility of genuine coalition cohesion,
-  and retaining a dated falsifiable leak prediction. The repository owner replied
-  "do it" in immediate response. This record resolves that directive only as
-  ratification of B2's exact frozen blob under TAL-DEED-B2-SHARP-001. No ruling is
-  supplied for any other pending deed or for the voice license.
+  B1 — RECOVER THE DESIGN FROM FRAGMENTS — and B2 — PRICE THE COALITION IN BELIEFS —
+  were already ratified under their exact frozen blobs and owner-ratified sharpenings.
+  B3 — ASSESS THE PERSON AS MATERIAL — was then reviewed and recommended for
+  ratification together with the existing B3 capacity-pricing component in
+  deeds/amendments/2026-08-06-session-sharpenings.md. The repository owner replied
+  "ok" in immediate response. This record resolves that directive only as ratification
+  of B3's exact frozen blob under TAL-DEED-B3-SHARP-001, which binds the exact source
+  sharpening blob and only its B3 capacity-pricing component. No ruling is supplied
+  for any other pending deed or for the voice license.
 date: "2026-08-08"
 
 prior_owner_decisions_preserved:
@@ -36,7 +35,7 @@ owner_removed_deeds_preserved:
 deed_decisions:
   - {id: B1, git_blob_sha1: d9ffaadf3ba4ec15d1b2ab4b7fdc4c1dc873e06d, decision: RATIFY}
   - {id: B2, git_blob_sha1: 89b82d33f5fe365e457e8867148281f35ae314fa, decision: RATIFY}
-  - {id: B3, git_blob_sha1: d370b2a98e2e2f620b258a068ead4b1383c1d05d, decision: PENDING_OWNER_RULING}
+  - {id: B3, git_blob_sha1: d370b2a98e2e2f620b258a068ead4b1383c1d05d, decision: RATIFY}
   - {id: B4, git_blob_sha1: f2666f50d2b955fa157a46b20236935cd90d06dd, decision: PENDING_OWNER_RULING}
   - {id: B6, git_blob_sha1: d805b0ad39ba8f5e56c43300ae5a119ee109412e, decision: PENDING_OWNER_RULING}
   - {id: B7, git_blob_sha1: 47d8a79503239186b2210bae5106c2994be2ccb2, decision: PENDING_OWNER_RULING}
@@ -63,6 +62,15 @@ interpretive_sharpenings:
     path: deeds/amendments/2026-08-08-B2-coalition-belief-sharpening.md
     git_blob_sha1: 2c8c38b0f63f9c9da7a1ac20f9ce2e52591b3bfe
     status: OWNER_RATIFIED
+  - id: TAL-DEED-B3-SHARP-001
+    deed: B3
+    deed_git_blob_sha1: d370b2a98e2e2f620b258a068ead4b1383c1d05d
+    path: ratification/2026-08-08-B3-capacity-pricing-ratification.yaml
+    git_blob_sha1: cdcfb4dc570ea89dba298ecf665d5be79f20149e
+    source_path: deeds/amendments/2026-08-06-session-sharpenings.md
+    source_git_blob_sha1: 619180d35bf4c8559b653068d8f7c9ff477507f7
+    component: B3 — the capacity-pricing requirement
+    status: OWNER_RATIFIED
 
 excluded_acknowledgement:
   unresolved_self_testimonial_ore: [C5, C6]
@@ -72,11 +80,11 @@ excluded_acknowledgement:
   held_out_style_or_observation_register: [H1, H2, H3, H4]
 
 non_effects:
-  - B1 and B2 frozen deed texts are not rewritten by ratification
+  - B1, B2, and B3 frozen deed texts are not rewritten by ratification
   - B1 remains governed forward by TAL-DEED-B1-SHARP-001
-  - B2 is governed forward by TAL-DEED-B2-SHARP-001
-  - coalition membership is not presumed to be belief-dependent
-  - truthful attributable ground is required for a B2 belief-changing operation
+  - B2 remains governed forward by TAL-DEED-B2-SHARP-001
+  - B3 is governed forward by TAL-DEED-B3-SHARP-001 and the exact B3 capacity-pricing source component
+  - the discovery component in the 2026-08-06 sharpening file receives no new ruling here
   - all other live pending deeds remain PENDING_OWNER_RULING
   - A5 remains owner-removed
   - voice license remains undecided and ungranted
