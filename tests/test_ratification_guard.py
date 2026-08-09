@@ -10,11 +10,16 @@ from ratification_guard import (
     RatificationGuardError,
     validate_decision_record,
     validate_dossier,
+    validate_in_progress_record,
 )
 
 
 def _template():
     return yaml.safe_load(Path("ratification/owner-decision.template.yaml").read_text(encoding="utf-8"))
+
+
+def _progress():
+    return yaml.safe_load(Path("ratification/2026-08-08-owner-decisions-in-progress.yaml").read_text(encoding="utf-8"))
 
 
 def _completed_all_ratify():
@@ -50,6 +55,29 @@ def test_live_dossier_is_structurally_exact_and_nonoperative():
 def test_owner_decision_template_cannot_claim_authority():
     result = validate_decision_record(_template(), ".", completed=False)
     assert result["completed"] is False
+
+
+def test_live_incremental_record_preserves_undecided_deeds():
+    result = validate_in_progress_record(_progress(), ".")
+    assert result["in_progress"] is True
+    assert result["decided_units"] == 1
+    assert result["pending_units"] == 21
+    assert _progress()["method_decision"]["decision"] == "RATIFY"
+    assert all(x["decision"] == "PENDING_OWNER_RULING" for x in _progress()["deed_decisions"])
+
+
+def test_in_progress_record_cannot_invent_an_owner_decision():
+    record = deepcopy(_progress())
+    record["method_decision"]["decision"] = "PENDING_OWNER_RULING"
+    with pytest.raises(RatificationGuardError, match="at least one actual owner decision"):
+        validate_in_progress_record(record, ".")
+
+
+def test_in_progress_record_cannot_change_frozen_binding():
+    record = deepcopy(_progress())
+    record["method_decision"]["git_blob_sha1"] = "0" * 40
+    with pytest.raises(RatificationGuardError, match="binding mismatch"):
+        validate_in_progress_record(record, ".")
 
 
 def test_completed_record_requires_explicit_owner_authority_but_structure_can_validate():
