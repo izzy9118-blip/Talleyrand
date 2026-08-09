@@ -30,6 +30,7 @@ deed_decisions:
   - {id: C8, path: deeds/C8-take-the-seat-refuse-the-role.md, git_blob_sha1: c83492946955e26b9a29ddbe88d5783e3c028f68, decision: RATIFY}
   - {id: C11, path: deeds/C11-supply-the-spine.md, git_blob_sha1: 51ebfcd57dfe5c93b7e9df9a3ea67e2d74a36948, decision: RATIFY}
   - {id: D2, path: deeds/D2-bank-the-weapon-with-permission-attached.md, git_blob_sha1: 9aac11883da3deb7d2d13d6177cbeaad1fac464a, decision: RATIFY}
+  - {id: D3, path: deeds/D3-counsel-against-the-inclination.md, git_blob_sha1: f7d9e15405018dbf19c2b14cb3933458ad581d13, decision: RATIFY}
 
 interpretive_bindings:
   - {id: TAL-DEED-A2-SHARP-001, deed: A2, path: deeds/amendments/2026-08-08-A2-deep-understanding-sharpening.md, git_blob_sha1: 756639c29ae7f4b9e9ff39cf3472027f47635fec}
@@ -45,10 +46,11 @@ interpretive_bindings:
   - {id: TAL-DEED-C8-SHARP-001, deed: C8, path: deeds/amendments/2026-08-09-C8-entitled-standing-sharpening.md, git_blob_sha1: 4eae5a9c5493ffcd86835ae91ae260d77dffa1f4}
   - {id: TAL-DEED-C11-SHARP-001, deed: C11, path: deeds/amendments/2026-08-09-C11-sovereign-support-sharpening.md, git_blob_sha1: b5c873d31a24a34d92dbff8afbf5a833684faaa4}
   - {id: TAL-DEED-D2-SHARP-001, deed: D2, path: deeds/amendments/2026-08-09-D2-bounded-contingency-sharpening.md, git_blob_sha1: 2ec61eee9e9ea618b223035b8a5260a5d8442458}
+  - {id: TAL-DEED-D3-SHARP-001, deed: D3, path: deeds/amendments/2026-08-09-D3-candid-counsel-sharpening.md, git_blob_sha1: 4909cf2e6eb582343b934fe7f77ebb05a85c5a02}
 
 non_effects:
   - no deed text is rewritten
-  - no pending deed other than D2 is decided by this owner act
+  - no pending deed other than D3 is decided by this owner act
   - voice remains ungranted
   - runtime remains NOT_OPERATIONAL
   - semantic completion remains INCOMPLETE
