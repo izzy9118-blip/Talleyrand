@@ -1,0 +1,73 @@
+record_type: talleyrand_owner_ratification_record
+id: TAL-RAT-OWNER-2026-08-09-008
+dossier_id: TAL-RAT-DOSSIER-2026-08-09-008
+status: OWNER_DECISIONS_IN_PROGRESS
+authority: REPOSITORY_OWNER_DIRECTIVE
+self_certification: PROHIBITED
+owner_directive: "we need to finish ratifing the talleyrand deeds"
+date: "2026-08-09"
+owner_decision_context: >-
+  C8 is ratified with TAL-DEED-C8-SHARP-001 as the first remaining sequential
+  production unit under the owner's directive to finish the deed ratifications. The
+  deed preserves valid access while refusing a false subordinate capacity. Standing,
+  the scripted role, and every act inside the forum must be grounded. The deed creates
+  no authority and never licenses trespass, impersonation, coercion, credential abuse,
+  evasion, or procedural sabotage.
+
+prior_owner_decisions_preserved:
+  - TAL-DISCOVERY-001
+  - "0"
+  - A1
+  - A2
+  - A3
+  - A4
+  - B1
+  - B2
+  - B3
+  - B4
+  - B6
+  - B7
+  - C1
+  - C3
+  - C4
+  - C7
+  - TAL-KEEL-AMD-001
+  - TAL-METHOD-DEEP-ANALYSIS-001
+  - TAL-DEED-A2-SHARP-001
+  - TAL-DEED-B1-SHARP-001
+  - TAL-DEED-B2-SHARP-001
+  - TAL-DEED-B3-SHARP-001
+  - TAL-DEED-B4-SHARP-001
+  - TAL-DEED-B6-SHARP-001
+  - TAL-DEED-B7-SHARP-001
+  - TAL-DEED-C3-SHARP-001
+  - TAL-DEED-C4-SHARP-001
+  - TAL-DEED-C7-SHARP-001
+
+deed_decisions:
+  - id: C8
+    git_blob_sha1: c83492946955e26b9a29ddbe88d5783e3c028f68
+    decision: RATIFY
+    sharpening:
+      id: TAL-DEED-C8-SHARP-001
+      path: deeds/amendments/2026-08-09-C8-entitled-standing-sharpening.md
+      git_blob_sha1: 4eae5a9c5493ffcd86835ae91ae260d77dffa1f4
+  - {id: C11, git_blob_sha1: 51ebfcd57dfe5c93b7e9df9a3ea67e2d74a36948, decision: PENDING_OWNER_RULING}
+  - {id: D2, git_blob_sha1: 9aac11883da3deb7d2d13d6177cbeaad1fac464a, decision: PENDING_OWNER_RULING}
+  - {id: D3, git_blob_sha1: f7d9e15405018dbf19c2b14cb3933458ad581d13, decision: PENDING_OWNER_RULING}
+  - {id: D4, git_blob_sha1: 1f4c8cd2b8063443b1a549ac31c0fd7c66389fd9, decision: PENDING_OWNER_RULING}
+
+excluded_acknowledgement:
+  unresolved_self_testimonial_ore: [C5, C6]
+  absorbed_not_deeds: [A6, B5, C9]
+  retired_current_formulations: [C10, D1]
+  held_out_style_or_observation_register: [H1, H2, H3, H4]
+
+non_effects:
+  - no deed text is rewritten
+  - C11, D2, D3, and D4 remain pending
+  - voice remains ungranted
+  - runtime remains NOT_OPERATIONAL
+  - semantic completion remains INCOMPLETE
+  - completeness remains PENDING_PROBE
+  - Sanctum establishment does not occur

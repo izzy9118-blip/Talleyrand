@@ -13,14 +13,15 @@ def _record():
     return yaml.safe_load(LIVE_RECORD.read_text(encoding="utf-8"))
 
 
-def test_live_record_preserves_B7_ratification_after_C7():
+def test_live_record_preserves_B7_ratification_after_C8():
     record = _record()
     by_id = {str(item["id"]): item["decision"] for item in record["deed_decisions"]}
     assert by_id["B7"] == "RATIFY"
     assert by_id["C3"] == "RATIFY"
     assert by_id["C4"] == "RATIFY"
     assert by_id["C7"] == "RATIFY"
-    assert len(by_id) == 15
+    assert by_id["C8"] == "RATIFY"
+    assert len(by_id) == 16
 
 
 def test_B7_ratification_is_bound_to_frozen_deed_and_causal_scale_sharpening():
@@ -44,17 +45,17 @@ def test_B7_sharpening_keeps_scale_tied_to_causal_force():
     assert "stop at unresolved rather than substitute ministerial intuition" in text
 
 
-def test_manifest_continues_to_load_B7_after_C7_ratification():
+def test_manifest_continues_to_load_B7_after_C8_ratification():
     manifest = yaml.safe_load(Path("manifest.yaml").read_text(encoding="utf-8"))
     state = manifest["deed_corpus_state"]
-    assert state["effective_owner_ratified_count"] == 15
-    assert state["effective_pending_deed_rulings"] == 5
+    assert state["effective_owner_ratified_count"] == 16
+    assert state["effective_pending_deed_rulings"] == 4
     assert "B7" in {str(x) for x in state["effective_owner_ratified_deeds"]}
     assert state["deed_B7_owner_decision"] == "RATIFY"
     assert state["deed_B7_owner_sharpening"] == "TAL-DEED-B7-SHARP-001"
     review = manifest["ratification_review_state"]
-    assert review["pending_deed_units"] == 5
-    assert review["next_pending_deed"] == "C8"
+    assert review["pending_deed_units"] == 4
+    assert review["next_pending_deed"] == "C11"
     assert "owner_removed_deeds" not in review
     assert "TAL-DEED-B7-SHARP-001" in review["owner_ratified_deed_sharpenings"]
     assert manifest["records"]["deed_B7_interpretive_sharpening"] == str(SHARPENING_PATH)
