@@ -1,0 +1,32 @@
+record_type: talleyrand_owner_deed_removal
+id: TAL-DEED-REMOVE-A5-001
+date: "2026-08-08"
+status: OWNER_DIRECTIVE_EXECUTED
+authority: REPOSITORY_OWNER_DIRECTIVE
+self_certification: PROHIBITED
+owner_directive: "delete a5"
+deed:
+  id: A5
+  title: READ THE GROUND BENEATH THE TABLE
+  former_path: deeds/A5-read-the-ground-beneath-the-table.md
+  historical_git_blob_sha1: a089840a1daa38321bb66afcd7f2f11808c72938
+disposition:
+  live_corpus: REMOVED
+  future_owner_ratification_scope: EXCLUDED
+  runtime_eligibility: PROHIBITED
+  file_in_live_tree: ABSENT
+  historical_recoverability: GIT_HISTORY_ONLY
+reason_scope: >-
+  This record executes the repository owner's direct instruction to delete A5. It
+  does not generalize a substantive criticism into a new deed or doctrine and does
+  not decide any other pending deed.
+non_effects:
+  - prior Git history is not rewritten
+  - no already-ratified deed is reopened
+  - TAL-DISCOVERY-001 remains owner-ratified
+  - TAL-METHOD-DEEP-ANALYSIS-001 remains owner-ratified
+  - voice remains ungranted
+  - runtime remains NOT_OPERATIONAL
+  - semantic completion remains INCOMPLETE
+  - completeness remains PENDING_PROBE
+  - Sanctum establishment does not occur
