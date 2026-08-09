@@ -4,15 +4,16 @@ dossier_id: TAL-RAT-DOSSIER-2026-08-08-003
 status: OWNER_DECISIONS_IN_PROGRESS
 authority: REPOSITORY_OWNER_DIRECTIVE
 owner_directive: >-
-  B1, B2, and B3 were already ratified under their exact frozen blobs and governing
-  owner-ratified sharpenings. B4 — LOCATE THE SEAM — was then reviewed and recommended
-  for ratification with an additive sharpening requiring every seam to be evidenced,
-  causally connected to the operative decision node, and never presumed from vocabulary,
-  disagreement, resentment, displacement, or institutional difference alone. The
-  repository owner replied "do it" and then reaffirmed "lets do it" in immediate
-  response to that production unit. This record resolves that directive only as
-  ratification of B4's exact frozen blob under TAL-DEED-B4-SHARP-001. No ruling is
-  supplied for any other pending deed or for the voice license.
+  B1 through B4 were already ratified under their exact frozen blobs and governing
+  owner-ratified sharpenings. B6 — SET THE QUANTUM AND THE CLOCK — was then reviewed.
+  The owner rejected an overcomplicated formulation while affirming that the deeper
+  principles were correct, then approved the concise formulation with "good" in
+  immediate response. This record resolves that directive only as ratification of B6's
+  exact frozen blob under TAL-DEED-B6-SHARP-001: judge quantum and clock together;
+  seek the minimum sufficient measure rather than the smallest imaginable measure;
+  price too much, too little, too early, and too late; and recognize that timing can
+  reduce the quantum required. No ruling is supplied for any other pending deed or
+  for the voice license.
 date: "2026-08-08"
 
 prior_owner_decisions_preserved:
@@ -37,7 +38,7 @@ deed_decisions:
   - {id: B2, git_blob_sha1: 89b82d33f5fe365e457e8867148281f35ae314fa, decision: RATIFY}
   - {id: B3, git_blob_sha1: d370b2a98e2e2f620b258a068ead4b1383c1d05d, decision: RATIFY}
   - {id: B4, git_blob_sha1: f2666f50d2b955fa157a46b20236935cd90d06dd, decision: RATIFY}
-  - {id: B6, git_blob_sha1: d805b0ad39ba8f5e56c43300ae5a119ee109412e, decision: PENDING_OWNER_RULING}
+  - {id: B6, git_blob_sha1: d805b0ad39ba8f5e56c43300ae5a119ee109412e, decision: RATIFY}
   - {id: B7, git_blob_sha1: 47d8a79503239186b2210bae5106c2994be2ccb2, decision: PENDING_OWNER_RULING}
   - {id: C2, git_blob_sha1: 1b926abd0162e67538c8b4fd00de7ebb495a23bb, decision: PENDING_OWNER_RULING}
   - {id: C3, git_blob_sha1: 42cd835c27c7dd8498056c89dc16b3fc243079b2, decision: PENDING_OWNER_RULING}
@@ -77,6 +78,12 @@ interpretive_sharpenings:
     path: deeds/amendments/2026-08-08-B4-evidenced-seam-sharpening.md
     git_blob_sha1: 603964b3142c1b91803a0b5b017992bc905d63e2
     status: OWNER_RATIFIED
+  - id: TAL-DEED-B6-SHARP-001
+    deed: B6
+    deed_git_blob_sha1: d805b0ad39ba8f5e56c43300ae5a119ee109412e
+    path: deeds/amendments/2026-08-08-B6-quantum-clock-sharpening.md
+    git_blob_sha1: b09ee65e71f2026be496eec662227b9a5322d1b3
+    status: OWNER_RATIFIED
 
 excluded_acknowledgement:
   unresolved_self_testimonial_ore: [C5, C6]
@@ -86,12 +93,14 @@ excluded_acknowledgement:
   held_out_style_or_observation_register: [H1, H2, H3, H4]
 
 non_effects:
-  - B1, B2, B3, and B4 frozen deed texts are not rewritten by ratification
+  - B1, B2, B3, B4, and B6 frozen deed texts are not rewritten by ratification
   - B1 remains governed forward by TAL-DEED-B1-SHARP-001
   - B2 remains governed forward by TAL-DEED-B2-SHARP-001
   - B3 remains governed forward by TAL-DEED-B3-SHARP-001 and the exact B3 capacity-pricing source component
-  - B4 is governed forward by TAL-DEED-B4-SHARP-001
-  - B4 does not presume a seam from vocabulary, disagreement, resentment, displacement, or institutional difference alone
+  - B4 remains governed forward by TAL-DEED-B4-SHARP-001
+  - B6 is governed forward by TAL-DEED-B6-SHARP-001
+  - B6 does not treat minimalism as a rule; minimum means minimum sufficient
+  - B6 judges quantum and clock together and prices both directions of timing and magnitude error
   - the discovery component in the 2026-08-06 sharpening file receives no new ruling here
   - all other live pending deeds remain PENDING_OWNER_RULING
   - A5 remains owner-removed
