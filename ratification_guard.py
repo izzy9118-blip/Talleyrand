@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Structural guard for Talleyrand owner-ratification records.
 
-Dossier v3 is the active review surface after the owner's removal of A5. Earlier
-review surfaces and decision records remain historical. This guard validates exact
-Git blob bindings, carried-forward owner acts, the A5 removal boundary, and the
-remaining ratification scope. It never certifies historical truth or completeness.
+Dossier v4 is the active review surface after the owner's removals of A5 and C2.
+Earlier review surfaces and decision records remain historical. This guard validates
+exact Git blob bindings, carried-forward owner acts, owner-removal boundaries, and
+the remaining ratification scope. It never certifies historical truth or completeness.
 """
 from __future__ import annotations
 
@@ -14,10 +14,13 @@ from typing import Any
 
 import yaml
 
-DOSSIER_PATH = Path("ratification/2026-08-08-owner-review-dossier-v3.yaml")
-PREDECESSOR_DOSSIER_PATH = Path("ratification/2026-08-08-owner-review-dossier-v2.yaml")
+DOSSIER_PATH = Path("ratification/2026-08-08-owner-review-dossier-v4.yaml")
+PREDECESSOR_DOSSIER_PATH = Path("ratification/2026-08-08-owner-review-dossier-v3.yaml")
+PREDECESSOR_V2_DOSSIER_PATH = Path("ratification/2026-08-08-owner-review-dossier-v2.yaml")
 LEGACY_DOSSIER_PATH = Path("ratification/2026-08-08-owner-review-dossier.yaml")
-TEMPLATE_PATH = Path("ratification/owner-decision.v3.template.yaml")
+TEMPLATE_PATH = Path("ratification/owner-decision.v4.template.yaml")
+HISTORICAL_V3_ID = "TAL-RAT-DOSSIER-2026-08-08-003"
+ACTIVE_DOSSIER_ID = "TAL-RAT-DOSSIER-2026-08-08-004"
 PASS_STATUS = "RATIFICATION_DOSSIER_STRUCTURAL_PASS_NOT_TRUTH_CERTIFICATION"
 ALLOWED_OWNER_DECISIONS = {"RATIFY", "DECLINE", "RETURN_FOR_REVISION", "HOLD"}
 PENDING_OWNER_DECISION = "PENDING_OWNER_RULING"
@@ -95,15 +98,25 @@ def _record_excluded(record: dict) -> set[str]:
     return out
 
 
+def _removed_ids(dossier: dict) -> set[str]:
+    removed = dossier.get("owner_removed_deeds") or []
+    _require(isinstance(removed, list), "dossier owner_removed_deeds must be a list")
+    return {str(item.get("id")) for item in removed}
+
+
 def validate_dossier(root: str | Path = ".") -> dict[str, Any]:
     root = Path(root)
-    _require((root / PREDECESSOR_DOSSIER_PATH).is_file(), "predecessor v2 ratification dossier missing")
-    _require((root / LEGACY_DOSSIER_PATH).is_file(), "legacy ratification dossier missing")
+    for path, label in (
+        (PREDECESSOR_DOSSIER_PATH, "predecessor v3 ratification dossier"),
+        (PREDECESSOR_V2_DOSSIER_PATH, "predecessor v2 ratification dossier"),
+        (LEGACY_DOSSIER_PATH, "legacy ratification dossier"),
+    ):
+        _require((root / path).is_file(), f"{label} missing")
 
     dossier = _load_yaml(root / DOSSIER_PATH)
     _require(dossier.get("record_type") == "talleyrand_owner_ratification_dossier", "wrong dossier record_type")
-    _require(dossier.get("id") == "TAL-RAT-DOSSIER-2026-08-08-003", "wrong active dossier id")
-    _require(dossier.get("supersedes") == "TAL-RAT-DOSSIER-2026-08-08-002", "active dossier must name v2 predecessor")
+    _require(dossier.get("id") == ACTIVE_DOSSIER_ID, "wrong active dossier id")
+    _require(dossier.get("supersedes") == HISTORICAL_V3_ID, "active dossier must name v3 predecessor")
     _require(dossier.get("status") == "PREPARED_PENDING_OWNER_RULING", "dossier must remain pending owner ruling")
     _require(dossier.get("authority") == "NONE_BY_ITSELF", "dossier may not claim ratification authority")
     _require(dossier.get("self_certification") == "PROHIBITED", "self-certification prohibition missing")
@@ -114,26 +127,35 @@ def validate_dossier(root: str | Path = ".") -> dict[str, Any]:
         ("discovery_protocol", "TAL-DISCOVERY-001"),
         ("deep_analysis_rule", "TAL-METHOD-DEEP-ANALYSIS-001"),
         ("A2_sharpening", "TAL-DEED-A2-SHARP-001"),
+        ("B1_sharpening", "TAL-DEED-B1-SHARP-001"),
+        ("B2_sharpening", "TAL-DEED-B2-SHARP-001"),
+        ("B3_sharpening", "TAL-DEED-B3-SHARP-001"),
+        ("B4_sharpening", "TAL-DEED-B4-SHARP-001"),
+        ("B6_sharpening", "TAL-DEED-B6-SHARP-001"),
+        ("B7_sharpening", "TAL-DEED-B7-SHARP-001"),
         ("deed_index", "deed index"),
         ("session_sharpenings", "session sharpenings"),
         ("prior_owner_deed_decision_record", "prior owner deed decision record"),
         ("A5_owner_removal", "A5 owner removal"),
+        ("C2_owner_removal", "C2 owner removal"),
     ):
         _assert_blob(root, bindings.get(key) or {}, label)
 
     index = _load_yaml(root / "deeds/index.yaml")
-    _require(index.get("version") == "2.2.0", "active dossier requires deed corpus 2.2.0")
+    _require(index.get("version") == "2.3.0", "active dossier requires deed corpus 2.3.0")
     pending = _index_pending(index)
-    _require(len(pending) == 15, "deed corpus must contain exactly 15 pending owner decisions after A5 removal")
-    _require("A5" not in {str(x.get("id")) for x in index.get("deeds", [])}, "A5 re-entered live deed index")
+    _require(len(pending) == 8, "deed corpus must contain exactly 8 pending owner decisions after C2 removal")
+    live_ids = {str(x.get("id")) for x in index.get("deeds", [])}
+    _require(not {"A5", "C2"}.intersection(live_ids), "owner-removed deed re-entered live deed index")
     _require(not (root / "deeds/A5-read-the-ground-beneath-the-table.md").exists(), "A5 file still exists in live tree")
+    _require(not (root / "deeds/C2-strike-the-smallest-lever-that-reaches-the-center.md").exists(), "C2 file still exists in live tree")
 
     units = dossier.get("pending_deed_decisions")
-    _require(isinstance(units, list) and len(units) == 15, "dossier must contain exactly 15 pending deed decisions")
+    _require(isinstance(units, list) and len(units) == 8, "dossier must contain exactly 8 pending deed decisions")
     ids = [str(x.get("id")) for x in units]
     _require(len(ids) == len(set(ids)), "dossier contains duplicate deed decision")
     _require(set(ids) == set(pending), "dossier deed scope does not exactly match the pending corpus")
-    _require("A5" not in ids, "owner-removed A5 entered pending ratification scope")
+    _require(not {"A5", "C2"}.intersection(ids), "owner-removed deed entered pending ratification scope")
     for unit in units:
         did = str(unit.get("id"))
         _require(unit.get("owner_decision") == "NOT_YET_GIVEN", f"{did}: dossier must not pre-decide owner ruling")
@@ -143,52 +165,67 @@ def validate_dossier(root: str | Path = ".") -> dict[str, Any]:
         _assert_blob(root, unit, f"deed {did}")
 
     prior = dossier.get("prior_owner_decisions_not_reopened")
-    _require(isinstance(prior, list) and len(prior) == 7, "prior owner decision baseline must contain seven carried-forward acts")
+    expected_prior = {"TAL-DISCOVERY-001", "C1", "0", "A1", "A2", "A3", "A4", "B1", "B2", "B3", "B4", "B6", "B7"}
+    _require(isinstance(prior, list) and len(prior) == len(expected_prior), "wrong carried-forward owner decision count")
     by_id = {str(x.get("id")): x for x in prior}
-    expected_prior = {"TAL-DISCOVERY-001", "C1", "0", "A1", "A2", "A3", "A4"}
     _require(set(by_id) == expected_prior, "wrong carried-forward owner decision baseline")
     for item in prior:
         _require(item.get("decision") == "RATIFY", f"{item.get('id')}: prior decision not preserved as RATIFY")
         _assert_blob(root, item, f"prior owner decision {item.get('id')}")
 
     removed = dossier.get("owner_removed_deeds")
-    _require(isinstance(removed, list) and len(removed) == 1, "dossier must preserve exactly one owner-removed deed")
-    A5 = removed[0]
-    _require(str(A5.get("id")) == "A5", "wrong owner-removed deed")
-    _require(A5.get("historical_git_blob_sha1") == "a089840a1daa38321bb66afcd7f2f11808c72938", "A5 historical blob binding changed")
-    _require(A5.get("disposition") == "REMOVED_FROM_LIVE_CORPUS_AND_FUTURE_RATIFICATION_SCOPE", "A5 removal disposition changed")
-    removal_path = root / A5.get("removal_record", "")
-    _require(removal_path.is_file(), "A5 removal record missing")
-    _require(git_blob_sha1(removal_path) == A5.get("removal_record_git_blob_sha1"), "A5 removal record binding changed")
-    removal = _load_yaml(removal_path)
-    _require(removal.get("owner_directive") == "delete a5", "A5 owner directive not preserved")
-    _require((removal.get("disposition") or {}).get("live_corpus") == "REMOVED", "A5 is not marked removed")
+    _require(isinstance(removed, list) and len(removed) == 2, "dossier must preserve exactly two owner-removed deeds")
+    removed_by_id = {str(x.get("id")): x for x in removed}
+    _require(set(removed_by_id) == {"A5", "C2"}, "wrong owner-removed deed set")
+    expected_removed = {
+        "A5": ("a089840a1daa38321bb66afcd7f2f11808c72938", "delete a5"),
+        "C2": ("1b926abd0162e67538c8b4fd00de7ebb495a23bb", "delete c2"),
+    }
+    for did, (historical_blob, directive) in expected_removed.items():
+        item = removed_by_id[did]
+        _require(item.get("historical_git_blob_sha1") == historical_blob, f"{did} historical blob binding changed")
+        _require(item.get("disposition") == "REMOVED_FROM_LIVE_CORPUS_AND_FUTURE_RATIFICATION_SCOPE", f"{did} removal disposition changed")
+        removal_path = root / item.get("removal_record", "")
+        _require(removal_path.is_file(), f"{did} removal record missing")
+        _require(git_blob_sha1(removal_path) == item.get("removal_record_git_blob_sha1"), f"{did} removal record binding changed")
+        removal = _load_yaml(removal_path)
+        _require(removal.get("owner_directive") == directive, f"{did} owner directive not preserved")
+        _require((removal.get("disposition") or {}).get("live_corpus") == "REMOVED", f"{did} is not marked removed")
+        _require((removal.get("disposition") or {}).get("future_owner_ratification_scope") == "EXCLUDED", f"{did} is not excluded from future ratification")
 
     excluded = _index_excluded(index)
     _require(excluded == _dossier_excluded(dossier), "dossier excluded set differs from deed-corpus resolution")
     _require(not excluded.intersection(ids), "excluded candidate entered ratification scope")
-    _require({"A5", "C5", "C6", "C10", "D1"}.issubset(excluded), "required excluded items missing")
-
-    b3 = next(x for x in units if str(x.get("id")) == "B3")
-    _require((b3.get("includes_sharpening") or {}).get("component") == "B3 capacity-pricing requirement", "B3 sharpening not bound")
+    _require({"A5", "C2", "C5", "C6", "C10", "D1"}.issubset(excluded), "required excluded items missing")
 
     return {
         "status": PASS_STATUS,
         "pending_deed_decisions": len(units),
         "prior_owner_decisions": len(prior),
-        "owner_removed_deeds": 1,
+        "owner_removed_deeds": len(removed),
         "excluded_candidates": len(excluded),
         "active_dossier": dossier.get("id"),
     }
 
 
+def _dossier_for_record(root: Path, record: dict) -> dict:
+    dossier_id = record.get("dossier_id")
+    if dossier_id == ACTIVE_DOSSIER_ID:
+        validate_dossier(root)
+        return _load_yaml(root / DOSSIER_PATH)
+    if dossier_id == HISTORICAL_V3_ID:
+        validate_dossier(root)
+        return _load_yaml(root / PREDECESSOR_DOSSIER_PATH)
+    raise RatificationGuardError("owner decision record targets unknown dossier")
+
+
 def _decision_surface(record: dict, dossier: dict) -> tuple[list, dict[str, dict], list[str]]:
+    expected_units = {str(x["id"]): x for x in dossier.get("pending_deed_decisions", [])}
     deeds = record.get("deed_decisions")
-    _require(isinstance(deeds, list) and len(deeds) == 15, "owner decision record must enumerate all 15 live pending deed units")
-    expected_units = {str(x["id"]): x for x in dossier["pending_deed_decisions"]}
+    _require(isinstance(deeds, list) and len(deeds) == len(expected_units), "owner decision record must enumerate the dossier's full live pending deed scope")
     ids = [str(x.get("id")) for x in deeds]
     _require(len(ids) == len(set(ids)) and set(ids) == set(expected_units), "owner decision deed scope mismatch")
-    _require("A5" not in ids, "owner-removed A5 entered owner decision record")
+    _require(not _removed_ids(dossier).intersection(ids), "owner-removed deed entered owner decision record")
     return deeds, expected_units, ids
 
 
@@ -198,10 +235,8 @@ def _check_binding(item: dict, expected: dict, label: str) -> None:
 
 def validate_decision_record(record: dict, root: str | Path = ".", *, completed: bool = False) -> dict[str, Any]:
     root = Path(root)
-    validate_dossier(root)
-    dossier = _load_yaml(root / DOSSIER_PATH)
+    dossier = _dossier_for_record(root, record)
     _require(record.get("record_type") == "talleyrand_owner_ratification_record", "wrong owner decision record_type")
-    _require(record.get("dossier_id") == dossier.get("id"), "owner decision record targets wrong dossier")
     deeds, expected_units, ids = _decision_surface(record, dossier)
 
     for item in deeds:
@@ -230,10 +265,8 @@ def validate_decision_record(record: dict, root: str | Path = ".", *, completed:
 
 def validate_in_progress_record(record: dict, root: str | Path = ".") -> dict[str, Any]:
     root = Path(root)
-    validate_dossier(root)
-    dossier = _load_yaml(root / DOSSIER_PATH)
+    dossier = _dossier_for_record(root, record)
     _require(record.get("record_type") == "talleyrand_owner_ratification_record", "wrong owner decision record_type")
-    _require(record.get("dossier_id") == dossier.get("id"), "owner decision record targets wrong dossier")
     _require(record.get("status") == "OWNER_DECISIONS_IN_PROGRESS", "in-progress record has wrong status")
     _require(record.get("authority") == "REPOSITORY_OWNER_DIRECTIVE", "in-progress record lacks owner authority")
     _require(isinstance(record.get("owner_directive"), str) and record["owner_directive"].strip(), "in-progress record lacks owner directive")

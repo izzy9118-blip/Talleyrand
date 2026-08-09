@@ -4,13 +4,13 @@ import yaml
 from ratification_guard import git_blob_sha1, validate_in_progress_record
 
 
-LIVE_RECORD = Path("ratification/2026-08-08-owner-deed-decisions-v3-in-progress.yaml")
+HISTORICAL_V3_RECORD = Path("ratification/2026-08-08-owner-deed-decisions-v3-in-progress.yaml")
 B2_PATH = Path("deeds/B2-price-the-coalition-in-beliefs.md")
 SHARPENING_PATH = Path("deeds/amendments/2026-08-08-B2-coalition-belief-sharpening.md")
 
 
 def _record():
-    return yaml.safe_load(LIVE_RECORD.read_text(encoding="utf-8"))
+    return yaml.safe_load(HISTORICAL_V3_RECORD.read_text(encoding="utf-8"))
 
 
 def test_B1_and_B2_remain_ratified_after_later_owner_acts():
@@ -60,7 +60,7 @@ def test_B2_sharpening_preserves_nonbelief_causes_of_adherence():
     assert "by what date that change should become visible" in text
 
 
-def test_manifest_continues_to_load_B2_sharpening():
+def test_manifest_continues_to_load_B2_sharpening_after_dossier_v4_transition():
     manifest = yaml.safe_load(Path("manifest.yaml").read_text(encoding="utf-8"))
     state = manifest["deed_corpus_state"]
     ratified = {str(x) for x in state["effective_owner_ratified_deeds"]}
@@ -68,5 +68,6 @@ def test_manifest_continues_to_load_B2_sharpening():
     assert state["deed_B2_owner_decision"] == "RATIFY"
     assert state["deed_B2_owner_sharpening"] == "TAL-DEED-B2-SHARP-001"
     review = manifest["ratification_review_state"]
-    assert review["active_decision_record"] == str(LIVE_RECORD)
+    assert review["active_decision_record"] is None
+    assert review["predecessor_decision_record"] == str(HISTORICAL_V3_RECORD)
     assert manifest["records"]["deed_B2_interpretive_sharpening"] == str(SHARPENING_PATH)

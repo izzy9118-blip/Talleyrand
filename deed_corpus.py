@@ -38,7 +38,7 @@ def validate_deed_corpus(root: str | Path = ".") -> dict:
     _require(index_path.is_file(), "deeds/index.yaml missing")
     index = yaml.safe_load(index_path.read_text(encoding="utf-8"))
     _require(index.get("record_type") == "talleyrand_deed_index", "wrong deed index record_type")
-    _require(index.get("version") == "2.2.0", "live deed index must be version 2.2.0")
+    _require(index.get("version") == "2.3.0", "live deed index must be version 2.3.0")
     deeds = index.get("deeds")
     _require(isinstance(deeds, list) and deeds, "deed index must contain deeds")
 
@@ -47,7 +47,7 @@ def validate_deed_corpus(root: str | Path = ".") -> dict:
     _require(len(ids) == len(set(ids)), "duplicate deed id")
     _require(len(files) == len(set(files)), "duplicate deed file")
     _require(ids[0] == "0", "Deed 0 must load first")
-    _require("A5" not in ids, "owner-removed A5 re-entered live deed corpus")
+    _require(not {"A5", "C2"}.intersection(ids), "owner-removed deed re-entered live deed corpus")
 
     counts = index.get("counts", {})
     owner_ratified = sum(
@@ -102,20 +102,34 @@ def validate_deed_corpus(root: str | Path = ".") -> dict:
     excluded.update(resolution.get("held_out") or [])
     overlap = excluded.intersection(ids)
     _require(not overlap, f"excluded candidate entered deed corpus: {sorted(overlap)}")
-    _require("A5" in excluded, "A5 owner-removal disposition missing from exclusions")
+    _require({"A5", "C2"}.issubset(excluded), "owner-removal disposition missing from exclusions")
     _require(not (root / "deeds/A5-read-the-ground-beneath-the-table.md").exists(), "A5 file still exists in live tree")
+    _require(not (root / "deeds/C2-strike-the-smallest-lever-that-reaches-the-center.md").exists(), "C2 file still exists in live tree")
 
     resolution_source = resolution.get("source")
     _require(isinstance(resolution_source, str) and (root / "deeds" / resolution_source).is_file(), "candidate resolution record missing")
-    removal_record = index.get("owner_removal_record")
-    _require(isinstance(removal_record, str), "owner removal record missing from deed index")
-    removal_path = (root / "deeds" / removal_record).resolve()
-    _require(removal_path.is_file(), "A5 owner-removal record missing")
-    removal = yaml.safe_load(removal_path.read_text(encoding="utf-8"))
-    _require(removal.get("id") == "TAL-DEED-REMOVE-A5-001", "wrong A5 owner-removal record")
-    _require(removal.get("authority") == "REPOSITORY_OWNER_DIRECTIVE", "A5 removal lacks owner authority")
-    _require(removal.get("owner_directive") == "delete a5", "A5 owner directive not preserved")
-    _require((removal.get("deed") or {}).get("historical_git_blob_sha1") == "a089840a1daa38321bb66afcd7f2f11808c72938", "A5 historical blob binding changed")
+
+    removal_records = index.get("owner_removal_records")
+    _require(isinstance(removal_records, list) and len(removal_records) == 2, "owner removal record list must contain A5 and C2")
+    expected = {
+        "TAL-DEED-REMOVE-A5-001": ("delete a5", "a089840a1daa38321bb66afcd7f2f11808c72938"),
+        "TAL-DEED-REMOVE-C2-001": ("delete c2", "1b926abd0162e67538c8b4fd00de7ebb495a23bb"),
+    }
+    seen = set()
+    for rel in removal_records:
+        _require(isinstance(rel, str), "owner removal record path must be a string")
+        removal_path = (root / "deeds" / rel).resolve()
+        _require(removal_path.is_file(), f"owner-removal record missing: {rel}")
+        removal = yaml.safe_load(removal_path.read_text(encoding="utf-8"))
+        rid = removal.get("id")
+        _require(rid in expected, f"unexpected owner-removal record: {rid}")
+        directive, historical_blob = expected[rid]
+        _require(removal.get("authority") == "REPOSITORY_OWNER_DIRECTIVE", f"{rid}: removal lacks owner authority")
+        _require(removal.get("owner_directive") == directive, f"{rid}: owner directive not preserved")
+        _require((removal.get("deed") or {}).get("historical_git_blob_sha1") == historical_blob, f"{rid}: historical blob binding changed")
+        _require((removal.get("disposition") or {}).get("future_owner_ratification_scope") == "EXCLUDED", f"{rid}: future ratification exclusion missing")
+        seen.add(rid)
+    _require(seen == set(expected), "owner-removal record set mismatch")
 
     _require((root / "method/discovery-protocol.yaml").is_file(), "discovery protocol missing")
     _require((root / "method/deep-analysis-rule.yaml").is_file(), "deep-analysis rule missing")
