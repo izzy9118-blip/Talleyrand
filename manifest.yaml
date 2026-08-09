@@ -1,6 +1,6 @@
 schema_version: 1.0
 record_type: talleyrand_house_manifest
-version: 1.30.0
+version: 1.31.0
 identity:
   house: talleyrand
   minister_id: talleyrand
@@ -86,9 +86,12 @@ ratification:
   deed_D3: OWNER_RATIFIED_BY_RECORD_WITH_INTERPRETIVE_SHARPENING
   deed_D3_sharpening: OWNER_RATIFIED
   deed_D3_sharpening_record: deeds/amendments/2026-08-09-D3-candid-counsel-sharpening.md
-  deed_corpus_2_11: ACTIVE_LIVE_ONLY_AFTER_D3_RATIFICATION
-  owner_review_dossier: OWNER_REVIEW_IN_PROGRESS
-  owner_review_dossier_id: TAL-RAT-DOSSIER-2026-08-09-012
+  deed_D4: OWNER_RATIFIED_BY_RECORD_WITH_INTERPRETIVE_SHARPENING
+  deed_D4_sharpening: OWNER_RATIFIED
+  deed_D4_sharpening_record: deeds/amendments/2026-08-09-D4-accountable-mechanism-sharpening.md
+  deed_corpus_2_12: ACTIVE_ALL_LIVE_DEEDS_OWNER_RATIFIED
+  owner_review_dossier: OWNER_REVIEW_COMPLETE
+  owner_review_closure_id: TAL-RAT-CLOSURE-2026-08-09-013
   counterfeit_registry: LIVING - ratified as keel principle 3
   candidates: WORKING_FILE - not deeds, no authority
   vienna_reading: LETTERS_I_XXV_READ_AND_COMPILED - extended candidate test complete
@@ -124,6 +127,7 @@ load_order:
     - deeds/amendments/2026-08-09-C11-sovereign-support-sharpening.md with C11
     - deeds/amendments/2026-08-09-D2-bounded-contingency-sharpening.md with D2
     - deeds/amendments/2026-08-09-D3-candid-counsel-sharpening.md with D3
+    - deeds/amendments/2026-08-09-D4-accountable-mechanism-sharpening.md with D4
 records:
   keel: keel.md
   keel_connected_boards_amendment: amendments/2026-08-08-connected-boards-keel-amendment.md
@@ -149,15 +153,18 @@ records:
   deed_C11_interpretive_sharpening: deeds/amendments/2026-08-09-C11-sovereign-support-sharpening.md
   deed_D2_interpretive_sharpening: deeds/amendments/2026-08-09-D2-bounded-contingency-sharpening.md
   deed_D3_interpretive_sharpening: deeds/amendments/2026-08-09-D3-candid-counsel-sharpening.md
+  deed_D4_interpretive_sharpening: deeds/amendments/2026-08-09-D4-accountable-mechanism-sharpening.md
   deed_validator: deed_corpus.py
-  owner_ratification_dossier_active: ratification/2026-08-09-owner-review-dossier-v12.yaml
-  owner_ratification_template_active: ratification/owner-decision.v12.template.yaml
+  owner_ratification_closure: ratification/2026-08-09-owner-ratification-closure-v13.yaml
+  owner_ratification_dossier_active: null
+  owner_ratification_template_active: null
   owner_ratification_C4_owner_act: ratification/2026-08-09-owner-deed-decisions-v6-in-progress.yaml
   owner_ratification_C7_owner_act: ratification/2026-08-09-owner-deed-decisions-v7-in-progress.yaml
   owner_ratification_C8_owner_act: ratification/2026-08-09-owner-deed-decisions-v8-in-progress.yaml
   owner_ratification_C11_owner_act: ratification/2026-08-09-owner-deed-decisions-v9-in-progress.yaml
   owner_ratification_D2_owner_act: ratification/2026-08-09-owner-deed-decisions-v10-in-progress.yaml
   owner_ratification_D3_owner_act: ratification/2026-08-09-owner-deed-decisions-v11-in-progress.yaml
+  owner_ratification_D4_owner_act: ratification/2026-08-09-owner-deed-decisions-v12-complete.yaml
   owner_ratification_guard: ratification_guard.py
   counterfeits: counterfeits/registry.md
   corpus: corpus/index.yaml
@@ -283,6 +290,14 @@ safeguards:
   - D3_persistence_requires_changed_ground_deadline_risk_law_or_continuing_duty
   - D3_lawful_principal_retains_decision_authority
   - D3_later_harm_does_not_automatically_vindicate_counsel
+  - D4_mechanism_is_disclosed_to_proper_accountable_recipient
+  - D4_report_separates_intended_observed_and_inferred_effects
+  - D4_alternatives_dissent_failures_side_effects_and_rival_causes_remain_visible
+  - D4_lawful_confidentiality_requires_basis_custodian_access_path_and_review
+  - D4_confidentiality_cannot_hide_illegality_conflict_or_deception_of_principal
+  - D4_disclosure_is_not_retroactive_authorization_or_substantive_cure
+  - D4_reporter_does_not_certify_reporter
+  - D4_completeness_and_causal_claims_remain_independently_auditable
   - counterfeit_registry_is_living
   - constitutive_cut_precedes_pricing
   - persons_and_bodies_never_merged
@@ -315,11 +330,11 @@ source_state:
     One historical formulation is page-pinned. This does not upgrade every finding,
     certify a speech corpus, or release generalized voice imitation.
 deed_corpus_state:
-  version: 2.11.0
+  version: 2.12.0
   indexed_deeds: 20
-  effective_owner_ratified_deeds: ["0", A1, A2, A3, A4, B1, B2, B3, B4, B6, B7, C1, C3, C4, C7, C8, C11, D2, D3]
-  effective_owner_ratified_count: 19
-  effective_pending_deed_rulings: 1
+  effective_owner_ratified_deeds: ["0", A1, A2, A3, A4, B1, B2, B3, B4, B6, B7, C1, C3, C4, C7, C8, C11, D2, D3, D4]
+  effective_owner_ratified_count: 20
+  effective_pending_deed_rulings: 0
   authority_record: ratification/live-owner-ratifications.yaml
   index_note: >-
     This is a live-only surface. A deed not present in the current index is not part
@@ -360,6 +375,8 @@ deed_corpus_state:
   deed_D2_owner_sharpening: TAL-DEED-D2-SHARP-001
   deed_D3_owner_decision: RATIFY
   deed_D3_owner_sharpening: TAL-DEED-D3-SHARP-001
+  deed_D4_owner_decision: RATIFY
+  deed_D4_owner_sharpening: TAL-DEED-D4-SHARP-001
   new_resolved_drafts: [A4, B1, B7]
   unresolved_ore: [C5, C6]
   absorbed_not_drafted: [A6, B5, C9]
@@ -367,24 +384,33 @@ deed_corpus_state:
   structural_validator: deed_corpus.py
   structural_pass_is_not_truth_certification: true
 ratification_review_state:
-  dossier_id: TAL-RAT-DOSSIER-2026-08-09-012
-  dossier: ratification/2026-08-09-owner-review-dossier-v12.yaml
-  decision_template: ratification/owner-decision.v12.template.yaml
+  closure_id: TAL-RAT-CLOSURE-2026-08-09-013
+  closure: ratification/2026-08-09-owner-ratification-closure-v13.yaml
+  last_dossier_id: TAL-RAT-DOSSIER-2026-08-09-012
+  active_dossier: null
   active_decision_record: null
+  decision_template: null
+  final_decision_record: ratification/2026-08-09-owner-deed-decisions-v12-complete.yaml
   validator: ratification_guard.py
-  status: OWNER_REVIEW_IN_PROGRESS
-  carried_forward_owner_ratified_deeds: ["0", A1, A2, A3, A4, B1, B2, B3, B4, B6, B7, C1, C3, C4, C7, C8, C11, D2, D3]
+  status: OWNER_REVIEW_COMPLETE
+  carried_forward_owner_ratified_deeds: ["0", A1, A2, A3, A4, B1, B2, B3, B4, B6, B7, C1, C3, C4, C7, C8, C11, D2, D3, D4]
   carried_forward_discovery_decision: TAL-DISCOVERY-001
   owner_ratified_keel_amendment_not_a_deed_ruling: [TAL-KEEL-AMD-001]
   owner_ratified_house_method_rules: [TAL-METHOD-DEEP-ANALYSIS-001]
-  owner_ratified_deed_sharpenings: [TAL-DEED-A2-SHARP-001, TAL-DEED-B1-SHARP-001, TAL-DEED-B2-SHARP-001, TAL-DEED-B3-SHARP-001, TAL-DEED-B4-SHARP-001, TAL-DEED-B6-SHARP-001, TAL-DEED-B7-SHARP-001, TAL-DEED-C3-SHARP-001, TAL-DEED-C4-SHARP-001, TAL-DEED-C7-SHARP-001, TAL-DEED-C8-SHARP-001, TAL-DEED-C11-SHARP-001, TAL-DEED-D2-SHARP-001, TAL-DEED-D3-SHARP-001]
-  owner_ratified_deeds_this_cycle: [C3, C4, C7, C8, C11, D2, D3]
-  pending_deed_units: 1
-  next_pending_deed: D4
+  owner_ratified_deed_sharpenings: [TAL-DEED-A2-SHARP-001, TAL-DEED-B1-SHARP-001, TAL-DEED-B2-SHARP-001, TAL-DEED-B3-SHARP-001, TAL-DEED-B4-SHARP-001, TAL-DEED-B6-SHARP-001, TAL-DEED-B7-SHARP-001, TAL-DEED-C3-SHARP-001, TAL-DEED-C4-SHARP-001, TAL-DEED-C7-SHARP-001, TAL-DEED-C8-SHARP-001, TAL-DEED-C11-SHARP-001, TAL-DEED-D2-SHARP-001, TAL-DEED-D3-SHARP-001, TAL-DEED-D4-SHARP-001]
+  owner_ratified_deeds_this_cycle: [C3, C4, C7, C8, C11, D2, D3, D4]
+  pending_deed_units: 0
+  next_pending_deed: null
   unresolved_self_testimonial_ore_excluded: [C5, C6]
   absorbed_not_deeds_excluded: [A6, B5, C9]
   retired_formulations_excluded: [C10, D1]
   structural_pass_is_not_truth_certification: true
+  completion_non_effects:
+    - voice remains ungranted
+    - runtime remains NOT_OPERATIONAL
+    - semantic completion remains INCOMPLETE
+    - completeness remains PENDING_PROBE
+    - Sanctum establishment does not occur
 voice_state:
   status: READY_FOR_OWNER_RULING
   license_granted: false
@@ -399,14 +425,10 @@ condemned:
 next_required_actions:
   - id: TAL-NEXT-001
     action: >-
-      Complete substantive owner review of the final live pending deed against
-      ratification/2026-08-09-owner-review-dossier-v12.yaml. D4 is the final pending deed.
-  - id: TAL-NEXT-002
-    action: >-
       Obtain the owner's explicit ruling on the scope of the voice license. The only
       currently proposed formulation is page-pinned; generalized persona imitation
       remains prohibited unless specifically authorized.
-  - id: TAL-NEXT-003
+  - id: TAL-NEXT-002
     action: >-
       Build and validate the sovereign minister interface only from the owner-ratified
       live deed set, with unresolved ore and unlicensed voice excluded from runtime.
