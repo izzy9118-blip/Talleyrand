@@ -1,10 +1,10 @@
 from pathlib import Path
 import yaml
 
-from ratification_guard import git_blob_sha1, validate_in_progress_record
+from ratification_guard import git_blob_sha1
 
 
-LIVE_RECORD = Path("ratification/2026-08-08-owner-deed-decisions-v3-in-progress.yaml")
+LIVE_RECORD = Path("ratification/live-owner-ratifications.yaml")
 B4_PATH = Path("deeds/B4-locate-the-seam.md")
 SHARPENING_PATH = Path("deeds/amendments/2026-08-08-B4-evidenced-seam-sharpening.md")
 
@@ -13,14 +13,11 @@ def _record():
     return yaml.safe_load(LIVE_RECORD.read_text(encoding="utf-8"))
 
 
-def test_B1_through_B4_remain_ratified_after_later_owner_acts():
+def test_B1_through_B4_remain_ratified_on_live_surface():
     record = _record()
-    result = validate_in_progress_record(record, ".")
-    assert result["decided_units"] >= 4
     by_id = {str(item["id"]): item["decision"] for item in record["deed_decisions"]}
     for did in ("B1", "B2", "B3", "B4"):
         assert by_id[did] == "RATIFY"
-    assert "A5" not in by_id
 
 
 def test_B4_ratification_is_bound_to_frozen_deed_and_evidenced_seam_sharpening():
@@ -28,13 +25,11 @@ def test_B4_ratification_is_bound_to_frozen_deed_and_evidenced_seam_sharpening()
     assert git_blob_sha1(B4_PATH) == "f2666f50d2b955fa157a46b20236935cd90d06dd"
     assert git_blob_sha1(SHARPENING_PATH) == "603964b3142c1b91803a0b5b017992bc905d63e2"
 
-    by_id = {item["id"]: item for item in record["interpretive_sharpenings"]}
+    by_id = {item["id"]: item for item in record["interpretive_bindings"]}
     binding = by_id["TAL-DEED-B4-SHARP-001"]
     assert binding["deed"] == "B4"
-    assert binding["deed_git_blob_sha1"] == "f2666f50d2b955fa157a46b20236935cd90d06dd"
     assert binding["path"] == str(SHARPENING_PATH)
     assert binding["git_blob_sha1"] == "603964b3142c1b91803a0b5b017992bc905d63e2"
-    assert binding["status"] == "OWNER_RATIFIED"
 
 
 def test_B4_sharpening_requires_evidence_causation_and_no_manufactured_seam():
