@@ -104,7 +104,7 @@ records:
   discovery_contract: contracts/discovery-record.schema.json
   discovery_validator: discovery_protocol.py
   deeds: deeds/index.yaml
-  deed_resolution: deeds/resolutions/2026-08-08-post-vienna-candidate-resolution.md
+  deed_resolution: deeds/resolutions/live-candidate-resolution.md
   live_owner_ratifications: ratification/live-owner-ratifications.yaml
   deed_A2_interpretive_sharpening: deeds/amendments/2026-08-08-A2-deep-understanding-sharpening.md
   deed_B1_interpretive_sharpening: deeds/amendments/2026-08-08-B1-no-forced-unity-sharpening.md
