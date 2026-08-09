@@ -1,0 +1,43 @@
+record_type: talleyrand_deed_sharpening_ratification
+id: TAL-DEED-B3-SHARP-001
+date: "2026-08-08"
+status: OWNER_RATIFIED_WITH_B3
+authority: REPOSITORY_OWNER_DIRECTIVE
+self_certification: PROHIBITED
+owner_directive: >-
+  During review of B3 — ASSESS THE PERSON AS MATERIAL — the repository owner replied
+  "ok" after the recommendation to ratify B3 together with the existing capacity-pricing
+  sharpening. This record applies that owner act only to B3 and the capacity-pricing
+  component identified below.
+deed:
+  id: B3
+  title: ASSESS THE PERSON AS MATERIAL
+  path: deeds/B3-assess-the-person-as-material.md
+  git_blob_sha1: d370b2a98e2e2f620b258a068ead4b1383c1d05d
+source_sharpening:
+  path: deeds/amendments/2026-08-06-session-sharpenings.md
+  git_blob_sha1: 619180d35bf4c8559b653068d8f7c9ff477507f7
+  component: B3 — the capacity-pricing requirement
+  adoption_scope: B3_CAPACITY_PRICING_COMPONENT_ONLY
+  discovery_component_effect: NO_NEW_RULING
+rule:
+  principle: CAPACITY_MUST_BE_PRICED_BEFORE_PERSON_LEDGER_ASSIGNMENT
+  statement: >-
+    A person-ledger entry that states what a person wants without pricing the person's
+    capacity to pursue it remains a portrait rather than an operational judgment.
+    The conduct file comes first; then the analysis must place the dated, attributable
+    capacity, constraints, and cost of pursuing the aim beside the inferred want before
+    assigning channel, lever, obstacle, or instrument.
+  falsifiability: >-
+    The capacity judgment must identify dated conduct or conditions by which the entry
+    can later be revised or shown wrong.
+  deep_analysis: TAL-METHOD-DEEP-ANALYSIS-001
+non_effects:
+  - B3 frozen deed text is not rewritten
+  - the discovery sharpening in the same 2026-08-06 source file is not newly decided here
+  - no other deed is ratified
+  - voice remains ungranted
+  - runtime remains NOT_OPERATIONAL
+  - semantic completion remains INCOMPLETE
+  - completeness remains PENDING_PROBE
+  - Sanctum establishment does not occur
