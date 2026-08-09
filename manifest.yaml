@@ -1,6 +1,6 @@
 schema_version: 1.0
 record_type: talleyrand_house_manifest
-version: 1.7.0
+version: 1.8.0
 identity:
   house: talleyrand
   minister_id: talleyrand
@@ -33,13 +33,14 @@ ratification:
   keel: OWNER_RATIFIED
   deed_C1: OWNER_RATIFIED
   deed_corpus_2_0: CANONICAL_DRAFT_PENDING_OWNER_RATIFICATION_PER_DEED
-  discovery_protocol: PROPOSED_PENDING_OWNER_RATIFICATION
-  owner_review_dossier: PREPARED_PENDING_OWNER_RULING
+  discovery_protocol: OWNER_RATIFIED_BY_RECORD
+  discovery_protocol_record: ratification/2026-08-08-owner-decisions-in-progress.yaml
+  owner_review_dossier: OWNER_REVIEW_IN_PROGRESS
   owner_review_dossier_id: TAL-RAT-DOSSIER-2026-08-08-001
   counterfeit_registry: LIVING - ratified as keel principle 3
   candidates: WORKING_FILE - not deeds, no authority
   vienna_reading: LETTERS_I_XXV_READ_AND_COMPILED - extended candidate test complete
-  high_value_corroboration: RECORDED_UNDER_TAL_DISCOVERY_001
+  high_value_corroboration: RECORDED_UNDER_TAL_DISCOVERY-001
   candidate_resolution: COMMITTED_NO_OWNER_RATIFICATION_REQUIRED_FOR_UNDRAFTED_ORE
   voice_license: READY_FOR_OWNER_RULING - TAL-VOICE-PIN-001 verified, voice not granted
   findings: NONE
@@ -64,6 +65,7 @@ records:
   deed_validator: deed_corpus.py
   owner_ratification_dossier: ratification/2026-08-08-owner-review-dossier.yaml
   owner_ratification_template: ratification/owner-decision.template.yaml
+  owner_ratification_record: ratification/2026-08-08-owner-decisions-in-progress.yaml
   owner_ratification_guard: ratification_guard.py
   counterfeits: counterfeits/registry.md
   corpus: corpus/index.yaml
@@ -96,6 +98,7 @@ safeguards:
   - ratification_dossier_freezes_exact_git_blobs
   - ratification_dossier_has_no_authority_by_itself
   - excluded_candidates_cannot_enter_owner_ratification_scope
+  - incremental_owner_review_cannot_invent_undecided_rulings
   - counterfeit_registry_is_living
   - constitutive_cut_precedes_pricing
   - persons_and_bodies_never_merged
@@ -143,9 +146,11 @@ ratification_review_state:
   dossier_id: TAL-RAT-DOSSIER-2026-08-08-001
   dossier: ratification/2026-08-08-owner-review-dossier.yaml
   decision_template: ratification/owner-decision.template.yaml
+  owner_decision_record: ratification/2026-08-08-owner-decisions-in-progress.yaml
   validator: ratification_guard.py
-  status: PREPARED_PENDING_OWNER_RULING
+  status: OWNER_REVIEW_IN_PROGRESS
   method_units: 1
+  method_ratified: [TAL-DISCOVERY-001]
   pending_deed_units: 21
   already_ratified_not_reopened: [C1]
   unresolved_self_testimonial_ore_excluded: [C5, C6]
@@ -166,10 +171,10 @@ condemned:
 next_required_actions:
   - id: TAL-NEXT-001
     action: >-
-      Complete substantive owner-ratification review using
-      ratification/2026-08-08-owner-review-dossier.yaml for TAL-DISCOVERY-001 and
-      the 21 pending deeds in corpus 2.0. C5, C6, absorbed candidates, and retired
-      formulations are outside the ratification package by construction.
+      Continue substantive owner review of the 21 pending deeds in corpus 2.0 against
+      ratification/2026-08-08-owner-review-dossier.yaml. TAL-DISCOVERY-001 is already
+      owner-ratified by the authenticated in-progress owner record. C5, C6, absorbed
+      candidates, and retired formulations remain outside the package.
   - id: TAL-NEXT-002
     action: >-
       Obtain the owner's explicit ruling on the scope of the voice license. The only
