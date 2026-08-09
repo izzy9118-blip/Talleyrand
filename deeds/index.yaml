@@ -6,7 +6,7 @@ governing_keel: keel.md
 governing_keel_amendments:
   - ../amendments/2026-08-08-connected-boards-keel-amendment.md
 counterfeit_registry: ../counterfeits/registry.md
-resolution_record: resolutions/2026-08-08-post-vienna-candidate-resolution.md
+resolution_record: resolutions/live-candidate-resolution.md
 status:
   corpus: CANONICAL_DRAFT
   ratification: PER_DEED_BY_OWNER
@@ -59,7 +59,7 @@ families:
   C: THE STROKE
   D: THE PRINCIPAL - his own side of the table
 candidate_resolution:
-  source: resolutions/2026-08-08-post-vienna-candidate-resolution.md
+  source: resolutions/live-candidate-resolution.md
   preserved_unresolved:
     C5: CANDIDATE_HT_HOLD
     C6: CANDIDATE_HT_HOLD
