@@ -1,0 +1,45 @@
+record_type: talleyrand_owner_ratification_record
+id: TAL-RAT-OWNER-DECISION-V2-TEMPLATE
+dossier_id: TAL-RAT-DOSSIER-2026-08-08-002
+status: TEMPLATE_PENDING_OWNER_DIRECTIVE
+authority: OWNER_DIRECTIVE_REQUIRED
+owner_directive: null
+date: null
+note: >-
+  Non-operative template for the 21 deed decisions frozen by dossier 002. Prior
+  owner acts on TAL-DISCOVERY-001, C1, and TAL-KEEL-AMD-001 are not reopened here.
+
+deed_decisions:
+  - {id: "0", git_blob_sha1: 208216723993d6103fb4ddbc9f96d0cea2e63228, decision: PENDING_OWNER_RULING}
+  - {id: A1, git_blob_sha1: 2353e13c0c68af2c13880b9d821cadab964dbea0, decision: PENDING_OWNER_RULING}
+  - {id: A2, git_blob_sha1: c8e781769d72c2ae8f4041c0930da57e015b0d92, decision: PENDING_OWNER_RULING}
+  - {id: A3, git_blob_sha1: 066ea8a7680b972ad28ed89f7fa34f5437a43897, decision: PENDING_OWNER_RULING}
+  - {id: A4, git_blob_sha1: 7e512a54e190377b0be0cd30cc8f544ebefa1a6c, decision: PENDING_OWNER_RULING}
+  - {id: A5, git_blob_sha1: a089840a1daa38321bb66afcd7f2f11808c72938, decision: PENDING_OWNER_RULING}
+  - {id: B1, git_blob_sha1: d9ffaadf3ba4ec15d1b2ab4b7fdc4c1dc873e06d, decision: PENDING_OWNER_RULING}
+  - {id: B2, git_blob_sha1: 89b82d33f5fe365e457e8867148281f35ae314fa, decision: PENDING_OWNER_RULING}
+  - {id: B3, git_blob_sha1: d370b2a98e2e2f620b258a068ead4b1383c1d05d, decision: PENDING_OWNER_RULING}
+  - {id: B4, git_blob_sha1: f2666f50d2b955fa157a46b20236935cd90d06dd, decision: PENDING_OWNER_RULING}
+  - {id: B6, git_blob_sha1: d805b0ad39ba8f5e56c43300ae5a119ee109412e, decision: PENDING_OWNER_RULING}
+  - {id: B7, git_blob_sha1: 47d8a79503239186b2210bae5106c2994be2ccb2, decision: PENDING_OWNER_RULING}
+  - {id: C2, git_blob_sha1: 1b926abd0162e67538c8b4fd00de7ebb495a23bb, decision: PENDING_OWNER_RULING}
+  - {id: C3, git_blob_sha1: 42cd835c27c7dd8498056c89dc16b3fc243079b2, decision: PENDING_OWNER_RULING}
+  - {id: C4, git_blob_sha1: d35b84d0b053053e3de0887b96dab6f27f6070a0, decision: PENDING_OWNER_RULING}
+  - {id: C7, git_blob_sha1: 9e5f9e1ecdab0b13ab52f6c9634c94fe7faa3032, decision: PENDING_OWNER_RULING}
+  - {id: C8, git_blob_sha1: c83492946955e26b9a29ddbe88d5783e3c028f68, decision: PENDING_OWNER_RULING}
+  - {id: C11, git_blob_sha1: 51ebfcd57dfe5c93b7e9df9a3ea67e2d74a36948, decision: PENDING_OWNER_RULING}
+  - {id: D2, git_blob_sha1: 9aac11883da3deb7d2d13d6177cbeaad1fac464a, decision: PENDING_OWNER_RULING}
+  - {id: D3, git_blob_sha1: f7d9e15405018dbf19c2b14cb3933458ad581d13, decision: PENDING_OWNER_RULING}
+  - {id: D4, git_blob_sha1: 1f4c8cd2b8063443b1a549ac31c0fd7c66389fd9, decision: PENDING_OWNER_RULING}
+
+excluded_acknowledgement:
+  unresolved_self_testimonial_ore: [C5, C6]
+  absorbed_not_deeds: [A6, B5, C9]
+  retired_current_formulations: [C10, D1]
+  held_out_style_or_observation_register: [H1, H2, H3, H4]
+
+permitted_completed_decisions:
+  - RATIFY
+  - DECLINE
+  - RETURN_FOR_REVISION
+  - HOLD
