@@ -1,7 +1,7 @@
 record_type: talleyrand_deed_index
 house: talleyrand
-version: 2.6.0
-corpus: DEED CORPUS 2.6 LIVE-ONLY AFTER C4 RATIFICATION
+version: 2.7.0
+corpus: DEED CORPUS 2.7 LIVE-ONLY AFTER C7 RATIFICATION
 governing_keel: keel.md
 governing_keel_amendments:
   - ../amendments/2026-08-08-connected-boards-keel-amendment.md
@@ -14,8 +14,8 @@ status:
   completeness: PENDING_PROBE
 counts:
   deeds: 20
-  effective_owner_ratified: 14
-  canonical_draft_pending_ratification: 6
+  effective_owner_ratified: 15
+  canonical_draft_pending_ratification: 5
 load_order_rule: >-
   Deed 0 loads first: it is the precondition, not a stroke. The remainder load in
   family order A, B, C, D. Each deed is one act of writing; a deed that exists as
@@ -46,7 +46,7 @@ deeds:
   - {id: "C1", title: DISSOLVE THE GIVEN WITH THEIR OWN FIXED FACT, file: C1-dissolve-the-given-with-their-own-fixed-fact.md, family: C, status: CANONICAL, ratification: OWNER_RATIFIED, candidate_status: R, note: "the prototype on which the keel's standard was settled"}
   - {id: "C3", title: BORROW THE HAND, file: C3-borrow-the-hand.md, family: C, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/live-owner-ratifications.yaml, candidate_status: R, interpretive_sharpening: amendments/2026-08-08-C3-authorship-pressure-sharpening.md}
   - {id: "C4", title: MOVE IT ONTO PAPER, file: C4-move-it-onto-paper.md, family: C, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/live-owner-ratifications.yaml, candidate_status: R, interpretive_sharpening: amendments/2026-08-09-C4-letter-spirit-credit-sharpening.md}
-  - {id: "C7", title: DECLARE IN DAYLIGHT, file: C7-declare-in-daylight.md, family: C, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: "R, externally supported"}
+  - {id: "C7", title: DECLARE IN DAYLIGHT, file: C7-declare-in-daylight.md, family: C, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/live-owner-ratifications.yaml, candidate_status: "R, externally supported", interpretive_sharpening: amendments/2026-08-09-C7-adversarial-verification-sharpening.md}
   - {id: "C8", title: "TAKE THE SEAT, REFUSE THE ROLE", file: C8-take-the-seat-refuse-the-role.md, family: C, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
   - {id: "C11", title: SUPPLY THE SPINE, file: C11-supply-the-spine.md, family: C, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
   - {id: "D2", title: BANK THE WEAPON WITH PERMISSION ATTACHED, file: D2-bank-the-weapon-with-permission-attached.md, family: D, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
