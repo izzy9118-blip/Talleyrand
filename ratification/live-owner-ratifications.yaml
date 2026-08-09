@@ -1,0 +1,44 @@
+record_type: talleyrand_live_owner_ratification_index
+id: TAL-RAT-LIVE-001
+date: "2026-08-08"
+status: ACTIVE_CARRY_FORWARD
+authority: REPOSITORY_OWNER_DECISIONS_CARRIED_FORWARD
+self_certification: PROHIBITED
+house: talleyrand
+purpose: >-
+  This is the live authority surface for deeds already ratified by the repository
+  owner. It consolidates prior owner acts without creating, changing, or reopening
+  any decision. Superseded decision files remain repository history, not live review
+  surfaces.
+
+deed_decisions:
+  - {id: "0", path: deeds/00-see-the-connected-boards.md, git_blob_sha1: 208216723993d6103fb4ddbc9f96d0cea2e63228, decision: RATIFY}
+  - {id: A1, path: deeds/A1-read-the-designed-word.md, git_blob_sha1: 2353e13c0c68af2c13880b9d821cadab964dbea0, decision: RATIFY}
+  - {id: A2, path: deeds/A2-read-the-involuntary.md, git_blob_sha1: c8e781769d72c2ae8f4041c0930da57e015b0d92, decision: RATIFY}
+  - {id: A3, path: deeds/A3-read-the-silence-as-position.md, git_blob_sha1: 066ea8a7680b972ad28ed89f7fa34f5437a43897, decision: RATIFY}
+  - {id: A4, path: deeds/A4-read-the-document-by-its-true-audience.md, git_blob_sha1: 7e512a54e190377b0be0cd30cc8f544ebefa1a6c, decision: RATIFY}
+  - {id: B1, path: deeds/B1-recover-the-design-from-fragments.md, git_blob_sha1: d9ffaadf3ba4ec15d1b2ab4b7fdc4c1dc873e06d, decision: RATIFY}
+  - {id: B2, path: deeds/B2-price-the-coalition-in-beliefs.md, git_blob_sha1: 89b82d33f5fe365e457e8867148281f35ae314fa, decision: RATIFY}
+  - {id: B3, path: deeds/B3-assess-the-person-as-material.md, git_blob_sha1: d370b2a98e2e2f620b258a068ead4b1383c1d05d, decision: RATIFY}
+  - {id: B4, path: deeds/B4-locate-the-seam.md, git_blob_sha1: f2666f50d2b955fa157a46b20236935cd90d06dd, decision: RATIFY}
+  - {id: B6, path: deeds/B6-set-the-quantum-and-the-clock.md, git_blob_sha1: d805b0ad39ba8f5e56c43300ae5a119ee109412e, decision: RATIFY}
+  - {id: B7, path: deeds/B7-refuse-the-false-scale.md, git_blob_sha1: 47d8a79503239186b2210bae5106c2994be2ccb2, decision: RATIFY}
+  - {id: C1, path: deeds/C1-dissolve-the-given-with-their-own-fixed-fact.md, git_blob_sha1: 5f3bf6c7430d9892f433b0568dd876d369628fdf, decision: RATIFY}
+
+interpretive_bindings:
+  - {id: TAL-DEED-A2-SHARP-001, deed: A2, path: deeds/amendments/2026-08-08-A2-deep-understanding-sharpening.md, git_blob_sha1: 756639c29ae7f4b9e9ff39cf3472027f47635fec}
+  - {id: TAL-DEED-B1-SHARP-001, deed: B1, path: deeds/amendments/2026-08-08-B1-no-forced-unity-sharpening.md, git_blob_sha1: 4eb293085c4c5be0f3712717d30df497a7276b85}
+  - {id: TAL-DEED-B2-SHARP-001, deed: B2, path: deeds/amendments/2026-08-08-B2-coalition-belief-sharpening.md, git_blob_sha1: 2c8c38b0f63f9c9da7a1ac20f9ce2e52591b3bfe}
+  - {id: TAL-DEED-B3-SHARP-001, deed: B3, path: ratification/2026-08-08-B3-capacity-pricing-ratification.yaml, git_blob_sha1: cdcfb4dc570ea89dba298ecf665d5be79f20149e}
+  - {id: TAL-DEED-B4-SHARP-001, deed: B4, path: deeds/amendments/2026-08-08-B4-evidenced-seam-sharpening.md, git_blob_sha1: 603964b3142c1b91803a0b5b017992bc905d63e2}
+  - {id: TAL-DEED-B6-SHARP-001, deed: B6, path: deeds/amendments/2026-08-08-B6-quantum-clock-sharpening.md, git_blob_sha1: b09ee65e71f2026be496eec662227b9a5322d1b3}
+  - {id: TAL-DEED-B7-SHARP-001, deed: B7, path: deeds/amendments/2026-08-08-B7-causal-scale-sharpening.md, git_blob_sha1: 975d969f17b2f2a20e5723539b7709b2816ecd38}
+
+non_effects:
+  - no deed text is rewritten
+  - no pending deed is decided
+  - voice remains ungranted
+  - runtime remains NOT_OPERATIONAL
+  - semantic completion remains INCOMPLETE
+  - completeness remains PENDING_PROBE
+  - Sanctum establishment does not occur
