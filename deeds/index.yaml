@@ -1,22 +1,24 @@
 record_type: talleyrand_deed_index
 house: talleyrand
-version: 2.2.0
-corpus: DEED CORPUS 2.2 AFTER OWNER REMOVAL OF A5
+version: 2.3.0
+corpus: DEED CORPUS 2.3 AFTER OWNER REMOVAL OF A5 AND C2
 governing_keel: keel.md
 governing_keel_amendments:
   - ../amendments/2026-08-08-connected-boards-keel-amendment.md
 counterfeit_registry: ../counterfeits/registry.md
 resolution_record: resolutions/2026-08-08-post-vienna-candidate-resolution.md
-owner_removal_record: ../ratification/2026-08-08-owner-removal-A5.yaml
+owner_removal_records:
+  - ../ratification/2026-08-08-owner-removal-A5.yaml
+  - ../ratification/2026-08-08-owner-removal-C2.yaml
 status:
   corpus: CANONICAL_DRAFT
   ratification: PER_DEED_BY_OWNER
   runtime: NOT_OPERATIONAL
   completeness: PENDING_PROBE
 counts:
-  deeds: 21
-  effective_owner_ratified: 6
-  canonical_draft_pending_ratification: 15
+  deeds: 20
+  effective_owner_ratified: 12
+  canonical_draft_pending_ratification: 8
 load_order_rule: >-
   Deed 0 loads first: it is the precondition, not a stroke. The remainder load in
   family order A, B, C, D. Each deed is one act of writing; a deed that exists as
@@ -27,26 +29,24 @@ deeds:
   - {id: "A2", title: READ THE INVOLUNTARY, file: A2-read-the-involuntary.md, family: A, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/2026-08-08-owner-deed-decisions-v2-in-progress.yaml, candidate_status: R, interpretive_sharpening: amendments/2026-08-08-A2-deep-understanding-sharpening.md}
   - {id: "A3", title: READ THE SILENCE AS POSITION, file: A3-read-the-silence-as-position.md, family: A, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/2026-08-08-owner-deed-decisions-v2-in-progress.yaml, candidate_status: R, governing_method: ../method/deep-analysis-rule.yaml}
   - {id: "A4", title: READ THE DOCUMENT BY ITS TRUE AUDIENCE, file: A4-read-the-document-by-its-true-audience.md, family: A, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/2026-08-08-owner-deed-decisions-v2-in-progress.yaml, candidate_status: RESOLVED_FROM_EXTENDED_TEST, governing_method: ../method/deep-analysis-rule.yaml}
-  - {id: "B1", title: RECOVER THE DESIGN FROM FRAGMENTS, file: B1-recover-the-design-from-fragments.md, family: B, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: PARTIALLY_CORROBORATED_BOUNDED_ONLY}
-  - {id: "B2", title: PRICE THE COALITION IN BELIEFS, file: B2-price-the-coalition-in-beliefs.md, family: B, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
+  - {id: "B1", title: RECOVER THE DESIGN FROM FRAGMENTS, file: B1-recover-the-design-from-fragments.md, family: B, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/2026-08-08-owner-deed-decisions-v3-in-progress.yaml, candidate_status: PARTIALLY_CORROBORATED_BOUNDED_ONLY, interpretive_sharpening: amendments/2026-08-08-B1-no-forced-unity-sharpening.md}
+  - {id: "B2", title: PRICE THE COALITION IN BELIEFS, file: B2-price-the-coalition-in-beliefs.md, family: B, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/2026-08-08-owner-deed-decisions-v3-in-progress.yaml, candidate_status: R, interpretive_sharpening: amendments/2026-08-08-B2-coalition-belief-sharpening.md}
   - id: "B3"
     title: ASSESS THE PERSON AS MATERIAL
     file: B3-assess-the-person-as-material.md
     family: B
     status: CANONICAL_DRAFT
-    ratification: PENDING_OWNER_RATIFICATION
+    ratification: OWNER_RATIFIED_BY_RECORD
+    ratification_record: ../ratification/2026-08-08-owner-deed-decisions-v3-in-progress.yaml
     candidate_status: R
     gate: conduct file of dated instances required before any entry (keel principle 5)
-    amendment_pending:
-      id: capacity-pricing
-      date: 2026-08-06
-      status: CANONICAL_DRAFT_PENDING_OWNER_RATIFICATION
-      ref: amendments/2026-08-06-session-sharpenings.md
-  - {id: "B4", title: LOCATE THE SEAM, file: B4-locate-the-seam.md, family: B, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
-  - {id: "B6", title: SET THE QUANTUM AND THE CLOCK, file: B6-set-the-quantum-and-the-clock.md, family: B, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
-  - {id: "B7", title: REFUSE THE FALSE SCALE, file: B7-refuse-the-false-scale.md, family: B, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: RESOLVED_FROM_EXTENDED_TEST}
+    interpretive_sharpening:
+      id: TAL-DEED-B3-SHARP-001
+      ref: ../ratification/2026-08-08-B3-capacity-pricing-ratification.yaml
+  - {id: "B4", title: LOCATE THE SEAM, file: B4-locate-the-seam.md, family: B, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/2026-08-08-owner-deed-decisions-v3-in-progress.yaml, candidate_status: R, interpretive_sharpening: amendments/2026-08-08-B4-evidenced-seam-sharpening.md}
+  - {id: "B6", title: SET THE QUANTUM AND THE CLOCK, file: B6-set-the-quantum-and-the-clock.md, family: B, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/2026-08-08-owner-deed-decisions-v3-in-progress.yaml, candidate_status: R, interpretive_sharpening: amendments/2026-08-08-B6-quantum-clock-sharpening.md}
+  - {id: "B7", title: REFUSE THE FALSE SCALE, file: B7-refuse-the-false-scale.md, family: B, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/2026-08-08-owner-deed-decisions-v3-in-progress.yaml, candidate_status: RESOLVED_FROM_EXTENDED_TEST, interpretive_sharpening: amendments/2026-08-08-B7-causal-scale-sharpening.md}
   - {id: "C1", title: DISSOLVE THE GIVEN WITH THEIR OWN FIXED FACT, file: C1-dissolve-the-given-with-their-own-fixed-fact.md, family: C, status: CANONICAL, ratification: OWNER_RATIFIED, candidate_status: R, note: "the prototype on which the keel's standard was settled"}
-  - {id: "C2", title: STRIKE THE SMALLEST LEVER THAT REACHES THE CENTER, file: C2-strike-the-smallest-lever-that-reaches-the-center.md, family: C, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
   - {id: "C3", title: BORROW THE HAND, file: C3-borrow-the-hand.md, family: C, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
   - {id: "C4", title: MOVE IT ONTO PAPER, file: C4-move-it-onto-paper.md, family: C, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
   - {id: "C7", title: DECLARE IN DAYLIGHT, file: C7-declare-in-daylight.md, family: C, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: "R, externally supported"}
@@ -63,7 +63,9 @@ families:
   D: THE PRINCIPAL - his own side of the table
 candidate_resolution:
   source: resolutions/2026-08-08-post-vienna-candidate-resolution.md
-  owner_removal_record: ../ratification/2026-08-08-owner-removal-A5.yaml
+  owner_removal_records:
+    A5: ../ratification/2026-08-08-owner-removal-A5.yaml
+    C2: ../ratification/2026-08-08-owner-removal-C2.yaml
   preserved_unresolved:
     C5: CANDIDATE_HT_HOLD
     C6: CANDIDATE_HT_HOLD
@@ -76,6 +78,7 @@ candidate_resolution:
     D1: principal-capture formulation conflicts with Louis XVIII independent agency
   owner_removed_deeds:
     A5: removed from the live corpus and future ratification scope by repository owner directive
+    C2: removed from the live corpus and future ratification scope by repository owner directive
   held_out: [H1, H2, H3, H4]
   law: >-
     Candidates have no authority. No unresolved, absorbed, held-out, retired, or
@@ -86,16 +89,18 @@ open_consolidation_questions:
   register: ../candidates/deed-candidates.md
   items:
     - Are A1, A2, A3 one deed with three materials, or three deeds?
-    - Do C1, C2, C3 form a braid frequently executed as one stroke?
-    - Is C8 a compound of A1 and C2 in sequence, or its own move?
     - Is the displaced man a mode of B4 or a deed of its own?
+  retired_by_owner_removal:
+    - The former C1/C2/C3 braid question is nonoperative because C2 is owner-removed.
+    - The former question whether C8 compounds A1 and C2 is nonoperative because C2 is owner-removed.
   governing_principle: >-
     These questions no longer block a bounded operational interface. The current
     deed distinctions remain open to later correction after further corpus work.
 amendments:
-  pending_record: amendments/2026-08-06-session-sharpenings.md
-  pending_items:
-    - B3 capacity-pricing requirement
+  historical_record: amendments/2026-08-06-session-sharpenings.md
+  owner_ratified_B3_component:
+    id: TAL-DEED-B3-SHARP-001
+    ref: ../ratification/2026-08-08-B3-capacity-pricing-ratification.yaml
   adopted_discovery_sharpening:
     component: discovery protocol precondition 1 - language-tier parity and frozen board
     host: TAL-DISCOVERY-001
