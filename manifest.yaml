@@ -1,6 +1,6 @@
 schema_version: 1.0
 record_type: talleyrand_house_manifest
-version: 1.22.0
+version: 1.23.0
 identity:
   house: talleyrand
   minister_id: talleyrand
@@ -24,8 +24,8 @@ sanctum_contract:
   registry_ref: registry/ministers.yaml (future_repositories)
   admission_condition: >-
     A committed manifest, after the corpus, method, safeguards, and the house's
-    interface exist. The hub receives only attributable ministerial records
-    through the common contract; the corpus stays here.
+    interface exist. The hub receives only attributable ministerial records through
+    the common contract; the corpus stays here.
   runtime_rule: >-
     Runtime is Sanctum's rounds only (keel principle 8). No freelance prototypes.
     NOT_OPERATIONAL means not run.
@@ -35,6 +35,9 @@ ratification:
   keel_amendment_connected_boards_record: amendments/2026-08-08-connected-boards-keel-amendment.md
   house_method_deep_analysis: OWNER_RATIFIED
   house_method_deep_analysis_record: method/deep-analysis-rule.yaml
+  discovery_protocol: OWNER_RATIFIED_BY_RECORD
+  discovery_protocol_record: ratification/2026-08-08-owner-decisions-in-progress.yaml
+  live_owner_ratifications: ratification/live-owner-ratifications.yaml
   deed_C1: OWNER_RATIFIED
   deed_0_connected_boards: OWNER_RATIFIED_BY_RECORD
   deed_A1: OWNER_RATIFIED_BY_RECORD
@@ -43,8 +46,6 @@ ratification:
   deed_A2_sharpening_record: deeds/amendments/2026-08-08-A2-deep-understanding-sharpening.md
   deed_A3: OWNER_RATIFIED_BY_RECORD_UNDER_DEEP_ANALYSIS_RULE
   deed_A4: OWNER_RATIFIED_BY_RECORD_UNDER_DEEP_ANALYSIS_RULE
-  deed_A5: OWNER_REMOVED_FROM_LIVE_CORPUS
-  deed_A5_removal_record: ratification/2026-08-08-owner-removal-A5.yaml
   deed_B1: OWNER_RATIFIED_BY_RECORD_WITH_INTERPRETIVE_SHARPENING
   deed_B1_sharpening: OWNER_RATIFIED
   deed_B1_sharpening_record: deeds/amendments/2026-08-08-B1-no-forced-unity-sharpening.md
@@ -64,28 +65,19 @@ ratification:
   deed_B7: OWNER_RATIFIED_BY_RECORD_WITH_INTERPRETIVE_SHARPENING
   deed_B7_sharpening: OWNER_RATIFIED
   deed_B7_sharpening_record: deeds/amendments/2026-08-08-B7-causal-scale-sharpening.md
-  deed_C2: OWNER_REMOVED_FROM_LIVE_CORPUS
-  deed_C2_removal_record: ratification/2026-08-08-owner-removal-C2.yaml
-  prior_deed_owner_decision_record: ratification/2026-08-08-owner-deed-decisions-v3-in-progress.yaml
-  active_deed_owner_decision_record: NONE_PENDING_NEXT_OWNER_RULING
-  deed_corpus_2_3: ACTIVE_POST_A5_C2_OWNER_REMOVALS
-  discovery_protocol: OWNER_RATIFIED_BY_RECORD
-  discovery_protocol_record: ratification/2026-08-08-owner-decisions-in-progress.yaml
+  deed_corpus_2_4: ACTIVE_LIVE_ONLY
   owner_review_dossier: OWNER_REVIEW_IN_PROGRESS
-  owner_review_dossier_id: TAL-RAT-DOSSIER-2026-08-08-004
-  predecessor_owner_review_dossier: TAL-RAT-DOSSIER-2026-08-08-003
+  owner_review_dossier_id: TAL-RAT-DOSSIER-2026-08-08-005
   counterfeit_registry: LIVING - ratified as keel principle 3
   candidates: WORKING_FILE - not deeds, no authority
   vienna_reading: LETTERS_I_XXV_READ_AND_COMPILED - extended candidate test complete
   high_value_corroboration: RECORDED_UNDER_TAL-DISCOVERY-001
-  candidate_resolution: COMMITTED_WITH_OWNER_REMOVALS_A5_C2
   voice_license: READY_FOR_OWNER_RULING - TAL-VOICE-PIN-001 verified, voice not granted
   findings: NONE
 load_order:
   note: >-
-    What this house contributes to its own segment of a run, and in what order.
-    The hub's versioned assembly-spec governs segment order. Owner-removed deeds
-    are not loadable.
+    Only records in the current live deed index may load as deeds. Superseded review
+    material is historical and has no place in the live deed surface.
   records:
     - manifest.yaml
     - keel.md
@@ -94,7 +86,8 @@ load_order:
     - method/deep-analysis-rule.yaml
     - counterfeits/registry.md
     - deeds/index.yaml
-    - deeds/ in index order
+    - deeds/ in live index order
+    - ratification/live-owner-ratifications.yaml
     - deeds/amendments/2026-08-08-A2-deep-understanding-sharpening.md with A2
     - deeds/amendments/2026-08-08-B1-no-forced-unity-sharpening.md with B1
     - deeds/amendments/2026-08-08-B2-coalition-belief-sharpening.md with B2
@@ -111,7 +104,8 @@ records:
   discovery_contract: contracts/discovery-record.schema.json
   discovery_validator: discovery_protocol.py
   deeds: deeds/index.yaml
-  deed_resolution: deeds/resolutions/2026-08-08-post-vienna-candidate-resolution.md
+  deed_resolution: deeds/resolutions/live-candidate-resolution.md
+  live_owner_ratifications: ratification/live-owner-ratifications.yaml
   deed_A2_interpretive_sharpening: deeds/amendments/2026-08-08-A2-deep-understanding-sharpening.md
   deed_B1_interpretive_sharpening: deeds/amendments/2026-08-08-B1-no-forced-unity-sharpening.md
   deed_B2_interpretive_sharpening: deeds/amendments/2026-08-08-B2-coalition-belief-sharpening.md
@@ -120,26 +114,14 @@ records:
   deed_B4_interpretive_sharpening: deeds/amendments/2026-08-08-B4-evidenced-seam-sharpening.md
   deed_B6_interpretive_sharpening: deeds/amendments/2026-08-08-B6-quantum-clock-sharpening.md
   deed_B7_interpretive_sharpening: deeds/amendments/2026-08-08-B7-causal-scale-sharpening.md
-  deed_A5_owner_removal: ratification/2026-08-08-owner-removal-A5.yaml
-  deed_C2_owner_removal: ratification/2026-08-08-owner-removal-C2.yaml
   deed_validator: deed_corpus.py
-  owner_ratification_dossier_active: ratification/2026-08-08-owner-review-dossier-v4.yaml
-  owner_ratification_dossier_predecessor: ratification/2026-08-08-owner-review-dossier-v3.yaml
-  owner_ratification_dossier_v2: ratification/2026-08-08-owner-review-dossier-v2.yaml
-  owner_ratification_dossier_legacy: ratification/2026-08-08-owner-review-dossier.yaml
-  owner_ratification_template_active: ratification/owner-decision.v4.template.yaml
-  prior_owner_deed_decision_record: ratification/2026-08-08-owner-deed-decisions-v3-in-progress.yaml
-  prior_discovery_ratification_record: ratification/2026-08-08-owner-decisions-in-progress.yaml
+  owner_ratification_dossier_active: ratification/2026-08-08-owner-review-dossier-v5.yaml
+  owner_ratification_template_active: ratification/owner-decision.v5.template.yaml
   owner_ratification_guard: ratification_guard.py
-  historical_deed_0_draft: deeds/00-see-one-board.md
-  active_deed_0_draft: deeds/00-see-the-connected-boards.md
   counterfeits: counterfeits/registry.md
   corpus: corpus/index.yaml
   studies: studies/vienna-correspondence/README.md
-  extended_vienna_flow: studies/vienna-correspondence/7-flow-of-action-letters-X-XXV.md
-  extended_candidate_test: studies/vienna-correspondence/8-candidate-test-letters-X-XXV.md
   high_value_discovery_record: studies/vienna-correspondence/9-high-value-discovery-record.yaml
-  post_discovery_dispositions: studies/vienna-correspondence/10-post-discovery-candidate-dispositions.md
   candidates: candidates/deed-candidates.md
   voice: speech/voice-license.yaml
   voice_page_pin: speech/page-pins/TAL-VOICE-PIN-001.yaml
@@ -149,6 +131,8 @@ records:
   first_sailing: memory_talleyrand/first-sailing.md
 safeguards:
   - no_self_certification
+  - only_live_indexed_deeds_may_load
+  - superseded_review_surfaces_are_historical_only
   - deed_is_one_act_of_writing
   - verdict_is_the_terminus_of_a_cited_chain
   - discovery_provenance_and_channel_visible_before_action
@@ -161,13 +145,9 @@ safeguards:
   - conflicting_participant_accounts_remain_visible
   - unresolved_candidates_cannot_enter_deed_load_order
   - retired_candidates_cannot_enter_deed_load_order
-  - owner_removed_deeds_cannot_enter_deed_load_order
-  - owner_removed_deeds_cannot_reenter_ratification_scope_without_new_owner_act
   - ratification_dossier_freezes_exact_git_blobs
   - ratification_dossier_has_no_authority_by_itself
   - excluded_candidates_cannot_enter_owner_ratification_scope
-  - predecessor_ratification_surfaces_are_preserved
-  - prior_owner_ratifications_survive_dossier_supersession
   - owner_ratified_interpretive_sharpenings_are_blob_bound
   - deep_analysis_precedes_every_inference
   - no_surface_sign_is_self_interpreting
@@ -176,8 +156,6 @@ safeguards:
   - proximity_or_simultaneity_is_not_connection
   - newly_suspected_connection_returns_across_horus_boundary
   - uncontrolled_consequence_requires_deep_reconstruction_before_inference
-  - involuntary_names_evidentiary_disclosure_not_merely_bodily_reflex
-  - deliberate_action_may_have_unintended_evidentiary_consequence
   - casual_psychologizing_is_prohibited
   - silence_has_no_fixed_meaning
   - expected_speech_must_be_grounded
@@ -231,8 +209,8 @@ open_questions:
   count: 5
   ref: studies/vienna-correspondence/4-open-questions.md
   standing: >-
-    Q-1, Q-2, Q-4, and Q-5 remain open; Q-3 is narrowed but not closed. Q-2
-    bars any deed from assigning Talleyrand sole doctrinal paternity over Louis XVIII.
+    Q-1, Q-2, Q-4, and Q-5 remain open; Q-3 is narrowed but not closed. Q-2 bars
+    any deed from assigning Talleyrand sole doctrinal paternity over Louis XVIII.
     Unresolved questions are positive results and do not block bounded operational use.
 source_state:
   quotation_grade_ground: ACQUIRED_WITH_ONE_VERIFIED_PAGE_PIN
@@ -243,22 +221,18 @@ source_state:
   british_primary_witnesses: [TAL-SRC-007, TAL-SRC-008]
   french_reading_state: LETTERS_X_XXV_READ_AND_COMPILED
   consequence: >-
-    One historical formulation is now page-pinned. This does not upgrade every [V]
-    finding, certify a speech corpus, or release generalized voice imitation.
+    One historical formulation is page-pinned. This does not upgrade every finding,
+    certify a speech corpus, or release generalized voice imitation.
 deed_corpus_state:
-  version: 2.3.0
+  version: 2.4.0
   indexed_deeds: 20
   effective_owner_ratified_deeds: ["0", A1, A2, A3, A4, B1, B2, B3, B4, B6, B7, C1]
   effective_owner_ratified_count: 12
   effective_pending_deed_rulings: 8
-  owner_removed_deeds: [A5, C2]
-  owner_removal_records:
-    A5: ratification/2026-08-08-owner-removal-A5.yaml
-    C2: ratification/2026-08-08-owner-removal-C2.yaml
+  authority_record: ratification/live-owner-ratifications.yaml
   index_note: >-
-    Corpus 2.3 is the active post-removal surface. A5 and C2 are absent from the live
-    tree, excluded from ratification, and recoverable only through Git history. Dossier
-    v4 carries all prior owner ratifications forward without reopening them.
+    This is a live-only surface. A deed not present in the current index is not part
+    of the working corpus, active review scope, or runtime load order.
   deed_0_active: SEE THE CONNECTED BOARDS
   deed_0_owner_decision: RATIFY
   deed_A1_owner_decision: RATIFY
@@ -268,7 +242,6 @@ deed_corpus_state:
   deed_A3_governing_method: TAL-METHOD-DEEP-ANALYSIS-001
   deed_A4_owner_decision: RATIFY
   deed_A4_governing_method: TAL-METHOD-DEEP-ANALYSIS-001
-  deed_A5_disposition: OWNER_REMOVED
   deed_B1_owner_decision: RATIFY
   deed_B1_owner_sharpening: TAL-DEED-B1-SHARP-001
   deed_B2_owner_decision: RATIFY
@@ -282,9 +255,6 @@ deed_corpus_state:
   deed_B6_owner_sharpening: TAL-DEED-B6-SHARP-001
   deed_B7_owner_decision: RATIFY
   deed_B7_owner_sharpening: TAL-DEED-B7-SHARP-001
-  deed_C2_disposition: OWNER_REMOVED
-  prior_deed_owner_decision_record: ratification/2026-08-08-owner-deed-decisions-v3-in-progress.yaml
-  deed_0_historical_draft_preserved: SEE ONE BOARD
   new_resolved_drafts: [A4, B1, B7]
   unresolved_ore: [C5, C6]
   absorbed_not_drafted: [A6, B5, C9]
@@ -292,12 +262,10 @@ deed_corpus_state:
   structural_validator: deed_corpus.py
   structural_pass_is_not_truth_certification: true
 ratification_review_state:
-  dossier_id: TAL-RAT-DOSSIER-2026-08-08-004
-  dossier: ratification/2026-08-08-owner-review-dossier-v4.yaml
-  predecessor_dossier: ratification/2026-08-08-owner-review-dossier-v3.yaml
-  decision_template: ratification/owner-decision.v4.template.yaml
+  dossier_id: TAL-RAT-DOSSIER-2026-08-08-005
+  dossier: ratification/2026-08-08-owner-review-dossier-v5.yaml
+  decision_template: ratification/owner-decision.v5.template.yaml
   active_decision_record: null
-  predecessor_decision_record: ratification/2026-08-08-owner-deed-decisions-v3-in-progress.yaml
   validator: ratification_guard.py
   status: OWNER_REVIEW_IN_PROGRESS
   carried_forward_owner_ratified_deeds: ["0", A1, A2, A3, A4, B1, B2, B3, B4, B6, B7, C1]
@@ -305,7 +273,6 @@ ratification_review_state:
   owner_ratified_keel_amendment_not_a_deed_ruling: [TAL-KEEL-AMD-001]
   owner_ratified_house_method_rules: [TAL-METHOD-DEEP-ANALYSIS-001]
   owner_ratified_deed_sharpenings: [TAL-DEED-A2-SHARP-001, TAL-DEED-B1-SHARP-001, TAL-DEED-B2-SHARP-001, TAL-DEED-B3-SHARP-001, TAL-DEED-B4-SHARP-001, TAL-DEED-B6-SHARP-001, TAL-DEED-B7-SHARP-001]
-  owner_removed_deeds: [A5, C2]
   owner_ratified_deeds_this_cycle: []
   pending_deed_units: 8
   next_pending_deed: C3
@@ -328,8 +295,7 @@ next_required_actions:
   - id: TAL-NEXT-001
     action: >-
       Continue substantive owner review of the 8 remaining live pending deeds against
-      ratification/2026-08-08-owner-review-dossier-v4.yaml. All prior ratified deeds are
-      carried forward unchanged. A5 and C2 are owner-removed. C3 is the next pending deed.
+      ratification/2026-08-08-owner-review-dossier-v5.yaml. C3 is the next pending deed.
   - id: TAL-NEXT-002
     action: >-
       Obtain the owner's explicit ruling on the scope of the voice license. The only
@@ -338,5 +304,4 @@ next_required_actions:
   - id: TAL-NEXT-003
     action: >-
       Build and validate the sovereign minister interface only from the owner-ratified
-      deed set, with unresolved ore, owner-removed deeds, and unlicensed voice explicitly
-      excluded from runtime.
+      live deed set, with unresolved ore and unlicensed voice excluded from runtime.

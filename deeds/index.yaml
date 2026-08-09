@@ -1,15 +1,12 @@
 record_type: talleyrand_deed_index
 house: talleyrand
-version: 2.3.0
-corpus: DEED CORPUS 2.3 AFTER OWNER REMOVAL OF A5 AND C2
+version: 2.4.0
+corpus: DEED CORPUS 2.4 LIVE-ONLY
 governing_keel: keel.md
 governing_keel_amendments:
   - ../amendments/2026-08-08-connected-boards-keel-amendment.md
 counterfeit_registry: ../counterfeits/registry.md
-resolution_record: resolutions/2026-08-08-post-vienna-candidate-resolution.md
-owner_removal_records:
-  - ../ratification/2026-08-08-owner-removal-A5.yaml
-  - ../ratification/2026-08-08-owner-removal-C2.yaml
+resolution_record: resolutions/live-candidate-resolution.md
 status:
   corpus: CANONICAL_DRAFT
   ratification: PER_DEED_BY_OWNER
@@ -22,30 +19,30 @@ counts:
 load_order_rule: >-
   Deed 0 loads first: it is the precondition, not a stroke. The remainder load in
   family order A, B, C, D. Each deed is one act of writing; a deed that exists as
-  notes is not that deed. Owner-removed deeds do not load.
+  notes is not that deed. Only deeds present in this live index may load.
 deeds:
-  - {id: "0", title: SEE THE CONNECTED BOARDS, file: 00-see-the-connected-boards.md, family: precondition, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/2026-08-08-owner-deed-decisions-v2-in-progress.yaml, candidate_status: REVISED_UNDER_TAL-KEEL-AMD-001_OWNER_RATIFIED}
-  - {id: "A1", title: READ THE DESIGNED WORD, file: A1-read-the-designed-word.md, family: A, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/2026-08-08-owner-deed-decisions-v2-in-progress.yaml, candidate_status: R}
-  - {id: "A2", title: READ THE INVOLUNTARY, file: A2-read-the-involuntary.md, family: A, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/2026-08-08-owner-deed-decisions-v2-in-progress.yaml, candidate_status: R, interpretive_sharpening: amendments/2026-08-08-A2-deep-understanding-sharpening.md}
-  - {id: "A3", title: READ THE SILENCE AS POSITION, file: A3-read-the-silence-as-position.md, family: A, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/2026-08-08-owner-deed-decisions-v2-in-progress.yaml, candidate_status: R, governing_method: ../method/deep-analysis-rule.yaml}
-  - {id: "A4", title: READ THE DOCUMENT BY ITS TRUE AUDIENCE, file: A4-read-the-document-by-its-true-audience.md, family: A, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/2026-08-08-owner-deed-decisions-v2-in-progress.yaml, candidate_status: RESOLVED_FROM_EXTENDED_TEST, governing_method: ../method/deep-analysis-rule.yaml}
-  - {id: "B1", title: RECOVER THE DESIGN FROM FRAGMENTS, file: B1-recover-the-design-from-fragments.md, family: B, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/2026-08-08-owner-deed-decisions-v3-in-progress.yaml, candidate_status: PARTIALLY_CORROBORATED_BOUNDED_ONLY, interpretive_sharpening: amendments/2026-08-08-B1-no-forced-unity-sharpening.md}
-  - {id: "B2", title: PRICE THE COALITION IN BELIEFS, file: B2-price-the-coalition-in-beliefs.md, family: B, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/2026-08-08-owner-deed-decisions-v3-in-progress.yaml, candidate_status: R, interpretive_sharpening: amendments/2026-08-08-B2-coalition-belief-sharpening.md}
+  - {id: "0", title: SEE THE CONNECTED BOARDS, file: 00-see-the-connected-boards.md, family: precondition, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/live-owner-ratifications.yaml, candidate_status: REVISED_UNDER_TAL-KEEL-AMD-001_OWNER_RATIFIED}
+  - {id: "A1", title: READ THE DESIGNED WORD, file: A1-read-the-designed-word.md, family: A, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/live-owner-ratifications.yaml, candidate_status: R}
+  - {id: "A2", title: READ THE INVOLUNTARY, file: A2-read-the-involuntary.md, family: A, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/live-owner-ratifications.yaml, candidate_status: R, interpretive_sharpening: amendments/2026-08-08-A2-deep-understanding-sharpening.md}
+  - {id: "A3", title: READ THE SILENCE AS POSITION, file: A3-read-the-silence-as-position.md, family: A, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/live-owner-ratifications.yaml, candidate_status: R, governing_method: ../method/deep-analysis-rule.yaml}
+  - {id: "A4", title: READ THE DOCUMENT BY ITS TRUE AUDIENCE, file: A4-read-the-document-by-its-true-audience.md, family: A, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/live-owner-ratifications.yaml, candidate_status: RESOLVED_FROM_EXTENDED_TEST, governing_method: ../method/deep-analysis-rule.yaml}
+  - {id: "B1", title: RECOVER THE DESIGN FROM FRAGMENTS, file: B1-recover-the-design-from-fragments.md, family: B, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/live-owner-ratifications.yaml, candidate_status: PARTIALLY_CORROBORATED_BOUNDED_ONLY, interpretive_sharpening: amendments/2026-08-08-B1-no-forced-unity-sharpening.md}
+  - {id: "B2", title: PRICE THE COALITION IN BELIEFS, file: B2-price-the-coalition-in-beliefs.md, family: B, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/live-owner-ratifications.yaml, candidate_status: R, interpretive_sharpening: amendments/2026-08-08-B2-coalition-belief-sharpening.md}
   - id: "B3"
     title: ASSESS THE PERSON AS MATERIAL
     file: B3-assess-the-person-as-material.md
     family: B
     status: CANONICAL_DRAFT
     ratification: OWNER_RATIFIED_BY_RECORD
-    ratification_record: ../ratification/2026-08-08-owner-deed-decisions-v3-in-progress.yaml
+    ratification_record: ../ratification/live-owner-ratifications.yaml
     candidate_status: R
     gate: conduct file of dated instances required before any entry (keel principle 5)
     interpretive_sharpening:
       id: TAL-DEED-B3-SHARP-001
       ref: ../ratification/2026-08-08-B3-capacity-pricing-ratification.yaml
-  - {id: "B4", title: LOCATE THE SEAM, file: B4-locate-the-seam.md, family: B, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/2026-08-08-owner-deed-decisions-v3-in-progress.yaml, candidate_status: R, interpretive_sharpening: amendments/2026-08-08-B4-evidenced-seam-sharpening.md}
-  - {id: "B6", title: SET THE QUANTUM AND THE CLOCK, file: B6-set-the-quantum-and-the-clock.md, family: B, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/2026-08-08-owner-deed-decisions-v3-in-progress.yaml, candidate_status: R, interpretive_sharpening: amendments/2026-08-08-B6-quantum-clock-sharpening.md}
-  - {id: "B7", title: REFUSE THE FALSE SCALE, file: B7-refuse-the-false-scale.md, family: B, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/2026-08-08-owner-deed-decisions-v3-in-progress.yaml, candidate_status: RESOLVED_FROM_EXTENDED_TEST, interpretive_sharpening: amendments/2026-08-08-B7-causal-scale-sharpening.md}
+  - {id: "B4", title: LOCATE THE SEAM, file: B4-locate-the-seam.md, family: B, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/live-owner-ratifications.yaml, candidate_status: R, interpretive_sharpening: amendments/2026-08-08-B4-evidenced-seam-sharpening.md}
+  - {id: "B6", title: SET THE QUANTUM AND THE CLOCK, file: B6-set-the-quantum-and-the-clock.md, family: B, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/live-owner-ratifications.yaml, candidate_status: R, interpretive_sharpening: amendments/2026-08-08-B6-quantum-clock-sharpening.md}
+  - {id: "B7", title: REFUSE THE FALSE SCALE, file: B7-refuse-the-false-scale.md, family: B, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/live-owner-ratifications.yaml, candidate_status: RESOLVED_FROM_EXTENDED_TEST, interpretive_sharpening: amendments/2026-08-08-B7-causal-scale-sharpening.md}
   - {id: "C1", title: DISSOLVE THE GIVEN WITH THEIR OWN FIXED FACT, file: C1-dissolve-the-given-with-their-own-fixed-fact.md, family: C, status: CANONICAL, ratification: OWNER_RATIFIED, candidate_status: R, note: "the prototype on which the keel's standard was settled"}
   - {id: "C3", title: BORROW THE HAND, file: C3-borrow-the-hand.md, family: C, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
   - {id: "C4", title: MOVE IT ONTO PAPER, file: C4-move-it-onto-paper.md, family: C, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
@@ -62,37 +59,28 @@ families:
   C: THE STROKE
   D: THE PRINCIPAL - his own side of the table
 candidate_resolution:
-  source: resolutions/2026-08-08-post-vienna-candidate-resolution.md
-  owner_removal_records:
-    A5: ../ratification/2026-08-08-owner-removal-A5.yaml
-    C2: ../ratification/2026-08-08-owner-removal-C2.yaml
+  source: resolutions/live-candidate-resolution.md
   preserved_unresolved:
     C5: CANDIDATE_HT_HOLD
     C6: CANDIDATE_HT_HOLD
   absorbed_not_drafted:
-    A6: absorbed into B4; the former A5 host was removed by owner directive
+    A6: absorbed into B4
     B5: absorbed into bounded B1 plus TAL-DISCOVERY-001
     C9: absorbed into revised Deed 0 plus existing execution deeds
   retired_current_formulations:
     C10: one-way conversion account contradicted by independent participant evidence
     D1: principal-capture formulation conflicts with Louis XVIII independent agency
-  owner_removed_deeds:
-    A5: removed from the live corpus and future ratification scope by repository owner directive
-    C2: removed from the live corpus and future ratification scope by repository owner directive
   held_out: [H1, H2, H3, H4]
   law: >-
-    Candidates have no authority. No unresolved, absorbed, held-out, retired, or
-    owner-removed item may enter runtime as a deed merely because it remains in
-    repository history or historical ore.
+    Candidates have no authority. No unresolved, absorbed, held-out, or retired item
+    may enter runtime as a deed merely because it remains in repository history or
+    historical ore.
 open_consolidation_questions:
   status: NON_BLOCKING_OPEN_RESEARCH
   register: ../candidates/deed-candidates.md
   items:
     - Are A1, A2, A3 one deed with three materials, or three deeds?
     - Is the displaced man a mode of B4 or a deed of its own?
-  retired_by_owner_removal:
-    - The former C1/C2/C3 braid question is nonoperative because C2 is owner-removed.
-    - The former question whether C8 compounds A1 and C2 is nonoperative because C2 is owner-removed.
   governing_principle: >-
     These questions no longer block a bounded operational interface. The current
     deed distinctions remain open to later correction after further corpus work.

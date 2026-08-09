@@ -1,16 +1,20 @@
 #!/usr/bin/env python3
-"""Structural validation for the Talleyrand deed corpus.
+"""Structural validation for the live Talleyrand deed corpus.
 
-This validates repository identity, load-order records, file/frontmatter binding,
-and exclusion of unresolved/retired/owner-removed candidates. It does not certify
-historical truth, wisdom, or completeness.
+The live index contains only extant deeds. Historical and superseded material is not
+part of the live deed surface. This guard validates identity, load order, file and
+frontmatter binding, live ratification authority, and exclusion of unresolved,
+absorbed, retired, or held-out candidates. It does not certify historical truth,
+wisdom, or completeness.
 """
 from __future__ import annotations
 
+import hashlib
 from pathlib import Path
 import yaml
 
 PASS_STATUS = "STRUCTURAL_DEED_CORPUS_PASS_NOT_TRUTH_CERTIFICATION"
+LIVE_RATIFICATION_RECORD = Path("ratification/live-owner-ratifications.yaml")
 
 
 class DeedCorpusError(ValueError):
@@ -32,30 +36,65 @@ def _frontmatter(path: Path) -> dict:
     return data
 
 
+def _git_blob_sha1(path: Path) -> str:
+    data = path.read_bytes()
+    return hashlib.sha1(f"blob {len(data)}\0".encode("ascii") + data).hexdigest()
+
+
+def _validate_live_ratification_record(root: Path, expected_ratified: set[str]) -> None:
+    path = root / LIVE_RATIFICATION_RECORD
+    _require(path.is_file(), "live owner-ratification record missing")
+    record = yaml.safe_load(path.read_text(encoding="utf-8"))
+    _require(record.get("record_type") == "talleyrand_live_owner_ratification_index", "wrong live ratification record_type")
+    _require(record.get("id") == "TAL-RAT-LIVE-001", "wrong live ratification id")
+    _require(record.get("status") == "ACTIVE_CARRY_FORWARD", "live ratification record is not active")
+    _require(record.get("self_certification") == "PROHIBITED", "live ratification record lost self-certification prohibition")
+
+    decisions = record.get("deed_decisions")
+    _require(isinstance(decisions, list), "live ratification decisions missing")
+    ids = {str(item.get("id")) for item in decisions}
+    _require(ids == expected_ratified, "live ratification record does not exactly match ratified live deeds")
+    for item in decisions:
+        did = str(item.get("id"))
+        _require(item.get("decision") == "RATIFY", f"{did}: live authority is not RATIFY")
+        rel = item.get("path")
+        _require(isinstance(rel, str) and rel, f"{did}: live authority path missing")
+        deed_path = root / rel
+        _require(deed_path.is_file(), f"{did}: live authority deed file missing")
+        _require(_git_blob_sha1(deed_path) == item.get("git_blob_sha1"), f"{did}: live authority blob binding changed")
+
+    bindings = record.get("interpretive_bindings") or []
+    _require(isinstance(bindings, list), "live interpretive bindings must be a list")
+    for binding in bindings:
+        rel = binding.get("path")
+        expected = binding.get("git_blob_sha1")
+        _require(isinstance(rel, str) and rel, "interpretive binding path missing")
+        bound = root / rel
+        _require(bound.is_file(), f"interpretive binding missing: {rel}")
+        _require(_git_blob_sha1(bound) == expected, f"interpretive binding changed: {rel}")
+
+
 def validate_deed_corpus(root: str | Path = ".") -> dict:
     root = Path(root)
     index_path = root / "deeds/index.yaml"
     _require(index_path.is_file(), "deeds/index.yaml missing")
     index = yaml.safe_load(index_path.read_text(encoding="utf-8"))
     _require(index.get("record_type") == "talleyrand_deed_index", "wrong deed index record_type")
-    _require(index.get("version") == "2.3.0", "live deed index must be version 2.3.0")
+    _require(index.get("version") == "2.4.0", "live deed index must be version 2.4.0")
+    _require(index.get("corpus") == "DEED CORPUS 2.4 LIVE-ONLY", "live deed corpus label changed")
+    _require("owner_removal_records" not in index, "historical removal records re-entered live index")
+
     deeds = index.get("deeds")
     _require(isinstance(deeds, list) and deeds, "deed index must contain deeds")
-
     ids = [str(d.get("id")) for d in deeds]
     files = [d.get("file") for d in deeds]
     _require(len(ids) == len(set(ids)), "duplicate deed id")
     _require(len(files) == len(set(files)), "duplicate deed file")
     _require(ids[0] == "0", "Deed 0 must load first")
-    _require(not {"A5", "C2"}.intersection(ids), "owner-removed deed re-entered live deed corpus")
 
     counts = index.get("counts", {})
-    owner_ratified = sum(
-        1 for d in deeds if d.get("ratification") in {"OWNER_RATIFIED", "OWNER_RATIFIED_BY_RECORD"}
-    )
-    pending = sum(
-        1 for d in deeds if d.get("ratification") in {"PENDING_OWNER_RATIFICATION", "PENDING_OWNER_RATIFICATION_PER_DEED"}
-    )
+    owner_ratified = sum(1 for d in deeds if d.get("ratification") in {"OWNER_RATIFIED", "OWNER_RATIFIED_BY_RECORD"})
+    pending = sum(1 for d in deeds if d.get("ratification") in {"PENDING_OWNER_RATIFICATION", "PENDING_OWNER_RATIFICATION_PER_DEED"})
     _require(counts.get("deeds") == len(deeds), "deed count mismatch")
     _require(counts.get("effective_owner_ratified") == owner_ratified, "effective owner-ratified count mismatch")
     _require(counts.get("canonical_draft_pending_ratification") == pending, "pending-ratification count mismatch")
@@ -74,65 +113,35 @@ def validate_deed_corpus(root: str | Path = ".") -> dict:
         expected_rat = entry.get("ratification")
         actual_rat = fm.get("ratification")
         if expected_rat == "OWNER_RATIFIED_BY_RECORD":
-            _require(
-                actual_rat in {"PENDING_OWNER_RATIFICATION", "PENDING_OWNER_RATIFICATION_PER_DEED"},
-                f"{did}: frozen deed frontmatter must remain at its reviewed pending state",
-            )
-            record = entry.get("ratification_record")
-            _require(isinstance(record, str) and record, f"{did}: by-record ratification lacks record")
-            _require((root / "deeds" / record).resolve().is_file(), f"{did}: ratification record missing")
+            _require(actual_rat in {"PENDING_OWNER_RATIFICATION", "PENDING_OWNER_RATIFICATION_PER_DEED"}, f"{did}: frozen deed frontmatter must remain at reviewed pending state")
+            _require(entry.get("ratification_record") == "../ratification/live-owner-ratifications.yaml", f"{did}: live deed points to a superseded ratification surface")
         elif expected_rat == "OWNER_RATIFIED":
             _require(actual_rat == "OWNER_RATIFIED", f"{did}: frontmatter ratification mismatch")
         else:
-            _require(
-                expected_rat in {"PENDING_OWNER_RATIFICATION", "PENDING_OWNER_RATIFICATION_PER_DEED"},
-                f"{did}: unknown ratification state",
-            )
-            _require(
-                actual_rat in {"PENDING_OWNER_RATIFICATION", "PENDING_OWNER_RATIFICATION_PER_DEED"},
-                f"{did}: frontmatter ratification mismatch",
-            )
+            _require(expected_rat in {"PENDING_OWNER_RATIFICATION", "PENDING_OWNER_RATIFICATION_PER_DEED"}, f"{did}: unknown ratification state")
+            _require(actual_rat in {"PENDING_OWNER_RATIFICATION", "PENDING_OWNER_RATIFICATION_PER_DEED"}, f"{did}: frontmatter ratification mismatch")
 
     resolution = index.get("candidate_resolution", {})
+    _require("owner_removed_deeds" not in resolution, "deleted-deed disposition re-entered live candidate resolution")
     excluded = set()
     excluded.update((resolution.get("preserved_unresolved") or {}).keys())
     excluded.update((resolution.get("absorbed_not_drafted") or {}).keys())
     excluded.update((resolution.get("retired_current_formulations") or {}).keys())
-    excluded.update((resolution.get("owner_removed_deeds") or {}).keys())
     excluded.update(resolution.get("held_out") or [])
-    overlap = excluded.intersection(ids)
-    _require(not overlap, f"excluded candidate entered deed corpus: {sorted(overlap)}")
-    _require({"A5", "C2"}.issubset(excluded), "owner-removal disposition missing from exclusions")
-    _require(not (root / "deeds/A5-read-the-ground-beneath-the-table.md").exists(), "A5 file still exists in live tree")
-    _require(not (root / "deeds/C2-strike-the-smallest-lever-that-reaches-the-center.md").exists(), "C2 file still exists in live tree")
+    _require(not excluded.intersection(ids), f"excluded candidate entered deed corpus: {sorted(excluded.intersection(ids))}")
+
+    # The working deed directory must not silently acquire unindexed top-level deeds.
+    indexed_files = {str(x) for x in files}
+    historical_top_level = {"00-see-one-board.md"}
+    discovered = {p.name for p in (root / "deeds").glob("*.md")}
+    _require(discovered == indexed_files | historical_top_level, f"unindexed top-level deed file present: {sorted(discovered - indexed_files - historical_top_level)}")
 
     resolution_source = resolution.get("source")
     _require(isinstance(resolution_source, str) and (root / "deeds" / resolution_source).is_file(), "candidate resolution record missing")
-
-    removal_records = index.get("owner_removal_records")
-    _require(isinstance(removal_records, list) and len(removal_records) == 2, "owner removal record list must contain A5 and C2")
-    expected = {
-        "TAL-DEED-REMOVE-A5-001": ("delete a5", "a089840a1daa38321bb66afcd7f2f11808c72938"),
-        "TAL-DEED-REMOVE-C2-001": ("delete c2", "1b926abd0162e67538c8b4fd00de7ebb495a23bb"),
-    }
-    seen = set()
-    for rel in removal_records:
-        _require(isinstance(rel, str), "owner removal record path must be a string")
-        removal_path = (root / "deeds" / rel).resolve()
-        _require(removal_path.is_file(), f"owner-removal record missing: {rel}")
-        removal = yaml.safe_load(removal_path.read_text(encoding="utf-8"))
-        rid = removal.get("id")
-        _require(rid in expected, f"unexpected owner-removal record: {rid}")
-        directive, historical_blob = expected[rid]
-        _require(removal.get("authority") == "REPOSITORY_OWNER_DIRECTIVE", f"{rid}: removal lacks owner authority")
-        _require(removal.get("owner_directive") == directive, f"{rid}: owner directive not preserved")
-        _require((removal.get("deed") or {}).get("historical_git_blob_sha1") == historical_blob, f"{rid}: historical blob binding changed")
-        _require((removal.get("disposition") or {}).get("future_owner_ratification_scope") == "EXCLUDED", f"{rid}: future ratification exclusion missing")
-        seen.add(rid)
-    _require(seen == set(expected), "owner-removal record set mismatch")
-
     _require((root / "method/discovery-protocol.yaml").is_file(), "discovery protocol missing")
     _require((root / "method/deep-analysis-rule.yaml").is_file(), "deep-analysis rule missing")
+
+    _validate_live_ratification_record(root, {str(d["id"]) for d in deeds if d.get("ratification") in {"OWNER_RATIFIED", "OWNER_RATIFIED_BY_RECORD"}})
 
     return {
         "status": PASS_STATUS,
@@ -140,5 +149,4 @@ def validate_deed_corpus(root: str | Path = ".") -> dict:
         "effective_owner_ratified": owner_ratified,
         "pending_owner_ratification": pending,
         "excluded_candidate_count": len(excluded),
-        "owner_removed_deeds": sorted((resolution.get("owner_removed_deeds") or {}).keys()),
     }
