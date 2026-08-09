@@ -1,0 +1,67 @@
+record_type: talleyrand_house_method_rule
+id: TAL-METHOD-DEEP-ANALYSIS-001
+version: 1.0.0
+date: "2026-08-08"
+status: OWNER_RATIFIED
+authority: REPOSITORY_OWNER_DIRECTIVE
+self_certification: PROHIBITED
+owner_directive: >-
+  In the controlling conversation, while reviewing A3, the repository owner stated:
+  "yes, deep analsis is always necessary". This record preserves that directive as
+  a house-wide method rule. It does not certify historical truth or completeness.
+
+scope:
+  applies_to: all_inference_bearing_deeds
+  includes:
+    - wording
+    - silence
+    - involuntary_or_unintended_consequence
+    - sequence
+    - procedural_choice
+    - persons
+    - coalitions
+    - documents
+    - connected_boards
+
+rule:
+  principle: DEEP_ANALYSIS_PRECEDES_EVERY_INFERENCE
+  statement: >-
+    No surface sign is self-interpreting. Before drawing an inference, reconstruct
+    the relevant whole deeply enough to understand the actors, institutions,
+    interests, commitments, prior conduct, available choices, information positions,
+    constraints, clocks, documentary setting, and materially connected boards.
+    Interpret the sign only inside that reconstruction; keep the inferential chain
+    visible; distinguish what is documented from what is inferred; and keep confidence
+    proportional to the ground.
+  sequence:
+    - reconstruct_the_relevant_whole
+    - identify_the_surface_sign_or_absence
+    - determine_what_the_sign_changes_or_preserves_in_context
+    - test_material_rival_explanations
+    - state_the_strongest_warranted_inference
+    - grade_confidence
+    - design_or_request_a_discriminating_probe_when_needed
+
+application_to_A3:
+  deed: A3
+  deed_title: READ THE SILENCE AS POSITION
+  deed_git_blob_sha1: 066ea8a7680b972ad28ed89f7fa34f5437a43897
+  interpretation: >-
+    Silence has no fixed political meaning. Establish first why speech was expected
+    and reconstruct what speaking would commit, expose, cost, or foreclose and what
+    continued silence would preserve or accomplish. Infer the position from the whole
+    situation rather than from the absence alone. The hypothesis remains provisional
+    at the strength warranted by the ground, and the probe should be chosen so that
+    an answer, refusal, evasion, or continued silence materially updates the inference.
+  prohibitions:
+    - silence_equals_concealment_by_default
+    - absence_equals_nothing_by_default
+    - invented_expectation_of_speech
+    - psychologizing_without_ground
+    - hidden_top_up_of_facts_after_the_board_is_frozen
+
+boundary:
+  - Newly required factual ground remains subject to TAL-DISCOVERY-001.
+  - Newly suspected cross-board connections remain subject to TAL-KEEL-AMD-001 and the Sanctum/Horus boundary.
+  - This rule governs interpretation; it does not itself ratify any deed other than an owner act recorded separately.
+  - It does not grant voice, activate runtime, certify completeness, or establish Talleyrand in Sanctum.
