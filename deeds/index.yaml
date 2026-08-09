@@ -1,8 +1,10 @@
 record_type: talleyrand_deed_index
 house: talleyrand
-version: 2.0.0
-corpus: DEED CORPUS 2.0 ON THE KEEL
+version: 2.1.0
+corpus: DEED CORPUS 2.1 ON THE AMENDED KEEL
 governing_keel: keel.md
+governing_keel_amendments:
+  - ../amendments/2026-08-08-connected-boards-keel-amendment.md
 counterfeit_registry: ../counterfeits/registry.md
 resolution_record: resolutions/2026-08-08-post-vienna-candidate-resolution.md
 status:
@@ -19,7 +21,7 @@ load_order_rule: >-
   family order A, B, C, D. Each deed is one act of writing; a deed that exists as
   notes is not that deed.
 deeds:
-  - {id: "0", title: SEE ONE BOARD, file: 00-see-one-board.md, family: precondition, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
+  - {id: "0", title: SEE THE CONNECTED BOARDS, file: 00-see-the-connected-boards.md, family: precondition, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: REVISED_UNDER_TAL-KEEL-AMD-001_PENDING_OWNER_RATIFICATION}
   - {id: "A1", title: READ THE DESIGNED WORD, file: A1-read-the-designed-word.md, family: A, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
   - {id: "A2", title: READ THE INVOLUNTARY, file: A2-read-the-involuntary.md, family: A, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
   - {id: "A3", title: READ THE SILENCE AS POSITION, file: A3-read-the-silence-as-position.md, family: A, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
@@ -54,7 +56,7 @@ deeds:
   - {id: "D3", title: COUNSEL AGAINST THE INCLINATION, file: D3-counsel-against-the-inclination.md, family: D, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
   - {id: "D4", title: DISCLOSE THE MECHANISM, file: D4-disclose-the-mechanism.md, family: D, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
 families:
-  precondition: the board before the move
+  precondition: distinct boards and their evidenced connections before the move
   A: READING - the surface as testimony
   B: CONSTRUCTION - judgment before the stroke
   C: THE STROKE
@@ -67,7 +69,7 @@ candidate_resolution:
   absorbed_not_drafted:
     A6: absorbed into A5/B4
     B5: absorbed into bounded B1 plus TAL-DISCOVERY-001
-    C9: absorbed into Deed 0 and existing execution deeds
+    C9: absorbed into revised Deed 0 plus existing execution deeds
   retired_current_formulations:
     C10: one-way conversion account contradicted by independent participant evidence
     D1: principal-capture formulation conflicts with Louis XVIII independent agency
@@ -87,13 +89,20 @@ open_consolidation_questions:
     These questions no longer block a bounded operational interface. The current
     deed distinctions remain open to later correction after further corpus work.
 amendments:
-  record: amendments/2026-08-06-session-sharpenings.md
-  date: 2026-08-06
-  status: CANONICAL_DRAFT_PENDING_OWNER_RATIFICATION
-  items:
+  pending_record: amendments/2026-08-06-session-sharpenings.md
+  pending_items:
     - B3 capacity-pricing requirement
-    - discovery protocol precondition 1 - language-tier parity, and the board speaks before the minister reads
+  adopted_discovery_sharpening:
+    component: discovery protocol precondition 1 - language-tier parity and frozen board
+    host: TAL-DISCOVERY-001
+    effective_status: OWNER_RATIFIED
+    ratification_record: ../ratification/2026-08-08-owner-decisions-in-progress.yaml
+  owner_ratified_keel_amendment:
+    id: TAL-KEEL-AMD-001
+    path: ../amendments/2026-08-08-connected-boards-keel-amendment.md
+    status: OWNER_RATIFIED
   discovery_host:
     id: TAL-DISCOVERY-001
     path: ../method/discovery-protocol.yaml
-    status: PROPOSED_PENDING_OWNER_RATIFICATION
+    effective_status: OWNER_RATIFIED
+    ratification_record: ../ratification/2026-08-08-owner-decisions-in-progress.yaml
