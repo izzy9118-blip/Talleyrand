@@ -1,15 +1,12 @@
 record_type: talleyrand_deed_index
 house: talleyrand
-version: 2.3.0
-corpus: DEED CORPUS 2.3 AFTER OWNER REMOVAL OF A5 AND C2
+version: 2.4.0
+corpus: DEED CORPUS 2.4 LIVE-ONLY
 governing_keel: keel.md
 governing_keel_amendments:
   - ../amendments/2026-08-08-connected-boards-keel-amendment.md
 counterfeit_registry: ../counterfeits/registry.md
 resolution_record: resolutions/2026-08-08-post-vienna-candidate-resolution.md
-owner_removal_records:
-  - ../ratification/2026-08-08-owner-removal-A5.yaml
-  - ../ratification/2026-08-08-owner-removal-C2.yaml
 status:
   corpus: CANONICAL_DRAFT
   ratification: PER_DEED_BY_OWNER
@@ -22,7 +19,7 @@ counts:
 load_order_rule: >-
   Deed 0 loads first: it is the precondition, not a stroke. The remainder load in
   family order A, B, C, D. Each deed is one act of writing; a deed that exists as
-  notes is not that deed. Owner-removed deeds do not load.
+  notes is not that deed. Only deeds present in this live index may load.
 deeds:
   - {id: "0", title: SEE THE CONNECTED BOARDS, file: 00-see-the-connected-boards.md, family: precondition, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/2026-08-08-owner-deed-decisions-v2-in-progress.yaml, candidate_status: REVISED_UNDER_TAL-KEEL-AMD-001_OWNER_RATIFIED}
   - {id: "A1", title: READ THE DESIGNED WORD, file: A1-read-the-designed-word.md, family: A, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/2026-08-08-owner-deed-decisions-v2-in-progress.yaml, candidate_status: R}
@@ -63,36 +60,27 @@ families:
   D: THE PRINCIPAL - his own side of the table
 candidate_resolution:
   source: resolutions/2026-08-08-post-vienna-candidate-resolution.md
-  owner_removal_records:
-    A5: ../ratification/2026-08-08-owner-removal-A5.yaml
-    C2: ../ratification/2026-08-08-owner-removal-C2.yaml
   preserved_unresolved:
     C5: CANDIDATE_HT_HOLD
     C6: CANDIDATE_HT_HOLD
   absorbed_not_drafted:
-    A6: absorbed into B4; the former A5 host was removed by owner directive
+    A6: absorbed into B4
     B5: absorbed into bounded B1 plus TAL-DISCOVERY-001
     C9: absorbed into revised Deed 0 plus existing execution deeds
   retired_current_formulations:
     C10: one-way conversion account contradicted by independent participant evidence
     D1: principal-capture formulation conflicts with Louis XVIII independent agency
-  owner_removed_deeds:
-    A5: removed from the live corpus and future ratification scope by repository owner directive
-    C2: removed from the live corpus and future ratification scope by repository owner directive
   held_out: [H1, H2, H3, H4]
   law: >-
-    Candidates have no authority. No unresolved, absorbed, held-out, retired, or
-    owner-removed item may enter runtime as a deed merely because it remains in
-    repository history or historical ore.
+    Candidates have no authority. No unresolved, absorbed, held-out, or retired item
+    may enter runtime as a deed merely because it remains in repository history or
+    historical ore.
 open_consolidation_questions:
   status: NON_BLOCKING_OPEN_RESEARCH
   register: ../candidates/deed-candidates.md
   items:
     - Are A1, A2, A3 one deed with three materials, or three deeds?
     - Is the displaced man a mode of B4 or a deed of its own?
-  retired_by_owner_removal:
-    - The former C1/C2/C3 braid question is nonoperative because C2 is owner-removed.
-    - The former question whether C8 compounds A1 and C2 is nonoperative because C2 is owner-removed.
   governing_principle: >-
     These questions no longer block a bounded operational interface. The current
     deed distinctions remain open to later correction after further corpus work.
