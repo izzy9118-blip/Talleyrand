@@ -80,8 +80,8 @@ def validate_deed_corpus(root: str | Path = ".") -> dict:
     _require(index_path.is_file(), "deeds/index.yaml missing")
     index = yaml.safe_load(index_path.read_text(encoding="utf-8"))
     _require(index.get("record_type") == "talleyrand_deed_index", "wrong deed index record_type")
-    _require(index.get("version") == "2.4.0", "live deed index must be version 2.4.0")
-    _require(index.get("corpus") == "DEED CORPUS 2.4 LIVE-ONLY", "live deed corpus label changed")
+    _require(index.get("version") == "2.5.0", "live deed index must be version 2.5.0")
+    _require(index.get("corpus") == "DEED CORPUS 2.5 LIVE-ONLY AFTER C3 RATIFICATION", "live deed corpus label changed")
     _require("owner_removal_records" not in index, "historical removal records re-entered live index")
 
     deeds = index.get("deeds")
@@ -130,7 +130,6 @@ def validate_deed_corpus(root: str | Path = ".") -> dict:
     excluded.update(resolution.get("held_out") or [])
     _require(not excluded.intersection(ids), f"excluded candidate entered deed corpus: {sorted(excluded.intersection(ids))}")
 
-    # The working deed directory must not silently acquire unindexed top-level deeds.
     indexed_files = {str(x) for x in files}
     historical_top_level = {"00-see-one-board.md"}
     discovered = {p.name for p in (root / "deeds").glob("*.md")}
