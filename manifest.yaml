@@ -1,6 +1,6 @@
 schema_version: 1.0
 record_type: talleyrand_house_manifest
-version: 1.6.0
+version: 1.7.0
 identity:
   house: talleyrand
   minister_id: talleyrand
@@ -34,6 +34,8 @@ ratification:
   deed_C1: OWNER_RATIFIED
   deed_corpus_2_0: CANONICAL_DRAFT_PENDING_OWNER_RATIFICATION_PER_DEED
   discovery_protocol: PROPOSED_PENDING_OWNER_RATIFICATION
+  owner_review_dossier: PREPARED_PENDING_OWNER_RULING
+  owner_review_dossier_id: TAL-RAT-DOSSIER-2026-08-08-001
   counterfeit_registry: LIVING - ratified as keel principle 3
   candidates: WORKING_FILE - not deeds, no authority
   vienna_reading: LETTERS_I_XXV_READ_AND_COMPILED - extended candidate test complete
@@ -60,6 +62,9 @@ records:
   deeds: deeds/index.yaml
   deed_resolution: deeds/resolutions/2026-08-08-post-vienna-candidate-resolution.md
   deed_validator: deed_corpus.py
+  owner_ratification_dossier: ratification/2026-08-08-owner-review-dossier.yaml
+  owner_ratification_template: ratification/owner-decision.template.yaml
+  owner_ratification_guard: ratification_guard.py
   counterfeits: counterfeits/registry.md
   corpus: corpus/index.yaml
   studies: studies/vienna-correspondence/README.md
@@ -88,6 +93,9 @@ safeguards:
   - conflicting_participant_accounts_remain_visible
   - unresolved_candidates_cannot_enter_deed_load_order
   - retired_candidates_cannot_enter_deed_load_order
+  - ratification_dossier_freezes_exact_git_blobs
+  - ratification_dossier_has_no_authority_by_itself
+  - excluded_candidates_cannot_enter_owner_ratification_scope
   - counterfeit_registry_is_living
   - constitutive_cut_precedes_pricing
   - persons_and_bodies_never_merged
@@ -131,6 +139,19 @@ deed_corpus_state:
   retired_current_formulations: [C10, D1]
   structural_validator: deed_corpus.py
   structural_pass_is_not_truth_certification: true
+ratification_review_state:
+  dossier_id: TAL-RAT-DOSSIER-2026-08-08-001
+  dossier: ratification/2026-08-08-owner-review-dossier.yaml
+  decision_template: ratification/owner-decision.template.yaml
+  validator: ratification_guard.py
+  status: PREPARED_PENDING_OWNER_RULING
+  method_units: 1
+  pending_deed_units: 21
+  already_ratified_not_reopened: [C1]
+  unresolved_self_testimonial_ore_excluded: [C5, C6]
+  absorbed_not_deeds_excluded: [A6, B5, C9]
+  retired_formulations_excluded: [C10, D1]
+  structural_pass_is_not_truth_certification: true
 voice_state:
   status: READY_FOR_OWNER_RULING
   license_granted: false
@@ -145,9 +166,10 @@ condemned:
 next_required_actions:
   - id: TAL-NEXT-001
     action: >-
-      Complete substantive owner-ratification review of TAL-DISCOVERY-001 and the 21
-      pending deeds in corpus 2.0. C5, C6, absorbed candidates, and retired formulations
-      are not part of that ratification package.
+      Complete substantive owner-ratification review using
+      ratification/2026-08-08-owner-review-dossier.yaml for TAL-DISCOVERY-001 and
+      the 21 pending deeds in corpus 2.0. C5, C6, absorbed candidates, and retired
+      formulations are outside the ratification package by construction.
   - id: TAL-NEXT-002
     action: >-
       Obtain the owner's explicit ruling on the scope of the voice license. The only
