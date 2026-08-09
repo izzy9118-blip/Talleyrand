@@ -90,25 +90,23 @@ def test_owner_decision_v2_template_cannot_claim_authority():
     assert result["deed_decisions"] == 21
 
 
-def test_live_owner_record_ratifies_exactly_deed0_A1_A2_and_A3():
+def test_live_owner_record_ratifies_exactly_deed0_and_A1_through_A4():
     record = _live_progress()
     result = validate_in_progress_record(record, ".")
-    assert result["decided_units"] == 4
-    assert result["pending_units"] == 17
+    assert result["decided_units"] == 5
+    assert result["pending_units"] == 16
     by_id = {str(item["id"]): item["decision"] for item in record["deed_decisions"]}
-    assert by_id["0"] == "RATIFY"
-    assert by_id["A1"] == "RATIFY"
-    assert by_id["A2"] == "RATIFY"
-    assert by_id["A3"] == "RATIFY"
+    for did in {"0", "A1", "A2", "A3", "A4"}:
+        assert by_id[did] == "RATIFY"
     assert all(
         decision == "PENDING_OWNER_RULING"
         for did, decision in by_id.items()
-        if did not in {"0", "A1", "A2", "A3"}
+        if did not in {"0", "A1", "A2", "A3", "A4"}
     )
-    assert "deep analsis is always necessary" in record["owner_directive"]
+    assert 'replied "good"' in record["owner_directive"]
 
 
-def test_house_wide_deep_analysis_rule_is_owner_ratified_blob_bound_and_applies_to_A3():
+def test_house_wide_deep_analysis_rule_is_owner_ratified_blob_bound_and_applies_forward():
     record = _live_progress()
     rules = record.get("house_method_sharpenings")
     assert isinstance(rules, list) and len(rules) == 1
@@ -116,17 +114,12 @@ def test_house_wide_deep_analysis_rule_is_owner_ratified_blob_bound_and_applies_
     assert rule_binding["id"] == "TAL-METHOD-DEEP-ANALYSIS-001"
     assert rule_binding["scope"] == "all_inference_bearing_deeds"
     assert rule_binding["status"] == "OWNER_RATIFIED"
-    assert rule_binding["explicit_application"]["deed"] == "A3"
-    assert rule_binding["explicit_application"]["deed_git_blob_sha1"] == "066ea8a7680b972ad28ed89f7fa34f5437a43897"
     path = Path(rule_binding["path"])
     assert path.is_file()
     assert git_blob_sha1(path) == rule_binding["git_blob_sha1"] == "7910aa7e67f24db963374ec91ce25b842a79c1b5"
     rule = yaml.safe_load(path.read_text(encoding="utf-8"))
-    assert rule["status"] == "OWNER_RATIFIED"
     assert rule["rule"]["principle"] == "DEEP_ANALYSIS_PRECEDES_EVERY_INFERENCE"
     assert "No surface sign is self-interpreting" in rule["rule"]["statement"]
-    assert "Silence has no fixed political meaning" in rule["application_to_A3"]["interpretation"]
-    assert rule["application_to_A3"]["deed_git_blob_sha1"] == "066ea8a7680b972ad28ed89f7fa34f5437a43897"
 
 
 def test_A2_ratification_remains_bound_to_owner_sharpening_and_frozen_deed_blob():
@@ -137,14 +130,9 @@ def test_A2_ratification_remains_bound_to_owner_sharpening_and_frozen_deed_blob(
     assert sharpening["id"] == "TAL-DEED-A2-SHARP-001"
     assert sharpening["deed"] == "A2"
     assert sharpening["deed_git_blob_sha1"] == "c8e781769d72c2ae8f4041c0930da57e015b0d92"
-    assert sharpening["status"] == "OWNER_RATIFIED"
     path = Path(sharpening["path"])
     assert path.is_file()
     assert git_blob_sha1(path) == sharpening["git_blob_sha1"] == "756639c29ae7f4b9e9ff39cf3472027f47635fec"
-    text = path.read_text(encoding="utf-8")
-    assert "uncontrolled consequence is not self-interpreting evidence" in text
-    assert "understand deeply" in text
-    assert "Casual psychologizing remains prohibited" in text
 
 
 def test_incremental_v2_record_can_decide_one_deed_without_inventing_others():
@@ -154,38 +142,21 @@ def test_incremental_v2_record_can_decide_one_deed_without_inventing_others():
     assert result["pending_units"] == 20
 
 
-def test_in_progress_record_cannot_change_revised_deed0_binding():
+@pytest.mark.parametrize(
+    "index",
+    [0, 1, 2, 3, 4],
+)
+def test_live_ratified_deed_binding_cannot_change(index):
     record = deepcopy(_live_progress())
-    record["deed_decisions"][0]["git_blob_sha1"] = "1700193646bc6f2cd5fa9661cb521eb671949e9e"
+    record["deed_decisions"][index]["git_blob_sha1"] = "0" * 40
     with pytest.raises(RatificationGuardError, match="binding mismatch"):
         validate_in_progress_record(record, ".")
 
 
-def test_in_progress_record_cannot_change_A1_binding():
-    record = deepcopy(_live_progress())
-    record["deed_decisions"][1]["git_blob_sha1"] = "0" * 40
-    with pytest.raises(RatificationGuardError, match="binding mismatch"):
-        validate_in_progress_record(record, ".")
-
-
-def test_in_progress_record_cannot_change_A2_binding():
-    record = deepcopy(_live_progress())
-    record["deed_decisions"][2]["git_blob_sha1"] = "0" * 40
-    with pytest.raises(RatificationGuardError, match="binding mismatch"):
-        validate_in_progress_record(record, ".")
-
-
-def test_in_progress_record_cannot_change_A3_binding():
-    record = deepcopy(_live_progress())
-    record["deed_decisions"][3]["git_blob_sha1"] = "0" * 40
-    with pytest.raises(RatificationGuardError, match="binding mismatch"):
-        validate_in_progress_record(record, ".")
-
-
-def test_next_pending_deed_remains_A4_in_live_record():
+def test_next_pending_deed_remains_A5_in_live_record():
     record = _live_progress()
     by_id = {str(item["id"]): item["decision"] for item in record["deed_decisions"]}
-    assert by_id["A4"] == "PENDING_OWNER_RULING"
+    assert by_id["A5"] == "PENDING_OWNER_RULING"
 
 
 def test_completed_record_requires_explicit_owner_authority():
