@@ -13,19 +13,13 @@ def _record():
     return yaml.safe_load(LIVE_RECORD.read_text(encoding="utf-8"))
 
 
-def test_live_v3_record_ratifies_B1_through_B4_and_leaves_eleven_pending():
+def test_B1_through_B4_remain_ratified_after_later_owner_acts():
     record = _record()
     result = validate_in_progress_record(record, ".")
-    assert result["decided_units"] == 4
-    assert result["pending_units"] == 11
+    assert result["decided_units"] >= 4
     by_id = {str(item["id"]): item["decision"] for item in record["deed_decisions"]}
     for did in ("B1", "B2", "B3", "B4"):
         assert by_id[did] == "RATIFY"
-    assert all(
-        decision == "PENDING_OWNER_RULING"
-        for did, decision in by_id.items()
-        if did not in {"B1", "B2", "B3", "B4"}
-    )
     assert "A5" not in by_id
 
 
@@ -56,16 +50,12 @@ def test_B4_sharpening_requires_evidence_causation_and_no_manufactured_seam():
     assert "Proximity, simultaneity" in normalized
 
 
-def test_manifest_loads_B4_sharpening_and_advances_to_B6():
+def test_manifest_continues_to_load_B4_sharpening():
     manifest = yaml.safe_load(Path("manifest.yaml").read_text(encoding="utf-8"))
     state = manifest["deed_corpus_state"]
-    assert state["effective_owner_ratified_count"] == 10
-    assert state["effective_pending_deed_rulings"] == 11
     assert "B4" in {str(x) for x in state["effective_owner_ratified_deeds"]}
     assert state["deed_B4_owner_decision"] == "RATIFY"
     assert state["deed_B4_owner_sharpening"] == "TAL-DEED-B4-SHARP-001"
     review = manifest["ratification_review_state"]
-    assert review["pending_deed_units"] == 11
-    assert review["next_pending_deed"] == "B6"
     assert "TAL-DEED-B4-SHARP-001" in review["owner_ratified_deed_sharpenings"]
     assert manifest["records"]["deed_B4_interpretive_sharpening"] == str(SHARPENING_PATH)
