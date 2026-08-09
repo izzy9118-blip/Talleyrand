@@ -1,0 +1,56 @@
+record_type: talleyrand_owner_ratification_record
+id: TAL-RAT-OWNER-DECISION-V4-TEMPLATE
+dossier_id: TAL-RAT-DOSSIER-2026-08-08-004
+status: TEMPLATE_PENDING_OWNER_DIRECTIVE
+authority: OWNER_DIRECTIVE_REQUIRED
+owner_directive: null
+date: null
+
+prior_owner_decisions_preserved:
+  - TAL-DISCOVERY-001
+  - C1
+  - "0"
+  - A1
+  - A2
+  - A3
+  - A4
+  - B1
+  - B2
+  - B3
+  - B4
+  - B6
+  - B7
+  - TAL-KEEL-AMD-001
+  - TAL-METHOD-DEEP-ANALYSIS-001
+  - TAL-DEED-A2-SHARP-001
+  - TAL-DEED-B1-SHARP-001
+  - TAL-DEED-B2-SHARP-001
+  - TAL-DEED-B3-SHARP-001
+  - TAL-DEED-B4-SHARP-001
+  - TAL-DEED-B6-SHARP-001
+  - TAL-DEED-B7-SHARP-001
+
+owner_removed_deeds_preserved:
+  - id: A5
+    removal_record: ratification/2026-08-08-owner-removal-A5.yaml
+    historical_git_blob_sha1: a089840a1daa38321bb66afcd7f2f11808c72938
+  - id: C2
+    removal_record: ratification/2026-08-08-owner-removal-C2.yaml
+    historical_git_blob_sha1: 1b926abd0162e67538c8b4fd00de7ebb495a23bb
+
+deed_decisions:
+  - {id: C3, git_blob_sha1: 42cd835c27c7dd8498056c89dc16b3fc243079b2, decision: PENDING_OWNER_RULING}
+  - {id: C4, git_blob_sha1: d35b84d0b053053e3de0887b96dab6f27f6070a0, decision: PENDING_OWNER_RULING}
+  - {id: C7, git_blob_sha1: 9e5f9e1ecdab0b13ab52f6c9634c94fe7faa3032, decision: PENDING_OWNER_RULING}
+  - {id: C8, git_blob_sha1: c83492946955e26b9a29ddbe88d5783e3c028f68, decision: PENDING_OWNER_RULING}
+  - {id: C11, git_blob_sha1: 51ebfcd57dfe5c93b7e9df9a3ea67e2d74a36948, decision: PENDING_OWNER_RULING}
+  - {id: D2, git_blob_sha1: 9aac11883da3deb7d2d13d6177cbeaad1fac464a, decision: PENDING_OWNER_RULING}
+  - {id: D3, git_blob_sha1: f7d9e15405018dbf19c2b14cb3933458ad581d13, decision: PENDING_OWNER_RULING}
+  - {id: D4, git_blob_sha1: 1f4c8cd2b8063443b1a549ac31c0fd7c66389fd9, decision: PENDING_OWNER_RULING}
+
+excluded_acknowledgement:
+  unresolved_self_testimonial_ore: [C5, C6]
+  absorbed_not_deeds: [A6, B5, C9]
+  retired_current_formulations: [C10, D1]
+  owner_removed_deeds: [A5, C2]
+  held_out_style_or_observation_register: [H1, H2, H3, H4]
