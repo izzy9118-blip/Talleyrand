@@ -33,7 +33,7 @@ governing_bindings:
   deed_index:
     path: deeds/index.yaml
     version: 2.4.0
-    git_blob_sha1: 3b84aeed4cf5c6468770b7d5d2ef7da8e5931077
+    git_blob_sha1: b21fdee3bb85ab115cf56652494e5cf2a0b0ddc0
   live_owner_ratifications:
     id: TAL-RAT-LIVE-001
     path: ratification/live-owner-ratifications.yaml
