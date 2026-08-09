@@ -1,6 +1,6 @@
 schema_version: 1.0
 record_type: talleyrand_house_manifest
-version: 1.9.0
+version: 1.10.0
 identity:
   house: talleyrand
   minister_id: talleyrand
@@ -34,10 +34,12 @@ ratification:
   keel_amendment_connected_boards: OWNER_RATIFIED
   keel_amendment_connected_boards_record: amendments/2026-08-08-connected-boards-keel-amendment.md
   deed_C1: OWNER_RATIFIED
-  deed_corpus_2_1: CANONICAL_DRAFT_PENDING_OWNER_RATIFICATION_PER_DEED
+  deed_0_connected_boards: OWNER_RATIFIED_BY_RECORD
+  deed_0_connected_boards_record: ratification/2026-08-08-owner-deed-decisions-v2-in-progress.yaml
+  deed_corpus_2_1: FROZEN_REVIEW_SURFACE_INCREMENTAL_OWNER_RATIFICATION_BY_RECORD
   discovery_protocol: OWNER_RATIFIED_BY_RECORD
   discovery_protocol_record: ratification/2026-08-08-owner-decisions-in-progress.yaml
-  owner_review_dossier: PREPARED_PENDING_DEED_RULINGS
+  owner_review_dossier: OWNER_REVIEW_IN_PROGRESS
   owner_review_dossier_id: TAL-RAT-DOSSIER-2026-08-08-002
   predecessor_owner_review_dossier: TAL-RAT-DOSSIER-2026-08-08-001
   counterfeit_registry: LIVING - ratified as keel principle 3
@@ -72,6 +74,7 @@ records:
   owner_ratification_dossier_predecessor: ratification/2026-08-08-owner-review-dossier.yaml
   owner_ratification_template_active: ratification/owner-decision.v2.template.yaml
   prior_owner_ratification_record: ratification/2026-08-08-owner-decisions-in-progress.yaml
+  active_owner_deed_decision_record: ratification/2026-08-08-owner-deed-decisions-v2-in-progress.yaml
   owner_ratification_guard: ratification_guard.py
   historical_deed_0_draft: deeds/00-see-one-board.md
   active_deed_0_draft: deeds/00-see-the-connected-boards.md
@@ -107,6 +110,7 @@ safeguards:
   - ratification_dossier_has_no_authority_by_itself
   - excluded_candidates_cannot_enter_owner_ratification_scope
   - incremental_owner_review_cannot_invent_undecided_rulings
+  - incremental_ratification_does_not_rewrite_frozen_review_blobs
   - predecessor_ratification_surfaces_are_preserved
   - boards_are_distinct_and_connected
   - cross_board_connection_requires_evidenced_transmission_mechanism
@@ -146,9 +150,18 @@ source_state:
 deed_corpus_state:
   version: 2.1.0
   indexed_deeds: 22
-  owner_ratified: 1
-  pending_owner_ratification: 21
+  frozen_index_owner_ratified: 1
+  frozen_index_pending_owner_ratification: 21
+  effective_owner_ratified_deeds: ["0", C1]
+  effective_owner_ratified_count: 2
+  effective_pending_deed_rulings: 20
+  frozen_index_note: >-
+    Corpus 2.1 is the exact review surface bound by TAL-RAT-DOSSIER-2026-08-08-002.
+    Incremental owner acts are authoritative through ratification records and do not
+    rewrite the frozen deed text or index while the review cycle remains open.
   deed_0_active: SEE THE CONNECTED BOARDS
+  deed_0_owner_decision: RATIFY
+  deed_0_owner_decision_record: ratification/2026-08-08-owner-deed-decisions-v2-in-progress.yaml
   deed_0_historical_draft_preserved: SEE ONE BOARD
   new_resolved_drafts: [A4, B1, B7]
   unresolved_ore: [C5, C6]
@@ -161,12 +174,14 @@ ratification_review_state:
   dossier: ratification/2026-08-08-owner-review-dossier-v2.yaml
   predecessor_dossier: ratification/2026-08-08-owner-review-dossier.yaml
   decision_template: ratification/owner-decision.v2.template.yaml
+  active_decision_record: ratification/2026-08-08-owner-deed-decisions-v2-in-progress.yaml
   validator: ratification_guard.py
-  status: PREPARED_PENDING_DEED_RULINGS
+  status: OWNER_REVIEW_IN_PROGRESS
   prior_owner_decisions_not_reopened: [TAL-DISCOVERY-001, C1]
   owner_ratified_keel_amendment_not_a_deed_ruling: [TAL-KEEL-AMD-001]
-  pending_deed_units: 21
-  revised_pending_deed: ["0"]
+  decided_deed_units: 1
+  owner_ratified_deeds_this_cycle: ["0"]
+  pending_deed_units: 20
   unresolved_self_testimonial_ore_excluded: [C5, C6]
   absorbed_not_deeds_excluded: [A6, B5, C9]
   retired_formulations_excluded: [C10, D1]
@@ -185,9 +200,10 @@ condemned:
 next_required_actions:
   - id: TAL-NEXT-001
     action: >-
-      Continue substantive owner review of the 21 pending deeds in corpus 2.1 against
-      ratification/2026-08-08-owner-review-dossier-v2.yaml. Revised Deed 0 is pending
-      owner ratification; the prior SEE ONE BOARD draft is historical only.
+      Continue substantive owner review of the 20 remaining pending deeds against
+      ratification/2026-08-08-owner-review-dossier-v2.yaml. Revised Deed 0 is now
+      owner-ratified by the active decision record; the prior SEE ONE BOARD draft
+      remains historical only.
   - id: TAL-NEXT-002
     action: >-
       Obtain the owner's explicit ruling on the scope of the voice license. The only
