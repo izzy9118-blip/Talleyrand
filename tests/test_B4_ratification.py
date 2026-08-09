@@ -45,14 +45,15 @@ def test_B4_ratification_is_bound_to_frozen_deed_and_evidenced_seam_sharpening()
 
 def test_B4_sharpening_requires_evidence_causation_and_no_manufactured_seam():
     text = SHARPENING_PATH.read_text(encoding="utf-8")
-    assert "A seam is an evidenced divergence" in text
-    assert "None of them proves a seam by itself" in text
-    assert "state the transmission" in text
-    assert "real decision node" in text
-    assert "NO_WORKABLE_SEAM" in text
-    assert "displacement does not make that person truthful" in text
-    assert "cross-board seam exists only where an" in text
-    assert "Proximity, simultaneity" in text
+    normalized = " ".join(text.split())
+    assert "A seam is an evidenced divergence" in normalized
+    assert "None of them proves a seam by itself" in normalized
+    assert "state the transmission" in normalized
+    assert "real decision node" in normalized
+    assert "NO_WORKABLE_SEAM" in normalized
+    assert "displacement does not make that person truthful" in normalized
+    assert "cross-board seam exists only where an" in normalized
+    assert "Proximity, simultaneity" in normalized
 
 
 def test_manifest_loads_B4_sharpening_and_advances_to_B6():
