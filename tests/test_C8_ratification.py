@@ -17,7 +17,7 @@ def test_C8_ratification_is_exact_and_live():
     assert c8["decision"] == "RATIFY"
     assert c8["git_blob_sha1"] == "c83492946955e26b9a29ddbe88d5783e3c028f68"
     assert git_blob_sha1(C8_PATH) == c8["git_blob_sha1"]
-    assert len(decisions) == 19
+    assert len(decisions) == 20
 
 
 def test_C8_sharpening_is_exactly_bound():
@@ -44,11 +44,11 @@ def test_C8_entitled_standing_rules_are_mandatory():
 def test_manifest_loads_C8_only_with_its_sharpening_and_moves_next_to_C11():
     manifest = yaml.safe_load(Path("manifest.yaml").read_text(encoding="utf-8"))
     state = manifest["deed_corpus_state"]
-    assert state["effective_owner_ratified_count"] == 19
-    assert state["effective_pending_deed_rulings"] == 1
+    assert state["effective_owner_ratified_count"] == 20
+    assert state["effective_pending_deed_rulings"] == 0
     assert state["deed_C8_owner_decision"] == "RATIFY"
     assert state["deed_C8_owner_sharpening"] == "TAL-DEED-C8-SHARP-001"
     assert manifest["records"]["deed_C8_interpretive_sharpening"] == str(SHARPENING_PATH)
     review = manifest["ratification_review_state"]
-    assert review["next_pending_deed"] == "D4"
+    assert review["next_pending_deed"] is None
     assert "TAL-DEED-C8-SHARP-001" in review["owner_ratified_deed_sharpenings"]

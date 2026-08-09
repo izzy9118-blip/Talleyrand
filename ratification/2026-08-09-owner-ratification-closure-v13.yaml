@@ -1,0 +1,77 @@
+record_type: talleyrand_owner_ratification_closure
+id: TAL-RAT-CLOSURE-2026-08-09-013
+date: "2026-08-09"
+status: CLOSED_ALL_LIVE_DEEDS_OWNER_RATIFIED
+authority: REPOSITORY_OWNER_DECISIONS_CARRIED_FORWARD
+self_certification: PROHIBITED
+house: talleyrand
+supersedes: TAL-RAT-DOSSIER-2026-08-09-012
+closure_reason: >-
+  The repository owner ratified final pending deed D4 with
+  TAL-DEED-D4-SHARP-001. Every deed in live corpus 2.12 is now bound to an exact
+  owner RATIFY decision. This record closes deed review without certifying historical
+  truth, completeness, voice, runtime, or minister establishment.
+
+governing_bindings:
+  keel:
+    path: keel.md
+    status: OWNER_RATIFIED
+  keel_amendment: {id: TAL-KEEL-AMD-001, path: amendments/2026-08-08-connected-boards-keel-amendment.md, git_blob_sha1: 1c2a47aff36584dfbb1741708729618914c19ff4, status: OWNER_RATIFIED}
+  discovery_protocol: {id: TAL-DISCOVERY-001, path: method/discovery-protocol.yaml, git_blob_sha1: 74d17b979a99662f3daa240e34207c9b65220ba4, status: OWNER_RATIFIED_BY_RECORD}
+  deep_analysis_rule: {id: TAL-METHOD-DEEP-ANALYSIS-001, path: method/deep-analysis-rule.yaml, git_blob_sha1: 7910aa7e67f24db963374ec91ce25b842a79c1b5, status: OWNER_RATIFIED}
+  deed_index: {path: deeds/index.yaml, version: 2.12.0, git_blob_sha1: b98b9cbf59aacf3d744c69b56739a6ae6f28508a}
+  live_owner_ratifications: {id: TAL-RAT-LIVE-001, path: ratification/live-owner-ratifications.yaml, git_blob_sha1: 05309dc69bc3b42f475006aa2aa713e2497b29a5, status: ACTIVE_CARRY_FORWARD}
+  final_owner_act: {id: TAL-RAT-OWNER-2026-08-09-012, path: ratification/2026-08-09-owner-deed-decisions-v12-complete.yaml, git_blob_sha1: 595266a44b43b7712fe61ed925f255a986cba184, decision: RATIFY_D4}
+  C3_sharpening: {id: TAL-DEED-C3-SHARP-001, path: deeds/amendments/2026-08-08-C3-authorship-pressure-sharpening.md, git_blob_sha1: 4b83856087826db2c8fc86789f4c10d2b7355582, status: OWNER_RATIFIED}
+  C4_sharpening: {id: TAL-DEED-C4-SHARP-001, path: deeds/amendments/2026-08-09-C4-letter-spirit-credit-sharpening.md, git_blob_sha1: 3f2debc06de08f7a4ff2a6060fd5aa00047d352a, status: OWNER_RATIFIED}
+  C7_sharpening: {id: TAL-DEED-C7-SHARP-001, path: deeds/amendments/2026-08-09-C7-adversarial-verification-sharpening.md, git_blob_sha1: a8207ef26f3162fa76e6ddaf308b2a8823df639a, status: OWNER_RATIFIED}
+  C8_sharpening: {id: TAL-DEED-C8-SHARP-001, path: deeds/amendments/2026-08-09-C8-entitled-standing-sharpening.md, git_blob_sha1: 4eae5a9c5493ffcd86835ae91ae260d77dffa1f4, status: OWNER_RATIFIED}
+  C11_sharpening: {id: TAL-DEED-C11-SHARP-001, path: deeds/amendments/2026-08-09-C11-sovereign-support-sharpening.md, git_blob_sha1: b5c873d31a24a34d92dbff8afbf5a833684faaa4, status: OWNER_RATIFIED}
+  D2_sharpening: {id: TAL-DEED-D2-SHARP-001, path: deeds/amendments/2026-08-09-D2-bounded-contingency-sharpening.md, git_blob_sha1: 2ec61eee9e9ea618b223035b8a5260a5d8442458, status: OWNER_RATIFIED}
+  D3_sharpening: {id: TAL-DEED-D3-SHARP-001, path: deeds/amendments/2026-08-09-D3-candid-counsel-sharpening.md, git_blob_sha1: 4909cf2e6eb582343b934fe7f77ebb05a85c5a02, status: OWNER_RATIFIED}
+  D4_sharpening: {id: TAL-DEED-D4-SHARP-001, path: deeds/amendments/2026-08-09-D4-accountable-mechanism-sharpening.md, git_blob_sha1: 57ab36c4ee9fb95e64925e71cb5a382f1eb04689, status: OWNER_RATIFIED}
+
+ratified_deed_decisions:
+  - {id: "0", path: deeds/00-see-the-connected-boards.md, git_blob_sha1: 208216723993d6103fb4ddbc9f96d0cea2e63228, decision: RATIFY}
+  - {id: A1, path: deeds/A1-read-the-designed-word.md, git_blob_sha1: 2353e13c0c68af2c13880b9d821cadab964dbea0, decision: RATIFY}
+  - {id: A2, path: deeds/A2-read-the-involuntary.md, git_blob_sha1: c8e781769d72c2ae8f4041c0930da57e015b0d92, decision: RATIFY}
+  - {id: A3, path: deeds/A3-read-the-silence-as-position.md, git_blob_sha1: 066ea8a7680b972ad28ed89f7fa34f5437a43897, decision: RATIFY}
+  - {id: A4, path: deeds/A4-read-the-document-by-its-true-audience.md, git_blob_sha1: 7e512a54e190377b0be0cd30cc8f544ebefa1a6c, decision: RATIFY}
+  - {id: B1, path: deeds/B1-recover-the-design-from-fragments.md, git_blob_sha1: d9ffaadf3ba4ec15d1b2ab4b7fdc4c1dc873e06d, decision: RATIFY}
+  - {id: B2, path: deeds/B2-price-the-coalition-in-beliefs.md, git_blob_sha1: 89b82d33f5fe365e457e8867148281f35ae314fa, decision: RATIFY}
+  - {id: B3, path: deeds/B3-assess-the-person-as-material.md, git_blob_sha1: d370b2a98e2e2f620b258a068ead4b1383c1d05d, decision: RATIFY}
+  - {id: B4, path: deeds/B4-locate-the-seam.md, git_blob_sha1: f2666f50d2b955fa157a46b20236935cd90d06dd, decision: RATIFY}
+  - {id: B6, path: deeds/B6-set-the-quantum-and-the-clock.md, git_blob_sha1: d805b0ad39ba8f5e56c43300ae5a119ee109412e, decision: RATIFY}
+  - {id: B7, path: deeds/B7-refuse-the-false-scale.md, git_blob_sha1: 47d8a79503239186b2210bae5106c2994be2ccb2, decision: RATIFY}
+  - {id: C1, path: deeds/C1-dissolve-the-given-with-their-own-fixed-fact.md, git_blob_sha1: 5f3bf6c7430d9892f433b0568dd876d369628fdf, decision: RATIFY}
+  - {id: C3, path: deeds/C3-borrow-the-hand.md, git_blob_sha1: 42cd835c27c7dd8498056c89dc16b3fc243079b2, decision: RATIFY}
+  - {id: C4, path: deeds/C4-move-it-onto-paper.md, git_blob_sha1: d35b84d0b053053e3de0887b96dab6f27f6070a0, decision: RATIFY}
+  - {id: C7, path: deeds/C7-declare-in-daylight.md, git_blob_sha1: 9e5f9e1ecdab0b13ab52f6c9634c94fe7faa3032, decision: RATIFY}
+  - {id: C8, path: deeds/C8-take-the-seat-refuse-the-role.md, git_blob_sha1: c83492946955e26b9a29ddbe88d5783e3c028f68, decision: RATIFY}
+  - {id: C11, path: deeds/C11-supply-the-spine.md, git_blob_sha1: 51ebfcd57dfe5c93b7e9df9a3ea67e2d74a36948, decision: RATIFY}
+  - {id: D2, path: deeds/D2-bank-the-weapon-with-permission-attached.md, git_blob_sha1: 9aac11883da3deb7d2d13d6177cbeaad1fac464a, decision: RATIFY}
+  - {id: D3, path: deeds/D3-counsel-against-the-inclination.md, git_blob_sha1: f7d9e15405018dbf19c2b14cb3933458ad581d13, decision: RATIFY}
+  - {id: D4, path: deeds/D4-disclose-the-mechanism.md, git_blob_sha1: 1f4c8cd2b8063443b1a549ac31c0fd7c66389fd9, decision: RATIFY}
+
+pending_deed_decisions: []
+
+excluded_from_ratification_package:
+  unresolved_self_testimonial_ore: [C5, C6]
+  absorbed_not_deeds: [A6, B5, C9]
+  retired_current_formulations: [C10, D1]
+  held_out_style_or_observation_register: [H1, H2, H3, H4]
+
+closure_law:
+  - All twenty deeds in live index 2.12 have exact owner RATIFY decisions.
+  - The final D4 decision is bound to last pending dossier v12 and its frozen blob.
+  - Historical dossiers and decision templates remain repository history, not active review surfaces.
+  - Future deed text changes or new deeds require new forward-only owner review and exact bindings.
+  - Excluded ore, absorbed candidates, retired formulations, and held-out observations remain outside the deed corpus.
+  - Structural validation does not certify historical truth, semantic completeness, corpus completeness, or voice fidelity.
+
+non_effects:
+  - voice remains ungranted
+  - runtime remains NOT_OPERATIONAL
+  - semantic completion remains INCOMPLETE
+  - completeness remains PENDING_PROBE
+  - Sanctum establishment does not occur

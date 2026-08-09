@@ -1,7 +1,7 @@
 record_type: talleyrand_deed_index
 house: talleyrand
-version: 2.11.0
-corpus: DEED CORPUS 2.11 LIVE-ONLY AFTER D3 RATIFICATION
+version: 2.12.0
+corpus: DEED CORPUS 2.12 ALL LIVE DEEDS OWNER RATIFIED
 governing_keel: keel.md
 governing_keel_amendments:
   - ../amendments/2026-08-08-connected-boards-keel-amendment.md
@@ -9,13 +9,13 @@ counterfeit_registry: ../counterfeits/registry.md
 resolution_record: resolutions/live-candidate-resolution.md
 status:
   corpus: CANONICAL_DRAFT
-  ratification: PER_DEED_BY_OWNER
+  ratification: ALL_LIVE_DEEDS_OWNER_RATIFIED
   runtime: NOT_OPERATIONAL
   completeness: PENDING_PROBE
 counts:
   deeds: 20
-  effective_owner_ratified: 19
-  canonical_draft_pending_ratification: 1
+  effective_owner_ratified: 20
+  canonical_draft_pending_ratification: 0
 load_order_rule: >-
   Deed 0 loads first: it is the precondition, not a stroke. The remainder load in
   family order A, B, C, D. Each deed is one act of writing; a deed that exists as
@@ -51,7 +51,7 @@ deeds:
   - {id: "C11", title: SUPPLY THE SPINE, file: C11-supply-the-spine.md, family: C, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/live-owner-ratifications.yaml, candidate_status: R, interpretive_sharpening: amendments/2026-08-09-C11-sovereign-support-sharpening.md}
   - {id: "D2", title: BANK THE WEAPON WITH PERMISSION ATTACHED, file: D2-bank-the-weapon-with-permission-attached.md, family: D, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/live-owner-ratifications.yaml, candidate_status: R, interpretive_sharpening: amendments/2026-08-09-D2-bounded-contingency-sharpening.md}
   - {id: "D3", title: COUNSEL AGAINST THE INCLINATION, file: D3-counsel-against-the-inclination.md, family: D, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/live-owner-ratifications.yaml, candidate_status: R, interpretive_sharpening: amendments/2026-08-09-D3-candid-counsel-sharpening.md}
-  - {id: "D4", title: DISCLOSE THE MECHANISM, file: D4-disclose-the-mechanism.md, family: D, status: CANONICAL_DRAFT, ratification: PENDING_OWNER_RATIFICATION, candidate_status: R}
+  - {id: "D4", title: DISCLOSE THE MECHANISM, file: D4-disclose-the-mechanism.md, family: D, status: CANONICAL_DRAFT, ratification: OWNER_RATIFIED_BY_RECORD, ratification_record: ../ratification/live-owner-ratifications.yaml, candidate_status: R, interpretive_sharpening: amendments/2026-08-09-D4-accountable-mechanism-sharpening.md}
 families:
   precondition: distinct boards and their evidenced connections before the move
   A: READING - the surface as testimony

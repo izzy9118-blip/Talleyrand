@@ -53,41 +53,44 @@ def _copy_validation_surface(tmp_path: Path) -> Path:
     return root
 
 
-def test_live_dossier_is_v12_exact_and_nonoperative():
+def test_live_ratification_closure_is_v13_exact_and_nonoperative():
     result = validate_dossier(".")
     assert result["status"] == PASS_STATUS
-    assert result["active_dossier"] == "TAL-RAT-DOSSIER-2026-08-09-012"
-    assert result["pending_deed_decisions"] == 1
-    assert result["prior_owner_decisions"] == 20
-    assert result["live_ratified_deeds"] == 19
+    assert result["closure"] == "TAL-RAT-CLOSURE-2026-08-09-013"
+    assert result["active_dossier"] is None
+    assert result["pending_deed_decisions"] == 0
+    assert result["ratified_deed_decisions"] == 20
+    assert result["live_ratified_deeds"] == 20
 
 
-def test_active_dossier_contains_only_final_live_pending_deed():
-    dossier = yaml.safe_load(Path("ratification/2026-08-09-owner-review-dossier-v12.yaml").read_text())
-    assert "owner_removed_deeds" not in dossier
-    assert "owner_removed_deeds" not in dossier["excluded_from_ratification_package"]
-    assert set(str(x["id"]) for x in dossier["pending_deed_decisions"]) == {
-        "D4"
+def test_closure_contains_every_live_deed_and_no_pending_deed():
+    closure = yaml.safe_load(Path("ratification/2026-08-09-owner-ratification-closure-v13.yaml").read_text())
+    assert "owner_removed_deeds" not in closure
+    assert "owner_removed_deeds" not in closure["excluded_from_ratification_package"]
+    assert closure["pending_deed_decisions"] == []
+    assert {str(x["id"]) for x in closure["ratified_deed_decisions"]} == {
+        "0", "A1", "A2", "A3", "A4", "B1", "B2", "B3", "B4", "B6",
+        "B7", "C1", "C3", "C4", "C7", "C8", "C11", "D2", "D3", "D4",
     }
 
 
-def test_live_ratification_authority_carries_D3_and_exact_sharpening():
+def test_live_ratification_authority_carries_D4_and_exact_sharpening():
     record = yaml.safe_load(Path("ratification/live-owner-ratifications.yaml").read_text())
     assert record["id"] == "TAL-RAT-LIVE-001"
     assert record["status"] == "ACTIVE_CARRY_FORWARD"
     assert record["self_certification"] == "PROHIBITED"
-    assert len(record["deed_decisions"]) == 19
+    assert len(record["deed_decisions"]) == 20
     decisions = {str(item["id"]): item for item in record["deed_decisions"]}
-    assert decisions["D3"]["decision"] == "RATIFY"
-    assert decisions["D3"]["git_blob_sha1"] == "f7d9e15405018dbf19c2b14cb3933458ad581d13"
+    assert decisions["D4"]["decision"] == "RATIFY"
+    assert decisions["D4"]["git_blob_sha1"] == "1f4c8cd2b8063443b1a549ac31c0fd7c66389fd9"
     for item in record["deed_decisions"]:
         assert item["decision"] == "RATIFY"
         assert git_blob_sha1(Path(item["path"])) == item["git_blob_sha1"]
     bindings = {str(item["id"]): item for item in record["interpretive_bindings"]}
-    d3 = bindings["TAL-DEED-D3-SHARP-001"]
-    assert d3["deed"] == "D3"
-    assert d3["git_blob_sha1"] == "4909cf2e6eb582343b934fe7f77ebb05a85c5a02"
-    assert git_blob_sha1(Path(d3["path"])) == d3["git_blob_sha1"]
+    d4 = bindings["TAL-DEED-D4-SHARP-001"]
+    assert d4["deed"] == "D4"
+    assert d4["git_blob_sha1"] == "57ab36c4ee9fb95e64925e71cb5a382f1eb04689"
+    assert git_blob_sha1(Path(d4["path"])) == d4["git_blob_sha1"]
 
 
 def test_C7_sharpening_preserves_adversarial_verification_and_bounded_secrecy():
@@ -102,16 +105,16 @@ def test_C7_sharpening_preserves_adversarial_verification_and_bounded_secrecy():
     assert "The watcher is not presumed reliable merely because he is hostile" in normalized
 
 
-def test_carried_forward_owner_ratifications_include_D3_without_reopening_prior_deeds():
-    dossier = yaml.safe_load(Path("ratification/2026-08-09-owner-review-dossier-v12.yaml").read_text())
-    by_id = {str(x["id"]): x for x in dossier["prior_owner_decisions_not_reopened"]}
-    assert set(by_id) == {"TAL-DISCOVERY-001", "0", "A1", "A2", "A3", "A4", "B1", "B2", "B3", "B4", "B6", "B7", "C1", "C3", "C4", "C7", "C8", "C11", "D2", "D3"}
+def test_closure_carries_all_owner_ratifications_without_reopening_prior_deeds():
+    closure = yaml.safe_load(Path("ratification/2026-08-09-owner-ratification-closure-v13.yaml").read_text())
+    by_id = {str(x["id"]): x for x in closure["ratified_deed_decisions"]}
+    assert set(by_id) == {"0", "A1", "A2", "A3", "A4", "B1", "B2", "B3", "B4", "B6", "B7", "C1", "C3", "C4", "C7", "C8", "C11", "D2", "D3", "D4"}
     for item in by_id.values():
         assert item["decision"] == "RATIFY"
         assert git_blob_sha1(Path(item["path"])) == item["git_blob_sha1"]
 
 
-def test_v12_template_has_only_final_live_pending_deed_and_no_authority():
+def test_historical_v12_template_preserves_final_pending_deed_and_no_authority():
     result = validate_decision_record(_template(), ".", completed=False)
     assert result["completed"] is False
     assert result["deed_decisions"] == 1
@@ -140,7 +143,7 @@ def test_completed_record_requires_explicit_owner_authority():
         validate_decision_record(record, ".", completed=True)
 
 
-def test_pending_deed_text_change_invalidates_active_dossier(tmp_path):
+def test_ratified_D4_text_change_invalidates_closure(tmp_path):
     root = _copy_validation_surface(tmp_path)
     path = root / "deeds/D4-disclose-the-mechanism.md"
     path.write_text(path.read_text(encoding="utf-8") + "\nunauthorized drift\n", encoding="utf-8")
@@ -148,7 +151,7 @@ def test_pending_deed_text_change_invalidates_active_dossier(tmp_path):
         validate_dossier(root)
 
 
-def test_carried_forward_D3_text_change_invalidates_active_dossier(tmp_path):
+def test_carried_forward_D3_text_change_invalidates_closure(tmp_path):
     root = _copy_validation_surface(tmp_path)
     path = root / "deeds/D3-counsel-against-the-inclination.md"
     path.write_text(path.read_text(encoding="utf-8") + "\nunauthorized drift\n", encoding="utf-8")
@@ -156,22 +159,42 @@ def test_carried_forward_D3_text_change_invalidates_active_dossier(tmp_path):
         validate_dossier(root)
 
 
-def test_D3_sharpening_change_invalidates_active_dossier(tmp_path):
+def test_D4_sharpening_change_invalidates_closure(tmp_path):
     root = _copy_validation_surface(tmp_path)
-    path = root / "deeds/amendments/2026-08-09-D3-candid-counsel-sharpening.md"
+    path = root / "deeds/amendments/2026-08-09-D4-accountable-mechanism-sharpening.md"
     path.write_text(path.read_text(encoding="utf-8") + "\nunauthorized drift\n", encoding="utf-8")
     with pytest.raises(RatificationGuardError, match="text changed after dossier freeze"):
         validate_dossier(root)
 
 
-def test_dossier_cannot_pre_decide_D4(tmp_path):
+def test_closure_cannot_reintroduce_a_pending_D4_decision(tmp_path):
     root = _copy_validation_surface(tmp_path)
-    path = root / "ratification/2026-08-09-owner-review-dossier-v12.yaml"
-    dossier = yaml.safe_load(path.read_text(encoding="utf-8"))
-    dossier["pending_deed_decisions"][0]["owner_decision"] = "RATIFY"
-    path.write_text(yaml.safe_dump(dossier, sort_keys=False), encoding="utf-8")
-    with pytest.raises(RatificationGuardError, match="must not pre-decide"):
+    path = root / "ratification/2026-08-09-owner-ratification-closure-v13.yaml"
+    closure = yaml.safe_load(path.read_text(encoding="utf-8"))
+    closure["pending_deed_decisions"] = [{"id": "D4", "owner_decision": "PENDING_OWNER_RULING"}]
+    path.write_text(yaml.safe_dump(closure, sort_keys=False), encoding="utf-8")
+    with pytest.raises(RatificationGuardError, match="zero pending deed decisions"):
         validate_dossier(root)
+
+
+def test_final_D4_owner_act_is_completed_and_not_an_in_progress_surface():
+    record = yaml.safe_load(Path("ratification/2026-08-09-owner-deed-decisions-v12-complete.yaml").read_text())
+    result = validate_in_progress_record(record, ".")
+    assert result["completed_surface"] is True
+    assert result["completed"] is True
+    assert result["decided_units"] == 1
+    assert result["pending_units"] == 0
+
+
+def test_closure_preserves_constitutional_non_effects():
+    closure = yaml.safe_load(Path("ratification/2026-08-09-owner-ratification-closure-v13.yaml").read_text())
+    assert closure["non_effects"] == [
+        "voice remains ungranted",
+        "runtime remains NOT_OPERATIONAL",
+        "semantic completion remains INCOMPLETE",
+        "completeness remains PENDING_PROBE",
+        "Sanctum establishment does not occur",
+    ]
 
 
 def test_historical_v7_C7_owner_record_remains_readable_but_not_active():

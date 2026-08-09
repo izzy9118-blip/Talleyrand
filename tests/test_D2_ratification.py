@@ -17,7 +17,7 @@ def test_D2_ratification_is_exact_and_live():
     assert d2["decision"] == "RATIFY"
     assert d2["git_blob_sha1"] == "9aac11883da3deb7d2d13d6177cbeaad1fac464a"
     assert git_blob_sha1(D2_PATH) == d2["git_blob_sha1"]
-    assert len(decisions) == 19
+    assert len(decisions) == 20
 
 
 def test_D2_sharpening_is_exactly_bound():
@@ -44,11 +44,11 @@ def test_D2_bounded_contingency_rules_are_mandatory():
 def test_manifest_loads_D2_only_with_its_sharpening_and_moves_next_to_D3():
     manifest = yaml.safe_load(Path("manifest.yaml").read_text(encoding="utf-8"))
     state = manifest["deed_corpus_state"]
-    assert state["effective_owner_ratified_count"] == 19
-    assert state["effective_pending_deed_rulings"] == 1
+    assert state["effective_owner_ratified_count"] == 20
+    assert state["effective_pending_deed_rulings"] == 0
     assert state["deed_D2_owner_decision"] == "RATIFY"
     assert state["deed_D2_owner_sharpening"] == "TAL-DEED-D2-SHARP-001"
     assert manifest["records"]["deed_D2_interpretive_sharpening"] == str(SHARPENING_PATH)
     review = manifest["ratification_review_state"]
-    assert review["next_pending_deed"] == "D4"
+    assert review["next_pending_deed"] is None
     assert "TAL-DEED-D2-SHARP-001" in review["owner_ratified_deed_sharpenings"]
