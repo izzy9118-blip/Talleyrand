@@ -14,19 +14,13 @@ def _record():
     return yaml.safe_load(LIVE_RECORD.read_text(encoding="utf-8"))
 
 
-def test_live_v3_record_ratifies_B1_B2_B3_and_leaves_twelve_pending():
+def test_B1_B2_B3_remain_ratified_after_later_owner_acts():
     record = _record()
     result = validate_in_progress_record(record, ".")
-    assert result["decided_units"] == 3
-    assert result["pending_units"] == 12
+    assert result["decided_units"] >= 3
     by_id = {str(item["id"]): item["decision"] for item in record["deed_decisions"]}
     for did in ("B1", "B2", "B3"):
         assert by_id[did] == "RATIFY"
-    assert all(
-        decision == "PENDING_OWNER_RULING"
-        for did, decision in by_id.items()
-        if did not in {"B1", "B2", "B3"}
-    )
     assert "A5" not in by_id
 
 
@@ -57,16 +51,12 @@ def test_B3_capacity_pricing_record_adopts_only_B3_component():
     assert "states what a person wants without pricing" in record["rule"]["statement"]
 
 
-def test_manifest_loads_B3_capacity_pricing_and_advances_to_B4():
+def test_manifest_continues_to_load_B3_capacity_pricing():
     manifest = yaml.safe_load(Path("manifest.yaml").read_text(encoding="utf-8"))
     state = manifest["deed_corpus_state"]
-    assert state["effective_owner_ratified_count"] == 9
-    assert state["effective_pending_deed_rulings"] == 12
     assert "B3" in {str(x) for x in state["effective_owner_ratified_deeds"]}
     assert state["deed_B3_owner_decision"] == "RATIFY"
     assert state["deed_B3_owner_sharpening"] == "TAL-DEED-B3-SHARP-001"
     review = manifest["ratification_review_state"]
-    assert review["pending_deed_units"] == 12
-    assert review["next_pending_deed"] == "B4"
     assert "TAL-DEED-B3-SHARP-001" in review["owner_ratified_deed_sharpenings"]
     assert manifest["records"]["deed_B3_capacity_pricing_ratification"] == str(B3_RATIFICATION)
