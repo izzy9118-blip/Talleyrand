@@ -16,7 +16,7 @@ def test_C7_ratification_is_exact_and_live():
     assert c7["decision"] == "RATIFY"
     assert c7["git_blob_sha1"] == "9e5f9e1ecdab0b13ab52f6c9634c94fe7faa3032"
     assert git_blob_sha1(C7_PATH) == c7["git_blob_sha1"]
-    assert len(decisions) == 15
+    assert len(decisions) == 16
 
 
 def test_C7_sharpening_is_exactly_bound():
@@ -42,14 +42,14 @@ def test_C7_adversarial_verification_rules_are_mandatory():
     assert "The watcher is not presumed reliable merely because he is hostile" in normalized
 
 
-def test_manifest_loads_C7_only_with_its_sharpening_and_moves_next_to_C8():
+def test_manifest_loads_C7_only_with_its_sharpening_and_moves_next_to_C11_after_C8():
     manifest = yaml.safe_load(Path("manifest.yaml").read_text(encoding="utf-8"))
     state = manifest["deed_corpus_state"]
-    assert state["effective_owner_ratified_count"] == 15
-    assert state["effective_pending_deed_rulings"] == 5
+    assert state["effective_owner_ratified_count"] == 16
+    assert state["effective_pending_deed_rulings"] == 4
     assert state["deed_C7_owner_decision"] == "RATIFY"
     assert state["deed_C7_owner_sharpening"] == "TAL-DEED-C7-SHARP-001"
     assert manifest["records"]["deed_C7_interpretive_sharpening"] == str(SHARPENING_PATH)
     review = manifest["ratification_review_state"]
-    assert review["next_pending_deed"] == "C8"
+    assert review["next_pending_deed"] == "C11"
     assert "TAL-DEED-C7-SHARP-001" in review["owner_ratified_deed_sharpenings"]

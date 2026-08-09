@@ -27,6 +27,7 @@ deed_decisions:
   - {id: C3, path: deeds/C3-borrow-the-hand.md, git_blob_sha1: 42cd835c27c7dd8498056c89dc16b3fc243079b2, decision: RATIFY}
   - {id: C4, path: deeds/C4-move-it-onto-paper.md, git_blob_sha1: d35b84d0b053053e3de0887b96dab6f27f6070a0, decision: RATIFY}
   - {id: C7, path: deeds/C7-declare-in-daylight.md, git_blob_sha1: 9e5f9e1ecdab0b13ab52f6c9634c94fe7faa3032, decision: RATIFY}
+  - {id: C8, path: deeds/C8-take-the-seat-refuse-the-role.md, git_blob_sha1: c83492946955e26b9a29ddbe88d5783e3c028f68, decision: RATIFY}
 
 interpretive_bindings:
   - {id: TAL-DEED-A2-SHARP-001, deed: A2, path: deeds/amendments/2026-08-08-A2-deep-understanding-sharpening.md, git_blob_sha1: 756639c29ae7f4b9e9ff39cf3472027f47635fec}
@@ -39,10 +40,11 @@ interpretive_bindings:
   - {id: TAL-DEED-C3-SHARP-001, deed: C3, path: deeds/amendments/2026-08-08-C3-authorship-pressure-sharpening.md, git_blob_sha1: 4b83856087826db2c8fc86789f4c10d2b7355582}
   - {id: TAL-DEED-C4-SHARP-001, deed: C4, path: deeds/amendments/2026-08-09-C4-letter-spirit-credit-sharpening.md, git_blob_sha1: 3f2debc06de08f7a4ff2a6060fd5aa00047d352a}
   - {id: TAL-DEED-C7-SHARP-001, deed: C7, path: deeds/amendments/2026-08-09-C7-adversarial-verification-sharpening.md, git_blob_sha1: a8207ef26f3162fa76e6ddaf308b2a8823df639a}
+  - {id: TAL-DEED-C8-SHARP-001, deed: C8, path: deeds/amendments/2026-08-09-C8-entitled-standing-sharpening.md, git_blob_sha1: 4eae5a9c5493ffcd86835ae91ae260d77dffa1f4}
 
 non_effects:
   - no deed text is rewritten
-  - no pending deed other than C7 is decided by this owner act
+  - no pending deed other than C8 is decided by this owner act
   - voice remains ungranted
   - runtime remains NOT_OPERATIONAL
   - semantic completion remains INCOMPLETE
