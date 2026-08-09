@@ -8,7 +8,7 @@ owner_directive: >-
   "TAL-DISCOVERY-001 -> RATIFY", the repository owner replied "agree".
   This record resolves that reply only as ratification of TAL-DISCOVERY-001;
   it supplies no decision for any pending deed or for the voice license.
-date: 2026-08-08
+date: "2026-08-08"
 
 method_decision:
   id: TAL-DISCOVERY-001
