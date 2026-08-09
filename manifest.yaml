@@ -1,6 +1,6 @@
 schema_version: 1.0
 record_type: talleyrand_house_manifest
-version: 1.11.0
+version: 1.12.0
 identity:
   house: talleyrand
   minister_id: talleyrand
@@ -36,6 +36,9 @@ ratification:
   deed_C1: OWNER_RATIFIED
   deed_0_connected_boards: OWNER_RATIFIED_BY_RECORD
   deed_A1: OWNER_RATIFIED_BY_RECORD
+  deed_A2: OWNER_RATIFIED_BY_RECORD_WITH_INTERPRETIVE_SHARPENING
+  deed_A2_sharpening: OWNER_RATIFIED
+  deed_A2_sharpening_record: deeds/amendments/2026-08-08-A2-deep-understanding-sharpening.md
   deed_owner_decision_record: ratification/2026-08-08-owner-deed-decisions-v2-in-progress.yaml
   deed_corpus_2_1: FROZEN_REVIEW_SURFACE_INCREMENTAL_OWNER_RATIFICATION_BY_RECORD
   discovery_protocol: OWNER_RATIFIED_BY_RECORD
@@ -62,6 +65,7 @@ load_order:
     - counterfeits/registry.md
     - deeds/index.yaml
     - deeds/ in index order
+    - deeds/amendments/2026-08-08-A2-deep-understanding-sharpening.md with A2
 records:
   keel: keel.md
   keel_connected_boards_amendment: amendments/2026-08-08-connected-boards-keel-amendment.md
@@ -70,6 +74,7 @@ records:
   discovery_validator: discovery_protocol.py
   deeds: deeds/index.yaml
   deed_resolution: deeds/resolutions/2026-08-08-post-vienna-candidate-resolution.md
+  deed_A2_interpretive_sharpening: deeds/amendments/2026-08-08-A2-deep-understanding-sharpening.md
   deed_validator: deed_corpus.py
   owner_ratification_dossier_active: ratification/2026-08-08-owner-review-dossier-v2.yaml
   owner_ratification_dossier_predecessor: ratification/2026-08-08-owner-review-dossier.yaml
@@ -112,11 +117,16 @@ safeguards:
   - excluded_candidates_cannot_enter_owner_ratification_scope
   - incremental_owner_review_cannot_invent_undecided_rulings
   - incremental_ratification_does_not_rewrite_frozen_review_blobs
+  - owner_ratified_interpretive_sharpenings_are_blob_bound
   - predecessor_ratification_surfaces_are_preserved
   - boards_are_distinct_and_connected
   - cross_board_connection_requires_evidenced_transmission_mechanism
   - proximity_or_simultaneity_is_not_connection
   - newly_suspected_connection_returns_across_horus_boundary
+  - uncontrolled_consequence_requires_deep_reconstruction_before_inference
+  - involuntary_names_evidentiary_disclosure_not_merely_bodily_reflex
+  - deliberate_action_may_have_unintended_evidentiary_consequence
+  - casual_psychologizing_is_prohibited
   - counterfeit_registry_is_living
   - constitutive_cut_precedes_pricing
   - persons_and_bodies_never_merged
@@ -153,9 +163,9 @@ deed_corpus_state:
   indexed_deeds: 22
   frozen_index_owner_ratified: 1
   frozen_index_pending_owner_ratification: 21
-  effective_owner_ratified_deeds: ["0", A1, C1]
-  effective_owner_ratified_count: 3
-  effective_pending_deed_rulings: 19
+  effective_owner_ratified_deeds: ["0", A1, A2, C1]
+  effective_owner_ratified_count: 4
+  effective_pending_deed_rulings: 18
   frozen_index_note: >-
     Corpus 2.1 is the exact review surface bound by TAL-RAT-DOSSIER-2026-08-08-002.
     Incremental owner acts are authoritative through ratification records and do not
@@ -163,6 +173,8 @@ deed_corpus_state:
   deed_0_active: SEE THE CONNECTED BOARDS
   deed_0_owner_decision: RATIFY
   deed_A1_owner_decision: RATIFY
+  deed_A2_owner_decision: RATIFY
+  deed_A2_owner_sharpening: TAL-DEED-A2-SHARP-001
   deed_owner_decision_record: ratification/2026-08-08-owner-deed-decisions-v2-in-progress.yaml
   deed_0_historical_draft_preserved: SEE ONE BOARD
   new_resolved_drafts: [A4, B1, B7]
@@ -181,10 +193,11 @@ ratification_review_state:
   status: OWNER_REVIEW_IN_PROGRESS
   prior_owner_decisions_not_reopened: [TAL-DISCOVERY-001, C1]
   owner_ratified_keel_amendment_not_a_deed_ruling: [TAL-KEEL-AMD-001]
-  decided_deed_units: 2
-  owner_ratified_deeds_this_cycle: ["0", A1]
-  pending_deed_units: 19
-  next_pending_deed: A2
+  owner_ratified_deed_sharpenings: [TAL-DEED-A2-SHARP-001]
+  decided_deed_units: 3
+  owner_ratified_deeds_this_cycle: ["0", A1, A2]
+  pending_deed_units: 18
+  next_pending_deed: A3
   unresolved_self_testimonial_ore_excluded: [C5, C6]
   absorbed_not_deeds_excluded: [A6, B5, C9]
   retired_formulations_excluded: [C10, D1]
@@ -203,9 +216,10 @@ condemned:
 next_required_actions:
   - id: TAL-NEXT-001
     action: >-
-      Continue substantive owner review of the 19 remaining pending deeds against
-      ratification/2026-08-08-owner-review-dossier-v2.yaml. Deed 0 and A1 are now
-      owner-ratified by the active decision record; A2 is the next pending deed.
+      Continue substantive owner review of the 18 remaining pending deeds against
+      ratification/2026-08-08-owner-review-dossier-v2.yaml. Deed 0, A1, and A2 are
+      owner-ratified by the active decision record; A2 is governed by
+      TAL-DEED-A2-SHARP-001 and A3 is the next pending deed.
   - id: TAL-NEXT-002
     action: >-
       Obtain the owner's explicit ruling on the scope of the voice license. The only
