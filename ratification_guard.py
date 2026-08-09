@@ -17,6 +17,7 @@ DOSSIER_PATH = Path("ratification/2026-08-08-owner-review-dossier.yaml")
 TEMPLATE_PATH = Path("ratification/owner-decision.template.yaml")
 PASS_STATUS = "RATIFICATION_DOSSIER_STRUCTURAL_PASS_NOT_TRUTH_CERTIFICATION"
 ALLOWED_OWNER_DECISIONS = {"RATIFY", "DECLINE", "RETURN_FOR_REVISION", "HOLD"}
+PENDING_OWNER_DECISION = "PENDING_OWNER_RULING"
 
 
 class RatificationGuardError(ValueError):
@@ -78,6 +79,15 @@ def _dossier_excluded(dossier: dict) -> set[str]:
     out: set[str] = set()
     for values in groups.values():
         _require(isinstance(values, list), "dossier excluded groups must be lists")
+        out.update(str(x) for x in values)
+    return out
+
+
+def _record_excluded(record: dict) -> set[str]:
+    groups = record.get("excluded_acknowledgement") or {}
+    out: set[str] = set()
+    for values in groups.values():
+        _require(isinstance(values, list), "owner-record excluded groups must be lists")
         out.update(str(x) for x in values)
     return out
 
@@ -147,6 +157,20 @@ def validate_dossier(root: str | Path = ".") -> dict[str, Any]:
     }
 
 
+def _decision_surface(record: dict, dossier: dict) -> tuple[dict, list, dict[str, dict], list[str]]:
+    method = record.get("method_decision") or {}
+    deeds = record.get("deed_decisions")
+    _require(isinstance(deeds, list) and len(deeds) == 21, "owner decision record must enumerate all 21 deed units")
+    expected_units = {str(x["id"]): x for x in dossier["pending_deed_decisions"]}
+    ids = [str(x.get("id")) for x in deeds]
+    _require(len(ids) == len(set(ids)) and set(ids) == set(expected_units), "owner decision deed scope mismatch")
+    return method, deeds, expected_units, ids
+
+
+def _check_binding(item: dict, expected: dict, label: str) -> None:
+    _require(item.get("git_blob_sha1") == expected.get("git_blob_sha1"), f"{label}: decision text binding mismatch")
+
+
 def validate_decision_record(record: dict, root: str | Path = ".", *, completed: bool = False) -> dict[str, Any]:
     root = Path(root)
     validate_dossier(root)
@@ -154,20 +178,15 @@ def validate_decision_record(record: dict, root: str | Path = ".", *, completed:
     _require(record.get("record_type") == "talleyrand_owner_ratification_record", "wrong owner decision record_type")
     _require(record.get("dossier_id") == dossier.get("id"), "owner decision record targets wrong dossier")
 
-    method = record.get("method_decision") or {}
-    deeds = record.get("deed_decisions")
-    _require(isinstance(deeds, list) and len(deeds) == 21, "owner decision record must enumerate all 21 deed units")
-    expected_units = {str(x["id"]): x for x in dossier["pending_deed_decisions"]}
-    ids = [str(x.get("id")) for x in deeds]
-    _require(len(ids) == len(set(ids)) and set(ids) == set(expected_units), "owner decision deed scope mismatch")
+    method, deeds, expected_units, ids = _decision_surface(record, dossier)
 
     def check_decision(item: dict, expected: dict, label: str) -> None:
-        _require(item.get("git_blob_sha1") == expected.get("git_blob_sha1"), f"{label}: decision text binding mismatch")
+        _check_binding(item, expected, label)
         decision = item.get("decision")
         if completed:
             _require(decision in ALLOWED_OWNER_DECISIONS, f"{label}: completed owner decision is invalid")
         else:
-            _require(decision == "PENDING_OWNER_RULING", f"{label}: template must remain pending")
+            _require(decision == PENDING_OWNER_DECISION, f"{label}: template must remain pending")
 
     check_decision(method, dossier["method_decision"], "TAL-DISCOVERY-001")
     for item in deeds:
@@ -187,3 +206,48 @@ def validate_decision_record(record: dict, root: str | Path = ".", *, completed:
         _require(record.get("owner_directive") is None, "decision template must not contain an owner directive")
 
     return {"status": PASS_STATUS, "completed": completed, "deed_decisions": len(deeds), "method_decisions": 1}
+
+
+def validate_in_progress_record(record: dict, root: str | Path = ".") -> dict[str, Any]:
+    """Validate an owner-authenticated ledger with some decisions still pending.
+
+    This exists so incremental owner review never forces the system to invent rulings
+    for untouched units. The frozen dossier remains the scope authority.
+    """
+    root = Path(root)
+    validate_dossier(root)
+    dossier = _load_yaml(root / DOSSIER_PATH)
+    _require(record.get("record_type") == "talleyrand_owner_ratification_record", "wrong owner decision record_type")
+    _require(record.get("dossier_id") == dossier.get("id"), "owner decision record targets wrong dossier")
+    _require(record.get("status") == "OWNER_DECISIONS_IN_PROGRESS", "in-progress record has wrong status")
+    _require(record.get("authority") == "REPOSITORY_OWNER_DIRECTIVE", "in-progress record lacks owner authority")
+    _require(isinstance(record.get("owner_directive"), str) and record["owner_directive"].strip(), "in-progress record lacks owner directive")
+    _require(isinstance(record.get("date"), str) and record["date"], "in-progress record lacks date")
+
+    method, deeds, expected_units, ids = _decision_surface(record, dossier)
+    _check_binding(method, dossier["method_decision"], "TAL-DISCOVERY-001")
+    decisions = [method.get("decision")]
+    _require(method.get("decision") in ALLOWED_OWNER_DECISIONS | {PENDING_OWNER_DECISION}, "invalid method decision")
+
+    for item in deeds:
+        did = str(item.get("id"))
+        _check_binding(item, expected_units[did], did)
+        decision = item.get("decision")
+        _require(decision in ALLOWED_OWNER_DECISIONS | {PENDING_OWNER_DECISION}, f"{did}: invalid in-progress decision")
+        decisions.append(decision)
+
+    _require(any(x in ALLOWED_OWNER_DECISIONS for x in decisions), "in-progress record must contain at least one actual owner decision")
+    _require(any(x == PENDING_OWNER_DECISION for x in decisions), "in-progress record must leave at least one unit pending")
+    _require(not set(ids).intersection(_dossier_excluded(dossier)), "owner decision record includes excluded candidate")
+    _require(_record_excluded(record) == _dossier_excluded(dossier), "owner record excluded acknowledgement differs from dossier")
+
+    decided = sum(1 for x in decisions if x in ALLOWED_OWNER_DECISIONS)
+    pending = sum(1 for x in decisions if x == PENDING_OWNER_DECISION)
+    return {
+        "status": PASS_STATUS,
+        "in_progress": True,
+        "decided_units": decided,
+        "pending_units": pending,
+        "deed_decisions": len(deeds),
+        "method_decisions": 1,
+    }
