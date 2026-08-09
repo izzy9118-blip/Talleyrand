@@ -17,7 +17,7 @@ def test_C11_ratification_is_exact_and_live():
     assert c11["decision"] == "RATIFY"
     assert c11["git_blob_sha1"] == "51ebfcd57dfe5c93b7e9df9a3ea67e2d74a36948"
     assert git_blob_sha1(C11_PATH) == c11["git_blob_sha1"]
-    assert len(decisions) == 17
+    assert len(decisions) == 18
 
 
 def test_C11_sharpening_is_exactly_bound():
@@ -44,11 +44,11 @@ def test_C11_sovereign_support_rules_are_mandatory():
 def test_manifest_loads_C11_only_with_its_sharpening_and_moves_next_to_D2():
     manifest = yaml.safe_load(Path("manifest.yaml").read_text(encoding="utf-8"))
     state = manifest["deed_corpus_state"]
-    assert state["effective_owner_ratified_count"] == 17
-    assert state["effective_pending_deed_rulings"] == 3
+    assert state["effective_owner_ratified_count"] == 18
+    assert state["effective_pending_deed_rulings"] == 2
     assert state["deed_C11_owner_decision"] == "RATIFY"
     assert state["deed_C11_owner_sharpening"] == "TAL-DEED-C11-SHARP-001"
     assert manifest["records"]["deed_C11_interpretive_sharpening"] == str(SHARPENING_PATH)
     review = manifest["ratification_review_state"]
-    assert review["next_pending_deed"] == "D2"
+    assert review["next_pending_deed"] == "D3"
     assert "TAL-DEED-C11-SHARP-001" in review["owner_ratified_deed_sharpenings"]
