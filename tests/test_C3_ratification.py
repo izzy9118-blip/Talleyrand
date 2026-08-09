@@ -41,14 +41,14 @@ def test_C3_authorship_integrity_and_pressure_environment_are_mandatory():
     assert "illustration of method, not historical ground for C3" in normalized
 
 
-def test_manifest_loads_C3_only_with_its_sharpening_and_moves_next_to_C4():
+def test_manifest_keeps_C3_and_moves_next_to_C7_after_C4():
     manifest = yaml.safe_load(Path("manifest.yaml").read_text(encoding="utf-8"))
     state = manifest["deed_corpus_state"]
-    assert state["effective_owner_ratified_count"] == 13
-    assert state["effective_pending_deed_rulings"] == 7
+    assert state["effective_owner_ratified_count"] == 14
+    assert state["effective_pending_deed_rulings"] == 6
     assert state["deed_C3_owner_decision"] == "RATIFY"
     assert state["deed_C3_owner_sharpening"] == "TAL-DEED-C3-SHARP-001"
     assert manifest["records"]["deed_C3_interpretive_sharpening"] == str(SHARPENING_PATH)
     review = manifest["ratification_review_state"]
-    assert review["next_pending_deed"] == "C4"
+    assert review["next_pending_deed"] == "C7"
     assert "TAL-DEED-C3-SHARP-001" in review["owner_ratified_deed_sharpenings"]
