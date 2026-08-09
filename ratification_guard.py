@@ -13,10 +13,10 @@ from typing import Any
 
 import yaml
 
-DOSSIER_PATH = Path("ratification/2026-08-09-owner-review-dossier-v7.yaml")
-TEMPLATE_PATH = Path("ratification/owner-decision.v7.template.yaml")
+DOSSIER_PATH = Path("ratification/2026-08-09-owner-review-dossier-v8.yaml")
+TEMPLATE_PATH = Path("ratification/owner-decision.v8.template.yaml")
 LIVE_RATIFICATION_PATH = Path("ratification/live-owner-ratifications.yaml")
-ACTIVE_DOSSIER_ID = "TAL-RAT-DOSSIER-2026-08-09-007"
+ACTIVE_DOSSIER_ID = "TAL-RAT-DOSSIER-2026-08-09-008"
 PASS_STATUS = "RATIFICATION_DOSSIER_STRUCTURAL_PASS_NOT_TRUTH_CERTIFICATION"
 ALLOWED_OWNER_DECISIONS = {"RATIFY", "DECLINE", "RETURN_FOR_REVISION", "HOLD"}
 PENDING_OWNER_DECISION = "PENDING_OWNER_RULING"
@@ -78,7 +78,7 @@ def _validate_live_ratifications(root: Path) -> dict:
     _require(record.get("self_certification") == "PROHIBITED", "live ratification record lost self-certification prohibition")
 
     decisions = record.get("deed_decisions")
-    _require(isinstance(decisions, list) and len(decisions) == 14, "live ratification record must contain 14 ratified deeds")
+    _require(isinstance(decisions, list) and len(decisions) == 15, "live ratification record must contain 15 ratified deeds")
     ids = [str(x.get("id")) for x in decisions]
     _require(len(ids) == len(set(ids)), "duplicate live ratification decision")
     for item in decisions:
@@ -91,6 +91,7 @@ def _validate_live_ratifications(root: Path) -> dict:
     for sharpening_id, deed_id in (
         ("TAL-DEED-C3-SHARP-001", "C3"),
         ("TAL-DEED-C4-SHARP-001", "C4"),
+        ("TAL-DEED-C7-SHARP-001", "C7"),
     ):
         _require(sharpening_id in by_id, f"{deed_id} sharpening missing from live authority")
         _require(by_id[sharpening_id].get("deed") == deed_id, f"{deed_id} sharpening bound to wrong deed")
@@ -118,18 +119,19 @@ def validate_dossier(root: str | Path = ".") -> dict[str, Any]:
         ("live_owner_ratifications", "live owner ratifications"),
         ("C3_sharpening", "TAL-DEED-C3-SHARP-001"),
         ("C4_sharpening", "TAL-DEED-C4-SHARP-001"),
+        ("C7_sharpening", "TAL-DEED-C7-SHARP-001"),
     ):
         _assert_blob(root, bindings.get(key) or {}, label)
 
     index = _load_yaml(root / "deeds/index.yaml")
-    _require(index.get("version") == "2.6.0", "active dossier requires deed corpus 2.6.0")
+    _require(index.get("version") == "2.7.0", "active dossier requires deed corpus 2.7.0")
     _require("owner_removal_records" not in index, "deleted-deed records re-entered live index")
     _require("owner_removed_deeds" not in (index.get("candidate_resolution") or {}), "deleted-deed dispositions re-entered live index")
 
     pending = _index_pending(index)
-    _require(len(pending) == 6, "live deed corpus must contain exactly 6 pending owner decisions")
+    _require(len(pending) == 5, "live deed corpus must contain exactly 5 pending owner decisions")
     units = dossier.get("pending_deed_decisions")
-    _require(isinstance(units, list) and len(units) == 6, "active dossier must contain exactly 6 pending deed decisions")
+    _require(isinstance(units, list) and len(units) == 5, "active dossier must contain exactly 5 pending deed decisions")
     ids = [str(x.get("id")) for x in units]
     _require(len(ids) == len(set(ids)), "dossier contains duplicate deed decision")
     _require(set(ids) == set(pending), "dossier deed scope does not exactly match the live pending corpus")
@@ -144,7 +146,7 @@ def validate_dossier(root: str | Path = ".") -> dict[str, Any]:
     live = _validate_live_ratifications(root)
     live_ids = {str(x.get("id")) for x in live["deed_decisions"]}
     prior = dossier.get("prior_owner_decisions_not_reopened")
-    _require(isinstance(prior, list) and len(prior) == 15, "active dossier must carry 14 deed rulings plus discovery")
+    _require(isinstance(prior, list) and len(prior) == 16, "active dossier must carry 15 deed rulings plus discovery")
     prior_ids = {str(x.get("id")) for x in prior}
     _require(prior_ids == live_ids | {"TAL-DISCOVERY-001"}, "carried-forward owner decisions differ from live authority")
     for item in prior:
