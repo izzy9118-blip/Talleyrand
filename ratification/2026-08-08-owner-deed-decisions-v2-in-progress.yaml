@@ -4,12 +4,12 @@ dossier_id: TAL-RAT-DOSSIER-2026-08-08-002
 status: OWNER_DECISIONS_IN_PROGRESS
 authority: REPOSITORY_OWNER_DIRECTIVE
 owner_directive: >-
-  In the controlling conversation, after Deed 0, A1, and A2 had been ratified, the
-  repository owner reviewed A3 — READ THE SILENCE AS POSITION — and affirmed that
-  "deep analsis is always necessary". The directive is preserved as the house-wide
-  owner-ratified method rule TAL-METHOD-DEEP-ANALYSIS-001. A3 is ratified only as its
-  exact frozen blob and under that governing rule. This record preserves all prior
-  owner acts and supplies no ruling for any other pending deed or for the voice license.
+  In the controlling conversation, after Deed 0, A1, A2, and A3 had been ratified,
+  A4 — READ THE DOCUMENT BY ITS TRUE AUDIENCE — was reviewed under the house-wide
+  deep-analysis rule and recommended for ratification as written. The repository
+  owner replied "good". In context, this record resolves that approval only as
+  ratification of A4's exact frozen blob. All prior owner acts are preserved; no
+  ruling is supplied for any other pending deed or for the voice license.
 date: "2026-08-08"
 
 prior_owner_decisions_preserved:
@@ -22,7 +22,7 @@ deed_decisions:
   - {id: A1, git_blob_sha1: 2353e13c0c68af2c13880b9d821cadab964dbea0, decision: RATIFY}
   - {id: A2, git_blob_sha1: c8e781769d72c2ae8f4041c0930da57e015b0d92, decision: RATIFY}
   - {id: A3, git_blob_sha1: 066ea8a7680b972ad28ed89f7fa34f5437a43897, decision: RATIFY}
-  - {id: A4, git_blob_sha1: 7e512a54e190377b0be0cd30cc8f544ebefa1a6c, decision: PENDING_OWNER_RULING}
+  - {id: A4, git_blob_sha1: 7e512a54e190377b0be0cd30cc8f544ebefa1a6c, decision: RATIFY}
   - {id: A5, git_blob_sha1: a089840a1daa38321bb66afcd7f2f11808c72938, decision: PENDING_OWNER_RULING}
   - {id: B1, git_blob_sha1: d9ffaadf3ba4ec15d1b2ab4b7fdc4c1dc873e06d, decision: PENDING_OWNER_RULING}
   - {id: B2, git_blob_sha1: 89b82d33f5fe365e457e8867148281f35ae314fa, decision: PENDING_OWNER_RULING}
@@ -65,9 +65,9 @@ excluded_acknowledgement:
   held_out_style_or_observation_register: [H1, H2, H3, H4]
 
 non_effects:
-  - the frozen Deed 0, A1, A2, and A3 texts are not rewritten by ratification
+  - the frozen Deed 0, A1, A2, A3, and A4 texts are not rewritten by ratification
   - the frozen deed index remains the dossier review surface until the owner-review cycle closes
-  - TAL-METHOD-DEEP-ANALYSIS-001 governs all inference-bearing deeds forward and explicitly governs A3
+  - TAL-METHOD-DEEP-ANALYSIS-001 governs all inference-bearing deeds forward
   - A2 remains governed by TAL-DEED-A2-SHARP-001 without changing its frozen blob
   - no other deed is ratified by this record
   - voice license remains undecided and ungranted
