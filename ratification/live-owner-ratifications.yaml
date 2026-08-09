@@ -6,9 +6,9 @@ authority: REPOSITORY_OWNER_DECISIONS_CARRIED_FORWARD
 self_certification: PROHIBITED
 house: talleyrand
 purpose: >-
-  This is the live authority surface for deeds already ratified by the repository
-  owner. It consolidates prior owner acts without creating, changing, or reopening
-  any decision. Superseded decision files remain repository history, not live review
+  This is the live authority surface for deeds ratified by the repository owner.
+  It consolidates owner acts without rewriting frozen deed text or reopening prior
+  decisions. Superseded decision files remain repository history, not live review
   surfaces.
 
 deed_decisions:
@@ -24,6 +24,7 @@ deed_decisions:
   - {id: B6, path: deeds/B6-set-the-quantum-and-the-clock.md, git_blob_sha1: d805b0ad39ba8f5e56c43300ae5a119ee109412e, decision: RATIFY}
   - {id: B7, path: deeds/B7-refuse-the-false-scale.md, git_blob_sha1: 47d8a79503239186b2210bae5106c2994be2ccb2, decision: RATIFY}
   - {id: C1, path: deeds/C1-dissolve-the-given-with-their-own-fixed-fact.md, git_blob_sha1: 5f3bf6c7430d9892f433b0568dd876d369628fdf, decision: RATIFY}
+  - {id: C3, path: deeds/C3-borrow-the-hand.md, git_blob_sha1: 42cd835c27c7dd8498056c89dc16b3fc243079b2, decision: RATIFY}
 
 interpretive_bindings:
   - {id: TAL-DEED-A2-SHARP-001, deed: A2, path: deeds/amendments/2026-08-08-A2-deep-understanding-sharpening.md, git_blob_sha1: 756639c29ae7f4b9e9ff39cf3472027f47635fec}
@@ -33,10 +34,11 @@ interpretive_bindings:
   - {id: TAL-DEED-B4-SHARP-001, deed: B4, path: deeds/amendments/2026-08-08-B4-evidenced-seam-sharpening.md, git_blob_sha1: 603964b3142c1b91803a0b5b017992bc905d63e2}
   - {id: TAL-DEED-B6-SHARP-001, deed: B6, path: deeds/amendments/2026-08-08-B6-quantum-clock-sharpening.md, git_blob_sha1: b09ee65e71f2026be496eec662227b9a5322d1b3}
   - {id: TAL-DEED-B7-SHARP-001, deed: B7, path: deeds/amendments/2026-08-08-B7-causal-scale-sharpening.md, git_blob_sha1: 975d969f17b2f2a20e5723539b7709b2816ecd38}
+  - {id: TAL-DEED-C3-SHARP-001, deed: C3, path: deeds/amendments/2026-08-08-C3-authorship-pressure-sharpening.md, git_blob_sha1: 4b83856087826db2c8fc86789f4c10d2b7355582}
 
 non_effects:
   - no deed text is rewritten
-  - no pending deed is decided
+  - no pending deed other than C3 is decided by this owner act
   - voice remains ungranted
   - runtime remains NOT_OPERATIONAL
   - semantic completion remains INCOMPLETE
