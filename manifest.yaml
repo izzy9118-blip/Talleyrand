@@ -1,6 +1,6 @@
 schema_version: 1.0
 record_type: talleyrand_house_manifest
-version: 1.16.0
+version: 1.17.0
 identity:
   house: talleyrand
   minister_id: talleyrand
@@ -48,6 +48,9 @@ ratification:
   deed_B1: OWNER_RATIFIED_BY_RECORD_WITH_INTERPRETIVE_SHARPENING
   deed_B1_sharpening: OWNER_RATIFIED
   deed_B1_sharpening_record: deeds/amendments/2026-08-08-B1-no-forced-unity-sharpening.md
+  deed_B2: OWNER_RATIFIED_BY_RECORD_WITH_INTERPRETIVE_SHARPENING
+  deed_B2_sharpening: OWNER_RATIFIED
+  deed_B2_sharpening_record: deeds/amendments/2026-08-08-B2-coalition-belief-sharpening.md
   prior_deed_owner_decision_record: ratification/2026-08-08-owner-deed-decisions-v2-in-progress.yaml
   active_deed_owner_decision_record: ratification/2026-08-08-owner-deed-decisions-v3-in-progress.yaml
   deed_corpus_2_2: ACTIVE_POST_A5_OWNER_REMOVAL
@@ -79,6 +82,7 @@ load_order:
     - deeds/ in index order
     - deeds/amendments/2026-08-08-A2-deep-understanding-sharpening.md with A2
     - deeds/amendments/2026-08-08-B1-no-forced-unity-sharpening.md with B1
+    - deeds/amendments/2026-08-08-B2-coalition-belief-sharpening.md with B2
 records:
   keel: keel.md
   keel_connected_boards_amendment: amendments/2026-08-08-connected-boards-keel-amendment.md
@@ -90,6 +94,7 @@ records:
   deed_resolution: deeds/resolutions/2026-08-08-post-vienna-candidate-resolution.md
   deed_A2_interpretive_sharpening: deeds/amendments/2026-08-08-A2-deep-understanding-sharpening.md
   deed_B1_interpretive_sharpening: deeds/amendments/2026-08-08-B1-no-forced-unity-sharpening.md
+  deed_B2_interpretive_sharpening: deeds/amendments/2026-08-08-B2-coalition-belief-sharpening.md
   deed_A5_owner_removal: ratification/2026-08-08-owner-removal-A5.yaml
   deed_validator: deed_corpus.py
   owner_ratification_dossier_active: ratification/2026-08-08-owner-review-dossier-v3.yaml
@@ -158,6 +163,11 @@ safeguards:
   - connected_outcomes_do_not_prove_single_directing_intelligence
   - B1_alternatives_remain_visible_when_ground_does_not_discriminate
   - B1_Letter_IX_grand_design_remains_bounded_inference
+  - B2_reconstructs_each_member_before_pricing_belief
+  - B2_does_not_presume_adherence_is_belief_dependent
+  - B2_belief_change_requires_truthful_attributable_ground
+  - B2_does_not_presume_every_coalition_is_merely_apparent
+  - B2_dated_leak_prediction_is_mandatory
   - counterfeit_registry_is_living
   - constitutive_cut_precedes_pricing
   - persons_and_bodies_never_merged
@@ -192,9 +202,9 @@ source_state:
 deed_corpus_state:
   version: 2.2.0
   indexed_deeds: 21
-  effective_owner_ratified_deeds: ["0", A1, A2, A3, A4, B1, C1]
-  effective_owner_ratified_count: 7
-  effective_pending_deed_rulings: 14
+  effective_owner_ratified_deeds: ["0", A1, A2, A3, A4, B1, B2, C1]
+  effective_owner_ratified_count: 8
+  effective_pending_deed_rulings: 13
   owner_removed_deeds: [A5]
   owner_removal_record: ratification/2026-08-08-owner-removal-A5.yaml
   index_note: >-
@@ -214,6 +224,8 @@ deed_corpus_state:
   deed_A5_disposition: OWNER_REMOVED
   deed_B1_owner_decision: RATIFY
   deed_B1_owner_sharpening: TAL-DEED-B1-SHARP-001
+  deed_B2_owner_decision: RATIFY
+  deed_B2_owner_sharpening: TAL-DEED-B2-SHARP-001
   active_deed_owner_decision_record: ratification/2026-08-08-owner-deed-decisions-v3-in-progress.yaml
   prior_deed_owner_decision_record: ratification/2026-08-08-owner-deed-decisions-v2-in-progress.yaml
   deed_0_historical_draft_preserved: SEE ONE BOARD
@@ -235,11 +247,11 @@ ratification_review_state:
   carried_forward_discovery_decision: TAL-DISCOVERY-001
   owner_ratified_keel_amendment_not_a_deed_ruling: [TAL-KEEL-AMD-001]
   owner_ratified_house_method_rules: [TAL-METHOD-DEEP-ANALYSIS-001]
-  owner_ratified_deed_sharpenings: [TAL-DEED-A2-SHARP-001, TAL-DEED-B1-SHARP-001]
+  owner_ratified_deed_sharpenings: [TAL-DEED-A2-SHARP-001, TAL-DEED-B1-SHARP-001, TAL-DEED-B2-SHARP-001]
   owner_removed_deeds: [A5]
-  owner_ratified_deeds_this_cycle: [B1]
-  pending_deed_units: 14
-  next_pending_deed: B2
+  owner_ratified_deeds_this_cycle: [B1, B2]
+  pending_deed_units: 13
+  next_pending_deed: B3
   unresolved_self_testimonial_ore_excluded: [C5, C6]
   absorbed_not_deeds_excluded: [A6, B5, C9]
   retired_formulations_excluded: [C10, D1]
@@ -258,10 +270,10 @@ condemned:
 next_required_actions:
   - id: TAL-NEXT-001
     action: >-
-      Continue substantive owner review of the 14 remaining live pending deeds against
-      ratification/2026-08-08-owner-review-dossier-v3.yaml. B1 is owner-ratified by
-      the active v3 decision record and is governed by TAL-DEED-B1-SHARP-001. A5 is
-      owner-removed. B2 is the next pending deed.
+      Continue substantive owner review of the 13 remaining live pending deeds against
+      ratification/2026-08-08-owner-review-dossier-v3.yaml. B1 and B2 are owner-ratified
+      by the active v3 decision record and governed by their respective interpretive
+      sharpenings. A5 is owner-removed. B3 is the next pending deed.
   - id: TAL-NEXT-002
     action: >-
       Obtain the owner's explicit ruling on the scope of the voice license. The only

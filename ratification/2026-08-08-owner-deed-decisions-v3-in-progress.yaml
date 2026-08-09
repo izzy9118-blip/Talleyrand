@@ -4,14 +4,16 @@ dossier_id: TAL-RAT-DOSSIER-2026-08-08-003
 status: OWNER_DECISIONS_IN_PROGRESS
 authority: REPOSITORY_OWNER_DIRECTIVE
 owner_directive: >-
-  In the controlling conversation, B1 — RECOVER THE DESIGN FROM FRAGMENTS — was
-  recommended for ratification with an additive interpretive sharpening forbidding
-  forced unity and requiring analysis to distinguish coordination, exploitation,
-  convergence, coincidence, and multiple interacting designs. The repository owner
-  replied "do on" in immediate response to that recommendation. This record resolves
-  that directive only as ratification of B1's exact frozen blob under
-  TAL-DEED-B1-SHARP-001. No ruling is supplied for any other pending deed or for the
-  voice license.
+  In the controlling conversation, B1 — RECOVER THE DESIGN FROM FRAGMENTS — had
+  already been ratified under TAL-DEED-B1-SHARP-001. B2 — PRICE THE COALITION IN
+  BELIEFS — was then reviewed and recommended for ratification with an additive
+  sharpening requiring member-by-member reconstruction before any belief lever is
+  used, limiting the "cheapest belief to change" to the least costly truthful change
+  in attributable ground, preserving the possibility of genuine coalition cohesion,
+  and retaining a dated falsifiable leak prediction. The repository owner replied
+  "do it" in immediate response. This record resolves that directive only as
+  ratification of B2's exact frozen blob under TAL-DEED-B2-SHARP-001. No ruling is
+  supplied for any other pending deed or for the voice license.
 date: "2026-08-08"
 
 prior_owner_decisions_preserved:
@@ -33,7 +35,7 @@ owner_removed_deeds_preserved:
 
 deed_decisions:
   - {id: B1, git_blob_sha1: d9ffaadf3ba4ec15d1b2ab4b7fdc4c1dc873e06d, decision: RATIFY}
-  - {id: B2, git_blob_sha1: 89b82d33f5fe365e457e8867148281f35ae314fa, decision: PENDING_OWNER_RULING}
+  - {id: B2, git_blob_sha1: 89b82d33f5fe365e457e8867148281f35ae314fa, decision: RATIFY}
   - {id: B3, git_blob_sha1: d370b2a98e2e2f620b258a068ead4b1383c1d05d, decision: PENDING_OWNER_RULING}
   - {id: B4, git_blob_sha1: f2666f50d2b955fa157a46b20236935cd90d06dd, decision: PENDING_OWNER_RULING}
   - {id: B6, git_blob_sha1: d805b0ad39ba8f5e56c43300ae5a119ee109412e, decision: PENDING_OWNER_RULING}
@@ -55,6 +57,12 @@ interpretive_sharpenings:
     path: deeds/amendments/2026-08-08-B1-no-forced-unity-sharpening.md
     git_blob_sha1: 4eb293085c4c5be0f3712717d30df497a7276b85
     status: OWNER_RATIFIED
+  - id: TAL-DEED-B2-SHARP-001
+    deed: B2
+    deed_git_blob_sha1: 89b82d33f5fe365e457e8867148281f35ae314fa
+    path: deeds/amendments/2026-08-08-B2-coalition-belief-sharpening.md
+    git_blob_sha1: 2c8c38b0f63f9c9da7a1ac20f9ce2e52591b3bfe
+    status: OWNER_RATIFIED
 
 excluded_acknowledgement:
   unresolved_self_testimonial_ore: [C5, C6]
@@ -64,9 +72,11 @@ excluded_acknowledgement:
   held_out_style_or_observation_register: [H1, H2, H3, H4]
 
 non_effects:
-  - B1 frozen deed text is not rewritten by ratification
-  - B1 is governed forward by TAL-DEED-B1-SHARP-001
-  - Letter IX grand design remains a bounded inference and is not promoted to documented fact
+  - B1 and B2 frozen deed texts are not rewritten by ratification
+  - B1 remains governed forward by TAL-DEED-B1-SHARP-001
+  - B2 is governed forward by TAL-DEED-B2-SHARP-001
+  - coalition membership is not presumed to be belief-dependent
+  - truthful attributable ground is required for a B2 belief-changing operation
   - all other live pending deeds remain PENDING_OWNER_RULING
   - A5 remains owner-removed
   - voice license remains undecided and ungranted
