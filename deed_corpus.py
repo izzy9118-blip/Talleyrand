@@ -80,8 +80,8 @@ def validate_deed_corpus(root: str | Path = ".") -> dict:
     _require(index_path.is_file(), "deeds/index.yaml missing")
     index = yaml.safe_load(index_path.read_text(encoding="utf-8"))
     _require(index.get("record_type") == "talleyrand_deed_index", "wrong deed index record_type")
-    _require(index.get("version") == "2.10.0", "live deed index must be version 2.10.0")
-    _require(index.get("corpus") == "DEED CORPUS 2.10 LIVE-ONLY AFTER D2 RATIFICATION", "live deed corpus label changed")
+    _require(index.get("version") == "2.11.0", "live deed index must be version 2.11.0")
+    _require(index.get("corpus") == "DEED CORPUS 2.11 LIVE-ONLY AFTER D3 RATIFICATION", "live deed corpus label changed")
     _require("owner_removal_records" not in index, "historical removal records re-entered live index")
 
     deeds = index.get("deeds")
