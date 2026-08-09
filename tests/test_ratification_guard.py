@@ -18,6 +18,12 @@ def _template():
     return yaml.safe_load(Path("ratification/owner-decision.v2.template.yaml").read_text(encoding="utf-8"))
 
 
+def _live_progress():
+    return yaml.safe_load(
+        Path("ratification/2026-08-08-owner-deed-decisions-v2-in-progress.yaml").read_text(encoding="utf-8")
+    )
+
+
 def _progress_with_deed0_ratified():
     record = deepcopy(_template())
     record["id"] = "TAL-RAT-OWNER-DECISION-V2-TEST"
@@ -83,6 +89,17 @@ def test_owner_decision_v2_template_cannot_claim_authority():
     assert result["deed_decisions"] == 21
 
 
+def test_live_owner_record_ratifies_only_revised_deed0():
+    record = _live_progress()
+    result = validate_in_progress_record(record, ".")
+    assert result["decided_units"] == 1
+    assert result["pending_units"] == 20
+    by_id = {str(item["id"]): item["decision"] for item in record["deed_decisions"]}
+    assert by_id["0"] == "RATIFY"
+    assert all(decision == "PENDING_OWNER_RULING" for did, decision in by_id.items() if did != "0")
+    assert "do it" in record["owner_directive"]
+
+
 def test_incremental_v2_record_can_decide_one_deed_without_inventing_others():
     record = _progress_with_deed0_ratified()
     result = validate_in_progress_record(record, ".")
@@ -91,10 +108,20 @@ def test_incremental_v2_record_can_decide_one_deed_without_inventing_others():
 
 
 def test_in_progress_record_cannot_change_revised_deed0_binding():
-    record = _progress_with_deed0_ratified()
+    record = deepcopy(_live_progress())
     record["deed_decisions"][0]["git_blob_sha1"] = "1700193646bc6f2cd5fa9661cb521eb671949e9e"
     with pytest.raises(RatificationGuardError, match="binding mismatch"):
         validate_in_progress_record(record, ".")
+
+
+def test_live_record_cannot_invent_second_owner_decision():
+    record = deepcopy(_live_progress())
+    record["deed_decisions"][1]["decision"] = "RATIFY"
+    result = validate_in_progress_record(record, ".")
+    assert result["decided_units"] == 2
+    # Structural validity alone does not create authority for that second decision;
+    # the committed live record is the documentary owner act and must remain exact.
+    assert _live_progress()["deed_decisions"][1]["decision"] == "PENDING_OWNER_RULING"
 
 
 def test_completed_record_requires_explicit_owner_authority():
