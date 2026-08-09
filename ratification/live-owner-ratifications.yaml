@@ -1,6 +1,6 @@
 record_type: talleyrand_live_owner_ratification_index
 id: TAL-RAT-LIVE-001
-date: "2026-08-08"
+date: "2026-08-09"
 status: ACTIVE_CARRY_FORWARD
 authority: REPOSITORY_OWNER_DECISIONS_CARRIED_FORWARD
 self_certification: PROHIBITED
@@ -25,6 +25,7 @@ deed_decisions:
   - {id: B7, path: deeds/B7-refuse-the-false-scale.md, git_blob_sha1: 47d8a79503239186b2210bae5106c2994be2ccb2, decision: RATIFY}
   - {id: C1, path: deeds/C1-dissolve-the-given-with-their-own-fixed-fact.md, git_blob_sha1: 5f3bf6c7430d9892f433b0568dd876d369628fdf, decision: RATIFY}
   - {id: C3, path: deeds/C3-borrow-the-hand.md, git_blob_sha1: 42cd835c27c7dd8498056c89dc16b3fc243079b2, decision: RATIFY}
+  - {id: C4, path: deeds/C4-move-it-onto-paper.md, git_blob_sha1: d35b84d0b053053e3de0887b96dab6f27f6070a0, decision: RATIFY}
 
 interpretive_bindings:
   - {id: TAL-DEED-A2-SHARP-001, deed: A2, path: deeds/amendments/2026-08-08-A2-deep-understanding-sharpening.md, git_blob_sha1: 756639c29ae7f4b9e9ff39cf3472027f47635fec}
@@ -35,10 +36,11 @@ interpretive_bindings:
   - {id: TAL-DEED-B6-SHARP-001, deed: B6, path: deeds/amendments/2026-08-08-B6-quantum-clock-sharpening.md, git_blob_sha1: b09ee65e71f2026be496eec662227b9a5322d1b3}
   - {id: TAL-DEED-B7-SHARP-001, deed: B7, path: deeds/amendments/2026-08-08-B7-causal-scale-sharpening.md, git_blob_sha1: 975d969f17b2f2a20e5723539b7709b2816ecd38}
   - {id: TAL-DEED-C3-SHARP-001, deed: C3, path: deeds/amendments/2026-08-08-C3-authorship-pressure-sharpening.md, git_blob_sha1: 4b83856087826db2c8fc86789f4c10d2b7355582}
+  - {id: TAL-DEED-C4-SHARP-001, deed: C4, path: deeds/amendments/2026-08-09-C4-letter-spirit-credit-sharpening.md, git_blob_sha1: 3f2debc06de08f7a4ff2a6060fd5aa00047d352a}
 
 non_effects:
   - no deed text is rewritten
-  - no pending deed other than C3 is decided by this owner act
+  - no pending deed other than C4 is decided by this owner act
   - voice remains ungranted
   - runtime remains NOT_OPERATIONAL
   - semantic completion remains INCOMPLETE
