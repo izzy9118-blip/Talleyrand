@@ -13,10 +13,10 @@ from typing import Any
 
 import yaml
 
-DOSSIER_PATH = Path("ratification/2026-08-08-owner-review-dossier-v5.yaml")
-TEMPLATE_PATH = Path("ratification/owner-decision.v5.template.yaml")
+DOSSIER_PATH = Path("ratification/2026-08-08-owner-review-dossier-v6.yaml")
+TEMPLATE_PATH = Path("ratification/owner-decision.v6.template.yaml")
 LIVE_RATIFICATION_PATH = Path("ratification/live-owner-ratifications.yaml")
-ACTIVE_DOSSIER_ID = "TAL-RAT-DOSSIER-2026-08-08-005"
+ACTIVE_DOSSIER_ID = "TAL-RAT-DOSSIER-2026-08-08-006"
 PASS_STATUS = "RATIFICATION_DOSSIER_STRUCTURAL_PASS_NOT_TRUTH_CERTIFICATION"
 ALLOWED_OWNER_DECISIONS = {"RATIFY", "DECLINE", "RETURN_FOR_REVISION", "HOLD"}
 PENDING_OWNER_DECISION = "PENDING_OWNER_RULING"
@@ -78,14 +78,19 @@ def _validate_live_ratifications(root: Path) -> dict:
     _require(record.get("self_certification") == "PROHIBITED", "live ratification record lost self-certification prohibition")
 
     decisions = record.get("deed_decisions")
-    _require(isinstance(decisions, list) and len(decisions) == 12, "live ratification record must contain 12 ratified deeds")
+    _require(isinstance(decisions, list) and len(decisions) == 13, "live ratification record must contain 13 ratified deeds")
     ids = [str(x.get("id")) for x in decisions]
     _require(len(ids) == len(set(ids)), "duplicate live ratification decision")
     for item in decisions:
         _require(item.get("decision") == "RATIFY", f"{item.get('id')}: live decision is not RATIFY")
         _assert_blob(root, item, f"live ratification {item.get('id')}")
 
-    for binding in record.get("interpretive_bindings") or []:
+    bindings = record.get("interpretive_bindings") or []
+    _require(isinstance(bindings, list), "live interpretive bindings must be a list")
+    by_id = {str(x.get("id")): x for x in bindings}
+    _require("TAL-DEED-C3-SHARP-001" in by_id, "C3 sharpening missing from live authority")
+    _require(by_id["TAL-DEED-C3-SHARP-001"].get("deed") == "C3", "C3 sharpening bound to wrong deed")
+    for binding in bindings:
         _assert_blob(root, binding, f"interpretive binding {binding.get('id')}")
     return record
 
@@ -107,18 +112,19 @@ def validate_dossier(root: str | Path = ".") -> dict[str, Any]:
         ("deep_analysis_rule", "TAL-METHOD-DEEP-ANALYSIS-001"),
         ("deed_index", "deed index"),
         ("live_owner_ratifications", "live owner ratifications"),
+        ("C3_sharpening", "TAL-DEED-C3-SHARP-001"),
     ):
         _assert_blob(root, bindings.get(key) or {}, label)
 
     index = _load_yaml(root / "deeds/index.yaml")
-    _require(index.get("version") == "2.4.0", "active dossier requires deed corpus 2.4.0")
+    _require(index.get("version") == "2.5.0", "active dossier requires deed corpus 2.5.0")
     _require("owner_removal_records" not in index, "deleted-deed records re-entered live index")
     _require("owner_removed_deeds" not in (index.get("candidate_resolution") or {}), "deleted-deed dispositions re-entered live index")
 
     pending = _index_pending(index)
-    _require(len(pending) == 8, "live deed corpus must contain exactly 8 pending owner decisions")
+    _require(len(pending) == 7, "live deed corpus must contain exactly 7 pending owner decisions")
     units = dossier.get("pending_deed_decisions")
-    _require(isinstance(units, list) and len(units) == 8, "active dossier must contain exactly 8 pending deed decisions")
+    _require(isinstance(units, list) and len(units) == 7, "active dossier must contain exactly 7 pending deed decisions")
     ids = [str(x.get("id")) for x in units]
     _require(len(ids) == len(set(ids)), "dossier contains duplicate deed decision")
     _require(set(ids) == set(pending), "dossier deed scope does not exactly match the live pending corpus")
@@ -133,7 +139,7 @@ def validate_dossier(root: str | Path = ".") -> dict[str, Any]:
     live = _validate_live_ratifications(root)
     live_ids = {str(x.get("id")) for x in live["deed_decisions"]}
     prior = dossier.get("prior_owner_decisions_not_reopened")
-    _require(isinstance(prior, list) and len(prior) == 13, "active dossier must carry 12 deed rulings plus discovery")
+    _require(isinstance(prior, list) and len(prior) == 14, "active dossier must carry 13 deed rulings plus discovery")
     prior_ids = {str(x.get("id")) for x in prior}
     _require(prior_ids == live_ids | {"TAL-DISCOVERY-001"}, "carried-forward owner decisions differ from live authority")
     for item in prior:
