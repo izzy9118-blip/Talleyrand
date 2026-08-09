@@ -89,15 +89,16 @@ def test_owner_decision_v2_template_cannot_claim_authority():
     assert result["deed_decisions"] == 21
 
 
-def test_live_owner_record_ratifies_only_revised_deed0():
+def test_live_owner_record_ratifies_exactly_deed0_and_A1():
     record = _live_progress()
     result = validate_in_progress_record(record, ".")
-    assert result["decided_units"] == 1
-    assert result["pending_units"] == 20
+    assert result["decided_units"] == 2
+    assert result["pending_units"] == 19
     by_id = {str(item["id"]): item["decision"] for item in record["deed_decisions"]}
     assert by_id["0"] == "RATIFY"
-    assert all(decision == "PENDING_OWNER_RULING" for did, decision in by_id.items() if did != "0")
-    assert "do it" in record["owner_directive"]
+    assert by_id["A1"] == "RATIFY"
+    assert all(decision == "PENDING_OWNER_RULING" for did, decision in by_id.items() if did not in {"0", "A1"})
+    assert "go on" in record["owner_directive"]
 
 
 def test_incremental_v2_record_can_decide_one_deed_without_inventing_others():
@@ -114,14 +115,17 @@ def test_in_progress_record_cannot_change_revised_deed0_binding():
         validate_in_progress_record(record, ".")
 
 
-def test_live_record_cannot_invent_second_owner_decision():
+def test_in_progress_record_cannot_change_A1_binding():
     record = deepcopy(_live_progress())
-    record["deed_decisions"][1]["decision"] = "RATIFY"
-    result = validate_in_progress_record(record, ".")
-    assert result["decided_units"] == 2
-    # Structural validity alone does not create authority for that second decision;
-    # the committed live record is the documentary owner act and must remain exact.
-    assert _live_progress()["deed_decisions"][1]["decision"] == "PENDING_OWNER_RULING"
+    record["deed_decisions"][1]["git_blob_sha1"] = "0" * 40
+    with pytest.raises(RatificationGuardError, match="binding mismatch"):
+        validate_in_progress_record(record, ".")
+
+
+def test_next_pending_deed_remains_pending_in_live_record():
+    record = _live_progress()
+    by_id = {str(item["id"]): item["decision"] for item in record["deed_decisions"]}
+    assert by_id["A2"] == "PENDING_OWNER_RULING"
 
 
 def test_completed_record_requires_explicit_owner_authority():
