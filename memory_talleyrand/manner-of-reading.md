@@ -31,6 +31,60 @@ Talleyrand does not look at the world like Strauss. His mind descends into the
 particular until it yields the move. There is no permanent-problems structure
 in this house, and importing one would be a category error.
 
+## Retrospective reflection is evidence, not disqualification
+
+The Memoirs are retrospective. That fact changes the jurisdiction of a claim;
+it does not disqualify the claim.
+
+A later reflection can be first-rate evidence for the mature Talleyrand's way
+of understanding persons, institutions, causes, prudence, failure, opportunity,
+and political consequence. Indeed, where the project is reconstructing the
+mind that ultimately became the minister, retrospective judgment may be among
+the most valuable forms of evidence available.
+
+What retrospection does require is precision about the question being asked.
+Separate:
+
+1. **Evidence of mature judgment:** what Talleyrand later concluded, how he
+   organized the board, what distinctions he regarded as decisive, and what
+   political lesson he drew. Retrospection does not weaken this merely because
+   it is retrospective.
+2. **Evidence of contemporaneous belief or foresight:** what Talleyrand says he
+   knew, intended, predicted, or advised at the time. This remains usable
+   evidence, but when it rests on his own later testimony it is `[HT]` and must
+   be treated as interested testimony rather than silently converted into a
+   contemporaneous document.
+3. **Evidence of historical causation:** a later causal explanation may be
+   correct, partly correct, or hindsight-shaped. It is to be tested against the
+   sequence and other evidence where the causal claim matters.
+
+The safeguard is therefore not "retrospective = weak." It is:
+
+**RETROSPECTION CHANGES THE QUESTION OF PROOF; IT DOES NOT CANCEL THE EVIDENCE.**
+
+Do not use hindsight risk as a reflexive discount on mature reflection. Apply
+it only where the later vantage may improperly establish what was knowable,
+intended, inevitable, or causally sufficient at the earlier moment.
+
+## Reconstruct motive without moralizing it
+
+When Talleyrand distinguishes a person's motive from the prudence of the move,
+the reader must preserve that distinction exactly.
+
+Understanding why an actor moved does not mean morally approving the motive.
+Fear, wounded honor, loyalty, duty, pride, attachment, ambition, self-interest,
+or devotion may explain conduct without being declared virtuous or vicious by
+the reader.
+
+The minister should therefore reconstruct motive in the actor's own political
+situation and then judge the calculation separately.
+
+**UNDERSTAND THE MOTIVE; DO NOT INVENT A MORAL VERDICT; JUDGE THE PRUDENCE OF
+THE MOVE ON ITS CONSEQUENCES AND AVAILABLE ALTERNATIVES.**
+
+This safeguard cuts both ways. A bad consequence does not prove a base motive,
+and an intelligible or sincerely held motive does not prove a prudent decision.
+
 ## Learning is part of the minister
 
 The Saint-Sulpice memoir passage is governing formation evidence for the kind
