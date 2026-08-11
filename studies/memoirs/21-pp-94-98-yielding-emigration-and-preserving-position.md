@@ -3,7 +3,7 @@
 
 **Primary witness:** *Memoirs of the Prince de Talleyrand*, Vol. I, English translation by Raphael Ledos de Beaufort, edited by the Duc de Broglie (G. P. Putnam’s Sons, 1891), printed pp. 94–98.
 
-**Witness condition:** English translation, not quotation-grade French. Talleyrand’s account of his own advice, motives, refusals, and strategic conduct is `[HT]`: interested retrospective testimony. Editorial notes and the later Bacourt appendix remain separate witnesses.
+**Witness condition:** English translation, not quotation-grade French. Talleyrand’s account of his own advice, motives, refusals, and strategic conduct is `[HT]`: interested retrospective testimony. Retrospection does not disqualify the reflection. It is direct evidence of the mature Talleyrand’s judgment; where he claims what he knew, intended, advised, or foresaw at the earlier moment, the claim remains `[HT]` and must not be silently converted into a contemporaneous document. Editorial notes and the later Bacourt appendix remain separate witnesses.
 
 **Evidence status:** Independent Memoirs reconstruction. No preexisting deed was consulted or cross-referenced in producing this unit.
 
@@ -82,9 +82,7 @@ For the minister, “buy time” is therefore incomplete. It should be followed 
 
 The struggle continues. The king intervenes and fails. The Third Estate does not obey an order to separate. Its meeting hall is closed; it meets elsewhere and swears not to separate. Only then does the government attempt to arrest the movement by force.
 
-Talleyrand’s language is retrospective and dramatic, and his claim that the government became completely powerless “from this moment” should not be converted into an exact constitutional fact without corroboration.
-
-But the sequence supports a durable operational distinction.
+Talleyrand’s later judgment that the government became completely powerless “from this moment” is evidence of how the mature Talleyrand understood the sequence. If used as a precise historical threshold or as proof of what was knowable at that exact moment, it requires corroboration. The retrospective character of the reflection does not otherwise diminish its value for reconstructing his mature political judgment.
 
 The same nominal instrument—force—has a different political meaning before and after repeated visible failures of compliance.
 
@@ -98,19 +96,21 @@ Force attempted after authority has already displayed uncertainty may be read no
 
 ---
 
-## 5. Judge the motive and the strategic effect separately
+## 5. Understand the motive; judge the prudence of the decision separately
 
-After the Bastille and the departure of princes, Talleyrand turns to emigration. His formulation is unusually disciplined: he says he did not blame the men who emigrated; he blamed the emigration. He allows noble sentiment, devotion to the royal cause, fear, offended pride, a wish to recover losses, and a sense of duty as possible motives while still judging the collective move a poor calculation.
+After the Bastille and the departure of princes, Talleyrand turns to emigration. His formulation is unusually disciplined: he says he did not blame the men who emigrated; he blamed the emigration. He reconstructs motives that can explain the decision — devotion to the royal cause, fear, offended pride, attachment, a wish to recover losses, a sense of duty — without making the moral worth of those motives the ground of his judgment.
+
+The point is not that Talleyrand declares emigration morally admirable. The point is that he understands why men might choose it and then asks a different question: **Was the decision prudent?**
 
 ### Candidate principle
 
-**GRANT THE MOTIVE ITS DUE; JUDGE THE STRATEGIC EFFECT SEPARATELY.**
+**UNDERSTAND THE MOTIVE; DO NOT INVENT A MORAL VERDICT; JUDGE THE PRUDENCE OF THE MOVE SEPARATELY.**
 
-A loyal act can be strategically destructive.
+An intelligible motive can lead to a strategically destructive decision.
 
-A fearful act can be strategically prudent.
+A motive one disapproves can still produce a prudent move.
 
-A morally admirable intention does not settle whether the move protects the cause it is meant to serve.
+Bad consequence does not prove bad motive, and understandable motive does not prove sound calculation.
 
 This distinction should be routine in ministerial judgment.
 
@@ -192,11 +192,7 @@ Talleyrand closes the movement with a personal resolution `[HT]`.
 
 He says he will remain in France until personal danger compels him to leave; avoid provoking that danger; not struggle against a torrent that must be allowed to pass; keep himself in a position to save those who can be saved; place no obstacle between opportunity and himself; and remain ready for opportunity.
 
-This is among the clearest statements yet of how Talleyrand understands political survival under a rapidly changing order.
-
-It is also self-justifying retrospective testimony and must be handled with care. The passage cannot prove that humanitarian rescue, rather than self-preservation or ambition, governed all of his later conduct.
-
-But the decision structure is independently valuable.
+This is among the clearest statements yet of how the mature Talleyrand understands political survival under a rapidly changing order. Its retrospective character is not a reason to discount that judgment. Where the passage is used to establish that these were in fact his contemporaneous motives at each later moment, it remains `[HT]` and should be tested against conduct and other witnesses where necessary.
 
 ### Candidate principles
 
@@ -248,13 +244,13 @@ The most important questions for the minister are:
 
 A powerful movement appears in Talleyrand’s handling of emigration:
 
-**grant the honorable motive → reject the strategic calculation → trace consequences through those left behind → rank losses by reversibility → test the foreign alternative → state the position he himself will keep.**
+**reconstruct the motive without moralizing it → judge the prudence of the decision separately → trace consequences through those left behind → rank losses by reversibility → test the foreign alternative → state the position he himself will keep.**
 
-This is better than cynical motive-hunting.
+This is better than cynical motive-hunting and better than moral approval or condemnation standing in for strategic judgment.
 
-The voice does not need to prove the actor base. It can say, in effect:
+The voice can say, in effect:
 
-**The motive may be honorable. The move is still badly calculated.**
+**I understand why they chose it. I still judge the decision badly calculated.**
 
 A second voice movement is equally important:
 
@@ -267,22 +263,23 @@ A second voice movement is equally important:
 - **Surrender masquerading as prudence:** conceding a still-defensible position without gaining residual capacity.
 - **Delay worship:** treating time as valuable when it only worsens the board.
 - **Force by abstraction:** counting coercion because a state nominally possesses troops or legal authority.
-- **Motive reduction:** treating noble motive as proof of sound strategy, or bad consequence as proof of bad motive.
+- **Motive moralization:** treating an intelligible motive as moral endorsement, or using a moral verdict on motive as a substitute for judging prudence.
+- **Motive reduction:** inferring base motive from bad consequence or prudent calculation from a motive viewed sympathetically.
 - **Exit individualism:** assessing departure only for the person leaving and ignoring effects on those who remain.
 - **Reversibility blindness:** treating a symbolic loss and an asset transfer as politically equivalent.
 - **Foreign-rescue fantasy:** abandoning present domestic capacity for promised external assistance whose delivery, success, or postwar terms are uncertain.
 - **Opportunism disguised as readiness:** remaining in place merely to attach oneself to the next winner without a defined capacity worth preserving.
-- **Retrospective self-exoneration:** accepting Talleyrand’s account of his own motives as demonstrated fact.
+- **Retrospection-as-disqualification:** discounting a mature reflection merely because it was written later instead of asking what the retrospective evidence can and cannot establish.
 
 ---
 
 ## 13. Evidence limits and hold
 
-- Talleyrand’s claim that the first two orders had become “mere ciphers” is his judgment of the board, not an independently demonstrated mathematical fact.
-- His statement that the government became powerless after the Bastille is rhetorically absolute and should not be converted into a precise historical threshold without corroboration.
+- Talleyrand’s claim that the first two orders had become “mere ciphers” is his judgment of the board. Its retrospective character does not disqualify it; if treated as a precise measure of contemporaneous power, it requires independent testing.
+- His statement that the government became powerless after the Bastille is valuable evidence of his mature reading of the sequence. If converted into a precise historical threshold or a claim about what was already demonstrable at that moment, corroboration is required.
 - His claim that emigration created the later general danger is a causal argument requiring later testing; the passage establishes the mechanism he believed, not sole causation.
 - His doctrine of nobility, property, monarchy, and equality is historically and normatively particular and is not ministerial doctrine.
-- His account of deciding to remain so that he could save others and be ready for opportunity is `[HT]` and potentially self-vindicating.
+- His account of deciding to remain so that he could save others and be ready for opportunity is `[HT]`. It is valid evidence of the mature Talleyrand’s stated judgment and self-understanding. Where used to establish his exact contemporaneous motives, it should be compared with conduct and other evidence rather than accepted or rejected merely because it is retrospective.
 - The Bacourt appendix beginning at printed p. 104 provides a separate later account of the Marly/Comte d’Artois interview and must not be silently merged into Talleyrand’s own narrative.
 
 ---
