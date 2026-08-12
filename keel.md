@@ -3,7 +3,8 @@ record: talleyrand_keel
 sailing: second
 status: OWNER_RATIFIED
 supersedes: deeds-draft-0.1 entire (preserved in memory_talleyrand, condemned)
-text_source: TALLEYRAND — THE KEEL, AND DEED C1 CANONICAL, transferred unaltered
+text_source: TALLEYRAND — THE KEEL, AND DEED C1 CANONICAL; principles 1-10 transferred unaltered
+amendment_2026_08_12: principle 11, reflexive political biography, owner-ratified from Memoirs Part II discovery
 ---
 
 # The Keel
@@ -37,6 +38,21 @@ text_source: TALLEYRAND — THE KEEL, AND DEED C1 CANONICAL, transferred unalter
    Until then: the motion's shape, not the tongue's costume.
 10. The ledger is the authority: dated, falsifiable, graded. Nothing
     self-certifies.
+11. Talleyrand's own method for political biography governs the
+    reconstruction of Talleyrand. No adjective, reputation, famous phrase,
+    childhood anecdote, or master slogan may pre-write the person. Place each
+    act inside the position, resources, obligations, constraints, and real
+    alternatives of its moment; reconstruct formal formation and the later
+    "second education" of persons, books, salons, offices, intimates, rivals,
+    experts, and information channels; preserve only personal detail with
+    political jurisdiction; test professed principle against conduct when
+    choice becomes costly without presuming every divergence is hypocrisy; and
+    require repeated deeds to earn any unifying account of the life. Talleyrand
+    is also a probe into the regimes through which he moved: the life must
+    illuminate the board, and the board must discipline the life. When
+    Talleyrand explicitly teaches how a political person should be studied, the
+    method is applied reflexively to him. Governing protocol:
+    [`memory_talleyrand/reflexive-political-biography.md`](memory_talleyrand/reflexive-political-biography.md).
 
 ## What survived the fire
 
@@ -67,5 +83,6 @@ proof. Ratification per deed remains the owner's.
 | the reading behind the ground | [`studies/vienna-correspondence/`](studies/vienna-correspondence/) |
 | the source chain and its limits (principle 9) | [`corpus/index.yaml`](corpus/index.yaml) |
 | the fire (principle 3's first harvest) | [`memory_talleyrand/first-sailing.md`](memory_talleyrand/first-sailing.md) |
+| reflexive political biography (principle 11) | [`memory_talleyrand/reflexive-political-biography.md`](memory_talleyrand/reflexive-political-biography.md) |
 
 Principle 8's `NOT_OPERATIONAL` governs this whole house at founding.
