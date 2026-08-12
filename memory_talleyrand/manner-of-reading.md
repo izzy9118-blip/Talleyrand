@@ -133,6 +133,12 @@ capable of deep influence without intellectual submission.
 
 ## Talleyrand's method for political biography governs the study of Talleyrand
 
+This discovery is now constitutional, not merely a study observation. It is
+ratified in keel principle 11 and governed in full by
+[`reflexive-political-biography.md`](reflexive-political-biography.md). The
+Memoirs passage that produced the discovery remains the source derivation; the
+protocol now governs the house.
+
 When Talleyrand explains how a political person should be studied, that passage
 is not only a tool for the future minister to use on other actors. It is also
 instruction for this repository about how Talleyrand himself must be
@@ -171,6 +177,17 @@ The rule is explicit:
 **WHEN TALLEYRAND EXPLAINS HOW A POLITICAL LIFE SHOULD BE UNDERSTOOD, APPLY THAT
 METHOD REFLEXIVELY TO TALLEYRAND HIMSELF.**
 
+A mandatory reflexive harvest now follows any close-reading passage in which
+Talleyrand explicitly teaches how a political person, statesman, minister,
+prince, expert, or political actor should be understood. After reconstructing
+the local object, ask:
+
+**WHAT DOES THIS METHOD REQUIRE US TO EXAMINE IN TALLEYRAND HIMSELF?**
+
+The method transfers; the conclusion does not. A judgment Talleyrand makes
+about another man is not automatically true of Talleyrand. It becomes a
+research obligation: test Talleyrand by the standard he has supplied.
+
 Do not harvest his person-reading method for everyone else while exempting him
 from it. Talleyrand's political biographies of others are also evidence for the
 political biography this repository must build of Talleyrand.
@@ -189,7 +206,10 @@ Each memoir unit therefore proceeds independently:
 3. allow principles, capacities, counterfeits, and voice motions to emerge from
    that unit in their own terms;
 4. preserve uncertainty and rival explanations;
-5. move forward without searching the next unit for confirmation.
+5. where Talleyrand explicitly teaches a method of reading political persons,
+   add the mandatory reflexive question required above without importing any
+   preexisting deed;
+6. move forward without searching the next unit for confirmation.
 
 Existing deed names are withheld from the interpretive act. Cross-reference to
 the live deed corpus occurs only after the memoir principles have been allowed
