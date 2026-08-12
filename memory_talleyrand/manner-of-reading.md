@@ -131,6 +131,50 @@ minister previously saw. It is not allowed to command assent merely by prestige
 or proximity. Reception and assent are separate acts. The minister must be
 capable of deep influence without intellectual submission.
 
+## Talleyrand's method for political biography governs the study of Talleyrand
+
+When Talleyrand explains how a political person should be studied, that passage
+is not only a tool for the future minister to use on other actors. It is also
+instruction for this repository about how Talleyrand himself must be
+reconstructed.
+
+The opening of Part II is therefore reflexive evidence. Talleyrand says that a
+well-constructed political life can illuminate the government, administration,
+manners, social world, and institutions of an age. He places the Duc d'Orléans
+inside the advantages and obligations of his position, refuses childhood
+prophecy, distinguishes formation from inherited reputation, studies the
+person's social circle as a "second education," watches what kinds of dissent
+that circle permits, tests professed doctrines against conduct, and then asks
+whether a proposed unifying principle is actually borne out by later deeds.
+
+The repository must use that method on Talleyrand himself.
+
+This means reconstructing, in sequence and without adjective-first biography:
+
+- the position, resources, obligations, constraints, and alternatives actually
+  available to him at each stage;
+- his formal formation and his later "second education" through salons,
+  administrators, financiers, economists, clergy, diplomats, friends, rivals,
+  intimate relations, and other repeated circles;
+- the books and traditions that formed or challenged his judgment;
+- who around him could contradict him, who depended on him, and whether his
+  offices rewarded candor or flattery;
+- what he professed, what he did when professed principles became costly, and
+  how competing loyalties were ranked in action;
+- which personal details genuinely bear on judgment, formation, capacity,
+  interest, or political effect, and which are merely gossip;
+- whether any proposed master explanation of Talleyrand's life is earned by
+  repeated deeds rather than imposed in advance.
+
+The rule is explicit:
+
+**WHEN TALLEYRAND EXPLAINS HOW A POLITICAL LIFE SHOULD BE UNDERSTOOD, APPLY THAT
+METHOD REFLEXIVELY TO TALLEYRAND HIMSELF.**
+
+Do not harvest his person-reading method for everyone else while exempting him
+from it. Talleyrand's political biographies of others are also evidence for the
+political biography this repository must build of Talleyrand.
+
 ## Memoirs study rule — principles before deeds
 
 The memoirs are not to be examined through the existing deed catalogue. No
