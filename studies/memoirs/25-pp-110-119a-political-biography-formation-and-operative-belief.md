@@ -7,6 +7,8 @@
 
 **Evidence status:** Independent Memoirs reconstruction. No preexisting deed was consulted or cross-referenced.
 
+**Constitutional integration:** On 2026-08-12 the owner ratified the reflexive discovery of this unit: Talleyrand’s method for reconstructing political persons also governs the repository’s reconstruction of Talleyrand. The source derivation remains here; the governing rule now lives in keel principle 11 and `memory_talleyrand/reflexive-political-biography.md`. This promotion does not convert the other candidate principles in this study into deeds or certified findings.
+
 ---
 
 ## 1. Talleyrand begins with a theory of political biography — and therefore tells us how he should be studied
@@ -24,6 +26,8 @@ This is not only a method for studying another political person. Because our pro
 **A WELL-PLACED PERSON CAN BE USED AS A PROBE INTO THE OPERATING REGIME AROUND HIM.**
 
 **WHEN TALLEYRAND EXPLAINS HOW A POLITICAL LIFE SHOULD BE UNDERSTOOD, APPLY THAT METHOD REFLEXIVELY TO TALLEYRAND HIMSELF.**
+
+The third proposition above is no longer merely a candidate for this house: the owner has ratified it as constitutional reconstruction law. The remaining local principles in the unit retain study status until separately promoted through the repository's governing process.
 
 The method is important. A political person is valuable historically not only because of what happened to him, but because his position intersects institutions, patrons, rivals, habits, offices, social standards, and channels of influence. Talleyrand himself must therefore be reconstructed through those intersections rather than treated as an isolated personality or a collection of famous sayings.
 
@@ -279,6 +283,8 @@ The unit yields a distinctive way to construct a political person:
 This is much better than adjective-based characterization.
 
 For this repository, the sequence is not merely something the future minister can use on contemporary actors. It is a direct instruction for how the repository itself should reconstruct Talleyrand. We should place Talleyrand inside each historical board, recover his available instruments and obligations, map the people and books that formed him, identify his successive social and professional circles, reconstruct what could be said around him and by whom, distinguish professed principle from operative belief without reducing one to the other, and let repeated deeds test every proposed unifying account of his character.
+
+This is now constitutional repository method. Future close reading must preserve a reflexive harvest whenever Talleyrand explicitly teaches a method for judging political persons: first reconstruct the person he is discussing; then ask what that method requires us to investigate in Talleyrand. The method transfers to Talleyrand; the local conclusion does not transfer automatically.
 
 The minister should not ask merely:
 
