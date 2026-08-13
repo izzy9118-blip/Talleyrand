@@ -3,273 +3,285 @@
 
 **Primary witness:** *Memoirs of the Prince de Talleyrand*, Vol. I, English translation by Raphael Ledos de Beaufort, edited by the Duc de Broglie (G. P. Putnam’s Sons, 1891), Part II, printed pp. 129–131a.
 
-**Witness condition:** English translation, not quotation-grade French. This unit is Talleyrand’s retrospective political biography of the Duc d’Orléans and the men around him. Retrospection is evidence of mature judgment, not disqualification. Talleyrand’s hostile descriptions of Ducrest remain his character judgments and are not silently converted into independent fact.
+**Witness condition:** English translation, not quotation-grade French. The quotations below are exact to the present English witness and are marked `[V]` where wording matters. They ground reasoning, sequence, distinctions, and abstraction; they do not license imitation of Talleyrand’s French diction.
 
 **Evidence status:** Independent Memoirs reconstruction. No preexisting deed was consulted or cross-referenced.
 
 ---
 
-## 1. Advisers design the act around the principal’s actual capacity
+## 1. Adviser fit begins in Talleyrand's own wording
 
-The Duc d’Orléans has been judged harshly by public opinion for indifference during the Assembly of Notables. His advisers decide that something must be done quickly to counter the effect. Talleyrand says the action must be easy to execute, require little follow-up, and be proportioned to the person who has to perform it.
+### Textual ground
 
-This yields an important operational distinction.
+> “but it must be easy of execution and require but little following up: it was necessary that the part to be performed should be in proportion to the person who was to perform it.” — printed p. 129 `[V]`
 
-**DESIGN AN EXECUTABLE ROLE AROUND THE ACTUAL CAPACITY OF THE PERSON WHO MUST PERFORM IT.**
+### Local reading
 
-A plan that presupposes qualities the principal does not possess is not executable merely because the plan is sound in the abstract.
+Talleyrand does not describe the advisers as choosing the best act in the abstract. They begin from the limitations of the Duc d’Orléans himself. The political part must be proportioned to the man who has to carry it.
 
-But the passage immediately supplies the counterfeit.
+### Abstraction
 
-The advisers are not trying to enlarge the Duc’s judgment or application. They are looking for an act that can create the appearance of zeal with little labor from him.
+**DESIGN EXECUTION AROUND THE ACTUAL CAPACITY OF THE PERSON WHO MUST PERFORM IT.**
 
-So the safeguard is:
+### Limit
+
+The next sentence sequence prevents us from turning this into a license for political theater. The point is not merely to make every task easy. We must ask whether the simplified role preserves real judgment and responsibility or merely creates appearance.
+
+---
+
+## 2. The same passage supplies the counterfeit: appearance without ownership
+
+### Textual ground
+
+> “he consented more willingly to doing this than to discussing the arguments set forth in it.” — printed p. 129 `[V]`
+
+and:
+
+> “It was enough for him that the plan should have publicity and should give him, with little trouble, the appearance of displaying zeal.” — printed p. 129 `[V]`
+
+### Local reading
+
+The Duc is willing to carry the memorial to the king but is less willing to engage its reasoning. Talleyrand then says explicitly that the desired political return is publicity and the appearance of zeal acquired with little trouble.
+
+### Abstractions
+
+**DO NOT TREAT DELIVERY, SIGNATURE, OR PUBLIC OWNERSHIP OF A PROGRAM AS PROOF OF INTELLECTUAL OWNERSHIP.**
 
 **FIT THE ACT TO THE ACTOR; DO NOT REPLACE JUDGMENT WITH A CEREMONIAL ROLE DESIGNED ONLY TO BORROW CREDIT.**
 
-The minister must distinguish between reducing unnecessary execution burden and constructing political theater around a principal who does not understand or sustain the policy.
+### Limit
+
+A principal may legitimately delegate drafting. Delegation itself is not the defect. The defect here is the combination Talleyrand emphasizes: weak engagement with the argument plus desire for public credit.
+
+### Reflexive obligation
+
+For Talleyrand's own reports, speeches, memorials, and diplomatic programs, reconstruct separately who conceived, researched, drafted, revised, understood, delivered, and executed the instrument. Public ownership cannot by itself settle intellectual authorship.
 
 ---
 
-## 2. Political ownership is not proof of intellectual ownership
+## 3. A successful method is being moved from one jurisdiction to another
 
-Ducrest drafts a memorial on state finances. The plan is that the Duc d’Orléans will deliver it to the king. Talleyrand says the Duc is more willing to deliver the memorial than to discuss the arguments it contains.
+### Textual ground
 
-That gives a strong person-reading and documentary rule:
+> “The affairs of the Due d'Orleans had the reputation of being well conducted, and this reflected some credit on M. Ducrest.” — printed p. 129 `[V]`
 
-**DO NOT TREAT DELIVERY, SIGNATURE, OR PUBLIC OWNERSHIP OF A PROGRAM AS PROOF THAT THE PRINCIPAL UNDERSTANDS OR AUTHORED ITS REASONING.**
+and:
 
-For any political document, reconstruct separately:
+> “M. Ducrest thought fit to draw up a memorial on the finances of the State, in which he proved easily that they had, up to that time, been badly administered, and proposed, in order to re-organize them, to follow the plans he had put into practice in the administration of his master's fortune.” — printed p. 129 `[V]`
 
-- who conceived the problem;
-- who supplied the evidence;
-- who drafted the text;
-- who understood the argument;
-- who approved it;
-- who delivered it;
-- who would have to execute it;
-- who would receive the political credit or blame.
+### Local reading
 
-These may be different people.
+Talleyrand places side by side Ducrest's reputation from private administration and his attempt to transfer those methods to state finance. The passage does not give us enough technical detail to decide whether the financial plan itself was sound.
 
-This matters directly for our reconstruction of Talleyrand. Where a memorial, speech, report, or diplomatic instruction bears his name or is delivered by him, the repository must still ask what part he actually composed, understood, revised, owned, delegated, or merely transmitted.
+### Abstraction
 
----
+**TEST PORTABILITY BEFORE MOVING A SUCCESSFUL METHOD ACROSS JURISDICTIONS.**
 
-## 3. Success in one jurisdiction does not establish portability to another
+### Limit
 
-Ducrest’s state-finance proposal relies on plans said to have been used in managing the Duc’s private fortune. The affairs of the Duc’s house had the reputation of being well conducted, and Ducrest transfers that apparent competence into a claim about national administration.
-
-Talleyrand does not provide enough detail here to judge the technical merits of the financial plan itself.
-
-But the structural issue is clear:
-
-**DO NOT ASSUME A METHOD THAT WORKED IN ONE JURISDICTION WILL SCALE TO ANOTHER WITHOUT TESTING THE DIFFERENCES IN OBJECT, AUTHORITY, INFORMATION, INCENTIVE, AND CONSEQUENCE.**
-
-Private household finance and state finance may share techniques, but they do not therefore present the same board.
-
-The minister should ask:
-
-**What changed when the instrument moved from the smaller system to the larger one?**
-
-The more successful the method has been elsewhere, the more tempting it is to skip this question.
+The quotation does not prove that private administrative methods cannot work at state scale. It establishes the transfer and therefore the need to test what changes in scale, authority, information, incentives, and consequence.
 
 ---
 
-## 4. The real objective of an act may be the audience effect rather than the substantive act
+## 4. The real political audience is not necessarily the formal recipient
 
-Talleyrand says the Duc needed the memorial to have publicity and to give him, with little trouble, the appearance of displaying zeal.
+### Textual ground
 
-The king receives the memorial but keeps its contents from becoming public.
+> “It was enough for him that the plan should have publicity and should give him, with little trouble, the appearance of displaying zeal.” — printed p. 129 `[V]`
 
-That is the crucial failure.
+followed immediately by:
 
-The plan has reached the nominal recipient, but not the audience from whom the political return was expected.
+> “The king received the memorial, and did not allow its contents to transpire; this was a treatment which its author did neither wish nor anticipate.” — printed p. 129 `[V]`
 
-So:
+### Local reading
+
+The memorial reaches the king. Formally, delivery succeeds. Politically, the operation fails because the publicity from which the Duc expected reputational gain is withheld.
+
+### Abstraction
 
 **DISTINGUISH THE FORMAL RECIPIENT OF AN ACT FROM THE AUDIENCE WHOSE REACTION MAKES THE ACT POLITICALLY VALUABLE.**
 
-And:
+### Limit
 
-**BEFORE ACTING FOR REPUTATIONAL EFFECT, IDENTIFY WHO CONTROLS WHETHER THE ACT BECOMES VISIBLE.**
-
-A letter delivered privately, a policy proposal never published, a military action without credible attribution, or a concession the public never learns about may produce a very different political effect from the same act under publicity.
+Not every political act is designed for a second audience. Here Talleyrand supplies direct evidence that publicity was part of the object.
 
 ---
 
-## 5. When the expected audience effect fails, Ducrest escalates
+## 5. Failed recognition is followed by escalation
 
-The king’s silence frustrates the original design. Ducrest responds with a second memorial.
+### Textual ground
 
-This time he moves beyond criticism of ministerial operations and attacks the ministers personally, especially the Archbishop of Toulouse. He also expands the proposal from financial reorganization toward broader governmental restructuring.
+> “Piqued by this silence, the Due composed a second memorial in which he no longer restricted himself to criticizing the operations of the ministry, but openly attacked the persons of the ministers, and above all, the Archbishop of Toulouse.” — printed p. 129 `[V]`
 
-The sequence yields a major safeguard:
+### Local reading
 
-**WHEN A MOVE FAILS BECAUSE ITS EXPECTED AUDIENCE EFFECT DID NOT OCCUR, DO NOT AUTOMATICALLY ESCALATE THE SUBSTANCE OR PERSONALIZE THE ATTACK. FIRST DIAGNOSE WHAT ACTUALLY FAILED.**
+Talleyrand gives the sequence explicitly: silence first; pique second; escalation from criticism of operations to attacks on persons third.
 
-The first memorial may have failed as a reputational operation because the king suppressed publicity, not because its criticism was too mild.
+### Abstraction
 
-Escalating from policy criticism to attacks on persons can therefore be a response to wounded recognition rather than to new evidence about the policy problem.
+**WHEN EXPECTED RECOGNITION FAILS, DIAGNOSE THE FAILURE BEFORE ESCALATING THE SUBSTANCE OR PERSONALIZING THE ATTACK.**
 
-That distinction is critical for the minister.
+### Limit
+
+The wording supports Talleyrand's mature causal reading of this sequence. It does not establish that every escalation after failed publicity is driven by wounded recognition, nor does it prove the second memorial's substantive claims were false.
 
 ---
 
-## 6. A reform proposal can contain a power claim by the reformer
+## 6. The proposed remedy also creates power for the proposer
 
-The second memorial proposes councils at the head of the different branches of administration, weakening ministerial authority. But it simultaneously asks for a supreme chief above those councils, with unlimited power, and Ducrest offers himself for that role.
+### Textual ground
 
-The exact merits of the institutional design are not established by the passage.
+> “he wished for a supreme chief, a principal leader at the head of the council, and declared himself ready to consent to play this leading part provided that he was entrusted with unlimited power, and supported by all the means public opinion could devise to strengthen this power.” — printed p. 130 `[V]`
 
-But the question Talleyrand forces upon us is excellent:
+and:
 
-**WHEN SOMEONE PROPOSES A NEW GOVERNING ARCHITECTURE, MAP WHO ACQUIRES POWER UNDER THE ARCHITECTURE—INCLUDING THE PERSON MAKING THE PROPOSAL.**
+> “He asked, in consequence, that the title and post of superintendent of finances ... should be re-established in his favour.” — printed p. 130 `[V]`
 
-A diagnosis can be correct while the remedy also serves the diagnostician’s ambition.
+### Local reading
 
-So:
+The governmental reform does not merely change institutions. It creates a supreme office and places Ducrest himself inside the proposed architecture as its beneficiary.
+
+### Abstractions
+
+**WHEN SOMEONE PROPOSES A NEW GOVERNING ARCHITECTURE, MAP WHERE THE PROPOSER HIMSELF ENDS UP INSIDE IT.**
 
 **SEPARATE THE TRUTH OF THE DIAGNOSIS FROM THE DISTRIBUTION OF POWER CREATED BY THE REMEDY.**
 
-Do not reject a proposal merely because its author benefits.
+### Limit
 
-Do not accept it merely because the diagnosis is persuasive.
+Self-benefit does not prove the diagnosis false. The correct procedure is to price the diagnosis and the proposer's gain separately.
 
-Price both separately.
+### Reflexive obligation
 
-This rule is directly reflexive for our reconstruction of Talleyrand. Whenever he recommends an institutional rearrangement that also enlarges his own office, access, jurisdiction, independence, or indispensability, the repository must ask two different questions:
-
-1. Was the political diagnosis sound?
-2. What position did the proposed remedy create for Talleyrand himself?
-
-Neither question settles the other.
+Whenever Talleyrand proposes an arrangement that also enlarges his own office, access, jurisdiction, independence, or indispensability, ask separately whether the diagnosis was sound and what the remedy gave Talleyrand.
 
 ---
 
-## 7. Controlled publicity can become uncontrolled disclosure
+## 7. Controlled publicity becomes uncontrolled disclosure
 
-The second memorial is not intentionally published in the manner Ducrest expected. A copy is discovered on the Comte de Kersalaun after an arrest, and the contents spread publicly.
+### Textual ground
 
-The instrument designed to produce favorable publicity thus becomes public under uncontrolled conditions and produces ridicule.
+> “Chance did men justice by divulging it.” — printed p. 130 `[V]`
 
-This yields:
+Talleyrand then explains:
 
-**IF A DOCUMENT IS POLITICALLY DANGEROUS WHEN DISCLOSED OUTSIDE THE INTENDED FRAME, PRICE THAT POSSIBILITY BEFORE USING IT AS AN INSTRUMENT.**
+> “A copy of this document was found on the person of the Comte de Kersalaun ... and the secret thus spread abroad enabled people to appreciate the modest talents of the chancellor, and the prudence of his master.” — printed p. 130 `[V]`
 
-And:
+### Local reading
 
-**A PLAN FOR MANAGED PUBLICITY MUST INCLUDE THE CONSEQUENCES OF UNMANAGED DISCLOSURE.**
+The memorial becomes public, but not through the controlled publicity originally sought. The disclosure changes the frame under which the document is received and produces ridicule rather than credit.
 
-The minister should assume that documents may travel beyond the audience, timing, explanation, or context originally intended.
+### Abstraction
 
----
+**A PLAN FOR MANAGED PUBLICITY MUST PRICE THE CONSEQUENCES OF UNMANAGED DISCLOSURE.**
 
-## 8. Talleyrand uses satire as evidence of political reception, not as proof of policy truth
+### Limit
 
-Talleyrand reproduces an epigram ridiculing Ducrest and the Duc d’Orléans. He says he cites it because it indicates the ruling tendencies in France at that period.
-
-That is a useful evidentiary distinction.
-
-The verse does not prove that Ducrest’s financial ideas were false.
-
-It does show what kind of political interpretation had become available and socially intelligible to the public.
-
-So:
-
-**USE SATIRE, VERSE, CARICATURE, AND POPULAR MOCKERY AS EVIDENCE OF RECEPTION, AVAILABLE ASSOCIATIONS, AND PUBLIC TEMPER—NOT AS DIRECT PROOF OF THE UNDERLYING POLICY CLAIM.**
-
-This matters for the broad learning architecture of the minister. Poetry, satire, pamphlets, jokes, and popular language can reveal how a political person or proposal is being encoded in public imagination even when they cannot establish the technical facts of the matter.
+The passage does not establish a universal rule that secrecy is preferable. It shows that a document designed partly for reputational effect can change political value when it reaches the public through an uncontrolled path.
 
 ---
 
-## 9. The advisers learn the wrong—or at least incomplete—lesson from failure
+## 8. Talleyrand tells us why he quotes the epigram
 
-At printed p. 131, Talleyrand says the first attempt to reconquer public favor has failed. The Duc’s confidants do not abandon the project; they merely consider themselves warned to arrange things better next time.
+### Textual ground
 
-The passage does not yet tell us whether they have correctly diagnosed the failure.
+> “This discovery exposed both to many jokes in verse and in prose, of which we only cite the following epigram, as it may serve to indicate the ruling tendencies in France, at this period of the life of the Due d'Orleans.” — printed p. 130 `[V]`
 
-That creates a useful hold:
+### Local reading
+
+Talleyrand himself states the evidentiary jurisdiction of the poem. He does not introduce it as proof that Ducrest's finance was technically wrong. He uses it to indicate political tendencies and reception.
+
+### Abstraction
+
+**USE SATIRE, VERSE, CARICATURE, AND POPULAR MOCKERY AS EVIDENCE OF RECEPTION AND PUBLIC TEMPER, NOT AS DIRECT PROOF OF THE UNDERLYING POLICY CLAIM.**
+
+### Limit
+
+The satire can reveal available associations and public mood without establishing the truth of every accusation contained in the joke.
+
+---
+
+## 9. Failure does not yet tell us what was learned
+
+### Textual ground
+
+> “This first attempt to reconquer public favour having proved a failure, the confidants of the Due d'Orleans did not lose courage, and only considered themselves warned to arrange matters better in future.” — printed p. 131 `[V]`
+
+### Local reading
+
+Talleyrand tells us they interpret failure as a reason to arrange the next attempt better. He does not yet tell us that they have identified which component of the first design actually failed.
+
+### Hold
 
 **WHAT DID THE ADVISERS LEARN FROM FAILURE: NOT YET ESTABLISHED.**
 
-A failed political operation can teach several different lessons:
+### Abstraction
 
-- the objective was wrong;
-- the instrument was wrong;
-- the audience was wrong;
-- the timing was wrong;
-- the principal was wrong for the role;
-- the publicity mechanism failed;
-- the policy substance failed;
-- or the execution failed.
+**AFTER FAILURE, IDENTIFY WHICH COMPONENT FAILED BEFORE REFINING THE SAME BASIC DESIGN.**
 
-If the wrong lesson is learned, the next attempt may be more skillful while still preserving the original defect.
+### Limit
 
-So:
-
-**AFTER FAILURE, IDENTIFY WHICH COMPONENT FAILED BEFORE IMPROVING THE PERFORMANCE OF THE SAME BASIC DESIGN.**
+This is an abstraction from the unresolved structure of the passage. The quoted sentence establishes their response to failure; later conduct must show whether their diagnosis was correct.
 
 ---
 
 ## 10. Constitutional reflexive harvest for reconstructing Talleyrand
 
-Under Keel Principle 11, this unit generates direct research obligations for Talleyrand himself.
+Under Keel Principle 11, the quoted ground above creates direct research obligations for Talleyrand himself.
 
-When examining Talleyrand’s own political life, the repository must ask:
+The repository must eventually ask:
 
-- Did he design counsel around the real capacities of the sovereign or minister who had to carry it?
-- When did he simplify execution prudently, and when might simplification have become political theater?
-- Which reports, memorials, speeches, and programs attributed to him did he actually understand, draft, revise, or merely sponsor?
-- Which methods did he transfer from finance, church administration, salons, diplomacy, or one regime into another, and did he test whether they remained portable?
-- Which of his moves depended on publicity, secrecy, or controlled disclosure?
-- Did he ever escalate because an act failed to produce the recognition he expected?
-- When his institutional remedies also improved his own position, was the underlying diagnosis independently sound?
-- How did he respond when private papers, letters, negotiations, or intentions became public outside the frame he preferred?
-- Did he learn the correct lesson from failure, or merely become more adroit at the same design?
+- when Talleyrand fitted a role to the real capacity of a sovereign or minister, and whether that fit preserved judgment or merely reduced the principal to a carrier;
+- which texts attributed to Talleyrand he actually conceived, drafted, revised, understood, or only sponsored;
+- whether he transferred methods from one jurisdiction to another without repricing the board;
+- which of his moves depended upon publicity, secrecy, or controlled disclosure;
+- whether failed recognition ever caused escalation;
+- whether institutional remedies he proposed also created power for him and, if so, whether the diagnosis remained independently sound;
+- whether he learned the correct lesson from his own failures.
 
-The point is not to presume guilt, ambition, or manipulation. It is to reconstruct the political mechanics Talleyrand himself teaches us to inspect.
+These are research obligations, not conclusions about Talleyrand.
 
 ---
 
 ## 11. Counterfeit forms to reject
 
 - **Capacity denial:** designing policy for the person one wishes existed rather than the person who must execute it.
-- **Ceremonial substitution:** using a principal as a visible carrier of a program he neither understands nor owns.
-- **Portability by prestige:** assuming success in private or smaller administration automatically proves fitness for state-scale governance.
-- **Audience blindness:** treating delivery to the formal recipient as sufficient when the political objective depends on a wider audience.
-- **Recognition escalation:** making the policy harsher or the attack more personal because the first move failed to attract attention.
-- **Diagnosis-remedy fusion:** assuming a correct diagnosis validates the power distribution contained in the proposed remedy.
-- **Managed-publicity fantasy:** planning only for controlled release while ignoring leak, seizure, hostile framing, or accidental disclosure.
-- **Satire-as-fact:** treating ridicule as proof that the substantive claim was false.
-- **Learning theater:** improving presentation after failure without identifying what actually failed.
+- **Ceremonial substitution:** using a principal as visible carrier of a program he neither understands nor owns.
+- **Portability by prestige:** treating prior administrative reputation as sufficient proof that a method scales.
+- **Audience blindness:** treating delivery to the formal recipient as enough when political value depends on another audience.
+- **Recognition escalation:** making the policy harsher or the attack more personal because the first move did not receive the expected attention.
+- **Diagnosis-remedy fusion:** assuming a persuasive diagnosis validates the power distribution in its remedy.
+- **Managed-publicity fantasy:** pricing intended publication but not leak, seizure, hostile framing, or accidental disclosure.
+- **Satire-as-fact:** treating ridicule as technical proof.
+- **Learning theater:** improving presentation after failure without identifying what failed.
 
 ---
 
-## 12. Build harvest
+## 12. Build harvest — each item grounded above
 
-- **DESIGN EXECUTION AROUND THE ACTUAL CAPACITY OF THE PERSON WHO MUST PERFORM IT.**
-- **DO NOT REPLACE JUDGMENT WITH A CEREMONIAL ROLE DESIGNED ONLY TO BORROW CREDIT.**
-- **DO NOT TREAT DELIVERY, SIGNATURE, OR PUBLIC OWNERSHIP AS PROOF OF INTELLECTUAL OWNERSHIP.**
-- **TEST PORTABILITY BEFORE MOVING A SUCCESSFUL METHOD ACROSS JURISDICTIONS.**
-- **DISTINGUISH FORMAL RECIPIENT FROM THE AUDIENCE WHOSE REACTION CREATES POLITICAL VALUE.**
-- **WHEN EXPECTED RECOGNITION FAILS, DIAGNOSE THE FAILURE BEFORE ESCALATING.**
-- **SEPARATE THE TRUTH OF A DIAGNOSIS FROM THE POWER DISTRIBUTION CREATED BY ITS REMEDY.**
-- **MAP THE PROPOSER’S OWN GAIN UNDER THE PROPOSED ARCHITECTURE.**
-- **PRICE UNCONTROLLED DISCLOSURE WHEN USING DOCUMENTS AS POLITICAL INSTRUMENTS.**
-- **USE SATIRE AS EVIDENCE OF RECEPTION, NOT DIRECT PROOF OF POLICY TRUTH.**
-- **AFTER FAILURE, IDENTIFY WHICH COMPONENT FAILED BEFORE REFINING THE SAME DESIGN.**
+- **DESIGN EXECUTION AROUND THE ACTUAL CAPACITY OF THE PERSON WHO MUST PERFORM IT.** — grounded in “the part to be performed should be in proportion to the person who was to perform it,” p. 129.
+- **DO NOT REPLACE JUDGMENT WITH A CEREMONIAL ROLE DESIGNED ONLY TO BORROW CREDIT.** — grounded in the Duc preferring delivery to discussion and seeking “the appearance of displaying zeal,” p. 129.
+- **DO NOT TREAT DELIVERY, SIGNATURE, OR PUBLIC OWNERSHIP AS PROOF OF INTELLECTUAL OWNERSHIP.** — grounded in “more willingly to doing this than to discussing the arguments,” p. 129.
+- **TEST PORTABILITY BEFORE MOVING A SUCCESSFUL METHOD ACROSS JURISDICTIONS.** — grounded in Ducrest's transfer from management of his master's fortune to “the finances of the State,” p. 129.
+- **DISTINGUISH FORMAL RECIPIENT FROM THE AUDIENCE WHOSE REACTION CREATES POLITICAL VALUE.** — grounded in the plan's need for “publicity” and the king's refusal to let the contents “transpire,” p. 129.
+- **WHEN EXPECTED RECOGNITION FAILS, DIAGNOSE BEFORE ESCALATING.** — grounded in “Piqued by this silence” followed by personal attack, p. 129.
+- **SEPARATE THE TRUTH OF A DIAGNOSIS FROM THE POWER DISTRIBUTION CREATED BY ITS REMEDY.** — grounded in Ducrest's proposed supreme office and request for “unlimited power,” p. 130.
+- **PRICE UNCONTROLLED DISCLOSURE WHEN USING DOCUMENTS AS POLITICAL INSTRUMENTS.** — grounded in the accidental discovery and spread of the second memorial, p. 130.
+- **USE SATIRE AS EVIDENCE OF RECEPTION, NOT DIRECT PROOF OF POLICY TRUTH.** — grounded in Talleyrand's own statement that the epigram may “indicate the ruling tendencies in France,” p. 130.
+- **AFTER FAILURE, IDENTIFY WHICH COMPONENT FAILED BEFORE REFINING THE SAME DESIGN.** — grounded in the confidants merely taking themselves as “warned to arrange matters better in future,” p. 131.
 
 The strongest compression is:
 
 **FIT THE MOVE TO THE ACTOR WHO MUST CARRY IT, BUT DO NOT CONFUSE A ROLE HE CAN PERFORM WITH A JUDGMENT HE ACTUALLY OWNS. TEST WHETHER BORROWED METHODS TRAVEL, IDENTIFY THE AUDIENCE WHOSE RESPONSE MAKES THE MOVE MATTER, AND WHEN RECOGNITION FAILS, DIAGNOSE THE FAILURE BEFORE ESCALATING. IF THE REMEDY ALSO CREATES POWER FOR ITS AUTHOR, PRICE THE DIAGNOSIS AND THE POWER CLAIM SEPARATELY.**
 
-A shorter person-reading rule also emerges:
-
-**WHO DELIVERS THE PROGRAM, WHO UNDERSTANDS IT, WHO BENEFITS FROM IT, AND WHO CAN ACTUALLY CARRY IT MAY BE FOUR DIFFERENT PEOPLE.**
+That compression is an abstraction. Its authority rests only on the exact textual grounds displayed above.
 
 ---
 
 ## Next textual movement
 
-Printed p. 131 turns outward from the failed Ducrest memorial to the rapidly changing national board. Talleyrand says the progress of ideas is moving even faster than events; the States-General enters political language, the parlements redirect tax questions toward it, government repression gives way to temporary reconciliation, and public opinion becomes more menacing. The next unit should therefore examine how Talleyrand reads **ideas, institutions, and expectations accelerating together before formal constitutional change has caught up.**
+Printed p. 131 turns outward from the failed Ducrest memorial to the rapidly changing national board. The next unit begins from Talleyrand's own sentence:
+
+> “The progress of ideas, more rapid even than that of events, was prodigiously accelerated.” — printed p. 131 `[V]`
+
+Unit 30 should therefore begin with the quotation itself and then reconstruct what Talleyrand means by ideas moving faster than events before any abstraction is harvested.
