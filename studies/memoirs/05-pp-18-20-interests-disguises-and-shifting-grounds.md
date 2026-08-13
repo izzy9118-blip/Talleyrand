@@ -1,209 +1,115 @@
-# MEMOIRS STUDY UNIT 05 — PRINTED PP. 18–20
+# Memoirs Unit 05 — printed pp. 18–20
+## Interests, disguises, and shifting grounds
 
-**Work:** *Memoirs of the Prince de Talleyrand*, Vol. I  
-**Edition reviewed:** Duc de Broglie, ed.; Raphaël Ledos de Beaufort, trans.; G. P. Putnam's Sons, 1891  
-**Witness:** Cornell University Library scan supplied for review  
-**Scope:** Part I, Assembly of the Clergy: observation of business, defense of pecuniary interests, and changing argumentative grounds, printed pp. 18–20  
-**Status:** STUDY — READING, NOT RULING  
-**Authority:** `keel.md`; `memory_talleyrand/manner-of-reading.md`; `studies/memoirs/corrections/2026-08-10-learning-and-principles-before-deeds.md`  
-**Documentary limit:** English translation. The witness supports sequence, narrated observation, retrospective judgment, institutional reasoning, and provisional reasoning/voice findings. It does not license exact French diction or tongue-costume. Talleyrand's claim that he may have authored one of the clergy's memoirs is `[HT]` and remains qualified by his own "I believe."
+**Primary witness:** *Memoirs of the Prince de Talleyrand*, Vol. I, English translation by Raphael Ledos de Beaufort, edited by the Duc de Broglie (G. P. Putnam’s Sons, 1891).
 
-## PURPOSE OF THIS UNIT
+**Witness condition:** English translation, not quotation-grade French. All quoted wording is `[V]`: exact wording of the current English project witness, usable to ground sequence, distinctions, and abstraction, but not to license exact French voice imitation.
 
-This unit is read without reference to the existing deed catalogue. The memoir receives first jurisdiction. Principles are allowed to emerge from the particular; cross-reference against deeds is deferred until the memoir harvest is sufficiently developed.
+**Quotation status:** `QUOTATION_GROUNDED`
 
-The build question is: what does Talleyrand learn by watching an institution conduct its business, and what reusable operations does that observation offer to the minister we are constructing?
+**Evidence status:** Independent Memoirs reconstruction. No preexisting deed was consulted or cross-referenced.
 
-## ORDERED MOTION
+## 1. Textual ground
 
-Talleyrand enters the Assembly of the Clergy as a member elected by the province of Rheims. His first stated act is observational: he says he **carefully watched how business was conducted** in the body.
+> “Ambition was there represented in various disguises. Religion, humanity, patriotism, philosophy, each of these had its so-called supporters!”
+>
+> — printed p. 18 `[V]`
 
-What he sees is not one doctrine confronting another in a clean theoretical dispute. He sees ambition appearing under several public languages. Religion, humanity, patriotism, and philosophy each have their representatives. Yet when the pecuniary interests of the clergy are threatened, the members converge in defense of those interests while using different arguments.
+### Local reading
 
-The arguments vary by type of actor. Pious bishops fear that reform will diminish the share available to the poor. High aristocratic clergy fear innovation. Ambitious clergy argue that the clergy, as the most enlightened body of the kingdom, ought to lead public administration and should finance that service from ecclesiastical wealth rather than burden the state.
+Talleyrand begins by separating the publicly stated vocabulary from the ambition he thinks may operate beneath it.
 
-Talleyrand then moves from the immediate assembly to the longer institutional defense of clerical property. When Machault proposed taxing clerical property like other property, the clergy resisted and invoked the sacred status of property given to the Church. In the later legal argument summarized on printed p. 20, the defense shifts grounds. The clergy argue from royal munificence, the general laws protecting the rights and property of the orders, and the technical provenance of ecclesiastical holdings through tithes, allodium, and free gifts. Talleyrand says that one of the memoirs making this case was, he believes, written by himself.
+### Abstraction
 
-The motion is therefore:
+**WHEN DIFFERENT PUBLIC LANGUAGES SURROUND THE SAME CONTEST, ASK WHAT INTERESTS OR AMBITIONS THEY MAY BE CARRYING.**
 
-`enter institution -> watch procedure -> observe varied public languages -> identify common threatened interest -> distinguish faction-specific arguments -> follow the same interest across sacred, constitutional, legal, and technical grounds -> note possible personal participation in producing one defense`
+### Limit / alternative
 
-# PRINCIPLES EMERGING INDEPENDENTLY
+The quotation establishes Talleyrand’s interpretation; it does not prove every speaker was consciously disguising ambition.
 
-## PRINCIPLE P-05-01 — WATCH HOW BUSINESS IS CONDUCTED, NOT ONLY WHAT THE BODY DECLARES
 
-**Evidence class:** direct statement of Talleyrand's observational practice plus supported inference from what follows.  
-**Status:** STRONG CANDIDATE — recurrence desired.
+## 2. Textual ground
 
-Talleyrand does not introduce the Assembly by saying merely what resolutions it passed or what doctrines it professed. He begins by saying that he carefully watched **how business was conducted**.
+> “Whenever the pecuniary interests of the clergy were threatened, all the members rose in defence of these interests, though they did not all resort to the same arguments.”
+>
+> — printed p. 18 `[V]`
 
-Operational form for the minister:
+### Local reading
 
-> When examining an institution, reconstruct its conduct of business: who speaks, who converges, what triggers unity, what kinds of arguments are available to which factions, what interests become non-negotiable, and how public reasons change when the same practical object is defended.
+This is the clearest mechanism: common material interest can unite actors who defend it through different arguments.
 
-This directs the minister beyond official communiqués. The institutional process itself is evidence.
+### Abstraction
 
-For a live inquiry, the information call should therefore seek not only declared policy but procedural behavior: sequence of meetings, changes in wording, coalitions, veto points, who drafts memoranda, who refuses, who delays, which committees matter, and what changes when a concrete interest is touched.
+**SEPARATE THE COMMON INTEREST FROM THE DIFFERENT ARGUMENTS USED TO DEFEND IT.**
 
-## PRINCIPLE P-05-02 — FIND THE INVARIANT INTEREST BENEATH VARIABLE ARGUMENTS
+**DO NOT INFER COMMON MOTIVE OR VOCABULARY FROM COMMON POSITION.**
 
-**Evidence class:** explicit Talleyrand judgment about the Assembly's response to threatened pecuniary interests.  
-**Status:** VERY STRONG CANDIDATE.
 
-The members do not use one argument. Their vocabularies differ sharply. Yet Talleyrand identifies an invariant practical object: defense of the clergy's pecuniary interests.
+## 3. Textual ground
 
-Operational form:
+> “The most pious bishops expressed the fear that the proposed reforms would diminish the share of the poor; those who belonged to the high aristocracy, were afraid of any innovation; those whose ambition was an open secret, claimed that the clergy… should be at the head of all government administrations…”
+>
+> — printed p. 18 `[V]`
 
-> When actors speaking different moral, religious, philosophical, constitutional, or technical languages repeatedly converge on the same practical outcome, test whether a common interest is the invariant beneath the variable arguments.
+### Local reading
 
-This does **not** authorize the minister to declare every public reason fraudulent. An argument may be sincerely believed and still perform the work of defending an interest. The task is to identify the relation between reason and stake, not to reduce all reasons mechanically to bad faith.
+Talleyrand disaggregates the coalition by type of actor and argument rather than treating “the clergy” as a single mind.
 
-This is especially valuable in coalition analysis. A coalition may be unified in the result while internally divided in motive, vocabulary, and preferred justification.
+### Abstraction
 
-## PRINCIPLE P-05-03 — MAP EACH FACTION'S USABLE LANGUAGE
+**MAP THE DIFFERENT REASONS BY WHICH A COALITION ARRIVES AT THE SAME VOTE.**
 
-**Evidence class:** supported inference from Talleyrand's differentiation of pious, aristocratic, and ambitious clergy.  
-**Status:** STRONG CANDIDATE.
 
-The same interest is not defended identically by all members. Each faction reaches for an argument congruent with its position and identity:
+## 4. Textual ground
 
-- the pious invoke the poor;
-- the aristocratic invoke resistance to innovation;
-- the ambitious invoke enlightenment, competence, administrative leadership, and the public usefulness of clerical wealth.
+> “The interference of conscience in all these financial quarrels enabled the clergy to display… a degree of eloquence which they alone possess.”
+>
+> — printed p. 19 `[V]`
 
-Operational form:
+### Local reading
 
-> Do not stop after identifying the common interest. Identify the vocabulary through which each faction can defend that interest without ceasing to be itself.
+Moral or sacred language can intensify a dispute over material arrangements.
 
-For the minister this becomes a map of political speech. It helps distinguish coalition unity from coalition homogeneity and helps anticipate which argument will travel through which actor.
+### Abstraction
 
-## PRINCIPLE P-05-04 — TRACK THE OBJECTIVE WHEN ITS JUSTIFICATION MIGRATES
+**WHEN MATERIAL INTEREST AND CONSCIENCE INTERSECT, EXPECT THE CONFLICT TO ACQUIRE A DIFFERENT INTENSITY AND LANGUAGE.**
 
-**Evidence class:** strong sequential inference across printed pp. 18–20.  
-**Status:** HIGH-VALUE CANDIDATE.
+### Limit / alternative
 
-The practical objective — protection of clerical property and immunity — persists while the ground of defense changes. The case can be made through sacred property, concern for the poor, aristocratic prescription, enlightened administrative utility, royal munificence, general property law, or technical feudal provenance.
+This does not establish that conscience was insincere; interest and sincere conviction can coexist.
 
-Operational form:
 
-> When the reasons change but the demanded outcome remains stable, track the outcome as the invariant and treat the migration of justification as evidence about the political environment.
+## 5. Textual ground
 
-A shift of vocabulary may show that one ground has become weaker before a new audience, that a different jurisdiction is now decisive, or that the institution is searching for the argument capable of surviving the current contest.
+> “in numerous memoirs, of one of which, I believe, I am the author…”
+>
+> — printed p. 20 `[V]`
 
-This principle is important for modern ministerial work. An actor may defend the same policy first as security, then law, then humanitarian necessity, then economic stability. The minister should neither collapse the arguments into one nor lose sight of the stable objective they serve.
+### Local reading
 
-## PRINCIPLE P-05-05 — TECHNICAL DETAIL CAN BE THE POLITICAL BATTLEGROUND
+Even in self-attribution Talleyrand qualifies the claim. The qualification is itself evidentiary discipline.
 
-**Evidence class:** direct sequence on legal provenance and feudal obligations.  
-**Status:** STRONG CANDIDATE.
+### Abstraction
 
-By printed p. 20, the argument is no longer conducted only at the level of religion or political principle. It descends into the origin of property, tithes, allodium, free gifts, feudal services, peerages, and the findings of the Chamber of Accounts.
+**PRESERVE QUALIFIED AUTHORSHIP AS QUALIFIED; DO NOT HARDEN “I BELIEVE” INTO CERTAINTY.**
 
-Operational form:
 
-> When a political conflict enters law, finance, administration, theology, military doctrine, custom, or another specialized domain, acquire and read the technical material. Do not remain at the level of political commentary.
+## Reflexive obligation for reconstructing Talleyrand
 
-This converges with the broader learning principle already recovered from Saint-Sulpice. The Talleyrand minister must be designed to call for whatever kind of knowledge the matter itself requires. A political question may turn on a legal category, a historical title, a poem, a religious memory, a tax mechanism, or a technical administrative fact.
+Under Keel Principle 11, this unit also becomes a research instruction for Talleyrand himself. When reconstructing Talleyrand’s own positions, the repository must distinguish his publicly stated argument, his institutional interest, his personal interest, and any evidence of sincere conviction rather than collapsing them into a single motive.
 
-The principle is not "read widely" in the abstract. It is:
+## Build harvest
 
-> **Follow the question into the discipline where the operative distinction actually lives.**
+- **SEPARATE COMMON INTEREST FROM DIFFERENT ARGUMENTS.**
+- **MAP COALITIONS BY THE DIFFERENT REASONS THAT PRODUCE THE SAME POSITION.**
+- **DO NOT TREAT INTEREST AS AUTOMATIC PROOF OF INSINCERITY.**
+- **EXPECT CONSCIENCE TO CHANGE THE LANGUAGE AND INTENSITY OF MATERIAL CONFLICT.**
+- **PRESERVE QUALIFIED SELF-ATTRIBUTION AS QUALIFIED.**
 
-## PRINCIPLE P-05-06 — STUDY THE INSTITUTION FROM INSIDE ITS DOCUMENT PRODUCTION
+### Compression
 
-**Evidence class:** direct `[HT]` claim, qualified by Talleyrand's "I believe," that he authored one of the memoirs defending the clergy's position.  
-**Status:** HOLD — important but requires later recurrence.
+**THE SAME INTEREST CAN BE DEFENDED IN DIFFERENT MORAL, INSTITUTIONAL, AND SOCIAL VOCABULARIES.**
 
-Talleyrand is not only a spectator outside the institution. The memoir places him close enough to its documentary machinery that he may have drafted one of the legal defenses whose reasoning he later analyzes.
+### Backfill disposition
 
-Operational candidate:
-
-> To understand an institution, examine not only its public conclusions but the production chain of the documents by which it reasons and acts: who drafts, revises, supplies evidence, selects authorities, and turns interest into an administratively usable case.
-
-For the minister we are building, this suggests that source acquisition should include drafts, memoranda, committee records, internal legal opinions, biographies of the drafters, and institutional histories where available — not merely final statements.
-
-**Safeguard:** The present passage does not establish a general Talleyrand practice of documentary infiltration or manipulation. It establishes only proximity to, and possible participation in, institutional argument production.
-
-# MIND
-
-The most important cognitive motion in this unit is a descent from **words to structure without discarding the words**.
-
-Talleyrand does not say simply: "they were hypocrites." He differentiates the languages, the types of men using them, the common interest that activates collective defense, and the legal evolution of the defense itself.
-
-The emerging mental motion is:
-
-`hear argument -> locate speaker/faction -> identify practical stake -> compare with other speakers -> find invariant outcome -> trace changes of justification -> descend into the technical ground on which the conflict can actually be decided`
-
-That is directly useful to the minister.
-
-# VOICE MECHANISM
-
-## CANDIDATE V-05-10 — NAME THE MASK, THEN NAME THE INTEREST, THEN SHOW THE VARIATIONS
-
-**Evidence class:** supported compositional inference.  
-**Status:** HOLD.
-
-The narrative moves quickly from high public languages — religion, humanity, patriotism, philosophy — to the concrete pecuniary interest that makes the body rise together. But Talleyrand does not end with the cynical reduction. He then shows the different arguments one by one.
-
-Candidate reasoning-to-expression motion:
-
-`public vocabulary -> governing stake -> factional variations -> concrete institutional consequence`
-
-This would allow the eventual ministerial voice to be penetrating without becoming merely cynical. It can expose an interest while still distinguishing the different reasons, audiences, and forms through which that interest operates.
-
-# COUNTERFEITS
-
-## CF-MEM-18 — "THE OFFICIAL DOCTRINE IS THE INSTITUTION"
-
-False as a reading rule. The body may contain different factions and languages whose practical convergence becomes visible only when a shared interest is touched.
-
-## CF-MEM-19 — "ONE COMMON INTEREST MEANS EVERY ARGUMENT IS INSINCERE"
-
-Not established. Interest and sincere belief can coexist. The minister must show the relation rather than merely imputing hypocrisy.
-
-## CF-MEM-20 — "A COALITION THAT VOTES TOGETHER THINKS TOGETHER"
-
-False. Talleyrand's assembly converges in outcome while differing in arguments, identities, and apparent motives.
-
-## CF-MEM-21 — "IF THE ARGUMENT CHANGES, THE OBJECTIVE HAS CHANGED"
-
-False in this unit. Sacred, constitutional, legal, and technical grounds can successively defend the same practical object.
-
-## CF-MEM-22 — "POLITICAL ANALYSIS CAN REMAIN ABOVE TECHNICAL DETAIL"
-
-False where the decisive conflict has descended into technical law, finance, administration, or historical title. The minister must follow it down.
-
-## CF-MEM-23 — "CYNICISM IS DEPTH"
-
-False. Saying "it is all about money" would be shallower than Talleyrand's actual observation, which distinguishes interests, factions, arguments, institutions, and changing legal grounds.
-
-# HOLD
-
-1. **Invariant interest beneath changing justification.** This is one of the strongest principles yet. Test it in later fiscal, diplomatic, dynastic, and wartime episodes.
-2. **Faction-specific usable language.** Later episodes should show whether Talleyrand systematically asks which argument can be carried by which actor.
-3. **Technical descent.** Test whether mature Talleyrand repeatedly moves from broad political object to the exact legal, financial, geographic, military, or administrative distinction on which action depends.
-4. **Inside document production.** The possible authorship of a clergy memoir is suggestive but `[HT]` and qualified. Later documentary episodes may show whether drafting itself is one of his characteristic instruments of political understanding and action.
-5. **Ambition in disguise.** Talleyrand's phrase is powerful, but we should not generalize it into a universal presumption that moral or philosophical language is always camouflage.
-
-# WHAT THIS UNIT ADDS TO THE MINISTER
-
-The minister must not merely collect more sources. It must learn to **read an institution structurally**.
-
-When faced with a live political body, the minister should be capable of asking:
-
-- What concrete interest makes otherwise different factions converge?
-- Which public language is available to each faction?
-- Which outcome remains stable while justifications change?
-- Has the dispute migrated into a technical jurisdiction that requires specialized sources?
-- Who actually drafts the arguments and assembles the evidence?
-- What does the conduct of business reveal that the final statement does not?
-
-Combined with the Saint-Sulpice learning principle, this means the Talleyrand minister's information call must be broad **and** structurally directed. It should acquire current facts, official statements, histories, biographies, moral and poetic sources, travel/observational literature, technical law and finance, and internal documentary chains according to what the inquiry itself demands — then take all of it in without surrendering the verdict.
-
-# NO DEED CROSS-REFERENCE
-
-Per the governing correction, this unit does **not** compare its principles with the existing deed catalogue. Cross-reference is deferred until the memoir study has independently harvested a sufficient body of principles.
-
-# NEXT TEXTUAL ACT
-
-Printed p. 21 opens a related but distinct movement. Talleyrand turns from defense of clerical property to reforms of religious orders and the way a limited reform, once initiated, can weaken the structure that had protected the larger ecclesiastical edifice. The next unit should follow that causal sequence on its own terms and ask what Talleyrand learns about partial reform, institutional supports, ambitious reformers, and unintended enlargement of an attack.
+All surviving abstractions below are retained only because the quoted ground in this unit earns them. Earlier unquoted formulations not reproduced here are not carried forward as independent findings.

@@ -1,350 +1,195 @@
 # Memoirs Unit 25 — printed pp. 110–119a
 ## Political biography, formation, and operative belief
 
-**Primary witness:** *Memoirs of the Prince de Talleyrand*, Vol. I, English translation by Raphael Ledos de Beaufort, edited by the Duc de Broglie (G. P. Putnam’s Sons, 1891), Part II, printed pp. 110–119a.
+**Primary witness:** *Memoirs of the Prince de Talleyrand*, Vol. I, English translation by Raphael Ledos de Beaufort, edited by the Duc de Broglie (G. P. Putnam’s Sons, 1891).
 
-**Witness condition:** English translation, not quotation-grade French. This unit is Talleyrand’s retrospective political biography of the Duc d’Orléans. Retrospection is not disqualifying; it is strong evidence of mature Talleyrand’s way of judging persons and political formation. It requires caution only where later interpretation is used to establish earlier motive, belief, foresight, or a single sufficient cause.
+**Witness condition:** English translation, not quotation-grade French. All quoted wording is `[V]`: exact wording of the current English project witness, usable to ground sequence, distinctions, and abstraction, but not to license exact French voice imitation.
+
+**Quotation status:** `QUOTATION_GROUNDED`
 
 **Evidence status:** Independent Memoirs reconstruction. No preexisting deed was consulted or cross-referenced.
 
-**Constitutional integration:** On 2026-08-12 the owner ratified the reflexive discovery of this unit: Talleyrand’s method for reconstructing political persons also governs the repository’s reconstruction of Talleyrand. The source derivation remains here; the governing rule now lives in keel principle 11 and `memory_talleyrand/reflexive-political-biography.md`. This promotion does not convert the other candidate principles in this study into deeds or certified findings.
+## 1. Textual ground
 
----
+> “The private memoirs and lives of celebrated men are the source of true history…”
+>
+> — printed p. 110 `[V]`
 
-## 1. Talleyrand begins with a theory of political biography — and therefore tells us how he should be studied
+### Local reading
 
-Part II opens by saying that private memoirs and the lives of celebrated men are a source of true history. Talleyrand does not present biography as gossip. He treats memoirs and lives as material capable of criticizing or supporting tradition and of giving historical claims greater authenticity.
+Talleyrand explicitly treats political lives and private memoirs as historical evidence capable of correcting or supporting inherited accounts.
 
-He then says that a well-written life of Colbert or Louvois could illuminate the government of Louis XIV, and a life of Choiseul could reveal the spirit of court and administration under Louis XV. He chooses the Duc d’Orléans because he believes one life can make visible the manners, administration, and governmental degradation of the reign of Louis XVI.
-
-This is not only a method for studying another political person. Because our project is reconstructing Talleyrand himself as a political mind, the passage is also reflexive instruction. Talleyrand is telling us what kind of biography he thinks reveals a statesman. We should therefore study Talleyrand by the standard he lays down here: place him within the advantages, obligations, institutions, social worlds, mentors, rivals, offices, circles, pressures, and choices that formed him; use private memoirs and reliable lives to test general history; distinguish curiosity from politically useful detail; and test any proposed unifying principle against repeated conduct.
-
-### Candidate principles
+### Abstraction
 
 **USE POLITICAL LIVES TO TEST AND FILL OUT GENERAL HISTORY, NOT MERELY TO DECORATE IT.**
 
-**A WELL-PLACED PERSON CAN BE USED AS A PROBE INTO THE OPERATING REGIME AROUND HIM.**
+## 2. Textual ground
 
-**WHEN TALLEYRAND EXPLAINS HOW A POLITICAL LIFE SHOULD BE UNDERSTOOD, APPLY THAT METHOD REFLEXIVELY TO TALLEYRAND HIMSELF.**
+> “A well-written life of M. de Colbert or of M. de Louvois would give a correct idea of what the government of that great king was…”
+>
+> — printed p. 111 `[V]`
 
-The third proposition above is no longer merely a candidate for this house: the owner has ratified it as constitutional reconstruction law. The remaining local principles in the unit retain study status until separately promoted through the repository's governing process.
+### Local reading
 
-The method is important. A political person is valuable historically not only because of what happened to him, but because his position intersects institutions, patrons, rivals, habits, offices, social standards, and channels of influence. Talleyrand himself must therefore be reconstructed through those intersections rather than treated as an isolated personality or a collection of famous sayings.
+A well-placed person can reveal the operating regime around him; biography becomes a probe into government, administration, and social order.
 
-### Safeguard
+### Abstraction
 
-Private memoirs do not become infallible merely because Talleyrand praises them. The passage itself frames them as material that can criticize or support tradition. Therefore the minister should use biography comparatively, preserving the difference between testimony, interpretation, and corroborated event. Applying Talleyrand’s own method to Talleyrand does not mean accepting his self-account uncritically; it means using the evidentiary and biographical architecture he identifies.
+**A WELL-PLACED POLITICAL LIFE CAN BE USED AS A PROBE INTO THE OPERATING REGIME.**
 
----
+## 3. Textual ground
 
-## 2. Curiosity is not enough
+> “I would allow all recollection of them to be lost to my memory if they were merely meant to gratify curiosity, but it struck me that they might serve some useful end…”
+>
+> — printed p. 112 `[V]`
 
-Talleyrand says that he would let the curious details he possesses disappear if they served only curiosity. He collects them because he thinks they have a public use: they can help identify the characteristic signs of men who should be kept away from public affairs.
+### Local reading
 
-His own electoral and moral conclusions belong to him. The durable operation is broader:
+Personal detail is admitted only when it serves political understanding rather than curiosity.
 
-**DO NOT COLLECT PERSONAL DETAIL UNLESS IT BEARS ON JUDGMENT, CAPACITY, FORMATION, OR POLITICAL EFFECT.**
+### Abstraction
 
-This is a useful safeguard for the minister and for our reconstruction of Talleyrand. Biographical intelligence can easily become gossip. The question should always be:
+**DO NOT COLLECT PERSONAL DETAIL UNLESS IT BEARS ON JUDGMENT, FORMATION, CAPACITY, INTEREST, OR POLITICAL EFFECT.**
 
-**What does this fact help us understand about the person’s likely conduct, constraints, loyalties, capacities, formation, or relation to institutions?**
+## 4. Textual ground
 
-If nothing, the detail may be interesting but not decision-relevant.
+> “It is by placing the latter in the midst of all the advantages he enjoyed, it is by confronting him with all his obligations, that his character will be better understood.”
+>
+> — printed p. 112 `[V]`
 
----
+### Local reading
 
-## 3. Place the person inside his advantages and obligations
+Character is reconstructed relationally: position, advantages, obligations, and opportunities before adjectives.
 
-Talleyrand says the Duc d’Orléans is best understood by placing him amid all the advantages he possessed and confronting him with all the obligations attached to his rank. Only then, he says, can one see what position he degraded, what ties he broke, and what he failed to use.
+### Abstraction
 
-This yields a strong rule:
+**JUDGE CONDUCT AGAINST THE POSITION, RESOURCES, OBLIGATIONS, CONSTRAINTS, AND REAL ALTERNATIVES AVAILABLE TO THE PERSON.**
 
-**JUDGE CONDUCT AGAINST THE POSITION, RESOURCES, OBLIGATIONS, AND ALTERNATIVES ACTUALLY AVAILABLE TO THE PERSON.**
+## 5. Textual ground
 
-The rule applies directly to our study of Talleyrand. We should not judge an act merely as an isolated maneuver; we must reconstruct what offices, relationships, resources, institutional duties, dangers, constraints, and real alternatives were available to him at that moment.
+> “I will not imitate those who endeavour to seek in the babblings of a child the horoscope of his vices and of his virtues. I leave that to persons who write with a system; I have none.”
+>
+> — printed p. 112 `[V]`
 
-A person with enormous freedom, wealth, access, education, and institutional position is not situated like a person acting under narrow constraint.
+### Local reading
 
-Likewise, failure to use an opportunity cannot be judged without first establishing that the opportunity really existed.
+He explicitly rejects reading the known adult outcome backward into childhood anecdotes.
 
-The minister should therefore reconstruct four things before issuing a character judgment:
-
-- what the person possessed;
-- what the office or position expected;
-- what constraints actually applied;
-- what alternatives were practically available.
-
-Only then can conduct be priced fairly.
-
----
-
-## 4. Talleyrand refuses to read adult destiny backward into childhood babble
-
-This is one of the most important safeguards in the unit.
-
-Talleyrand explicitly refuses to search in the babblings of a child for a horoscope of later vice or virtue. He says that kind of writing belongs to people who write with a system; he claims to have none.
-
-Yet he does not therefore refuse all childhood evidence. He distinguishes early negative traits—lack of gratitude, lack of attachment, mischievous cruelty—from a fully formed adult propensity.
-
-### Candidate principles
+### Abstraction
 
 **DO NOT READ ADULT DESTINY BACKWARD INTO CHILDHOOD SIGNS.**
 
-**DISTINGUISH EARLY INDICATORS FROM ESTABLISHED CHARACTER.**
+## 6. Textual ground
 
-This applies equally to Talleyrand. His childhood injury, family treatment, seminary education, early ambitions, social formation, and early clerical life may matter greatly; none should be made into a prophecy that mechanically explains the statesman because we already know what he became.
+> “That goodness of which people felt so sure, led the prince’s tutors to devote as little attention to his character as to his studies.”
+>
+> — printed p. 113 `[V]`
 
-### Tension to preserve
+### Local reading
 
-Talleyrand later makes very strong claims of continuity across the Duc d’Orléans’s entire life. Therefore his declared anti-systematic caution must be tested against his own later practice. The tension is not resolved here.
+Inherited reputation substitutes for actual formation and becomes a cause of neglect.
 
----
+### Abstraction
 
-## 5. Education fails when presumed character substitutes for formation
+**DO NOT SUBSTITUTE INHERITED REPUTATION FOR FORMATION.**
 
-Talleyrand says people assumed the Orléans family was naturally “good,” and that this confidence contributed to neglect of both character and serious study. The young prince develops physical accomplishment and social grace while remaining intellectually superficial and unable to sustain attention.
+## 7. Textual ground
 
-The general operation is useful:
+> “are not yet fit to be free, and already they command.”
+>
+> — printed p. 114 `[V]`
 
-**DO NOT TREAT INHERITED REPUTATION OR PRESUMED GOOD CHARACTER AS A SUBSTITUTE FOR FORMATION.**
+### Local reading
 
-An institution that assumes a favored heir, officer, diplomat, executive, or politician will “turn out well” can fail to develop the capacities that office will later demand.
+Large discretion arrives before self-command has been formed.
 
-The minister should ask:
+### Abstraction
 
-**What was actually trained? What was merely assumed?**
+**DO NOT GIVE LARGE DISCRETION BEFORE THE PERSON HAS DEVELOPED ENOUGH SELF-COMMAND TO USE IT.**
 
-That distinction is more useful than pedigree.
+## 8. Textual ground
 
-For Talleyrand himself, this means we must reconstruct what capacities were actually formed by Saint-Sulpice, the Sorbonne, clerical administration, salons, family networks, reading, financial work, diplomatic encounters, and later office—not merely infer ability from the reputation of the mature statesman.
+> “Their most faithful servants fear to warn them, lest the warning should displease them, and a host of others try to be agreeable to them by all possible means.”
+>
+> — printed p. 114 `[V]`
 
----
+### Local reading
 
-## 6. Talleyrand’s deeper concern is authority arriving before self-command
+Rank changes the information environment by raising the cost of candor and rewarding agreeable distortion.
 
-His analysis of princely education becomes structural. Princes remain surrounded, protected, and treated as children; then suddenly they are released from restraint and told they are above ordinary men. Talleyrand’s compressed problem is devastating: they are not yet fit to be free, and already they command.
-
-This yields:
-
-**DO NOT GIVE LARGE DISCRETION BEFORE THE PERSON HAS ACQUIRED ENOUGH SELF-COMMAND TO USE IT.**
-
-And more broadly:
-
-**POWER MAGNIFIES FORMATION DEFECTS THAT SUBORDINATE POSITION MAY HAVE CONCEALED.**
-
-Talleyrand also notices the social environment produced by rank: faithful servants fear to warn; flatterers compete to please.
-
-Therefore:
+### Abstraction
 
 **MAP WHETHER THE PERSON’S POSITION PUNISHES CANDOR AND REWARDS FLATTERY.**
 
-A leader’s information environment is partly created by the leader’s own character and partly by the incentives of everyone around him.
+## 9. Textual ground
 
-The same question must be asked of Talleyrand in every office: who could contradict him, who depended on him, whose candor he sought, whose flattery he rewarded or ignored, and what kinds of information his position made easy or difficult to receive.
+> “it is from that time, from that second education, given at the age when men are the disciples of all that surrounds them…”
+>
+> — printed p. 118 `[V]`
 
----
+### Local reading
 
-## 7. Look for what governs attention and desire
+Formal schooling is only one stage of formation. Adult circles, companions, norms, and repeated environments constitute a second education.
 
-Talleyrand speculates that a deeply impressed principle, serious scientific attachment, or genuine love might have governed the young prince’s attention and limited his restless appetites. These particular remedies are Talleyrand’s and need not be universalized.
+### Abstraction
 
-The stronger operation is:
+**MAP THE SECOND EDUCATION: WHO FORMED THE ACTOR AFTER FORMAL SCHOOLING ENDED?**
 
-**ASK WHAT, IF ANYTHING, CAN HOLD A PERSON’S ATTENTION STEADILY ENOUGH TO DISCIPLINE IMPULSE.**
+## 10. Textual ground
 
-A person with wealth, access, and restless appetite but no durable object of attachment may become increasingly governed by novelty and stimulation.
+> “By what means, if he would preserve his self-love, could a young man avow himself incapable of understanding this mysterious language? He must, indeed confess himself convinced.”
+>
+> — printed p. 116 `[V]`
 
-This is a hypothesis about formation, not a deterministic law. It should be tested through repeated conduct. Applied reflexively, it means our study of Talleyrand must ask what objects held his attention durably—France, office, diplomacy, intellectual inquiry, money, social position, particular relationships, institutional order—and which of those actually governed conduct when they came into conflict.
+### Local reading
 
----
+Status pressure can counterfeit conviction by making admission of confusion socially costly.
 
-## 8. The “second education” occurs in the social circle
+### Abstraction
 
-Once the Duc de Chartres enters the society of M. de Voyer, Talleyrand says a second education begins. The formal tutors have ceased to matter; companions, conversation, norms, pleasures, and the intellectual vocabulary of the circle now form the prince.
+**DO NOT TREAT ASSENT UNDER STATUS PRESSURE AS CONVICTION.**
 
-This gives us one of the most important rules for reconstructing a political person:
+**ASK WHAT IT COSTS SOMEONE IN THE ROOM TO SAY “I DO NOT UNDERSTAND.”**
 
-**MAP THE SECOND EDUCATION: WHO FORMED THE ACTOR AFTER FORMAL EDUCATION ENDED?**
+## 11. Textual ground
 
-This is therefore also an explicit research program for Talleyrand himself. His reconstruction cannot stop with family, seminary, or formal study. We must map the people and circles that constituted his own second education: the salons he entered, the statesmen and administrators he observed, the financiers and economists from whom he learned, the women and friends whose houses structured his social world, the diplomats he encountered, the political circles through which he learned how power actually moved, and the authors whose books enlightened without enslaving his judgment.
+> “However different they seem to be, the same principle reappears in all.”
+>
+> — printed p. 119 `[V]`
 
-The minister should therefore examine:
+### Local reading
 
-- mentors;
-- intimate companions;
-- salons and clubs;
-- military or professional circles;
-- lovers and family networks;
-- intellectual authorities;
-- patrons;
-- rivals;
-- repeated environments in which the person learned what was admirable, ridiculous, shameful, or permissible.
+Talleyrand proposes a unifying principle of character, but the narrative that follows must earn it across deeds.
 
-A résumé tells us where a person studied. A political biography must also tell us **who taught him how to live after the schooling ended**.
+### Abstraction
 
----
+**A UNIFYING PRINCIPLE OF CHARACTER MUST BE EARNED BY THE DEEDS.**
 
-## 9. Social embarrassment can counterfeit conviction
+### Limit / alternative
 
-The De Lille scene is especially important.
+This sentence is Talleyrand’s claim, not proof that his proposed master principle is correct.
 
-Voyer uses obscure metaphysical language, unexplained technical terms, gestures, mystery, and apparent profundity. When De Lille objects, Voyer moves farther into abstraction. Talleyrand’s key observation is social rather than philosophical: a young man who wants to preserve his self-love may be unwilling to admit that he does not understand the language, and may therefore appear convinced.
+## Reflexive obligation for reconstructing Talleyrand
 
-### Candidate principles
+Under Keel Principle 11, this unit also becomes a research instruction for Talleyrand himself. This passage is directly constitutional for the project. Talleyrand is laying down the method by which a political person should be reconstructed; therefore the repository must apply the same method reflexively to Talleyrand himself. The method transfers; his conclusions about the Duc d’Orléans do not.
 
-**DO NOT TREAT SILENCE OR ASSENT UNDER STATUS PRESSURE AS PROOF OF CONVICTION.**
+## Build harvest
 
-**ASK WHAT IT COSTS A PERSON IN THE ROOM TO SAY “I DO NOT UNDERSTAND.”**
-
-This is directly useful for intelligence and cabinet procedure.
-
-A meeting full of experts can manufacture false consensus if dissent carries the risk of looking ignorant.
-
-Therefore a minister should create conditions in which a participant can say:
-
-- I do not understand the mechanism;
-- I do not follow the inference;
-- show the evidence;
-- translate the technical claim into ordinary language;
-- state what would falsify it.
-
-That is not anti-expertise. It is protection against prestige replacing proof.
-
----
-
-## 10. Complex language must cash out into a claim
-
-Talleyrand’s objection to Voyer is not simply that the language is difficult. It is that the language is left unexplained while practical moral conclusions are smuggled in without proof.
-
-So:
-
-**WHEN COMPLEX LANGUAGE CARRIES A PRACTICAL CONCLUSION, FORCE THE CHAIN FROM TERM TO CLAIM TO EVIDENCE TO CONSEQUENCE.**
-
-A difficult argument may be correct. Difficulty itself is not suspicious.
-
-But if technical vocabulary cannot be connected to a proposition that can be examined, its political use may be social domination rather than instruction.
-
-This is another important rule for the minister’s relation to specialists.
-
----
-
-## 11. Test professed doctrine against conduct under desire and cost
-
-Talleyrand then turns the method on Voyer himself.
-
-Voyer professes contempt for public opinion but suffers when society excludes him. He mocks court favors while seeking the blue riband. He publicly affects hardness while privately assisting unfortunate families and taking care that others not discover it.
-
-Talleyrand concludes that Voyer did not truly believe his own doctrine.
-
-We should not make the inference automatic. Contradiction between speech and deed can establish hypocrisy, ambivalence, divided desire, weakness, role-playing, or incomplete belief. It does not by itself identify which explanation is correct.
-
-The stronger principle is:
-
-**WHEN PROFESSED DOCTRINE AND REPEATED CONDUCT DIVERGE, DO NOT LET PROFESSION ALONE DEFINE THE PERSON’S OPERATIVE BELIEF.**
-
-And:
-
-**TEST BELIEF WHERE DESIRE, COST, HONOR, OR LOSS MAKES THE CHOICE REAL.**
-
-This principle must be used on Talleyrand too. His statements about loyalty to France, constitutional order, church, monarchy, peace, legitimacy, money, office, and service should be read alongside what he did when adherence became costly or when several loyalties collided. His words remain evidence; his conduct helps reveal their operative weight.
-
----
-
-## 12. Talleyrand’s master-cause claim must remain a hypothesis
-
-At the natural boundary of this unit, Talleyrand says that Voyer’s society gave the Duc d’Orléans a “second education,” that this was the point from which his corruption truly dated, and that the same principle later reappeared in all his actions. He says that by knowing Voyer’s doctrine he has revealed the secret of the Duc d’Orléans’s life.
-
-This is a very strong mature judgment.
-
-It should not be discarded because it is retrospective.
-
-But it is still a causal claim that must be tested against the conduct that follows.
-
-### Hold
-
-**VOYER’S DOCTRINE AS THE MASTER EXPLANATION OF THE DUC D’ORLÉANS’S LATER CONDUCT: NOT YET ESTABLISHED.**
-
-The coming narrative must show whether this proposed principle actually explains repeated acts better than rival explanations such as weakness, ambition, resentment, appetite, factional opportunity, dependence on associates, or changing political circumstance.
-
-This gives us a general rule:
-
-**A GOOD POLITICAL BIOGRAPHY MAY PROPOSE A UNIFYING PRINCIPLE, BUT THE DEEDS MUST EARN IT.**
-
-Applied reflexively, this is also a warning for the Talleyrand repository. We are not permitted to choose one slogan—survival, opportunism, France, balance, legitimacy, moderation, money, flexibility, or any other—and make it the secret of Talleyrand’s life before the accumulated deeds earn such a conclusion.
-
----
-
-## 13. Ministerial judgment architecture harvested — and a method for reconstructing Talleyrand
-
-The unit yields a distinctive way to construct a political person:
-
-**historical role → available position and obligations → early indicators without prophecy → actual formation → moment authority arrives → social incentives around the actor → second education through associates → doctrines received → cost of dissent within the circle → speech/deed test → provisional hypothesis of operative belief → later deeds as test.**
-
-This is much better than adjective-based characterization.
-
-For this repository, the sequence is not merely something the future minister can use on contemporary actors. It is a direct instruction for how the repository itself should reconstruct Talleyrand. We should place Talleyrand inside each historical board, recover his available instruments and obligations, map the people and books that formed him, identify his successive social and professional circles, reconstruct what could be said around him and by whom, distinguish professed principle from operative belief without reducing one to the other, and let repeated deeds test every proposed unifying account of his character.
-
-This is now constitutional repository method. Future close reading must preserve a reflexive harvest whenever Talleyrand explicitly teaches a method for judging political persons: first reconstruct the person he is discussing; then ask what that method requires us to investigate in Talleyrand. The method transfers to Talleyrand; the local conclusion does not transfer automatically.
-
-The minister should not ask merely:
-
-**Is this person ambitious? weak? ideological? corrupt? brilliant?**
-
-It should ask:
-
-**How was the person formed, who could tell him no, what did his circle reward, what did he profess, what did he do when profession became costly, and which recurring mechanism actually explains the sequence of choices?**
-
-And our Talleyrand repository must ask those questions of Talleyrand himself.
-
----
-
-## 14. Counterfeit forms to reject
-
-- **Biographical gossip:** collecting intimate detail with no political use.
-- **Childhood prophecy:** reading adult destiny backward into isolated childhood anecdotes.
-- **Pedigree confidence:** assuming inherited reputation or family identity substitutes for training.
-- **Résumé biography:** recording formal schooling while ignoring the later social circle that actually formed conduct.
-- **Prestige consensus:** mistaking silence in front of obscure expertise for understanding or assent.
-- **Anti-intellectual simplification:** treating difficult language itself as evidence of fraud.
-- **Speech-only belief attribution:** defining a person entirely by public profession despite repeated contrary conduct.
-- **Monocausal biography:** declaring one doctrine or one mentor the secret of an entire life before later acts have been tested.
-- **Retrospection dismissal:** rejecting mature political reflection merely because it was written later.
-- **Non-reflexive reading:** harvesting Talleyrand’s method for judging other statesmen while failing to use that same method to reconstruct Talleyrand.
-
----
-
-## 15. Build harvest
-
-- **USE POLITICAL LIVES TO TEST AND FILL OUT GENERAL HISTORY.**
-- **A WELL-PLACED PERSON CAN BE A PROBE INTO THE OPERATING REGIME.**
-- **WHEN TALLEYRAND EXPLAINS HOW A POLITICAL LIFE SHOULD BE UNDERSTOOD, APPLY THAT METHOD REFLEXIVELY TO TALLEYRAND HIMSELF.**
-- **DO NOT COLLECT PERSONAL DETAIL WITHOUT A POLITICAL USE.**
-- **JUDGE CONDUCT AGAINST ACTUAL POSITION, RESOURCES, OBLIGATIONS, AND ALTERNATIVES.**
+- **USE POLITICAL LIVES TO TEST GENERAL HISTORY.**
+- **USE A WELL-PLACED PERSON AS A PROBE INTO THE OPERATING REGIME.**
+- **DO NOT COLLECT PERSONAL DETAIL WITHOUT POLITICAL USE.**
+- **PLACE THE PERSON INSIDE ADVANTAGES, OBLIGATIONS, CONSTRAINTS, AND REAL ALTERNATIVES.**
 - **DO NOT READ ADULT DESTINY BACKWARD INTO CHILDHOOD SIGNS.**
-- **DISTINGUISH EARLY INDICATORS FROM ESTABLISHED CHARACTER.**
-- **DO NOT SUBSTITUTE INHERITED REPUTATION FOR FORMATION.**
-- **DO NOT GIVE LARGE DISCRETION BEFORE SELF-COMMAND HAS BEEN FORMED.**
-- **MAP WHETHER A POSITION PUNISHES CANDOR AND REWARDS FLATTERY.**
+- **DO NOT SUBSTITUTE REPUTATION FOR FORMATION.**
+- **MAP THE INFORMATION ENVIRONMENT AROUND POWER.**
 - **MAP THE SECOND EDUCATION.**
-- **DO NOT TREAT ASSENT UNDER STATUS PRESSURE AS CONVICTION.**
-- **FORCE COMPLEX LANGUAGE TO CASH OUT INTO EXAMINABLE CLAIMS.**
-- **TEST PROFESSED BELIEF AGAINST CONDUCT UNDER REAL COST AND DESIRE.**
-- **A UNIFYING PRINCIPLE OF CHARACTER MUST BE EARNED BY THE DEEDS.**
+- **DO NOT TREAT STATUS-PRESSURED ASSENT AS CONVICTION.**
+- **LET DEEDS EARN ANY UNIFYING PRINCIPLE.**
 
-The strongest compression is:
+### Compression
 
-**TO UNDERSTAND A POLITICAL PERSON—INCLUDING TALLEYRAND—DO NOT BEGIN WITH THE ADJECTIVE. PLACE HIM INSIDE THE POSITION HE INHERITED, THE OBLIGATIONS IT CARRIED, THE FORMATION HE ACTUALLY RECEIVED, THE PEOPLE WHO TAUGHT HIM AFTER SCHOOLING ENDED, THE SOCIAL COST OF DISSENT IN HIS CIRCLE, AND THE DEEDS THAT REVEAL WHAT HE BELIEVED WHEN BELIEF BECAME COSTLY.**
+**TO UNDERSTAND A POLITICAL PERSON, DO NOT BEGIN WITH THE ADJECTIVE. RECONSTRUCT POSITION, FORMATION, SECOND EDUCATION, INFORMATION ENVIRONMENT, PROFESSED BELIEF, AND CONDUCT UNDER COST.**
 
-A shorter person-reading rule also emerges:
+### Backfill disposition
 
-**FORMAL EDUCATION TELLS YOU WHAT HE WAS TAUGHT; THE SECOND EDUCATION TELLS YOU WHAT TAUGHT HIM HOW TO LIVE.**
-
-And the reflexive rule for this repository is explicit:
-
-**TALLEYRAND’S POLITICAL BIOGRAPHY OF OTHERS IS ALSO EVIDENCE FOR THE BIOGRAPHY WE MUST BUILD OF TALLEYRAND.**
-
----
-
-## Next textual movement
-
-Printed p. 119 continues from Talleyrand’s proposed master principle into its claimed consequences in actual human relations. He says the Duc d’Orléans loved no one, then tests that judgment through the Prince de Lamballe, the Marquis de Conflans, Biron, women, intimates, and repeated social conduct. The next unit should therefore ask whether Talleyrand’s proposed theory of formation survives contact with the Duc d’Orléans’s deeds and relationships, rather than accepting the theory because Talleyrand has stated it.
+All surviving abstractions below are retained only because the quoted ground in this unit earns them. Earlier unquoted formulations not reproduced here are not carried forward as independent findings.

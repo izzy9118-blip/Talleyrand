@@ -1,58 +1,60 @@
 # Memoirs Quotation Backfill Register
 
-Status: ACTIVE
-Purpose: ensure every surviving abstraction in the Memoirs study is returned to Talleyrand's exact words before final synthesis or deed cross-reference.
+Status: COMPLETE_FOR_UNITS_01_29
+Purpose: ensure every surviving abstraction in the Memoirs study is returned to the words of the current Memoirs witness before final synthesis or deed cross-reference.
 
 Governing protocol: [`../../memory_talleyrand/quotation-grounded-abstraction.md`](../../memory_talleyrand/quotation-grounded-abstraction.md)
 
 ## Rule
 
-Earlier units remain historical reading records, but an abstraction from them is not ready for final synthesis merely because it was already written. Each unit must be revisited so that every surviving abstraction has visible exact textual ground, printed page, local reading, and limit.
+No abstraction is ready for synthesis merely because it was written earlier. Each surviving abstraction must have visible quotation ground, printed page, local reading, and a stated limit or alternative where needed.
 
-Possible outcomes of backfill:
+The current Memoirs witness is the English translation by Raphael Ledos de Beaufort (1891). Its wording is marked `[V]`: it can ground sequence, distinctions, reasoning motion, and abstraction, but it does not license exact French voice imitation. Where the witness is not Talleyrand speaking directly—especially Unit 24—the speaker and reporting chain remain explicit.
 
-- CONFIRMED — exact quotation supports the abstraction as written;
-- NARROWED — quotation supports only a more limited rule;
-- INFERENCE — useful but not directly stated enough to stand as textual abstraction;
-- HOLD — competing readings remain unresolved;
-- WITHDRAWN — the abstraction outran the text.
+## Backfill result
 
-## Register
+Units 01–28 were re-read against their bounded source pages and rewritten in quotation-grounded form. Earlier abstractions were not automatically preserved. The revised unit files carry forward only abstractions for which visible textual ground is supplied; unsupported or over-broad formulations are omitted, narrowed, or held in the revised record.
 
 | Unit | Status |
 | --- | --- |
-| 01 | PENDING_QUOTATION_BACKFILL |
-| 02 | PENDING_QUOTATION_BACKFILL |
-| 03 | PENDING_QUOTATION_BACKFILL |
-| 04 | PENDING_QUOTATION_BACKFILL |
-| 05 | PENDING_QUOTATION_BACKFILL |
-| 06 | PENDING_QUOTATION_BACKFILL |
-| 07 | PENDING_QUOTATION_BACKFILL |
-| 08 | PENDING_QUOTATION_BACKFILL |
-| 09 | PENDING_QUOTATION_BACKFILL |
-| 10 | PENDING_QUOTATION_BACKFILL |
-| 11 | PENDING_QUOTATION_BACKFILL |
-| 12 | PENDING_QUOTATION_BACKFILL |
-| 13 | PENDING_QUOTATION_BACKFILL |
-| 14 | PENDING_QUOTATION_BACKFILL |
-| 15 | PENDING_QUOTATION_BACKFILL |
-| 16 | PENDING_QUOTATION_BACKFILL |
-| 17 | PENDING_QUOTATION_BACKFILL |
-| 18 | PENDING_QUOTATION_BACKFILL |
-| 19 | PENDING_QUOTATION_BACKFILL |
-| 20 | PENDING_QUOTATION_BACKFILL |
-| 21 | PENDING_QUOTATION_BACKFILL |
-| 22 | PENDING_QUOTATION_BACKFILL |
-| 23 | PENDING_QUOTATION_BACKFILL |
-| 24 | PENDING_QUOTATION_BACKFILL |
-| 25 | PENDING_QUOTATION_BACKFILL |
-| 26 | PENDING_QUOTATION_BACKFILL |
-| 27 | PENDING_QUOTATION_BACKFILL |
-| 28 | PENDING_QUOTATION_BACKFILL |
+| 01 | QUOTATION_GROUNDED |
+| 02 | QUOTATION_GROUNDED |
+| 03 | QUOTATION_GROUNDED |
+| 04 | QUOTATION_GROUNDED |
+| 05 | QUOTATION_GROUNDED |
+| 06 | QUOTATION_GROUNDED |
+| 07 | QUOTATION_GROUNDED |
+| 08 | QUOTATION_GROUNDED |
+| 09 | QUOTATION_GROUNDED |
+| 10 | QUOTATION_GROUNDED |
+| 11 | QUOTATION_GROUNDED |
+| 12 | QUOTATION_GROUNDED |
+| 13 | QUOTATION_GROUNDED |
+| 14 | QUOTATION_GROUNDED |
+| 15 | QUOTATION_GROUNDED |
+| 16 | QUOTATION_GROUNDED |
+| 17 | QUOTATION_GROUNDED |
+| 18 | QUOTATION_GROUNDED |
+| 19 | QUOTATION_GROUNDED |
+| 20 | QUOTATION_GROUNDED |
+| 21 | QUOTATION_GROUNDED |
+| 22 | QUOTATION_GROUNDED |
+| 23 | QUOTATION_GROUNDED |
+| 24 | QUOTATION_GROUNDED — WITNESS CHAIN EXPLICIT |
+| 25 | QUOTATION_GROUNDED — CONSTITUTIONAL REFLEXIVE METHOD |
+| 26 | QUOTATION_GROUNDED |
+| 27 | QUOTATION_GROUNDED |
+| 28 | QUOTATION_GROUNDED |
 | 29 | QUOTATION_GROUNDED |
+
+## Governing motion
+
+**EXACT TEXT → LOCAL MEANING → ABSTRACTION → LIMIT / ALTERNATIVE → REFLEXIVE QUESTION WHEN APPLICABLE.**
+
+**NO ABSTRACTION WITHOUT THE WORDS THAT EARN IT. QUOTE FIRST; ABSTRACT SECOND.**
 
 ## Forward rule
 
-Unit 30 and every later Memoirs unit are written quote-first from inception. No new unit may add an abstraction to its Build Harvest unless the exact textual ground has already appeared in that unit.
+Unit 30 and every later Memoirs unit are written quote-first from inception. No new unit may add an abstraction to its Build Harvest unless the textual ground has already appeared in that unit.
 
-Backfill of Units 01–28 must be completed before the final Memoirs-to-deeds cross-reference stage. Sequential reading may continue while this register remains open, because the register prevents ungrounded earlier abstractions from silently entering final synthesis.
+The quotation backfill no longer blocks eventual Memoirs synthesis. The principles-before-deeds rule still governs: cross-reference to the deed corpus waits until the independent Memoirs harvest has reached its proper completion.

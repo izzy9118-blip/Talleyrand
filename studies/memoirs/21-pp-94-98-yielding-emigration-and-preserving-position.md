@@ -1,301 +1,150 @@
 # Memoirs Unit 21 — printed pp. 94–98
-## Yielding, emigration, and preserving position after the preferred course is lost
+## Yielding, emigration, and preserving position
 
-**Primary witness:** *Memoirs of the Prince de Talleyrand*, Vol. I, English translation by Raphael Ledos de Beaufort, edited by the Duc de Broglie (G. P. Putnam’s Sons, 1891), printed pp. 94–98.
+**Primary witness:** *Memoirs of the Prince de Talleyrand*, Vol. I, English translation by Raphael Ledos de Beaufort, edited by the Duc de Broglie (G. P. Putnam’s Sons, 1891).
 
-**Witness condition:** English translation, not quotation-grade French. Talleyrand’s account of his own advice, motives, refusals, and strategic conduct is `[HT]`: interested retrospective testimony. Retrospection does not disqualify the reflection. It is direct evidence of the mature Talleyrand’s judgment; where he claims what he knew, intended, advised, or foresaw at the earlier moment, the claim remains `[HT]` and must not be silently converted into a contemporaneous document. Editorial notes and the later Bacourt appendix remain separate witnesses.
+**Witness condition:** English translation, not quotation-grade French. All quoted wording is `[V]`: exact wording of the current English project witness, usable to ground sequence, distinctions, and abstraction, but not to license exact French voice imitation.
 
-**Evidence status:** Independent Memoirs reconstruction. No preexisting deed was consulted or cross-referenced in producing this unit.
+**Quotation status:** `QUOTATION_GROUNDED`
 
----
+**Evidence status:** Independent Memoirs reconstruction. No preexisting deed was consulted or cross-referenced.
 
-## 1. The preferred remedy has failed; Talleyrand reprices the board
+## 1. Textual ground
 
-Talleyrand says that his preferred solution was dissolution of the existing States-General and a new convocation under a different electoral arrangement. He carried the advice to the Comte d’Artois, held several interviews at Marly, and came away convinced that he could be of no service in obtaining that course.
+> “there remained but one reasonable course to take, it was to yield without being forced to do so, and while there would still be some credit in doing it.”
+>
+> — printed p. 94 `[V]`
 
-He then changes the question.
+### Local reading
 
-He no longer asks: **How can the original position be restored on the terms I preferred?**
+Once the preferred position is no longer executable, the question becomes what can still be purchased by moving before compulsion.
 
-He asks: **Given what the States-General have already become, what can still be preserved?**
-
-This shift is the governing movement of the unit.
-
-### Candidate principle
+### Abstraction
 
 **WHEN THE PREFERRED POSITION IS NO LONGER EXECUTABLE, REPRICE THE BOARD BEFORE SPENDING MORE TO DEFEND IT.**
 
-This is not permission to abandon a position merely because it has become difficult. The trigger is stronger: Talleyrand believes the institutional composition has already reduced the first two orders to “mere ciphers” and that the force required for his preferred remedy cannot actually be wielded.
+## 2. Textual ground
 
-The ministerial question is therefore:
+> “retain some influence… and to gain time, which often means to gain everything.”
+>
+> — printed p. 94 `[V]`
 
-- Is the old objective still executable?
-- Which instruments required for it have disappeared?
-- What remains preservable if the principal objective is lost?
-- Which actions would merely convert a political defeat into a larger strategic loss?
+### Local reading
 
----
+Yielding is not treated as surrender for its own sake; it is justified by retained influence and option-preserving time.
 
-## 2. Yield before compulsion if voluntary concession still purchases something
+### Abstraction
 
-Talleyrand’s response is to yield before being forced, while there is still some credit in doing so. He gives three reasons: voluntary movement may restrain extremes, preserve some influence in common deliberation, and gain time. If any lost ground can later be recovered, he thinks this is the only remaining route.
+**DISTINGUISH LOSING A POSITION FROM LOSING ALL INFLUENCE AFTER THE POSITION IS LOST.**
 
-The core operation is not “surrender.” It is the conversion of an increasingly unavoidable concession into residual political assets.
+**GAIN TIME ONLY WHEN TIME PRESERVES OR CREATES OPTIONS.**
 
-### Candidate principles
+## 3. Textual ground
 
-**DISTINGUISH THE LOSS OF A POSITION FROM THE LOSS OF ALL INFLUENCE AFTER THAT POSITION IS LOST.**
+> “I did not blame them, but I blamed the emigration… Whatever may have been its motive… it appeared to me… but a poor calculation.”
+>
+> — printed p. 95 `[V]`
 
-**WHEN AN OUTCOME HAS BECOME UNAVOIDABLE, ASK WHETHER MOVING BEFORE COMPULSION CAN STILL PURCHASE CREDIT, ACCESS, INFLUENCE, OR TIME.**
+### Local reading
 
-A concession made before compulsion can differ politically from the same concession extracted after resistance has failed. It may preserve initiative, alter how other actors read the concession, and leave the conceding party inside the next deliberative field.
+Talleyrand explicitly separates his understanding of the persons from his prudential judgment of the move.
 
-### Safeguard
-
-This does **not** yield a general rule that early concession is wise. The value of concession depends on what it purchases and what it sacrifices. If voluntary concession gives away a still-defensible position without producing compensating capacity, it is merely premature retreat.
-
----
-
-## 3. Time is valuable only if it preserves or creates options
-
-Talleyrand says that to gain time often means to gain everything. The sentence is attractive and must be constrained.
-
-Time by itself has no political value. Delay can strengthen an opponent, worsen material conditions, exhaust credit, or close options.
-
-What makes time valuable in this passage is Talleyrand’s belief that yielding preserves some influence and leaves open the possibility of recovering ground later.
-
-### Candidate principle
-
-**GAIN TIME ONLY WHEN TIME PRESERVES, IMPROVES, OR CREATES AN OPTION SET.**
-
-For the minister, “buy time” is therefore incomplete. It should be followed by:
-
-- What improves during the interval?
-- What deteriorates?
-- Which option is being kept alive?
-- What event, preparation, coalition, information, or external change are we waiting for?
-- What is the expiration condition after which delay becomes loss?
-
----
-
-## 4. Force introduced after authority has already failed is a different instrument
-
-The struggle continues. The king intervenes and fails. The Third Estate does not obey an order to separate. Its meeting hall is closed; it meets elsewhere and swears not to separate. Only then does the government attempt to arrest the movement by force.
-
-Talleyrand’s later judgment that the government became completely powerless “from this moment” is evidence of how the mature Talleyrand understood the sequence. If used as a precise historical threshold or as proof of what was knowable at that exact moment, it requires corroboration. The retrospective character of the reflection does not otherwise diminish its value for reconstructing his mature political judgment.
-
-The same nominal instrument—force—has a different political meaning before and after repeated visible failures of compliance.
-
-### Candidate principles
-
-**DO NOT PRICE COERCION AS THE SAME INSTRUMENT AFTER AUTHORITY HAS ALREADY BEEN PUBLICLY DISOBEYED.**
-
-**BEFORE ESCALATING TO FORCE, IDENTIFY THE SPECIFIC COMMAND CHAIN THAT CAN EXECUTE IT AND THE POLITICAL CONDITION IN WHICH THAT FORCE WILL LAND.**
-
-Force attempted after authority has already displayed uncertainty may be read not as decisive capacity but as desperation. It can also reveal whether soldiers, officials, allies, and principals are prepared to carry the measure through.
-
----
-
-## 5. Understand the motive; judge the prudence of the decision separately
-
-After the Bastille and the departure of princes, Talleyrand turns to emigration. His formulation is unusually disciplined: he says he did not blame the men who emigrated; he blamed the emigration. He reconstructs motives that can explain the decision — devotion to the royal cause, fear, offended pride, attachment, a wish to recover losses, a sense of duty — without making the moral worth of those motives the ground of his judgment.
-
-The point is not that Talleyrand declares emigration morally admirable. The point is that he understands why men might choose it and then asks a different question: **Was the decision prudent?**
-
-### Candidate principle
+### Abstraction
 
 **UNDERSTAND THE MOTIVE; DO NOT INVENT A MORAL VERDICT; JUDGE THE PRUDENCE OF THE MOVE SEPARATELY.**
 
-An intelligible motive can lead to a strategically destructive decision.
+## 4. Textual ground
 
-A motive one disapproves can still produce a prudent move.
+> “Only a portion of them… could go abroad, and this absent portion must inevitably compromise those who remained.”
+>
+> — printed p. 96 `[V]`
 
-Bad consequence does not prove bad motive, and understandable motive does not prove sound calculation.
+### Local reading
 
-This distinction should be routine in ministerial judgment.
+Exit changes the political status and risk borne by those unable to exit.
 
----
+### Abstraction
 
-## 6. Exit by some members can endanger those who remain
+**PRICE THE EFFECT OF EXIT ON THOSE WHO CANNOT EXIT.**
 
-Talleyrand’s first objection to emigration is systemic. Not all nobles can leave. Age, sex, illness, poverty, and other constraints keep many inside France. The departure of one portion therefore changes how the remainder is perceived. Those who stay become objects of suspicion and may be driven either into the ruling side through fear or into victimhood.
+## 5. Textual ground
 
-The crucial point is that the choice of the mobile members changes the political status of the immobile members.
+> “But property once lost could not be as easily restored… it might have been transferred…”
+>
+> — printed p. 96 `[V]`
 
-### Candidate principle
+### Local reading
 
-**PRICE THE EXTERNALITIES OF EXIT ON THOSE WHO CANNOT EXIT.**
+He ranks losses by reversibility and notices that transfer creates new stakeholders with interests in preserving the new settlement.
 
-This applies beyond literal emigration.
+### Abstraction
 
-When elites move capital, institutions leave a jurisdiction, political leaders flee, foreign partners evacuate, senior officers defect, or a faction withdraws from an institution, the minister should ask:
+**RANK LOSSES BY REVERSIBILITY.**
 
-**What does their departure make the people who remain look like, and what new risks does it impose on them?**
+**PAY SPECIAL ATTENTION TO LOSSES THAT CREATE NEW STAKEHOLDERS.**
 
-### Stronger formulation
+## 6. Textual ground
 
-**A PARTIAL EXIT CAN CREATE THE DANGER IT CLAIMS TO ESCAPE BY ALTERING THE STATUS OF THOSE LEFT BEHIND.**
+> “Was there a certainty of receiving real assistance, and was it wise to trust simply in hopes?”
+>
+> — printed p. 97 `[V]`
 
-That causal claim is explicit in Talleyrand’s argument about emigration. Whether it was historically sufficient to produce the later danger remains a separate question.
+### Local reading
 
----
+External support is tested for deliverability rather than treated as an asset because it has been promised or imagined.
 
-## 7. Rank losses by reversibility, not only by immediate pain
+### Abstraction
 
-Talleyrand next compares what the nobility initially stood to lose with what emigration might cause it to lose.
+**DO NOT TRADE PRESENT POSITION FOR UNVERIFIED EXTERNAL PROMISE.**
 
-Titles and privileges are painful losses in his account, but he regards them as potentially repairable. Estates are different. Once property is confiscated, transferred, and passes through new hands, restoration becomes much harder and may itself become politically dangerous.
+## 7. Textual ground
 
-His aristocratic theory—that nobility is an essential element of monarchy and requires both birth and wealth—is Talleyrand’s doctrine and does not become ours.
+> “neither the country, its integrity nor its future independence would thereby be injured.”
+>
+> — printed p. 97 `[V]`
 
-The operational distinction beneath it is much stronger.
+### Local reading
 
-### Candidate principles
+Even successful foreign assistance must be priced by the helper’s post-success interests and the independence cost.
 
-**RANK THREATENED LOSSES BY REVERSIBILITY, NOT ONLY BY IMMEDIATE MAGNITUDE.**
+### Abstraction
 
-**PROTECT ESPECIALLY AGAINST LOSSES THAT CREATE NEW STAKEHOLDERS IN THE NEW SETTLEMENT.**
+**PRICE THE HELPER’S INTERESTS AFTER SUCCESS.**
 
-A title can sometimes be restored by decree. Property transferred to thousands of new holders creates interests, expectations, contracts, and political constituencies that make reversal costly or impossible.
+## 8. Textual ground
 
-The same logic applies to institutional restructuring, demographic movement, debt claims, new property rights, alliance structures, administrative jurisdictions, and technological dependencies.
+> “not to struggle against a torrent which must be allowed to pass; but to hold myself in a position enabling me to save those who could be saved, to raise no obstacle between opportunity and myself, and to hold myself in readiness for it.”
+>
+> — printed p. 98 `[V]`
 
----
+### Local reading
 
-## 8. Do not trade a present domestic position for an unverified foreign promise
+His mature self-description is a complete motion: stop useless resistance, preserve bounded capacity, avoid foreclosing opportunity, remain ready.
 
-Talleyrand then examines the emigrants’ implied reliance on foreign assistance.
+### Abstraction
 
-His standard is extraordinarily demanding. Foreign help capable of intervening in a domestic political struggle would, in his view, require extraordinary justification: vital national interests, exhaustion of other means, high confidence in success, and assurance that territorial integrity and future independence would not be injured.
-
-He then asks a series of practical questions: Will foreigners actually help? Can they succeed? What will they do after success? What happens to national independence? Why abandon a domestic position now for assistance that may never materialize?
-
-### Candidate principles
-
-**DO NOT TRADE A PRESENT POSITION FOR AN UNVERIFIED EXTERNAL PROMISE.**
-
-**PRICE FOREIGN ASSISTANCE BY THE HELPER’S POST-SUCCESS INTERESTS, NOT ONLY BY ITS PRESENT OFFER.**
-
-**WHEN EXTERNAL INTERVENTION IS CONTEMPLATED, ASK WHAT THE HELPER WILL BE ABLE TO DEMAND AFTER IT BECOMES INDISPENSABLE.**
-
-This is not a prohibition on foreign assistance. It is a requirement to distinguish:
-
-- promised aid from deliverable aid;
-- deliverable aid from decisive aid;
-- decisive aid from aid compatible with future independence.
-
----
-
-## 9. Preserve a position inside the field when futile resistance would destroy it
-
-Talleyrand closes the movement with a personal resolution `[HT]`.
-
-He says he will remain in France until personal danger compels him to leave; avoid provoking that danger; not struggle against a torrent that must be allowed to pass; keep himself in a position to save those who can be saved; place no obstacle between opportunity and himself; and remain ready for opportunity.
-
-This is among the clearest statements yet of how the mature Talleyrand understands political survival under a rapidly changing order. Its retrospective character is not a reason to discount that judgment. Where the passage is used to establish that these were in fact his contemporaneous motives at each later moment, it remains `[HT]` and should be tested against conduct and other witnesses where necessary.
-
-### Candidate principles
-
-**WHEN DIRECT RESISTANCE CAN NO LONGER ALTER THE RESULT, PRESERVE A POSITION FROM WHICH LATER ACTION REMAINS POSSIBLE.**
+**WHEN DIRECT RESISTANCE CANNOT ALTER THE RESULT, PRESERVE POSITION FOR LATER ACTION.**
 
 **DO NOT DESTROY FUTURE CAPACITY MERELY TO DISPLAY PRESENT OPPOSITION.**
 
-**PRESERVE PRESENCE, RELATIONSHIPS, AND FREEDOM OF MOVEMENT THROUGH A TRANSITION WHEN THEY MAY STILL BE USED TO PROTECT PEOPLE OR ACT ON A LATER OPENING.**
+## Reflexive obligation for reconstructing Talleyrand
 
-### Safeguard against counterfeit Talleyrand
+Under Keel Principle 11, this unit also becomes a research instruction for Talleyrand himself. This unit is `[HT]` formation evidence for Talleyrand’s self-understanding. The repository must test whether later episodes actually show this motion—reprice, preserve remainder, wait without inertia, act at the opening—rather than assuming the self-description governs the whole career.
 
-This must not become:
+## Build harvest
 
-- attach yourself to whoever is winning;
-- sacrifice principle for access;
-- remain neutral between atrocity and restraint;
-- call opportunism prudence after the fact.
+- **REPRICE THE BOARD WHEN THE PREFERRED POSITION CEASES TO BE EXECUTABLE.**
+- **YIELD ONLY FOR SOMETHING REAL: INFLUENCE, TIME, OR PRESERVED OPTIONS.**
+- **UNDERSTAND MOTIVE AND JUDGE PRUDENCE SEPARATELY.**
+- **PRICE EXIT FOR THOSE LEFT BEHIND.**
+- **RANK LOSSES BY REVERSIBILITY AND NEW STAKEHOLDERS.**
+- **VERIFY FOREIGN SUPPORT AND PRICE ITS POST-SUCCESS COST.**
+- **PRESERVE POSITION FOR LATER ACTION WHEN PRESENT RESISTANCE IS USELESS.**
 
-The operational test is harder:
+### Compression
 
-**Does remaining preserve a concrete capacity to do something later that departure or futile resistance would destroy?**
+**WHEN THE POSITION YOU WANTED IS NO LONGER EXECUTABLE, SEPARATE THE LOSS ALREADY INEVITABLE FROM THE GREATER LOSSES STILL PREVENTABLE AND KEEP A POSITION FROM WHICH THE NEXT OPENING CAN STILL BE USED.**
 
-If no such capacity can be identified, “preserve position” is merely self-protective rhetoric.
+### Backfill disposition
 
----
-
-## 10. Ministerial judgment architecture harvested
-
-The unit yields a distinct crisis sequence:
-
-**preferred course fails → executable instruments disappear → reprice the board → distinguish inevitable loss from avoidable additional loss → convert unavoidable concession into residual assets → preserve time only if it preserves options → resist symbolic escalation that destroys remaining capacity → stay positioned for the next opening.**
-
-This is not passivity. It is a shift from **recover the old board** to **preserve capacity on the new board**.
-
-The most important questions for the minister are:
-
-1. Which objective is actually lost?
-2. Which objectives remain recoverable?
-3. Which assets are reversible and which, once lost, create irreversible new facts?
-4. What does voluntary concession still buy?
-5. Does delay improve the option set?
-6. What would futile resistance destroy?
-7. What present position should be preserved for a later opening?
-8. What external help is real, and what future leverage would it give the helper?
-
----
-
-## 11. Voice-mechanism evidence
-
-A powerful movement appears in Talleyrand’s handling of emigration:
-
-**reconstruct the motive without moralizing it → judge the prudence of the decision separately → trace consequences through those left behind → rank losses by reversibility → test the foreign alternative → state the position he himself will keep.**
-
-This is better than cynical motive-hunting and better than moral approval or condemnation standing in for strategic judgment.
-
-The voice can say, in effect:
-
-**I understand why they chose it. I still judge the decision badly calculated.**
-
-A second voice movement is equally important:
-
-**state what is no longer recoverable → identify what can still be saved → recommend the smaller move that preserves future agency.**
-
----
-
-## 12. Counterfeit forms to reject
-
-- **Surrender masquerading as prudence:** conceding a still-defensible position without gaining residual capacity.
-- **Delay worship:** treating time as valuable when it only worsens the board.
-- **Force by abstraction:** counting coercion because a state nominally possesses troops or legal authority.
-- **Motive moralization:** treating an intelligible motive as moral endorsement, or using a moral verdict on motive as a substitute for judging prudence.
-- **Motive reduction:** inferring base motive from bad consequence or prudent calculation from a motive viewed sympathetically.
-- **Exit individualism:** assessing departure only for the person leaving and ignoring effects on those who remain.
-- **Reversibility blindness:** treating a symbolic loss and an asset transfer as politically equivalent.
-- **Foreign-rescue fantasy:** abandoning present domestic capacity for promised external assistance whose delivery, success, or postwar terms are uncertain.
-- **Opportunism disguised as readiness:** remaining in place merely to attach oneself to the next winner without a defined capacity worth preserving.
-- **Retrospection-as-disqualification:** discounting a mature reflection merely because it was written later instead of asking what the retrospective evidence can and cannot establish.
-
----
-
-## 13. Evidence limits and hold
-
-- Talleyrand’s claim that the first two orders had become “mere ciphers” is his judgment of the board. Its retrospective character does not disqualify it; if treated as a precise measure of contemporaneous power, it requires independent testing.
-- His statement that the government became powerless after the Bastille is valuable evidence of his mature reading of the sequence. If converted into a precise historical threshold or a claim about what was already demonstrable at that moment, corroboration is required.
-- His claim that emigration created the later general danger is a causal argument requiring later testing; the passage establishes the mechanism he believed, not sole causation.
-- His doctrine of nobility, property, monarchy, and equality is historically and normatively particular and is not ministerial doctrine.
-- His account of deciding to remain so that he could save others and be ready for opportunity is `[HT]`. It is valid evidence of the mature Talleyrand’s stated judgment and self-understanding. Where used to establish his exact contemporaneous motives, it should be compared with conduct and other evidence rather than accepted or rejected merely because it is retrospective.
-- The Bacourt appendix beginning at printed p. 104 provides a separate later account of the Marly/Comte d’Artois interview and must not be silently merged into Talleyrand’s own narrative.
-
----
-
-## 14. Compressed governing harvest
-
-**WHEN THE POSITION YOU WANTED IS NO LONGER EXECUTABLE, DO NOT SPEND THE REMAINDER OF YOUR POWER PROVING THAT YOU ONCE PREFERRED IT. SEPARATE THE LOSS THAT IS ALREADY INEVITABLE FROM THE GREATER LOSSES THAT CAN STILL BE PREVENTED; YIELD ONLY FOR SOMETHING REAL—CREDIT, INFLUENCE, TIME, PRESENCE, OR FUTURE OPTION; PROTECT AGAINST IRREVERSIBLE TRANSFERS; AND DO NOT ABANDON A PRESENT POSITION FOR FOREIGN HELP THAT HAS NOT YET BECOME REAL.**
-
-A shorter crisis rule also emerges:
-
-**DO NOT CONFUSE REFUSAL TO PERFORM A FUTILE GESTURE WITH SURRENDER OF FUTURE AGENCY.**
-
----
-
-## Next textual movement
-
-Printed p. 98 begins a new subject. Talleyrand turns from his decision to remain in France to the Declaration of Rights. He reconstructs what he takes to be its theory of equality and then asks whether an hereditary monarchy can coexist with a theory locating sovereignty wholly in the people and their representatives.
-
-The next unit should therefore begin at printed p. 98 with the problem of **declared principle versus institutional form: what happens when a political order adopts premises whose consequences may exceed the institutions it still intends to preserve.**
+All surviving abstractions below are retained only because the quoted ground in this unit earns them. Earlier unquoted formulations not reproduced here are not carried forward as independent findings.
