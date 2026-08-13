@@ -5,7 +5,7 @@
 
 **Witness condition:** English translation, not quotation-grade French. All quoted wording is `[V]`: exact wording of the current English project witness, usable to ground sequence, distinctions, and abstraction, but not to license exact French voice imitation.
 
-**Quotation status:** `QUOTATION_GROUNDED`
+**Quotation status:** `AUDITED_QUOTATION_GROUNDED`
 
 **Evidence status:** Independent Memoirs reconstruction. No preexisting deed was consulted or cross-referenced.
 
@@ -75,22 +75,21 @@ Shared constraint can explain confidence without proving that either party’s p
 
 ## 5. Textual ground
 
-> “the Abbe Couturier had taught them the art of being blind when necessary…”
+> “the Abbé Couturier had taught them the art of being blind when necessary…”
 >
 > — printed p. 16 `[V]`
 
 ### Local reading
 
-An institution may preserve itself partly through selective non-enforcement or tacit blindness.
+Talleyrand names deliberate blindness as an art taught within the institution. The text does not, in this sentence alone, establish every function served by that blindness.
 
 ### Abstraction
 
-**ASK WHAT AN INSTITUTION MUST CHOOSE NOT TO SEE IN ORDER TO KEEP FUNCTIONING.**
+**SELECTIVE BLINDNESS CAN BECOME AN INSTITUTIONAL PRACTICE.**
 
 ### Limit / alternative
 
 This is an observation about an institutional practice, not a blanket license for concealment.
-
 
 ## Reflexive obligation for reconstructing Talleyrand
 
@@ -98,16 +97,20 @@ Under Keel Principle 11, this unit also becomes a research instruction for Talle
 
 ## Build harvest
 
-- **DO NOT READ MANNER AS MOTIVE.**
-- **BUILD POLITICAL LEARNING ACROSS GENRES.**
-- **TAKE IN THE SOURCE WITHOUT SURRENDERING THE VERDICT.**
-- **SHARED CONSTRAINT CAN CREATE TRUST WITHOUT CERTIFYING JUDGMENT.**
-- **ASK WHAT AN INSTITUTION MUST SELECTIVELY IGNORE TO REMAIN OPERABLE.**
+- **DO NOT READ MANNER AS MOTIVE.** — Ground 1.
+- **BUILD POLITICAL LEARNING ACROSS GENRES RATHER THAN FROM OFFICIAL OR TECHNICAL MATERIAL ALONE.** — Ground 2.
+- **TAKE IN THE SOURCE WITHOUT SURRENDERING THE VERDICT.** — Ground 3.
+- **SHARED CONSTRAINT CAN CREATE TRUST.** — Ground 4.
+- **SELECTIVE BLINDNESS CAN BECOME AN INSTITUTIONAL PRACTICE.** — Ground 5.
 
 ### Compression
 
-**RECEIVE WIDELY; JUDGE INDEPENDENTLY.**
+For audit purposes, no new compressed abstraction is introduced here. Later synthesis must be built only from the numbered quotation-grounded findings above.
+
+### Audit disposition
+
+Every retained abstraction in this unit is repeated in the Build harvest with its Ground number. No Build-harvest wording is allowed to create an additional independent finding.
 
 ### Backfill disposition
 
-All surviving abstractions below are retained only because the quoted ground in this unit earns them. Earlier unquoted formulations not reproduced here are not carried forward as independent findings.
+All surviving abstractions are retained only because the quoted ground in this unit earns them. Earlier formulations not reproduced as numbered quotation-grounded findings are not carried forward as independent findings.

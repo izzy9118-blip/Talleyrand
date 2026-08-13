@@ -5,7 +5,7 @@
 
 **Witness condition:** English translation, not quotation-grade French. All quoted wording is `[V]`: exact wording of the current English project witness, usable to ground sequence, distinctions, and abstraction, but not to license exact French voice imitation.
 
-**Quotation status:** `QUOTATION_GROUNDED`
+**Quotation status:** `AUDITED_QUOTATION_GROUNDED`
 
 **Evidence status:** Independent Memoirs reconstruction. No preexisting deed was consulted or cross-referenced.
 
@@ -17,12 +17,11 @@
 
 ### Local reading
 
-Submission describes outward adaptation; it does not by itself establish inward conviction or free choice.
+The sentence establishes outward accommodation to the imposed situation; by itself it does not establish inward conviction. Later ground in this unit supplies the evidence of exhausted resistance.
 
 ### Abstraction
 
-**DISTINGUISH SUBMISSION FROM CONVICTION.**
-
+**DO NOT TREAT SUBMISSION BY ITSELF AS EVIDENCE OF DEEP CONVICTION.**
 
 ## 2. Textual ground
 
@@ -94,16 +93,22 @@ Under Keel Principle 11, this unit also becomes a research instruction for Talle
 
 ## Build harvest
 
-- **DISTINGUISH SUBMISSION FROM CONVICTION.**
-- **PRICE THE EXECUTABLE OPTION SET.**
-- **A ROLE MAY BE A ROUTE RATHER THAN AN END.**
-- **MAP WHO CONTROLS KNOWLEDGE OF ALTERNATIVES.**
-- **DO NOT READ YIELDING AS PROOF THAT THE ORIGINAL PREFERENCE DISAPPEARED.**
+- **DO NOT TREAT SUBMISSION BY ITSELF AS EVIDENCE OF DEEP CONVICTION.** — Ground 1.
+- **PRICE THE EXECUTABLE OPTION SET, NOT THE ABSTRACT CHOICE SET.** — Ground 2.
+- **A ROLE MAY BE A ROUTE RATHER THAN AN END.** — Ground 3.
+- **IDENTIFY THE CONDITION THAT MAKES OTHERWISE REJECTED MEANS THINKABLE.** — Ground 3.
+- **MAP WHO CONTROLS THE ACTOR’S KNOWLEDGE OF ALTERNATIVES.** — Ground 4.
+- **PARTIAL OR CONVENTIONAL DISCLOSURE CAN CLOSE OPTIONS WITHOUT FORMALLY FORBIDDING THEM.** — Ground 4.
+- **WHEN RESISTANCE ENDS, ASK WHETHER THE PREFERENCE CHANGED OR THE COST OF RESISTANCE BECAME UNSUSTAINABLE.** — Ground 5.
 
 ### Compression
 
-**FORMAL CHOICE CAN SURVIVE AFTER PRACTICAL CHOICE HAS BEEN CLOSED.**
+For audit purposes, no new compressed abstraction is introduced here. Later synthesis must be built only from the numbered quotation-grounded findings above.
+
+### Audit disposition
+
+Every retained abstraction in this unit is repeated in the Build harvest with its Ground number. No Build-harvest wording is allowed to create an additional independent finding.
 
 ### Backfill disposition
 
-All surviving abstractions below are retained only because the quoted ground in this unit earns them. Earlier unquoted formulations not reproduced here are not carried forward as independent findings.
+All surviving abstractions are retained only because the quoted ground in this unit earns them. Earlier formulations not reproduced as numbered quotation-grounded findings are not carried forward as independent findings.

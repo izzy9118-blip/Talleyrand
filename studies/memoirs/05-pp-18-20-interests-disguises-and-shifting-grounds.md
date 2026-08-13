@@ -5,7 +5,7 @@
 
 **Witness condition:** English translation, not quotation-grade French. All quoted wording is `[V]`: exact wording of the current English project witness, usable to ground sequence, distinctions, and abstraction, but not to license exact French voice imitation.
 
-**Quotation status:** `QUOTATION_GROUNDED`
+**Quotation status:** `AUDITED_QUOTATION_GROUNDED`
 
 **Evidence status:** Independent Memoirs reconstruction. No preexisting deed was consulted or cross-referenced.
 
@@ -42,7 +42,7 @@ This is the clearest mechanism: common material interest can unite actors who de
 
 **SEPARATE THE COMMON INTEREST FROM THE DIFFERENT ARGUMENTS USED TO DEFEND IT.**
 
-**DO NOT INFER COMMON MOTIVE OR VOCABULARY FROM COMMON POSITION.**
+**DO NOT INFER A COMMON ARGUMENT FROM A COMMON POSITION.**
 
 
 ## 3. Textual ground
@@ -68,16 +68,15 @@ Talleyrand disaggregates the coalition by type of actor and argument rather than
 
 ### Local reading
 
-Moral or sacred language can intensify a dispute over material arrangements.
+The explicit effect here is rhetorical: the entry of conscience into a financial quarrel changes the language and eloquence available to the participants.
 
 ### Abstraction
 
-**WHEN MATERIAL INTEREST AND CONSCIENCE INTERSECT, EXPECT THE CONFLICT TO ACQUIRE A DIFFERENT INTENSITY AND LANGUAGE.**
+**WHEN CONSCIENCE ENTERS A MATERIAL CONFLICT, IT CHANGES THE LANGUAGE AVAILABLE TO DEFEND THE INTEREST.**
 
 ### Limit / alternative
 
 This does not establish that conscience was insincere; interest and sincere conviction can coexist.
-
 
 ## 5. Textual ground
 
@@ -100,16 +99,21 @@ Under Keel Principle 11, this unit also becomes a research instruction for Talle
 
 ## Build harvest
 
-- **SEPARATE COMMON INTEREST FROM DIFFERENT ARGUMENTS.**
-- **MAP COALITIONS BY THE DIFFERENT REASONS THAT PRODUCE THE SAME POSITION.**
-- **DO NOT TREAT INTEREST AS AUTOMATIC PROOF OF INSINCERITY.**
-- **EXPECT CONSCIENCE TO CHANGE THE LANGUAGE AND INTENSITY OF MATERIAL CONFLICT.**
-- **PRESERVE QUALIFIED SELF-ATTRIBUTION AS QUALIFIED.**
+- **WHEN DIFFERENT PUBLIC LANGUAGES SURROUND THE SAME CONTEST, ASK WHAT INTERESTS OR AMBITIONS THEY MAY BE CARRYING.** — Ground 1.
+- **SEPARATE THE COMMON INTEREST FROM THE DIFFERENT ARGUMENTS USED TO DEFEND IT.** — Ground 2.
+- **DO NOT INFER A COMMON ARGUMENT FROM A COMMON POSITION.** — Ground 2.
+- **MAP THE DIFFERENT REASONS BY WHICH A COALITION ARRIVES AT THE SAME VOTE.** — Ground 3.
+- **WHEN CONSCIENCE ENTERS A MATERIAL CONFLICT, IT CHANGES THE LANGUAGE AVAILABLE TO DEFEND THE INTEREST.** — Ground 4.
+- **PRESERVE QUALIFIED AUTHORSHIP AS QUALIFIED; DO NOT HARDEN “I BELIEVE” INTO CERTAINTY.** — Ground 5.
 
 ### Compression
 
-**THE SAME INTEREST CAN BE DEFENDED IN DIFFERENT MORAL, INSTITUTIONAL, AND SOCIAL VOCABULARIES.**
+For audit purposes, no new compressed abstraction is introduced here. Later synthesis must be built only from the numbered quotation-grounded findings above.
+
+### Audit disposition
+
+Every retained abstraction in this unit is repeated in the Build harvest with its Ground number. No Build-harvest wording is allowed to create an additional independent finding.
 
 ### Backfill disposition
 
-All surviving abstractions below are retained only because the quoted ground in this unit earns them. Earlier unquoted formulations not reproduced here are not carried forward as independent findings.
+All surviving abstractions are retained only because the quoted ground in this unit earns them. Earlier formulations not reproduced as numbered quotation-grounded findings are not carried forward as independent findings.
