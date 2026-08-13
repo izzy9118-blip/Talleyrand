@@ -5,19 +5,19 @@
 
 **Witness condition:** English translation, not quotation-grade French. All quoted wording is `[V]`: exact wording of the current English project witness, usable to ground sequence, distinctions, and abstraction, but not to license exact French voice imitation.
 
-**Quotation status:** `QUOTATION_GROUNDED`
+**Quotation status:** `AUDITED_QUOTATION_GROUNDED`
 
 **Evidence status:** Independent Memoirs reconstruction. No preexisting deed was consulted or cross-referenced.
 
 ## 1. Textual ground
 
-> “As for me, I was in no hurry; I was instructing myself. I took journeys…”
+> “As for me, I was in no hurry; I was instructing myself. I took journeys … I was happy to think that I had still some years before me … without being obliged to arrange any of the deep combinations required to satisfy the aspirations of a serious ambition.”
 >
 > — printed p. 45 `[V]`
 
 ### Local reading
 
-He explicitly places instruction before political combination. Travel is part of a deliberate program of learning, not merely movement.
+Instruction and observation precede the deep combinations of ambition in Talleyrand’s own sequence.
 
 ### Abstraction
 
@@ -31,11 +31,11 @@ He explicitly places instruction before political combination. Travel is part of
 
 ### Local reading
 
-He chooses Brittany because of expected information yield. The place is selected as a case because it can reveal something he needs to know.
+He selects Brittany because he thinks its constitution is especially likely to yield information.
 
 ### Abstraction
 
-**CHOOSE PLACES AND CASES FOR INFORMATION YIELD, NOT MERELY FOR REPRESENTATIVENESS OR PRESTIGE.**
+**CHOOSE PLACES AND CASES FOR INFORMATION YIELD.**
 
 ## 3. Textual ground
 
@@ -45,25 +45,25 @@ He chooses Brittany because of expected information yield. The place is selected
 
 ### Local reading
 
-Informal households are operating political institutions: they shape the opinions and language of office-seekers.
+Office-seeking, elite households, opinion, and political language interact in a social circuit outside formal offices.
 
 ### Abstraction
 
-**MAP THE OPERATING CONSTITUTION BESIDE THE FORMAL CONSTITUTION.**
+**MAP THE SOCIAL FAMILIES THROUGH WHICH OFFICE-SEEKING, OPINION, AND LANGUAGE INTERACT.**
 
 ## 4. Textual ground
 
-> “I went almost everywhere…”
+> “I went almost everywhere, and to a mind somewhat accustomed to observe, the sight offered by the upper classes of society, during the ten years of which I speak, was curious indeed.”
 >
-> — printed p. 46 `[V]`
+> — printed pp. 46–47 `[V]`
 
 ### Local reading
 
-He deliberately observes across circles rather than allowing a single faction or house to define the field for him.
+Talleyrand makes breadth of social observation part of the evidence from which he forms his picture of the upper classes.
 
 ### Abstraction
 
-**OBSERVE ACROSS RIVAL OR DIFFERENT CIRCLES BEFORE ALLOWING ONE TO DEFINE THE BOARD.**
+**OBSERVE ACROSS MANY SOCIAL SETTINGS RATHER THAN FROM A SINGLE HOUSE.**
 
 ## 5. Textual ground
 
@@ -79,6 +79,7 @@ His description of government includes socially powerful families as actors whos
 
 **MAP INFORMAL POWER BY THE INTERESTS GOVERNMENT MUST ACTUALLY TAKE INTO ACCOUNT.**
 
+
 ## 6. Textual ground
 
 > “The power of what, in France, they call Society, was prodigious during the years which preceded the Revolution…”
@@ -91,7 +92,8 @@ Social form is not decorative. Talleyrand treats “Society” as a power with p
 
 ### Abstraction
 
-**TREAT SOCIAL FORM AS POLITICAL INFRASTRUCTURE WHEN IT SHAPES ACCESS, LANGUAGE, REPUTATION, OR GOVERNMENTAL CHOICE.**
+**TREAT “SOCIETY” AS A POLITICAL POWER WHEN THE EVIDENCE SHOWS IT SHAPING GOVERNMENTAL LIFE.**
+
 
 ## Reflexive obligation for reconstructing Talleyrand
 
@@ -99,17 +101,21 @@ Under Keel Principle 11, this unit also becomes a research instruction for Talle
 
 ## Build harvest
 
-- **INSTRUCT YOURSELF BEFORE FORMING LARGE COMBINATIONS.**
-- **CHOOSE CASES FOR INFORMATION YIELD.**
-- **MAP THE OPERATING CONSTITUTION BESIDE THE FORMAL ONE.**
-- **OBSERVE ACROSS DIFFERENT CIRCLES.**
-- **MAP THE INTERESTS GOVERNMENT MUST ACTUALLY TAKE INTO ACCOUNT.**
-- **TREAT SOCIAL FORM AS POLITICAL INFRASTRUCTURE.**
+- **INSTRUCT YOURSELF BEFORE FORMING LARGE COMBINATIONS.** — Ground 1.
+- **CHOOSE PLACES AND CASES FOR INFORMATION YIELD.** — Ground 2.
+- **MAP THE SOCIAL FAMILIES THROUGH WHICH OFFICE-SEEKING, OPINION, AND LANGUAGE INTERACT.** — Ground 3.
+- **OBSERVE ACROSS MANY SOCIAL SETTINGS RATHER THAN FROM A SINGLE HOUSE.** — Ground 4.
+- **MAP INFORMAL POWER BY THE INTERESTS GOVERNMENT MUST ACTUALLY TAKE INTO ACCOUNT.** — Ground 5.
+- **TREAT “SOCIETY” AS A POLITICAL POWER WHEN THE EVIDENCE SHOWS IT SHAPING GOVERNMENTAL LIFE.** — Ground 6.
 
 ### Compression
 
-**LEARN WHERE THE INSTITUTION ACTUALLY LIVES, NOT ONLY WHERE THE ORGANIZATION CHART SAYS IT LIVES.**
+For audit purposes, no new compressed abstraction is introduced here. Later synthesis must be built only from the numbered quotation-grounded findings above.
+
+### Audit disposition
+
+Every retained abstraction in this unit is repeated in the Build harvest with its Ground number. No Build-harvest wording is allowed to create an additional independent finding.
 
 ### Backfill disposition
 
-All surviving abstractions below are retained only because the quoted ground in this unit earns them. Earlier unquoted formulations not reproduced here are not carried forward as independent findings.
+All surviving abstractions are retained only because the quoted ground in this unit earns them. Earlier formulations not reproduced as numbered quotation-grounded findings are not carried forward as independent findings.
