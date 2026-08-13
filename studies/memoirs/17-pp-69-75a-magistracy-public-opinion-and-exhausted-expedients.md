@@ -5,7 +5,7 @@
 
 **Witness condition:** English translation, not quotation-grade French. All quoted wording is `[V]`: exact wording of the current English project witness, usable to ground sequence, distinctions, and abstraction, but not to license exact French voice imitation.
 
-**Quotation status:** `QUOTATION_GROUNDED`
+**Quotation status:** `AUDITED_QUOTATION_GROUNDED`
 
 **Evidence status:** Independent Memoirs reconstruction. No preexisting deed was consulted or cross-referenced.
 
@@ -23,6 +23,7 @@ Talleyrand prices an institution partly by how continuously and deeply it touche
 
 **MAP INSTITUTIONS BY HOW OFTEN AND HOW DEEPLY THEY TOUCH ORDINARY LIFE.**
 
+
 ## 2. Textual ground
 
 > “ought to have been hushed up from the very beginning”
@@ -36,6 +37,7 @@ He treats publicity as an independent political consequence in the necklace affa
 ### Abstraction
 
 **BEFORE SEEKING FORMAL VINDICATION, PRICE PUBLICITY AS AN INDEPENDENT CONSEQUENCE.**
+
 
 ## 3. Textual ground
 
@@ -51,6 +53,7 @@ A formally continuous institution can decompose into internal patronage and fact
 
 **MAP FACTIONS INSIDE THE INSTITUTION; DO NOT NAME IT AS A UNITARY ACTOR WHEN ITS OPERATING SEAMS HAVE SPLIT.**
 
+
 ## 4. Textual ground
 
 > “It must be shown to the public, by figures, and a long time in advance, that the recoinage is done in its interests.”
@@ -65,6 +68,7 @@ Technically correct policy still requires public legibility before the effect ar
 
 **WHEN A SOUND MEASURE CAN BE MISTAKEN FOR ABUSE, EXPLAIN THE MECHANISM BEFORE THE EFFECT ARRIVES.**
 
+
 ## 5. Textual ground
 
 > “M. de Calonne was right, but his precipitation gave him the appearance of being wrong.”
@@ -73,17 +77,18 @@ Technically correct policy still requires public legibility before the effect ar
 
 ### Local reading
 
-He separates substantive correctness from process and political reception.
+Talleyrand distinguishes the correctness of Calonne’s position from a precipitate manner of proceeding that made the correct measure appear wrong.
 
 ### Abstraction
 
-**SEPARATE CORRECT POLICY FROM COMPETENT PROCESS AND PUBLIC CREDIT.**
+**SEPARATE BEING RIGHT FROM A PROCESS THAT MAKES THE RIGHT POSITION APPEAR WRONG.**
+
 
 ## 6. Textual ground
 
 > “without having acquainted himself with the very intricate calculations… and consequently without having put himself in a position to reply to all the objections… He achieved his aim, although he did not deserve all the credit of it.”
 >
-> — printed pp. 73–74 `[V]`
+> — printed p. 73–74 `[V]`
 
 ### Local reading
 
@@ -95,6 +100,7 @@ A correct conclusion reached without enough ground to defend it does not prove a
 
 **SEPARATE SUCCESSFUL OUTCOME FROM DESERVED CREDIT.**
 
+
 ## 7. Textual ground
 
 > “public opinion gained strength… it was nearing the steps of the throne; people already spoke of the ministers as being popular or unpopular…”
@@ -103,11 +109,11 @@ A correct conclusion reached without enough ground to defend it does not prove a
 
 ### Local reading
 
-A new audience has acquired power to confer or destroy political credit before the formal constitution has changed.
+Talleyrand marks a change in which public opinion can directly confer or withdraw ministerial credit: ministers are now spoken of as “popular or unpopular.”
 
 ### Abstraction
 
-**WHEN A NEW AUDIENCE CAN CONFER OR DESTROY CREDIT, THE OPERATING CONSTITUTION HAS CHANGED.**
+**TRACK WHEN PUBLIC OPINION BECOMES A DIRECT SOURCE OF MINISTERIAL CREDIT OR DISCREDIT.**
 
 ## 8. Textual ground
 
@@ -117,11 +123,11 @@ A new audience has acquired power to confer or destroy political credit before t
 
 ### Local reading
 
-Once same-kind expedients have been spent, another expedient of the same kind is not yet a strategy.
+Talleyrand says ordinary expedients had reached their limit while the fiscal problem remained.
 
 ### Abstraction
 
-**WHEN ORDINARY EXPEDIENTS ARE EXHAUSTED, DO NOT CALL ANOTHER SAME-KIND EXPEDIENT A STRATEGY.**
+**WHEN ORDINARY EXPEDIENTS ARE EXHAUSTED, RECOGNIZE THAT THE OLD CLASS OF REMEDIES HAS REACHED ITS LIMIT.**
 
 ## Reflexive obligation for reconstructing Talleyrand
 
@@ -129,19 +135,24 @@ Under Keel Principle 11, this unit also becomes a research instruction for Talle
 
 ## Build harvest
 
-- **MAP INSTITUTIONS BY THEIR CONTACT WITH ORDINARY LIFE.**
-- **PRICE PUBLICITY AS AN INDEPENDENT CONSEQUENCE.**
-- **MAP INTERNAL FACTIONS, NOT JUST FORMAL INSTITUTIONS.**
-- **MAKE TECHNICALLY CORRECT POLICY POLITICALLY LEGIBLE.**
-- **SEPARATE CORRECTNESS, PROCESS, OUTCOME, AND CREDIT.**
-- **DO NOT BORROW A CONCLUSION YOU CANNOT DEFEND.**
-- **RECOGNIZE WHEN A NEW AUDIENCE HAS CHANGED THE OPERATING CONSTITUTION.**
-- **WHEN ORDINARY EXPEDIENTS ARE EXHAUSTED, CHANGE KIND.**
+- **MAP INSTITUTIONS BY HOW OFTEN AND HOW DEEPLY THEY TOUCH ORDINARY LIFE.** — Ground 1.
+- **BEFORE SEEKING FORMAL VINDICATION, PRICE PUBLICITY AS AN INDEPENDENT CONSEQUENCE.** — Ground 2.
+- **MAP FACTIONS INSIDE THE INSTITUTION; DO NOT NAME IT AS A UNITARY ACTOR WHEN ITS OPERATING SEAMS HAVE SPLIT.** — Ground 3.
+- **WHEN A SOUND MEASURE CAN BE MISTAKEN FOR ABUSE, EXPLAIN THE MECHANISM BEFORE THE EFFECT ARRIVES.** — Ground 4.
+- **SEPARATE BEING RIGHT FROM A PROCESS THAT MAKES THE RIGHT POSITION APPEAR WRONG.** — Ground 5.
+- **DO NOT BORROW A CORRECT CONCLUSION WITHOUT ACQUIRING ENOUGH GROUND TO DEFEND IT.** — Ground 6.
+- **SEPARATE SUCCESSFUL OUTCOME FROM DESERVED CREDIT.** — Ground 6.
+- **TRACK WHEN PUBLIC OPINION BECOMES A DIRECT SOURCE OF MINISTERIAL CREDIT OR DISCREDIT.** — Ground 7.
+- **WHEN ORDINARY EXPEDIENTS ARE EXHAUSTED, RECOGNIZE THAT THE OLD CLASS OF REMEDIES HAS REACHED ITS LIMIT.** — Ground 8.
 
 ### Compression
 
-**SEPARATE WHAT IS TRUE, WHAT IS BELIEVED, WHAT IS EXECUTABLE, WHAT SUCCEEDED, AND WHAT THE SUCCESS ACTUALLY PROVES.**
+For audit purposes, no new compressed abstraction is introduced here. Later synthesis must be built only from the numbered quotation-grounded findings above.
+
+### Audit disposition
+
+Every retained abstraction in this unit is repeated in the Build harvest with its Ground number. No Build-harvest wording is allowed to create an additional independent finding.
 
 ### Backfill disposition
 
-All surviving abstractions below are retained only because the quoted ground in this unit earns them. Earlier unquoted formulations not reproduced here are not carried forward as independent findings.
+All surviving abstractions are retained only because the quoted ground in this unit earns them. Earlier formulations not reproduced as numbered quotation-grounded findings are not carried forward as independent findings.
