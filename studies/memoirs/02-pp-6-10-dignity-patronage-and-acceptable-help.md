@@ -5,7 +5,7 @@
 
 **Witness condition:** English translation, not quotation-grade French. All quoted wording is `[V]`: exact wording of the current English project witness, usable to ground sequence, distinctions, and abstraction, but not to license exact French voice imitation.
 
-**Quotation status:** `QUOTATION_GROUNDED`
+**Quotation status:** `AUDITED_QUOTATION_GROUNDED`
 
 **Evidence status:** Independent Memoirs reconstruction. No preexisting deed was consulted or cross-referenced.
 
@@ -32,11 +32,11 @@ The effectiveness of help cannot be priced from technical quality alone. The soc
 
 ### Local reading
 
-Rank functions as residual political credit. The same material help can work differently because the giver carries inherited associations of protection.
+Talleyrand explicitly connects the strength of confidence to the giver’s rank and to the ideas of power and protection associated with that rank.
 
 ### Abstraction
 
-**DISTINGUISH FORMAL POWER FROM RESIDUAL SOCIAL CREDIT.**
+**RANK CAN STRENGTHEN CONFIDENCE WHEN IT CARRIES RECOGNIZED IDEAS OF POWER AND PROTECTION.**
 
 **ASK WHAT SOURCE OF CONFIDENCE MAKES AN INSTRUMENT USABLE.**
 
@@ -53,12 +53,11 @@ Talleyrand is describing this social world, not asserting a universal hierarchy 
 
 ### Local reading
 
-He identifies a failure mode in benevolence: the helper may make the help about the helper’s superior role.
+Talleyrand notices a recurrent defect in charitable assistance: a helper may slide into the social posture of a protector.
 
 ### Abstraction
 
-**PRICE THE DIGNITY COST IMPOSED BY THE FORM OF HELP.**
-
+**NOTICE WHEN HELP ASSUMES THE ROLE OF PROTECTOR.**
 
 ## 4. Textual ground
 
@@ -83,16 +82,21 @@ Under Keel Principle 11, this unit also becomes a research instruction for Talle
 
 ## Build harvest
 
-- **FORM IS PART OF THE SUBSTANCE OF ASSISTANCE.**
-- **DISTINGUISH FORMAL POWER FROM RESIDUAL CREDIT.**
-- **PRICE THE DIGNITY COST OF THE ROUTE.**
-- **DO NOT INFER EFFECT FROM BENEVOLENT INTENTION.**
-- **ASK WHAT ROLE THE RECIPIENT CANNOT ACCEPT.**
+- **FORM IS PART OF THE SUBSTANCE OF ASSISTANCE.** — Ground 1.
+- **RANK CAN STRENGTHEN CONFIDENCE WHEN IT CARRIES RECOGNIZED IDEAS OF POWER AND PROTECTION.** — Ground 2.
+- **ASK WHAT SOURCE OF CONFIDENCE MAKES AN INSTRUMENT USABLE.** — Ground 2.
+- **NOTICE WHEN HELP ASSUMES THE ROLE OF PROTECTOR.** — Ground 3.
+- **DO NOT INFER EFFECT FROM BENEVOLENT INTENTION.** — Ground 4.
+- **ASK WHAT ROLE THE OTHER PERSON CANNOT ACCEPT WITHOUT SELF-DIMINISHMENT.** — Ground 4.
 
 ### Compression
 
-**HELP THAT IGNORES THE RECIPIENT’S DIGNITY MAY FAIL EVEN WHEN ITS MATERIAL CONTENT IS SOUND.**
+For audit purposes, no new compressed abstraction is introduced here. Later synthesis must be built only from the numbered quotation-grounded findings above.
+
+### Audit disposition
+
+Every retained abstraction in this unit is repeated in the Build harvest with its Ground number. No Build-harvest wording is allowed to create an additional independent finding.
 
 ### Backfill disposition
 
-All surviving abstractions below are retained only because the quoted ground in this unit earns them. Earlier unquoted formulations not reproduced here are not carried forward as independent findings.
+All surviving abstractions are retained only because the quoted ground in this unit earns them. Earlier formulations not reproduced as numbered quotation-grounded findings are not carried forward as independent findings.
