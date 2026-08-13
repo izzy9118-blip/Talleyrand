@@ -5,7 +5,7 @@
 
 **Witness condition:** English translation, not quotation-grade French. All quoted wording is `[V]`: exact wording of the current English project witness, usable to ground sequence, distinctions, and abstraction, but not to license exact French voice imitation.
 
-**Quotation status:** `QUOTATION_GROUNDED`
+**Quotation status:** `AUDITED_QUOTATION_GROUNDED`
 
 **Evidence status:** Independent Memoirs reconstruction. No preexisting deed was consulted or cross-referenced.
 
@@ -23,29 +23,30 @@ When personnel must change but policy is to survive, the successor needs indepen
 
 **WHEN POLICY MUST SURVIVE PERSONNEL CHANGE, SELECT FOR SUBSTANTIVE COMPATIBILITY.**
 
+
 ## 2. Textual ground
 
-> “soon grew discouraged”
+> “he sought to find as a successor to M. de Calonne, a man whose own opinion would lead him to follow the plans proposed. M. de Fourqueux seemed the most suitable in this respect.” … “This new ministry was of short duration. M. de Fourqueux soon grew discouraged…”
 >
-> — printed p. 82 `[V]`
+> — printed pp. 81–82 `[V]`
 
 ### Local reading
 
-Fit for the policy is not enough if the person cannot bear the political conditions in which the policy must be executed.
+Fourqueux is selected because his own opinion fits the plans, yet his ministry is brief and he soon becomes discouraged. The sequence distinguishes substantive compatibility from capacity to bear the moment.
 
 ### Abstraction
 
-**SUCCESSION REQUIRES BOTH POLICY COMPATIBILITY AND CAPACITY TO BEAR THE MOMENT.**
+**POLICY COMPATIBILITY DOES NOT PROVE CAPACITY TO BEAR THE MOMENT.**
 
 ## 3. Textual ground
 
-> “M. Dupont loved M. de Calonne on account of the provincial assemblies; the ladies loved the provincial assemblies on account of M. de Calonne.”
+> “Dupont, who loved M. de Calonne on account of the provincial assemblies, and who did not know that these ladies loved the provincial assemblies on account of M. de Calonne.”
 >
 > — printed p. 82 `[V]`
 
 ### Local reading
 
-The same applause can hide opposite causal directions and motives.
+The same applause for provincial assemblies rests on different attachments: Dupont moves from the institution toward Calonne, while the ladies move from Calonne toward the institution.
 
 ### Abstraction
 
@@ -65,15 +66,16 @@ Responsibility must follow effective power. A body cannot be blamed for failing 
 
 **DO NOT ASSIGN RESPONSIBILITY WHERE EFFECTIVE POWER IS ABSENT.**
 
+
 ## 5. Textual ground
 
-> “were henceforth powerless.”
+> “For the competence of the parlements having been called into question, or rather their incompetence being implicitly proclaimed by the mere fact of convening the Notables, they were henceforth powerless.”
 >
 > — printed p. 82 `[V]`
 
 ### Local reading
 
-By bypassing the parlement to seek another forum, the crown publicly damages the old institution’s authority.
+The bypass does not merely avoid the parlements; the act of convening another body publicly changes what their authority can mean afterward.
 
 ### Abstraction
 
@@ -87,11 +89,12 @@ By bypassing the parlement to seek another forum, the crown publicly damages the
 
 ### Local reading
 
-A failed test of power changes the next board by publicly teaching actors where the limits lie.
+The measures do not restore authority; in Talleyrand’s account they serve instead to show where royal authority stops.
 
 ### Abstraction
 
-**AN UNSUCCESSFUL TEST OF POWER CAN REDUCE FUTURE POWER BY MAKING ITS LIMITS PUBLIC.**
+**A FAILED ASSERTION OF POWER CAN MAKE THE LIMITS OF AUTHORITY VISIBLE.**
+
 
 ## 7. Textual ground
 
@@ -101,11 +104,12 @@ A failed test of power changes the next board by publicly teaching actors where 
 
 ### Local reading
 
-Domestic governing capacity and foreign credibility rest on the same state capacity; they cannot be kept on separate balance sheets.
+Talleyrand places annihilated foreign policy, an empty treasury, and a deserted throne inside one description of the state’s crisis.
 
 ### Abstraction
 
-**DO NOT SEPARATE DOMESTIC AUTHORITY FROM FOREIGN CREDIBILITY WHEN THE SAME CAPACITY SUPPORTS BOTH.**
+**READ FOREIGN-POLICY COLLAPSE, AN EMPTY TREASURY, AND A DESERTED THRONE AS PARTS OF THE SAME STATE CRISIS.**
+
 
 ## 8. Textual ground
 
@@ -115,11 +119,12 @@ Domestic governing capacity and foreign credibility rest on the same state capac
 
 ### Local reading
 
-Talleyrand diagnoses systemic drift: institutions still exist formally but are operating toward purposes different from those around which the order was constructed.
+Talleyrand describes the bodies of the State as diverging from their “first destination” and breaking the bonds that had ordered their action.
 
 ### Abstraction
 
-**TRACK SYSTEMIC DRIFT WHEN FORMAL INSTITUTIONS SURVIVE BUT THEIR OPERATING PURPOSES DIVERGE.**
+**TRACK WHEN THE BODIES OF THE STATE DIVERGE FROM THEIR FIRST DESTINATION.**
+
 
 ## Reflexive obligation for reconstructing Talleyrand
 
@@ -127,18 +132,23 @@ Under Keel Principle 11, this unit also becomes a research instruction for Talle
 
 ## Build harvest
 
-- **SELECT SUCCESSORS FOR SUBSTANTIVE COMPATIBILITY AND CAPACITY FOR THE MOMENT.**
-- **DO NOT INFER COMMON MOTIVE FROM COMMON APPLAUSE.**
-- **DO NOT ASSIGN RESPONSIBILITY WITHOUT POWER.**
-- **PRICE THE AUTHORITY DESTROYED BY BYPASS.**
-- **FAILED TESTS OF POWER CAN PUBLICIZE LIMITS AND REDUCE FUTURE POWER.**
-- **KEEP DOMESTIC AUTHORITY AND FOREIGN CREDIBILITY ON THE SAME BOARD.**
-- **TRACK SYSTEMIC DRIFT BENEATH FORMAL CONTINUITY.**
+- **WHEN POLICY MUST SURVIVE PERSONNEL CHANGE, SELECT FOR SUBSTANTIVE COMPATIBILITY.** — Ground 1.
+- **POLICY COMPATIBILITY DOES NOT PROVE CAPACITY TO BEAR THE MOMENT.** — Ground 2.
+- **DO NOT INFER COMMON MOTIVE FROM COMMON APPLAUSE.** — Ground 3.
+- **DO NOT ASSIGN RESPONSIBILITY WHERE EFFECTIVE POWER IS ABSENT.** — Ground 4.
+- **BEFORE BYPASSING A BLOCKED INSTITUTION, PRICE THE AUTHORITY DESTROYED BY THE BYPASS.** — Ground 5.
+- **A FAILED ASSERTION OF POWER CAN MAKE THE LIMITS OF AUTHORITY VISIBLE.** — Ground 6.
+- **READ FOREIGN-POLICY COLLAPSE, AN EMPTY TREASURY, AND A DESERTED THRONE AS PARTS OF THE SAME STATE CRISIS.** — Ground 7.
+- **TRACK WHEN THE BODIES OF THE STATE DIVERGE FROM THEIR FIRST DESTINATION.** — Ground 8.
 
 ### Compression
 
-**IN CRISIS, EVERY FAILED WORKAROUND CHANGES THE NEXT BOARD.**
+For audit purposes, no new compressed abstraction is introduced here. Later synthesis must be built only from the numbered quotation-grounded findings above.
+
+### Audit disposition
+
+Every retained abstraction in this unit is repeated in the Build harvest with its Ground number. No Build-harvest wording is allowed to create an additional independent finding.
 
 ### Backfill disposition
 
-All surviving abstractions below are retained only because the quoted ground in this unit earns them. Earlier unquoted formulations not reproduced here are not carried forward as independent findings.
+All surviving abstractions are retained only because the quoted ground in this unit earns them. Earlier formulations not reproduced as numbered quotation-grounded findings are not carried forward as independent findings.

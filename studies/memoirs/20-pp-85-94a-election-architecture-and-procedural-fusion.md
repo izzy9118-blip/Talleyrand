@@ -5,23 +5,24 @@
 
 **Witness condition:** English translation, not quotation-grade French. All quoted wording is `[V]`: exact wording of the current English project witness, usable to ground sequence, distinctions, and abstraction, but not to license exact French voice imitation.
 
-**Quotation status:** `QUOTATION_GROUNDED`
+**Quotation status:** `AUDITED_QUOTATION_GROUNDED`
 
 **Evidence status:** Independent Memoirs reconstruction. No preexisting deed was consulted or cross-referenced.
 
 ## 1. Textual ground
 
-> “the only reason which made them dreaded was ignored. The nature of the danger had been misunderstood…”
+> “It had been shown in every possible way that the latter were dreaded, yet the only reason which made them dreaded was ignored. The nature of the danger had been misunderstood; therefore nothing was done to prevent it, and, on the contrary, it was made inevitable. The States-General were composed of deputations of the three orders of the State, so that no one was, or could be, a member except by election.”
 >
 > — printed p. 85 `[V]`
 
 ### Local reading
 
-Talleyrand descends from a vague fear of the States-General to the particular mechanism that makes the danger operative.
+Talleyrand refuses the undifferentiated statement that the States-General were dangerous and begins locating the danger in their actual composition and electoral mechanism.
 
 ### Abstraction
 
 **WHEN A LARGE DANGER IS NAMED VAGUELY, DESCEND UNTIL THE PARTICULAR MECHANISM CAN BE SHOWN.**
+
 
 ## 2. Textual ground
 
@@ -37,6 +38,7 @@ Procedure distributes future power before the body meets.
 
 **READ PROCEDURE AS A DISTRIBUTION OF FUTURE POWER.**
 
+
 ## 3. Textual ground
 
 > “could only be useful to it in the case of a fusion… it could not have been done without presupposing this fusion, and consenting implicitly to it.”
@@ -50,6 +52,7 @@ A procedural concession can precommit a later constitutional question by making 
 ### Abstraction
 
 **PROCEDURAL RULES CAN IMPLICITLY PRECOMMIT LATER CONSTITUTIONAL QUESTIONS.**
+
 
 ## 4. Textual ground
 
@@ -65,6 +68,7 @@ The designer assumes personal influence will remain strong enough to control the
 
 **NEVER GIVE AN ACTOR AN INSTRUMENT ON THE ASSUMPTION OF PERMANENT PERSONAL INFLUENCE OVER ITS USE.**
 
+
 ## 5. Textual ground
 
 > “a single body admits only of deliberation in common, and of individual vote… there are no more orders…”
@@ -73,11 +77,11 @@ The designer assumes personal influence will remain strong enough to control the
 
 ### Local reading
 
-The apparently procedural question of verifying powers together contains the constitutional consequence of becoming one body.
+Talleyrand traces the institutional consequence of treating three deputations as one body: common deliberation and individual voting erase the separate orders as operating bodies.
 
 ### Abstraction
 
-**TRACE THE CONSEQUENCE CHAIN BEFORE CONCEDING THE FIRST PROCEDURAL STEP.**
+**WHEN A PROCEDURAL STEP FUSES SEPARATE BODIES INTO ONE, TRACE THE CONSTITUTIONAL CONSEQUENCES OF THAT FUSION.**
 
 ## 6. Textual ground
 
@@ -93,23 +97,28 @@ Formal coercive capacity is not an executable option until a specific actor can 
 
 **DO NOT COUNT FORCE AS AN OPTION UNTIL THE SPECIFIC ACTOR WHO CAN AND WILL WIELD IT EXISTS.**
 
+
 ## Reflexive obligation for reconstructing Talleyrand
 
 Under Keel Principle 11, this unit also becomes a research instruction for Talleyrand himself. The repository must apply this to Talleyrand’s own procedural proposals: identify the later power distributions silently contained in rules he supported, and distinguish the influence he expected to retain from the independent life of the institutions he helped create.
 
 ## Build harvest
 
-- **DESCEND FROM VAGUE DANGER TO OPERATIVE MECHANISM.**
-- **READ PROCEDURE AS FUTURE POWER.**
-- **PROCEDURE CAN PRECOMMIT CONSTITUTIONAL OUTCOMES.**
-- **DO NOT RELY ON PERMANENT PERSONAL CONTROL OF AN INSTRUMENT.**
-- **TRACE CONSEQUENCE CHAINS BEFORE PROCEDURAL CONCESSIONS.**
-- **DO NOT COUNT FORMAL FORCE AS EXECUTABLE FORCE UNTIL A CARRIER EXISTS.**
+- **WHEN A LARGE DANGER IS NAMED VAGUELY, DESCEND UNTIL THE PARTICULAR MECHANISM CAN BE SHOWN.** — Ground 1.
+- **READ PROCEDURE AS A DISTRIBUTION OF FUTURE POWER.** — Ground 2.
+- **PROCEDURAL RULES CAN IMPLICITLY PRECOMMIT LATER CONSTITUTIONAL QUESTIONS.** — Ground 3.
+- **NEVER GIVE AN ACTOR AN INSTRUMENT ON THE ASSUMPTION OF PERMANENT PERSONAL INFLUENCE OVER ITS USE.** — Ground 4.
+- **WHEN A PROCEDURAL STEP FUSES SEPARATE BODIES INTO ONE, TRACE THE CONSTITUTIONAL CONSEQUENCES OF THAT FUSION.** — Ground 5.
+- **DO NOT COUNT FORCE AS AN OPTION UNTIL THE SPECIFIC ACTOR WHO CAN AND WILL WIELD IT EXISTS.** — Ground 6.
 
 ### Compression
 
-**BEFORE THE ASSEMBLY MEETS, THE RULES OF ENTRY, NUMBER, GROUPING, AND VOTE HAVE ALREADY DRAWN PART OF THE FUTURE BOARD.**
+For audit purposes, no new compressed abstraction is introduced here. Later synthesis must be built only from the numbered quotation-grounded findings above.
+
+### Audit disposition
+
+Every retained abstraction in this unit is repeated in the Build harvest with its Ground number. No Build-harvest wording is allowed to create an additional independent finding.
 
 ### Backfill disposition
 
-All surviving abstractions below are retained only because the quoted ground in this unit earns them. Earlier unquoted formulations not reproduced here are not carried forward as independent findings.
+All surviving abstractions are retained only because the quoted ground in this unit earns them. Earlier formulations not reproduced as numbered quotation-grounded findings are not carried forward as independent findings.
