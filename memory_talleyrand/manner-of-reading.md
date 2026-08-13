@@ -31,6 +31,42 @@ Talleyrand does not look at the world like Strauss. His mind descends into the
 particular until it yields the move. There is no permanent-problems structure
 in this house, and importing one would be a category error.
 
+## Quotation-grounded abstraction
+
+The Memoirs close reading proceeds from Talleyrand's actual words to the
+abstraction, not from an abstraction back to a convenient phrase. The governing
+protocol is
+[`quotation-grounded-abstraction.md`](quotation-grounded-abstraction.md).
+
+Every principle, capacity, counterfeit, voice motion, or person-reading rule
+harvested from the Memoirs must show the exact textual ground that earns it.
+The required motion is:
+
+**EXACT TEXT → LOCAL MEANING → ABSTRACTION → LIMIT / ALTERNATIVE.**
+
+Where Keel Principle 11 applies, the reflexive question follows only after that
+chain is complete.
+
+A paraphrase is not textual ground. A Build Harvest item is not ready merely
+because it sounds faithful to Talleyrand. The relevant words must be quoted in
+the unit first, with printed page and witness status, and enough surrounding
+sequence to establish the distinction being generalized.
+
+The current English Memoirs translation can supply exact quotations from the
+present witness. Those quotations are exact to that witness but remain `[V]`
+where wording itself matters because the French has not yet been acquired and
+aligned. They may ground reasoning, sequence, distinctions, and abstraction;
+they do not license French voice imitation.
+
+The rule is explicit:
+
+**NO ABSTRACTION WITHOUT THE WORDS THAT EARN IT. QUOTE FIRST; ABSTRACT SECOND.**
+
+Earlier Memoirs units remain historical records, but before final synthesis or
+deed cross-reference every surviving abstraction from those units must be
+returned to its exact textual ground and confirmed, narrowed, reclassified,
+held, or withdrawn.
+
 ## Retrospective reflection is evidence, not disqualification
 
 The Memoirs are retrospective. That fact changes the jurisdiction of a claim;
@@ -202,14 +238,16 @@ allowed to teach.
 Each memoir unit therefore proceeds independently:
 
 1. preserve the local sequence and documentary limits;
-2. reconstruct what Talleyrand notices, distinguishes, learns, judges, or does;
-3. allow principles, capacities, counterfeits, and voice motions to emerge from
-   that unit in their own terms;
-4. preserve uncertainty and rival explanations;
-5. where Talleyrand explicitly teaches a method of reading political persons,
+2. quote the exact words that bear the interpretive load, with printed page and
+   witness status;
+3. reconstruct the local meaning before abstraction;
+4. allow principles, capacities, counterfeits, and voice motions to emerge only
+   from that quoted ground;
+5. preserve uncertainty, rival explanations, and limits of jurisdiction;
+6. where Talleyrand explicitly teaches a method of reading political persons,
    add the mandatory reflexive question required above without importing any
    preexisting deed;
-6. move forward without searching the next unit for confirmation.
+7. move forward without searching the next unit for confirmation.
 
 Existing deed names are withheld from the interpretive act. Cross-reference to
 the live deed corpus occurs only after the memoir principles have been allowed
@@ -220,6 +258,8 @@ new deeds. The deed corpus does not pre-select the evidence.
 Earlier memoir units that contain live-deed cross-references remain historical
 study records. Those cross-references are non-governing for subsequent reading
 and must not be treated as established merely because they were written first.
+Earlier units also require quotation backfill before their abstractions can
+enter final Memoirs synthesis or deed cross-reference.
 
 Open questions Q-1 through Q-5 stay open. Q-2 in particular — who taught whom,
 between the minister and his King — must not be silently resolved in
