@@ -5,7 +5,7 @@
 
 **Witness condition:** English translation, not quotation-grade French. All quoted wording is `[V]`: exact wording of the current English project witness, usable to ground sequence, distinctions, and abstraction, but not to license exact French voice imitation.
 
-**Quotation status:** `QUOTATION_GROUNDED`
+**Quotation status:** `AUDITED_QUOTATION_GROUNDED`
 
 **Evidence status:** Independent Memoirs reconstruction. No preexisting deed was consulted or cross-referenced.
 
@@ -83,16 +83,21 @@ Under Keel Principle 11, this unit also becomes a research instruction for Talle
 
 ## Build harvest
 
-- **PRICE POSITION AS AN ASSET, NOT MERELY AS A TITLE.**
-- **SEPARATE PERSON FROM SYSTEM ACTING THROUGH HIM.**
-- **WHEN A FIXED CONSTRAINT CLOSES ONE ROUTE, CHANGE THE ROUTE WITHOUT LOSING SIGHT OF THE PERSISTENT INTEREST.**
-- **IDENTIFY THE TRUE BEARER OF INTEREST.**
-- **GRANT INTENTION; JUDGE CONSEQUENCE SEPARATELY.**
+- **PRICE POSITION AS AN ASSET, NOT MERELY AS A TITLE.** — Ground 1.
+- **SEPARATE THE PERSON FROM THE SOCIAL MECHANISM ACTING THROUGH HIM.** — Ground 2.
+- **GRANT STATED INTENTION OR AFFECTION WHERE THE EVIDENCE ALLOWS IT; JUDGE THE CONSEQUENCE SEPARATELY.** — Ground 2.
+- **WHEN A FIXED CONSTRAINT CLOSES ONE ROUTE, REASSIGN THE ROUTE AROUND THE CONSTRAINT.** — Ground 3.
+- **FIND THE INTEREST THAT SURVIVES THE CHANGE OF INSTRUMENT.** — Ground 3.
+- **IDENTIFY WHO OR WHAT THE SYSTEM IS ACTUALLY OPTIMIZING FOR.** — Ground 4.
 
 ### Compression
 
-**BEGIN WITH THE PARTICULAR FACT, DESCEND TO THE MECHANISM THAT EXPLAINS IT, THEN COMPRESS THE MECHANISM INTO JUDGMENT.**
+For audit purposes, no new compressed abstraction is introduced here. Later synthesis must be built only from the numbered quotation-grounded findings above.
+
+### Audit disposition
+
+Every retained abstraction in this unit is repeated in the Build harvest with its Ground number. No Build-harvest wording is allowed to create an additional independent finding.
 
 ### Backfill disposition
 
-All surviving abstractions below are retained only because the quoted ground in this unit earns them. Earlier unquoted formulations not reproduced here are not carried forward as independent findings.
+All surviving abstractions are retained only because the quoted ground in this unit earns them. Earlier formulations not reproduced as numbered quotation-grounded findings are not carried forward as independent findings.
