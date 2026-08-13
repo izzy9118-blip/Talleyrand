@@ -5,7 +5,7 @@
 
 **Witness condition:** English translation, not quotation-grade French. All quoted wording is `[V]`: exact wording of the current English project witness, usable to ground sequence, distinctions, and abstraction, but not to license exact French voice imitation.
 
-**Quotation status:** `QUOTATION_GROUNDED`
+**Quotation status:** `AUDITED_QUOTATION_GROUNDED`
 
 **Evidence status:** Independent Memoirs reconstruction. No preexisting deed was consulted or cross-referenced.
 
@@ -17,11 +17,11 @@
 
 ### Local reading
 
-He treats a curated body of books as infrastructure built before immediate political use.
+Talleyrand makes formation of a deliberately selected library his first act after gaining freedom to order his own life.
 
 ### Abstraction
 
-**BUILD THE LIBRARY BEFORE THE CRISIS.**
+**MAKE A CURATED LIBRARY AN EARLY ACT OF PREPARATION.**
 
 ## 2. Textual ground
 
@@ -39,6 +39,7 @@ His human field is prospective as well as retrospective: he studies established 
 
 **STUDY TOMORROW’S ACTORS BEFORE THEY BECOME TODAY’S OFFICEHOLDERS.**
 
+
 ## 3. Textual ground
 
 > “We touched upon every subject and with the greatest liberty… These conversations were both pleasant and instructive…”
@@ -47,11 +48,11 @@ His human field is prospective as well as retrospective: he studies established 
 
 ### Local reading
 
-Instruction arises through free confrontation across a circle rather than through one authority alone.
+He describes unrestricted conversation across many subjects as both pleasant and instructive. The sentence does not say that a verdict had to follow each conversation.
 
 ### Abstraction
 
-**PUT DIFFERENT KINDS OF KNOWLEDGE INTO FREE CONVERSATION BEFORE FORMING THE VERDICT.**
+**FREE CONVERSATION ACROSS MANY SUBJECTS CAN ITSELF BE POLITICAL INSTRUCTION.**
 
 ## 4. Textual ground
 
@@ -67,21 +68,22 @@ The circle’s knowledge field is plural and practical; political judgment is fe
 
 **CONSULT ACROSS DOMAINS WHEN THE POLITICAL QUESTION CROSSES THEM.**
 
+
 ## 5. Textual ground
 
-> “As for us ignorant ones… though anxious to learn, we confined ourselves to generalities.”
+> “As for us ignorant ones, Lauzun, Barthès, Choiseul and myself, though anxious to learn, we confined ourselves to generalities.”
 >
-> — printed p. 28 `[V]`
+> — printed pp. 28–29 `[V]`
 
 ### Local reading
 
-Talleyrand explicitly distinguishes the desire to learn from pretending expertise he does not possess.
+Talleyrand distinguishes the men with special knowledge from “us ignorant ones,” while stressing that the latter remained anxious to learn and restricted themselves to generalities.
 
 ### Abstraction
 
 **KNOW WHO KNOWS WHAT.**
 
-**ACKNOWLEDGED IGNORANCE IS A CONDITION OF LEARNING, NOT A FAILURE OF JUDGMENT.**
+**ACKNOWLEDGE WHEN YOU LACK SPECIAL KNOWLEDGE; REMAIN ANXIOUS TO LEARN.**
 
 ### Limit / alternative
 
@@ -93,16 +95,22 @@ Under Keel Principle 11, this unit also becomes a research instruction for Talle
 
 ## Build harvest
 
-- **BUILD THE LIBRARY BEFORE CRISIS.**
-- **BUILD A HUMAN LIBRARY TOO.**
-- **STUDY LIKELY FUTURE ACTORS BEFORE THEIR IMPORTANCE IS FORMALIZED.**
-- **PUT HETEROGENEOUS KNOWLEDGE INTO FREE CONVERSATION.**
-- **KNOW WHO KNOWS WHAT; DO NOT COUNTERFEIT EXPERTISE.**
+- **MAKE A CURATED LIBRARY AN EARLY ACT OF PREPARATION.** — Ground 1.
+- **BUILD A HUMAN LIBRARY AS WELL AS A BOOK LIBRARY.** — Ground 2.
+- **STUDY TOMORROW’S ACTORS BEFORE THEY BECOME TODAY’S OFFICEHOLDERS.** — Ground 2.
+- **FREE CONVERSATION ACROSS MANY SUBJECTS CAN ITSELF BE POLITICAL INSTRUCTION.** — Ground 3.
+- **CONSULT ACROSS DOMAINS WHEN THE POLITICAL QUESTION CROSSES THEM.** — Ground 4.
+- **KNOW WHO KNOWS WHAT.** — Ground 5.
+- **ACKNOWLEDGE WHEN YOU LACK SPECIAL KNOWLEDGE; REMAIN ANXIOUS TO LEARN.** — Ground 5.
 
 ### Compression
 
-**CURATE SOURCES, CURATE PEOPLE, LET THEM COLLIDE, AND KEEP THE BOUNDARIES OF KNOWLEDGE VISIBLE.**
+For audit purposes, no new compressed abstraction is introduced here. Later synthesis must be built only from the numbered quotation-grounded findings above.
+
+### Audit disposition
+
+Every retained abstraction in this unit is repeated in the Build harvest with its Ground number. No Build-harvest wording is allowed to create an additional independent finding.
 
 ### Backfill disposition
 
-All surviving abstractions below are retained only because the quoted ground in this unit earns them. Earlier unquoted formulations not reproduced here are not carried forward as independent findings.
+All surviving abstractions are retained only because the quoted ground in this unit earns them. Earlier formulations not reproduced as numbered quotation-grounded findings are not carried forward as independent findings.

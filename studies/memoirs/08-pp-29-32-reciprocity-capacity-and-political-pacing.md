@@ -5,7 +5,7 @@
 
 **Witness condition:** English translation, not quotation-grade French. All quoted wording is `[V]`: exact wording of the current English project witness, usable to ground sequence, distinctions, and abstraction, but not to license exact French voice imitation.
 
-**Quotation status:** `QUOTATION_GROUNDED`
+**Quotation status:** `AUDITED_QUOTATION_GROUNDED`
 
 **Evidence status:** Independent Memoirs reconstruction. No preexisting deed was consulted or cross-referenced.
 
@@ -13,7 +13,7 @@
 
 > “These arguments, which were not devoid of force, either no longer existed, or had lost their weight.”
 >
-> — printed p. 29 `[V]`
+> — printed p. 30 `[V]`
 
 ### Local reading
 
@@ -22,6 +22,7 @@ An argument can have been reasonable under earlier conditions and later lose for
 ### Abstraction
 
 **REPRICE OLD ARGUMENTS WHEN CONDITIONS CHANGE.**
+
 
 ## 2. Textual ground
 
@@ -37,6 +38,7 @@ National interest is disaggregated. The same treaty distributes gains and losses
 
 **MAP WHO GAINS AND WHO LOSES INSIDE EACH SIDE; DO NOT TREAT THE STATE AS A SINGLE INTEREST.**
 
+
 ## 3. Textual ground
 
 > “The English, being better prepared than we were, derived large profits from it.”
@@ -50,6 +52,7 @@ Formal reciprocity can produce unequal practical results when productive or admi
 ### Abstraction
 
 **PRICE RECIPROCITY BY CAPACITY, NOT TEXT ALONE.**
+
 
 ## 4. Textual ground
 
@@ -65,6 +68,7 @@ Dormant antagonisms can return when a new arrangement activates constituencies t
 
 **DORMANT ANTAGONISM IS RESERVE POLITICAL FORCE.**
 
+
 ## 5. Textual ground
 
 > “And yet the spirit that inspired that great transaction was dictated by the best principles.”
@@ -73,11 +77,11 @@ Dormant antagonisms can return when a new arrangement activates constituencies t
 
 ### Local reading
 
-Talleyrand separates the soundness of the governing objective from the political failure of implementation or reception.
+Talleyrand separates his favorable judgment of the governing principle of the treaty from the difficulties and adverse consequences he has just reconstructed.
 
 ### Abstraction
 
-**DO NOT ABANDON A SOUND END MERELY BECAUSE THE FIRST PATH FAILED.**
+**DISTINGUISH THE SOUNDNESS OF A GOVERNING PRINCIPLE FROM THE FATE OF ITS FIRST EXECUTION.**
 
 ## 6. Textual ground
 
@@ -97,23 +101,28 @@ He treats political pacing as part of executability. A right direction can fail 
 
 This does not make prejudice normatively correct; it makes its persistence a fact that policy must price.
 
+
 ## Reflexive obligation for reconstructing Talleyrand
 
 Under Keel Principle 11, this unit also becomes a research instruction for Talleyrand himself. When studying Talleyrand’s own treaties and reforms, reconstruct the capacity asymmetries, domestic winners and losers, dormant antagonisms, and the pace he expected the societies involved to bear.
 
 ## Build harvest
 
-- **REPRICE OLD ARGUMENTS WHEN CONDITIONS CHANGE.**
-- **MAP DISTRIBUTIONAL WINNERS AND LOSERS INSIDE EACH SIDE.**
-- **PRICE RECIPROCITY BY CAPACITY.**
-- **DORMANT ANTAGONISM IS RESERVE POLITICAL FORCE.**
-- **SEPARATE THE SOUNDNESS OF AN END FROM THE PATH USED TO REACH IT.**
-- **DO NOT CONFUSE RIGHT DIRECTION WITH EXECUTABLE SPEED.**
+- **REPRICE OLD ARGUMENTS WHEN CONDITIONS CHANGE.** — Ground 1.
+- **MAP WHO GAINS AND WHO LOSES INSIDE EACH SIDE; DO NOT TREAT THE STATE AS A SINGLE INTEREST.** — Ground 2.
+- **PRICE RECIPROCITY BY CAPACITY, NOT TEXT ALONE.** — Ground 3.
+- **DORMANT ANTAGONISM IS RESERVE POLITICAL FORCE.** — Ground 4.
+- **DISTINGUISH THE SOUNDNESS OF A GOVERNING PRINCIPLE FROM THE FATE OF ITS FIRST EXECUTION.** — Ground 5.
+- **DO NOT CONFUSE RIGHT DIRECTION WITH EXECUTABLE SPEED.** — Ground 6.
 
 ### Compression
 
-**PRICE AN AGREEMENT BY CAPACITY, DISTRIBUTION, ORGANIZATION, AND PACE—NOT BY RECIPROCITY ON PAPER.**
+For audit purposes, no new compressed abstraction is introduced here. Later synthesis must be built only from the numbered quotation-grounded findings above.
+
+### Audit disposition
+
+Every retained abstraction in this unit is repeated in the Build harvest with its Ground number. No Build-harvest wording is allowed to create an additional independent finding.
 
 ### Backfill disposition
 
-All surviving abstractions below are retained only because the quoted ground in this unit earns them. Earlier unquoted formulations not reproduced here are not carried forward as independent findings.
+All surviving abstractions are retained only because the quoted ground in this unit earns them. Earlier formulations not reproduced as numbered quotation-grounded findings are not carried forward as independent findings.

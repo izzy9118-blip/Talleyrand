@@ -5,7 +5,7 @@
 
 **Witness condition:** English translation, not quotation-grade French. All quoted wording is `[V]`: exact wording of the current English project witness, usable to ground sequence, distinctions, and abstraction, but not to license exact French voice imitation.
 
-**Quotation status:** `QUOTATION_GROUNDED`
+**Quotation status:** `AUDITED_QUOTATION_GROUNDED`
 
 **Evidence status:** Independent Memoirs reconstruction. No preexisting deed was consulted or cross-referenced.
 
@@ -23,6 +23,7 @@ He treats office not only as a bundle of formal powers but as a platform from wh
 
 **USE OFFICE TO ENLARGE THE FIELD OF ACCESS, NOT MERELY TO EXERCISE FORMAL POWERS.**
 
+
 ## 2. Textual ground
 
 > “I received for the following days several invitations which enabled me to make the acquaintance of the persons whom I was most anxious to meet.”
@@ -31,13 +32,11 @@ He treats office not only as a bundle of formal powers but as a platform from wh
 
 ### Local reading
 
-A small social intervention becomes valuable because it opens access to a network he had deliberately wanted to enter.
+The invitations matter because they open access to particular people Talleyrand wanted to meet. The quote does not itself establish substantive knowledge acquired from those meetings.
 
 ### Abstraction
 
-**MAP CONVENING NODES, NOT ONLY OFFICEHOLDERS.**
-
-**WHEN A SMALL INTERVENTION HAS WON THE NEEDED ACCESS, DO NOT MISTAKE THE SOCIAL SUCCESS FOR SUBSTANTIVE KNOWLEDGE.**
+**TRACK THE SOCIAL SETTINGS THAT OPEN ACCESS TO THE PEOPLE YOU NEED TO MEET.**
 
 ## 3. Textual ground
 
@@ -47,11 +46,11 @@ A small social intervention becomes valuable because it opens access to a networ
 
 ### Local reading
 
-The model of speech here is gradation rather than display: fit expression to social purpose without forcing the line to become memorable at the expense of the relation.
+The described manner avoids pointedness and aims to please for the moment without leaving a memorable sting.
 
 ### Abstraction
 
-**SPEAK BY GRADATION WHEN THE OBJECT IS TO MOVE WITHOUT NEEDLESSLY PROVOKING.**
+**SPEAK BY SHADES WHEN THE OBJECT IS TO PLEASE WITHOUT LEAVING A POINTED IMPRESSION.**
 
 ## 4. Textual ground
 
@@ -61,13 +60,13 @@ The model of speech here is gradation rather than display: fit expression to soc
 
 ### Local reading
 
-He distinguishes precision from jargon. Understanding should survive a change of vocabulary.
+Talleyrand rejects the equation of technical vocabulary with accuracy and treats command of equivalent terms as evidence bearing on wit and knowledge.
 
 ### Abstraction
 
 **PRECISION IS NOT TECHNICAL JARGON.**
 
-**TEST UNDERSTANDING BY WHETHER THE CLAIM CAN BE RESTATED WITHOUT LOSING ITS MECHANISM.**
+**TEST UNDERSTANDING BY WHETHER THE SPEAKER CAN USE EQUIVALENT TERMS.**
 
 ## 5. Textual ground
 
@@ -77,11 +76,11 @@ He distinguishes precision from jargon. Understanding should survive a change of
 
 ### Local reading
 
-Reputation can be produced by a convening institution independently of demonstrated competence.
+The dinner parties are explicitly described as possessing the power to make reputations. That social fact cannot by itself certify competence.
 
 ### Abstraction
 
-**DISTINGUISH REPUTATION-MAKING INSTITUTIONS FROM KNOWLEDGE-MAKING INSTITUTIONS.**
+**DO NOT TREAT A REPUTATION-MAKING CIRCLE AS EVIDENCE OF COMPETENCE.**
 
 ## 6. Textual ground
 
@@ -91,11 +90,11 @@ Reputation can be produced by a convening institution independently of demonstra
 
 ### Local reading
 
-He refuses to spend opinion where he lacks ground and where the dispute would yield no compensating political value.
+Talleyrand deliberately withholds opinion on a question he says he did not understand; the immediate consequence he records is avoidance of needless quarrel.
 
 ### Abstraction
 
-**DO NOT SPEND OPINION WHERE JUDGMENT HAS NOT BEEN EARNED.**
+**DO NOT TAKE A POSITION ON A QUESTION YOU KNOW YOU DO NOT UNDERSTAND.**
 
 ## Reflexive obligation for reconstructing Talleyrand
 
@@ -103,17 +102,22 @@ Under Keel Principle 11, this unit also becomes a research instruction for Talle
 
 ## Build harvest
 
-- **USE OFFICE TO ENLARGE ACCESS.**
-- **MAP CONVENING NODES.**
-- **SPEAK BY GRADATION WHEN DISPLAY WOULD ADD NO VALUE.**
-- **PRECISION IS NOT JARGON; TEST UNDERSTANDING BY PARAPHRASE.**
-- **DISTINGUISH REPUTATION-MAKING FROM KNOWLEDGE-MAKING INSTITUTIONS.**
-- **DO NOT SPEND OPINION WHERE JUDGMENT HAS NOT BEEN EARNED.**
+- **USE OFFICE TO ENLARGE THE FIELD OF ACCESS, NOT MERELY TO EXERCISE FORMAL POWERS.** — Ground 1.
+- **TRACK THE SOCIAL SETTINGS THAT OPEN ACCESS TO THE PEOPLE YOU NEED TO MEET.** — Ground 2.
+- **SPEAK BY SHADES WHEN THE OBJECT IS TO PLEASE WITHOUT LEAVING A POINTED IMPRESSION.** — Ground 3.
+- **PRECISION IS NOT TECHNICAL JARGON.** — Ground 4.
+- **TEST UNDERSTANDING BY WHETHER THE SPEAKER CAN USE EQUIVALENT TERMS.** — Ground 4.
+- **DO NOT TREAT A REPUTATION-MAKING CIRCLE AS EVIDENCE OF COMPETENCE.** — Ground 5.
+- **DO NOT TAKE A POSITION ON A QUESTION YOU KNOW YOU DO NOT UNDERSTAND.** — Ground 6.
 
 ### Compression
 
-**SEE MORE THAN YOU SAY; SAY NO MORE THAN JUDGMENT REQUIRES.**
+For audit purposes, no new compressed abstraction is introduced here. Later synthesis must be built only from the numbered quotation-grounded findings above.
+
+### Audit disposition
+
+Every retained abstraction in this unit is repeated in the Build harvest with its Ground number. No Build-harvest wording is allowed to create an additional independent finding.
 
 ### Backfill disposition
 
-All surviving abstractions below are retained only because the quoted ground in this unit earns them. Earlier unquoted formulations not reproduced here are not carried forward as independent findings.
+All surviving abstractions are retained only because the quoted ground in this unit earns them. Earlier formulations not reproduced as numbered quotation-grounded findings are not carried forward as independent findings.

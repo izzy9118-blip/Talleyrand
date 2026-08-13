@@ -5,7 +5,7 @@
 
 **Witness condition:** English translation, not quotation-grade French. All quoted wording is `[V]`: exact wording of the current English project witness, usable to ground sequence, distinctions, and abstraction, but not to license exact French voice imitation.
 
-**Quotation status:** `QUOTATION_GROUNDED`
+**Quotation status:** `AUDITED_QUOTATION_GROUNDED`
 
 **Evidence status:** Independent Memoirs reconstruction. No preexisting deed was consulted or cross-referenced.
 
@@ -17,11 +17,11 @@
 
 ### Local reading
 
-Talleyrand treats the quality of the people around responsibility as part of the quality of the work.
+The text directly establishes his deliberate choice to surround himself with learned people whose views he judged sound.
 
 ### Abstraction
 
-**SURROUND RESPONSIBILITY WITH SOUND MINDS EVEN WHEN RESPONSIBILITY CANNOT BE DELEGATED.**
+**SURROUND YOURSELF WITH LEARNED PEOPLE OF SOUND VIEWS.**
 
 ## 2. Textual ground
 
@@ -31,11 +31,12 @@ Talleyrand treats the quality of the people around responsibility as part of the
 
 ### Local reading
 
-He identifies a distinctive cognitive capacity: not original invention alone, but the ability to collect and convert others’ ideas into usable work.
+He identifies a distinctive intellectual capacity in this person: excellence in making use of ideas originating in other people.
 
 ### Abstraction
 
-**MAP MINDS BY THE OPERATION THEY PERFORM ON KNOWLEDGE, NOT BY A SINGLE ADJECTIVE.**
+**DISTINGUISH THE ABILITY TO GENERATE IDEAS FROM THE ABILITY TO MAKE USE OF OTHER PEOPLE’S IDEAS.**
+
 
 ## 3. Textual ground
 
@@ -45,13 +46,13 @@ He identifies a distinctive cognitive capacity: not original invention alone, bu
 
 ### Local reading
 
-He seeks advancement through work that is adjacent to his jurisdiction rather than by publicly advertising the desire for office.
+Talleyrand seeks notice through work adjacent to, but not wholly outside, his entrusted duties, while concealing the ambition that makes notice useful.
 
 ### Abstraction
 
 **LET WORK CREATE THE CLAIM BEFORE DESIRE FOR POSITION IS DISPLAYED.**
 
-**WORK AT THE EDGE OF JURISDICTION ONLY WHERE THE ADJACENT MATTER MATERIALLY BEARS ON THE DUTY.**
+**WORK AT THE EDGE OF JURISDICTION WHEN THE ADJACENT WORK IS NOT FOREIGN TO THE DUTY.**
 
 ## 4. Textual ground
 
@@ -65,7 +66,8 @@ The reform is designed to join an institutional interest—restoring esteem—to
 
 ### Abstraction
 
-**JOIN AN ACTOR’S LEGITIMATE INSTITUTIONAL INTEREST TO THE PUBLIC GOOD THE ACTOR CAN ACTUALLY HELP PRODUCE.**
+**JOIN AN ACTOR’S INSTITUTIONAL INTEREST TO A PUBLIC END THE ACTOR CAN ACTUALLY HELP PRODUCE.**
+
 
 ## 5. Textual ground
 
@@ -81,23 +83,28 @@ The failure is located partly in the carriers: a proposal can be coherent yet no
 
 **THE MEN REQUIRED TO CARRY A POLICY ARE PART OF THE POLICY.**
 
+
 ## Reflexive obligation for reconstructing Talleyrand
 
 Under Keel Principle 11, this unit also becomes a research instruction for Talleyrand himself. This is direct evidence about Talleyrand’s own ambition and staffing method. The repository must reconstruct which work created each later claim to office, who supplied ideas or execution, and whether his proposed instruments matched the people available to carry them.
 
 ## Build harvest
 
-- **SURROUND RESPONSIBILITY WITH SOUND MINDS.**
-- **MAP MINDS BY THEIR OPERATIONS ON KNOWLEDGE.**
-- **LET WORK CREATE THE CLAIM BEFORE AMBITION IS DISPLAYED.**
-- **WORK AT THE EDGE OF JURISDICTION ONLY WHEN THE ADJACENT MATTER BEARS ON DUTY.**
-- **JOIN INSTITUTIONAL INTEREST TO PUBLIC GOOD WHERE POSSIBLE.**
-- **THE PEOPLE REQUIRED TO CARRY POLICY ARE PART OF POLICY.**
+- **SURROUND YOURSELF WITH LEARNED PEOPLE OF SOUND VIEWS.** — Ground 1.
+- **DISTINGUISH THE ABILITY TO GENERATE IDEAS FROM THE ABILITY TO MAKE USE OF OTHER PEOPLE’S IDEAS.** — Ground 2.
+- **LET WORK CREATE THE CLAIM BEFORE DESIRE FOR POSITION IS DISPLAYED.** — Ground 3.
+- **WORK AT THE EDGE OF JURISDICTION WHEN THE ADJACENT WORK IS NOT FOREIGN TO THE DUTY.** — Ground 3.
+- **JOIN AN ACTOR’S INSTITUTIONAL INTEREST TO A PUBLIC END THE ACTOR CAN ACTUALLY HELP PRODUCE.** — Ground 4.
+- **THE MEN REQUIRED TO CARRY A POLICY ARE PART OF THE POLICY.** — Ground 5.
 
 ### Compression
 
-**A DESIRABLE POLICY IS NOT YET AN EXECUTABLE POLICY UNTIL THE MEN WHO MUST CARRY IT CAN BE SHOWN.**
+For audit purposes, no new compressed abstraction is introduced here. Later synthesis must be built only from the numbered quotation-grounded findings above.
+
+### Audit disposition
+
+Every retained abstraction in this unit is repeated in the Build harvest with its Ground number. No Build-harvest wording is allowed to create an additional independent finding.
 
 ### Backfill disposition
 
-All surviving abstractions below are retained only because the quoted ground in this unit earns them. Earlier unquoted formulations not reproduced here are not carried forward as independent findings.
+All surviving abstractions are retained only because the quoted ground in this unit earns them. Earlier formulations not reproduced as numbered quotation-grounded findings are not carried forward as independent findings.
