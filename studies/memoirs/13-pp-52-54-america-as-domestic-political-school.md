@@ -5,7 +5,7 @@
 
 **Witness condition:** English translation, not quotation-grade French. All quoted wording is `[V]`: exact wording of the current English project witness, usable to ground sequence, distinctions, and abstraction, but not to license exact French voice imitation.
 
-**Quotation status:** `QUOTATION_GROUNDED`
+**Quotation status:** `AUDITED_QUOTATION_GROUNDED`
 
 **Evidence status:** Independent Memoirs reconstruction. No preexisting deed was consulted or cross-referenced.
 
@@ -23,6 +23,7 @@ The same foreign event enters domestic politics through different situated audie
 
 **MAP THE AUDIENCES OF AN EVENT, NOT ONLY THE EVENT.**
 
+
 ## 2. Textual ground
 
 > “insignificant men often play the leading part in great events, simply because they happened to be on the spot.”
@@ -36,6 +37,7 @@ Position at a hinge can suddenly outweigh prior rank or distinction.
 ### Abstraction
 
 **POSITION AT THE HINGE CAN OUTWEIGH PRE-EXISTING DISTINCTION.**
+
 
 ## 3. Textual ground
 
@@ -51,6 +53,7 @@ Participation changes the political meaning of an idea by attaching it to identi
 
 **PARTICIPATION CAN TURN AN IDEA INTO IDENTITY.**
 
+
 ## 4. Textual ground
 
 > “From this, it was but a step to the belief that services rendered to the cause of liberty are the only true titles to distinction and glory.”
@@ -64,6 +67,7 @@ A foreign example can reprice domestic standards of honor and legitimacy.
 ### Abstraction
 
 **A FOREIGN EXAMPLE CAN REPRICE DOMESTIC LEGITIMACY.**
+
 
 ## 5. Textual ground
 
@@ -79,15 +83,16 @@ Imported ideas gain traction partly because domestic authority has already lost 
 
 **IMPORTED IDEAS TAKE ROOT FASTER WHERE DOMESTIC CREDIT IS ALREADY WEAK.**
 
+
 ## 6. Textual ground
 
-> “was kept up in France by the account of all the deliberations of Congress published every week…”
+> “Interest in the American cause was kept up in France by the account of all the deliberations of Congress published every week in a paper entitled Le Courrier de l’Europe. … This paper … was edited by a man who belonged to the police; his name was Morande; he was the author of an infamous libel…”
 >
 > — printed p. 53 `[V]`
 
 ### Local reading
 
-The paper’s influence on circulation is distinct from the moral or epistemic reliability of the editor.
+Talleyrand records the paper’s political influence while separately supplying information that bears adversely on the character and independence of its editor. Influence and reliability therefore remain distinct questions.
 
 ### Abstraction
 
@@ -99,17 +104,21 @@ Under Keel Principle 11, this unit also becomes a research instruction for Talle
 
 ## Build harvest
 
-- **MAP THE AUDIENCES OF AN EVENT.**
-- **POSITION AT A HINGE CAN OUTWEIGH PRIOR DISTINCTION.**
-- **PARTICIPATION CAN TURN AN IDEA INTO IDENTITY.**
-- **A FOREIGN EXAMPLE CAN REPRICE DOMESTIC LEGITIMACY.**
-- **IMPORTED IDEAS GAIN FORCE WHERE DOMESTIC CREDIT IS WEAK.**
-- **SEPARATE SOURCE INFLUENCE FROM SOURCE RELIABILITY.**
+- **MAP THE AUDIENCES OF AN EVENT, NOT ONLY THE EVENT.** — Ground 1.
+- **POSITION AT THE HINGE CAN OUTWEIGH PRE-EXISTING DISTINCTION.** — Ground 2.
+- **PARTICIPATION CAN TURN AN IDEA INTO IDENTITY.** — Ground 3.
+- **A FOREIGN EXAMPLE CAN REPRICE DOMESTIC LEGITIMACY.** — Ground 4.
+- **IMPORTED IDEAS TAKE ROOT FASTER WHERE DOMESTIC CREDIT IS ALREADY WEAK.** — Ground 5.
+- **SEPARATE SOURCE INFLUENCE FROM SOURCE RELIABILITY.** — Ground 6.
 
 ### Compression
 
-**A DISTANT EVENT BECOMES DOMESTIC POWER WHEN DIFFERENT AUDIENCES FIND DIFFERENT MEANINGS IN IT, PARTICIPANTS CARRY IT HOME, AND WEAKENING DOMESTIC AUTHORITY GIVES IT GROUND.**
+For audit purposes, no new compressed abstraction is introduced here. Later synthesis must be built only from the numbered quotation-grounded findings above.
+
+### Audit disposition
+
+Every retained abstraction in this unit is repeated in the Build harvest with its Ground number. No Build-harvest wording is allowed to create an additional independent finding.
 
 ### Backfill disposition
 
-All surviving abstractions below are retained only because the quoted ground in this unit earns them. Earlier unquoted formulations not reproduced here are not carried forward as independent findings.
+All surviving abstractions are retained only because the quoted ground in this unit earns them. Earlier formulations not reproduced as numbered quotation-grounded findings are not carried forward as independent findings.

@@ -5,7 +5,7 @@
 
 **Witness condition:** English translation, not quotation-grade French. All quoted wording is `[V]`: exact wording of the current English project witness, usable to ground sequence, distinctions, and abstraction, but not to license exact French voice imitation.
 
-**Quotation status:** `QUOTATION_GROUNDED`
+**Quotation status:** `AUDITED_QUOTATION_GROUNDED`
 
 **Evidence status:** Independent Memoirs reconstruction. No preexisting deed was consulted or cross-referenced.
 
@@ -23,6 +23,7 @@ Connectivity expands the number of points at which rivalry can be activated; int
 
 **CONNECTIVITY TRANSMITS CONFLICT AS WELL AS BENEFIT.**
 
+
 ## 2. Textual ground
 
 > “the spirit of destruction quickly repairs to all places with which intercourse has become easier.”
@@ -36,6 +37,7 @@ Ease of intercourse lowers the friction not only for commerce and knowledge but 
 ### Abstraction
 
 **WHEN INTERCOURSE BECOMES EASIER, PRICE THE EASIER MOVEMENT OF CONFLICT TOO.**
+
 
 ## 3. Textual ground
 
@@ -51,6 +53,7 @@ Talleyrand grounds a theater judgment in sustained field correspondence rather t
 
 **USE SUSTAINED FIELD CORRESPONDENCE TO FORM THE THEATER VIEW.**
 
+
 ## 4. Textual ground
 
 > “A spirit of imitation and a sentiment of rivalry attracted us to the ocean.”
@@ -64,6 +67,7 @@ He suspects that France allowed England’s arena of strength to choose the thea
 ### Abstraction
 
 **DO NOT LET THE RIVAL CHOOSE THE THEATER MERELY BY EXCITING IMITATION OR RIVALRY.**
+
 
 ## 5. Textual ground
 
@@ -79,6 +83,7 @@ The proper theater is chosen by comparative position rather than prestige.
 
 **CHOOSE THE PRINCIPAL THEATER BY COMPARATIVE POSITION.**
 
+
 ## 6. Textual ground
 
 > “A little good, eagerly grasped… is all human nature can boast of… it suffices that a political view offer some advantage… little risk, little loss, few sacrifices…”
@@ -87,11 +92,11 @@ The proper theater is chosen by comparative position rather than prestige.
 
 ### Local reading
 
-He explicitly prefers a limited advantage with low risk and sacrifice over a grand system requiring events to obey the plan.
+Talleyrand explicitly prefers some limited good or advantage obtained with little risk, loss, or sacrifice.
 
 ### Abstraction
 
-**PREFER MODEST, ROBUST ADVANTAGE TO A GRAND SYSTEM THAT DEPENDS ON TOO MANY CONDITIONS.**
+**PREFER A LIMITED ADVANTAGE WITH LITTLE RISK, LOSS, OR SACRIFICE.**
 
 ## 7. Textual ground
 
@@ -107,23 +112,29 @@ He withholds certainty where the new actor’s long-term place is not yet establ
 
 **HEDGE AGAINST UNCERTAIN FUTURES WITHOUT INVENTING CERTAINTY.**
 
+
 ## Reflexive obligation for reconstructing Talleyrand
 
 Under Keel Principle 11, this unit also becomes a research instruction for Talleyrand himself. The repository must test Talleyrand’s own strategic judgments by the field correspondence and comparative positions that informed them, and preserve where he explicitly withheld certainty because the future had not yet supplied proof.
 
 ## Build harvest
 
-- **CONNECTIVITY TRANSMITS CONFLICT AS WELL AS BENEFIT.**
-- **USE SUSTAINED FIELD CORRESPONDENCE TO FORM THE THEATER VIEW.**
-- **DO NOT LET RIVALRY CHOOSE THE THEATER.**
-- **CHOOSE THEATER BY COMPARATIVE POSITION.**
-- **PREFER MODEST, ROBUST ADVANTAGE TO GRAND SYSTEM.**
-- **WITHHOLD CERTAINTY WHERE TIME HAS NOT YET FURNISHED THE PROOF.**
+- **CONNECTIVITY TRANSMITS CONFLICT AS WELL AS BENEFIT.** — Ground 1.
+- **WHEN INTERCOURSE BECOMES EASIER, PRICE THE EASIER MOVEMENT OF CONFLICT TOO.** — Ground 2.
+- **USE SUSTAINED FIELD CORRESPONDENCE TO FORM THE THEATER VIEW.** — Ground 3.
+- **DO NOT LET THE RIVAL CHOOSE THE THEATER MERELY BY EXCITING IMITATION OR RIVALRY.** — Ground 4.
+- **CHOOSE THE PRINCIPAL THEATER BY COMPARATIVE POSITION.** — Ground 5.
+- **PREFER A LIMITED ADVANTAGE WITH LITTLE RISK, LOSS, OR SACRIFICE.** — Ground 6.
+- **HEDGE AGAINST UNCERTAIN FUTURES WITHOUT INVENTING CERTAINTY.** — Ground 7.
 
 ### Compression
 
-**DO NOT LET GLORY OR RIVALRY CHOOSE THE BOARD; CHOOSE THE BOARD WHERE POSITION CAN BE CONVERTED INTO A MODEST ADVANTAGE THAT CAN SURVIVE EVENTS.**
+For audit purposes, no new compressed abstraction is introduced here. Later synthesis must be built only from the numbered quotation-grounded findings above.
+
+### Audit disposition
+
+Every retained abstraction in this unit is repeated in the Build harvest with its Ground number. No Build-harvest wording is allowed to create an additional independent finding.
 
 ### Backfill disposition
 
-All surviving abstractions below are retained only because the quoted ground in this unit earns them. Earlier unquoted formulations not reproduced here are not carried forward as independent findings.
+All surviving abstractions are retained only because the quoted ground in this unit earns them. Earlier formulations not reproduced as numbered quotation-grounded findings are not carried forward as independent findings.

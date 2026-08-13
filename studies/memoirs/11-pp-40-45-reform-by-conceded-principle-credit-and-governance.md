@@ -5,13 +5,13 @@
 
 **Witness condition:** English translation, not quotation-grade French. All quoted wording is `[V]`: exact wording of the current English project witness, usable to ground sequence, distinctions, and abstraction, but not to license exact French voice imitation.
 
-**Quotation status:** `QUOTATION_GROUNDED`
+**Quotation status:** `AUDITED_QUOTATION_GROUNDED`
 
 **Evidence status:** Independent Memoirs reconstruction. No preexisting deed was consulted or cross-referenced.
 
 ## 1. Textual ground
 
-> “I followed the plan employed by M. de Malesherbes and M. de Ruhliere… In order to reach their end, they both maintained that the intentions of Louis XIV had not been carried out.”
+> “I followed the plan employed by M. de Malesherbes and M. de Ruhlière… In order to reach their end, they both maintained that the intentions of Louis XIV had not been carried out.”
 >
 > — printed p. 41 `[V]`
 
@@ -23,6 +23,7 @@ He enters reform through a premise the existing order already acknowledges inste
 
 **OPEN THE DOOR WITH A PRINCIPLE THE NECESSARY AUTHORITY ALREADY CONCEDES, WHEN THAT PRINCIPLE GENUINELY SUPPORTS THE END.**
 
+
 ## 2. Textual ground
 
 > “I had confined myself to requesting the redress of an error, of which, as I said, the higher clergy would surely have been glad to be informed.”
@@ -31,11 +32,12 @@ He enters reform through a premise the existing order already acknowledges inste
 
 ### Local reading
 
-He makes the proposal cognizable as correction rather than accusation, preserving a route for the authority to agree without first confessing bad faith.
+He frames the move as the redress of an error and presents the higher clergy as people who could welcome being informed of it; agreement need not begin with a confession of bad faith.
 
 ### Abstraction
 
-**FRAME REFORM SO THE JURISDICTION THAT MUST ACT CAN RECOGNIZE THE CLAIM AS ITS OWN BUSINESS.**
+**FRAME THE MOVE AS REDRESS OF AN ERROR THE NECESSARY ACTOR CAN ADMIT WITHOUT ABANDONING ITS POSITION.**
+
 
 ## 3. Textual ground
 
@@ -45,13 +47,13 @@ He makes the proposal cognizable as correction rather than accusation, preservin
 
 ### Local reading
 
-Latitude follows demonstrated reliability in the entrusted work.
+Care devoted to the clergy’s own affairs and successful reports cause his superiors to tolerate reforms of wider utility that he ranks with his duties. The text shows latitude growing from prior work and from a claimed connection to entrusted duties.
 
 ### Abstraction
 
-**EARN THE RIGHT TO RANGE WIDER BY RELIABILITY IN THE DUTY ALREADY ENTRUSTED.**
+**RELIABLE WORK IN AN ENTRUSTED DUTY CAN OPEN LATITUDE FOR ADJACENT REFORMS.**
 
-**BREADTH SHOULD FOLLOW CAUSAL EXPOSURE, NOT SELF-APPOINTMENT.**
+**RANK ADJACENT WORK WITH THE DUTIES YOU ACTUALLY HOLD RATHER THAN CLAIMING UNBOUNDED JURISDICTION.**
 
 ## 4. Textual ground
 
@@ -61,11 +63,12 @@ Latitude follows demonstrated reliability in the entrusted work.
 
 ### Local reading
 
-After hearing his language repeated badly by another speaker, he uses how the language travels as a test of whether it belongs in the final text.
+Hearing another man repeat the passage badly causes Talleyrand to judge the passage itself out of place and omit it from the printed version.
 
 ### Abstraction
 
-**TEST LANGUAGE BY HOW IT TRAVELS; CUT MATERIAL THAT SURVIVES ONLY IN THE AUTHOR’S OWN PERFORMANCE.**
+**REHEARING LANGUAGE THROUGH ANOTHER SPEAKER CAN REVEAL WHAT IS OUT OF PLACE IN THE PRINTED TEXT.**
+
 
 ## 5. Textual ground
 
@@ -83,19 +86,20 @@ Talleyrand reads governance through incentives and control of implementation. Fo
 
 **IF THE PEOPLE CONSTRAINED BY A RULE CONTROL ITS IMPLEMENTATION, ADOPTION IS NOT EXECUTION.**
 
+
 ## 6. Textual ground
 
-> “As for me, I was in no hurry; I was instructing myself.”
+> “As for me, I was in no hurry; I was instructing myself. I took journeys … I was happy to think that I had still some years before me … without being obliged to arrange any of the deep combinations required to satisfy the aspirations of a serious ambition.”
 >
 > — printed p. 45 `[V]`
 
 ### Local reading
 
-He treats continued learning as more valuable than premature combination or office-seeking at this stage.
+Talleyrand directly opposes continued instruction and observation to prematurely arranging the deep combinations of serious ambition.
 
 ### Abstraction
 
-**DO NOT FORM DEEP POLITICAL COMBINATIONS BEFORE YOU HAVE INSTRUCTED YOURSELF ENOUGH TO SEE THE BOARD.**
+**DO NOT FORM DEEP POLITICAL COMBINATIONS BEFORE YOU HAVE INSTRUCTED YOURSELF ENOUGH TO BEGIN THEM.**
 
 ## Reflexive obligation for reconstructing Talleyrand
 
@@ -103,17 +107,23 @@ Under Keel Principle 11, this unit also becomes a research instruction for Talle
 
 ## Build harvest
 
-- **ENTER THROUGH A GENUINELY ACKNOWLEDGED PREMISE.**
-- **MAKE THE CLAIM COGNIZABLE TO THE JURISDICTION THAT MUST ACT.**
-- **EARN LATITUDE THROUGH RELIABILITY.**
-- **TEST LANGUAGE BY HOW IT TRAVELS.**
-- **READ GOVERNANCE THROUGH INCENTIVES AND IMPLEMENTATION CONTROL.**
-- **DO NOT HURRY PAST INSTRUCTION.**
+- **OPEN THE DOOR WITH A PRINCIPLE THE NECESSARY AUTHORITY ALREADY CONCEDES, WHEN THAT PRINCIPLE GENUINELY SUPPORTS THE END.** — Ground 1.
+- **FRAME THE MOVE AS REDRESS OF AN ERROR THE NECESSARY ACTOR CAN ADMIT WITHOUT ABANDONING ITS POSITION.** — Ground 2.
+- **RELIABLE WORK IN AN ENTRUSTED DUTY CAN OPEN LATITUDE FOR ADJACENT REFORMS.** — Ground 3.
+- **RANK ADJACENT WORK WITH THE DUTIES YOU ACTUALLY HOLD RATHER THAN CLAIMING UNBOUNDED JURISDICTION.** — Ground 3.
+- **REHEARING LANGUAGE THROUGH ANOTHER SPEAKER CAN REVEAL WHAT IS OUT OF PLACE IN THE PRINTED TEXT.** — Ground 4.
+- **READ GOVERNANCE THROUGH INCENTIVES.** — Ground 5.
+- **IF THE PEOPLE CONSTRAINED BY A RULE CONTROL ITS IMPLEMENTATION, ADOPTION IS NOT EXECUTION.** — Ground 5.
+- **DO NOT FORM DEEP POLITICAL COMBINATIONS BEFORE YOU HAVE INSTRUCTED YOURSELF ENOUGH TO BEGIN THEM.** — Ground 6.
 
 ### Compression
 
-**ADOPTION, LANGUAGE, AND JURISDICTION MATTER ONLY IF THE PROPOSAL CAN SURVIVE THE PEOPLE AND INCENTIVES THAT MUST CARRY IT.**
+For audit purposes, no new compressed abstraction is introduced here. Later synthesis must be built only from the numbered quotation-grounded findings above.
+
+### Audit disposition
+
+Every retained abstraction in this unit is repeated in the Build harvest with its Ground number. No Build-harvest wording is allowed to create an additional independent finding.
 
 ### Backfill disposition
 
-All surviving abstractions below are retained only because the quoted ground in this unit earns them. Earlier unquoted formulations not reproduced here are not carried forward as independent findings.
+All surviving abstractions are retained only because the quoted ground in this unit earns them. Earlier formulations not reproduced as numbered quotation-grounded findings are not carried forward as independent findings.
