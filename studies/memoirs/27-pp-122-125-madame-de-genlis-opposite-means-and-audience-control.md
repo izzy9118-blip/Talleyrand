@@ -5,7 +5,7 @@
 
 **Witness condition:** English translation, not quotation-grade French. All quoted wording is `[V]`: exact wording of the current English project witness, usable to ground sequence, distinctions, and abstraction, but not to license exact French voice imitation.
 
-**Quotation status:** `QUOTATION_GROUNDED`
+**Quotation status:** `AUDITED_QUOTATION_GROUNDED`
 
 **Evidence status:** Independent Memoirs reconstruction. No preexisting deed was consulted or cross-referenced.
 
@@ -23,6 +23,7 @@ Talleyrand treats apparent opposites as coordinated instruments rather than mutu
 
 **DO NOT ASSUME OPPOSITE TRAITS CANCEL ONE ANOTHER; ASK WHETHER THEY ARE COORDINATED MEANS SERVING THE SAME END.**
 
+
 ## 2. Textual ground
 
 > “possessed at her fingers’ ends all the advantages that can be given by instruction, observation, reserve, and the tact of the world.”
@@ -31,17 +32,17 @@ Talleyrand treats apparent opposites as coordinated instruments rather than mutu
 
 ### Local reading
 
-Tact is presented as a compound capacity built from instruction, observation, and reserve—not mere charm.
+Talleyrand explicitly counts “the tact of the world,” together with instruction, observation, and reserve, among the advantages Genlis possessed.
 
 ### Abstraction
 
-**READ THE AUDIENCE BEFORE CHOOSING THE MANNER.**
+**COUNT SOCIAL TACT ALONGSIDE INSTRUCTION, OBSERVATION, AND RESERVE AS A DISTINCT CAPACITY.**
 
 ## 3. Textual ground
 
 > “This first success was of great use to her; a few doors were thrown open to her…”
 >
-> — printed pp. 123–124 `[V]`
+> — printed p. 123–124 `[V]`
 
 ### Local reading
 
@@ -51,19 +52,20 @@ Access compounds: one local success creates entry into wider circles.
 
 **RECONSTRUCT HOW ONE LOCAL SUCCESS BECOMES WIDER ACCESS.**
 
+
 ## 4. Textual ground
 
-> “destroyed in a very short time all the little oppositions of society which still existed.”
+> “she obtained to be introduced to the Duchesse de Chartres, who, by the protection she accorded her, destroyed in a very short time all the little oppositions of society which still existed.”
 >
 > — printed p. 124 `[V]`
 
 ### Local reading
 
-A powerful patron converts private acceptance into wider legitimacy by changing the costs of exclusion.
+The Duchesse’s protection converts an introduction into rapid removal of remaining social opposition.
 
 ### Abstraction
 
-**IDENTIFY THE PATRON WHO CONVERTS PRIVATE ACCEPTANCE INTO WIDER LEGITIMACY.**
+**IDENTIFY THE PATRON WHO CONVERTS ACCESS INTO WIDER SOCIAL ACCEPTANCE.**
 
 ## 5. Textual ground
 
@@ -73,21 +75,21 @@ A powerful patron converts private acceptance into wider legitimacy by changing 
 
 ### Local reading
 
-Talleyrand preserves the difference between recognized ascendancy and the stronger, less certain claim of control over political actions.
+Talleyrand reports that her ascendancy led people to suppose she influenced his actions or life. Ascendancy is therefore evidence prompting an influence hypothesis, not by itself proof of specific political control.
 
 ### Abstraction
 
-**DO NOT INFER POLITICAL CONTROL FROM PROXIMITY, INTIMACY, OR ASCENDANCY ALONE.**
+**DO NOT TREAT ASCENDANCY ALONE AS PROOF OF SPECIFIC POLITICAL CONTROL.**
 
 ## 6. Textual ground
 
-> “Madame de Genlis proved… that she was capable of directing all that part of the education which pertains to the mind.”
+> “One can only see in this choice of the Duc de Chartres, the intention to appear peculiar, and to mark plainly his scorn for accepted usages. Madame de Genlis proved, in the first works she published, that she was capable of directing all that part of the education which pertains to the mind.”
 >
 > — printed p. 124 `[V]`
 
 ### Local reading
 
-Whatever Talleyrand thinks of the Duc’s motive for the appointment, he separately credits the appointee’s actual competence.
+Talleyrand gives one account of the prince’s motive for the appointment and separately credits Genlis with demonstrated educational capacity.
 
 ### Abstraction
 
@@ -107,6 +109,7 @@ Formation continues after formal education; later experience can alter or deepen
 
 **TREAT FORMATION AS SEQUENTIAL.**
 
+
 ## 8. Textual ground
 
 > “she wishes to manage the jealous independence of the public, as she managed formerly the obedient submission of her pupils…”
@@ -120,6 +123,7 @@ A method effective with dependent pupils fails when transferred to an audience c
 ### Abstraction
 
 **DO NOT TRANSFER A METHOD FROM A DEPENDENT AUDIENCE TO AN INDEPENDENT ONE WITHOUT REPRICING THE RELATIONSHIP.**
+
 
 ## 9. Textual ground
 
@@ -135,26 +139,31 @@ When an activity survives its original practical function, Talleyrand asks what 
 
 **WHEN BEHAVIOR PERSISTS AFTER ITS ORIGINAL FUNCTION DISAPPEARS, ASK WHAT OBJECT NOW SUSTAINS IT.**
 
+
 ## Reflexive obligation for reconstructing Talleyrand
 
 Under Keel Principle 11, this unit also becomes a research instruction for Talleyrand himself. The repository must map Talleyrand’s own apparent opposites by context, his chains of access and patronage, the exact limits of his influence over principals, and whether methods successful in court or private counsel failed when transferred to independent publics or institutions.
 
 ## Build harvest
 
-- **APPARENT OPPOSITES MAY BE COORDINATED MEANS.**
-- **READ THE AUDIENCE BEFORE CHOOSING THE MANNER.**
-- **TRACE HOW LOCAL SUCCESS BECOMES WIDER ACCESS.**
-- **IDENTIFY THE PATRON WHO CONVERTS ACCEPTANCE INTO LEGITIMACY.**
-- **DO NOT INFER CONTROL FROM PROXIMITY.**
-- **SEPARATE APPOINTMENT MOTIVE FROM APPOINTEE COMPETENCE.**
-- **TREAT FORMATION AS SEQUENTIAL.**
-- **REPRICE METHODS WHEN THE AUDIENCE BECOMES INDEPENDENT.**
-- **ASK WHAT SUSTAINS BEHAVIOR AFTER THE ORIGINAL FUNCTION DISAPPEARS.**
+- **DO NOT ASSUME OPPOSITE TRAITS CANCEL ONE ANOTHER; ASK WHETHER THEY ARE COORDINATED MEANS SERVING THE SAME END.** — Ground 1.
+- **COUNT SOCIAL TACT ALONGSIDE INSTRUCTION, OBSERVATION, AND RESERVE AS A DISTINCT CAPACITY.** — Ground 2.
+- **RECONSTRUCT HOW ONE LOCAL SUCCESS BECOMES WIDER ACCESS.** — Ground 3.
+- **IDENTIFY THE PATRON WHO CONVERTS ACCESS INTO WIDER SOCIAL ACCEPTANCE.** — Ground 4.
+- **DO NOT TREAT ASCENDANCY ALONE AS PROOF OF SPECIFIC POLITICAL CONTROL.** — Ground 5.
+- **SEPARATE THE MOTIVE FOR AN APPOINTMENT FROM THE COMPETENCE OF THE PERSON APPOINTED.** — Ground 6.
+- **TREAT FORMATION AS SEQUENTIAL.** — Ground 7.
+- **DO NOT TRANSFER A METHOD FROM A DEPENDENT AUDIENCE TO AN INDEPENDENT ONE WITHOUT REPRICING THE RELATIONSHIP.** — Ground 8.
+- **WHEN BEHAVIOR PERSISTS AFTER ITS ORIGINAL FUNCTION DISAPPEARS, ASK WHAT OBJECT NOW SUSTAINS IT.** — Ground 9.
 
 ### Compression
 
-**DO NOT RESOLVE CONTRADICTIONS TOO EARLY; ASK WHEN EACH MODE APPEARS, WHAT AUDIENCE IT FITS, WHAT DOOR IT OPENS, AND WHETHER THE METHOD STILL WORKS WHEN THE RECIPIENT CAN REFUSE IT.**
+For audit purposes, no new compressed abstraction is introduced here. Later synthesis must be built only from the numbered quotation-grounded findings above.
+
+### Audit disposition
+
+Every retained abstraction in this unit is repeated in the Build harvest with its Ground number. No Build-harvest wording is allowed to create an additional independent finding.
 
 ### Backfill disposition
 
-All surviving abstractions below are retained only because the quoted ground in this unit earns them. Earlier unquoted formulations not reproduced here are not carried forward as independent findings.
+All surviving abstractions are retained only because the quoted ground in this unit earns them. Earlier formulations not reproduced as numbered quotation-grounded findings are not carried forward as independent findings.

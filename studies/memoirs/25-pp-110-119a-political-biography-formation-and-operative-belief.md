@@ -5,7 +5,7 @@
 
 **Witness condition:** English translation, not quotation-grade French. All quoted wording is `[V]`: exact wording of the current English project witness, usable to ground sequence, distinctions, and abstraction, but not to license exact French voice imitation.
 
-**Quotation status:** `QUOTATION_GROUNDED`
+**Quotation status:** `AUDITED_QUOTATION_GROUNDED`
 
 **Evidence status:** Independent Memoirs reconstruction. No preexisting deed was consulted or cross-referenced.
 
@@ -23,11 +23,12 @@ Talleyrand explicitly treats political lives and private memoirs as historical e
 
 **USE POLITICAL LIVES TO TEST AND FILL OUT GENERAL HISTORY, NOT MERELY TO DECORATE IT.**
 
+
 ## 2. Textual ground
 
-> “A well-written life of M. de Colbert or of M. de Louvois would give a correct idea of what the government of that great king was…”
+> “A well-written life of M. de Colbert or of M. de Louvois would give a correct idea of what the government of that great king was. A work of this kind on the ministry of the Duc de Choiseul would acquaint us with the spirit which prevailed at court and in the administration under the reign of Louis XV. I have thought that a picture of the life of the Duc d’Orléans would give the features and the colour of the weak and transient reign of Louis XVI…”
 >
-> — printed p. 111 `[V]`
+> — printed pp. 110–111 `[V]`
 
 ### Local reading
 
@@ -37,19 +38,20 @@ A well-placed person can reveal the operating regime around him; biography becom
 
 **A WELL-PLACED POLITICAL LIFE CAN BE USED AS A PROBE INTO THE OPERATING REGIME.**
 
+
 ## 3. Textual ground
 
-> “I would allow all recollection of them to be lost to my memory if they were merely meant to gratify curiosity, but it struck me that they might serve some useful end…”
+> “Although I can furnish the most curious and least known details concerning the life and character of the Duc d’Orléans, I would allow all recollection of them to be lost to my memory if they were merely meant to gratify curiosity, but it struck me that they might serve some useful end; I therefore collected them.”
 >
-> — printed p. 112 `[V]`
+> — printed pp. 111–112 `[V]`
 
 ### Local reading
 
-Personal detail is admitted only when it serves political understanding rather than curiosity.
+Talleyrand explicitly refuses to preserve personal detail merely because it gratifies curiosity; he keeps it only because he thinks it may serve a useful end.
 
 ### Abstraction
 
-**DO NOT COLLECT PERSONAL DETAIL UNLESS IT BEARS ON JUDGMENT, FORMATION, CAPACITY, INTEREST, OR POLITICAL EFFECT.**
+**DO NOT PRESERVE PERSONAL DETAIL MERELY TO GRATIFY CURIOSITY; REQUIRE A USEFUL HISTORICAL OR POLITICAL END.**
 
 ## 4. Textual ground
 
@@ -59,11 +61,11 @@ Personal detail is admitted only when it serves political understanding rather t
 
 ### Local reading
 
-Character is reconstructed relationally: position, advantages, obligations, and opportunities before adjectives.
+Talleyrand gives his method in unusually direct form: the person is placed amid his advantages and confronted with his obligations before his character is judged.
 
 ### Abstraction
 
-**JUDGE CONDUCT AGAINST THE POSITION, RESOURCES, OBLIGATIONS, CONSTRAINTS, AND REAL ALTERNATIVES AVAILABLE TO THE PERSON.**
+**PLACE THE PERSON AMONG HIS ADVANTAGES AND CONFRONT HIM WITH HIS OBLIGATIONS.**
 
 ## 5. Textual ground
 
@@ -79,6 +81,7 @@ He explicitly rejects reading the known adult outcome backward into childhood an
 
 **DO NOT READ ADULT DESTINY BACKWARD INTO CHILDHOOD SIGNS.**
 
+
 ## 6. Textual ground
 
 > “That goodness of which people felt so sure, led the prince’s tutors to devote as little attention to his character as to his studies.”
@@ -87,11 +90,11 @@ He explicitly rejects reading the known adult outcome backward into childhood an
 
 ### Local reading
 
-Inherited reputation substitutes for actual formation and becomes a cause of neglect.
+Assumed goodness causes the tutors to neglect both character and studies.
 
 ### Abstraction
 
-**DO NOT SUBSTITUTE INHERITED REPUTATION FOR FORMATION.**
+**DO NOT LET AN ASSUMED VIRTUE SUBSTITUTE FOR FORMATION.**
 
 ## 7. Textual ground
 
@@ -107,6 +110,7 @@ Large discretion arrives before self-command has been formed.
 
 **DO NOT GIVE LARGE DISCRETION BEFORE THE PERSON HAS DEVELOPED ENOUGH SELF-COMMAND TO USE IT.**
 
+
 ## 8. Textual ground
 
 > “Their most faithful servants fear to warn them, lest the warning should displease them, and a host of others try to be agreeable to them by all possible means.”
@@ -121,6 +125,7 @@ Rank changes the information environment by raising the cost of candor and rewar
 
 **MAP WHETHER THE PERSON’S POSITION PUNISHES CANDOR AND REWARDS FLATTERY.**
 
+
 ## 9. Textual ground
 
 > “it is from that time, from that second education, given at the age when men are the disciples of all that surrounds them…”
@@ -134,6 +139,7 @@ Formal schooling is only one stage of formation. Adult circles, companions, norm
 ### Abstraction
 
 **MAP THE SECOND EDUCATION: WHO FORMED THE ACTOR AFTER FORMAL SCHOOLING ENDED?**
+
 
 ## 10. Textual ground
 
@@ -151,6 +157,7 @@ Status pressure can counterfeit conviction by making admission of confusion soci
 
 **ASK WHAT IT COSTS SOMEONE IN THE ROOM TO SAY “I DO NOT UNDERSTAND.”**
 
+
 ## 11. Textual ground
 
 > “However different they seem to be, the same principle reappears in all.”
@@ -159,15 +166,15 @@ Status pressure can counterfeit conviction by making admission of confusion soci
 
 ### Local reading
 
-Talleyrand proposes a unifying principle of character, but the narrative that follows must earn it across deeds.
+Talleyrand claims that one principle reappears in apparently different actions. Because this is his explanatory claim, the later actions supply the test of whether the unifying principle actually holds.
 
 ### Abstraction
 
-**A UNIFYING PRINCIPLE OF CHARACTER MUST BE EARNED BY THE DEEDS.**
+**WHEN ONE PRINCIPLE IS CLAIMED TO REAPPEAR IN DIVERSE ACTIONS, TEST THE CLAIM AGAINST THE LATER ACTIONS.**
 
 ### Limit / alternative
 
-This sentence is Talleyrand’s claim, not proof that his proposed master principle is correct.
+The sentence establishes Talleyrand’s proposed unifying explanation, not its truth. The project therefore treats subsequent deeds as the test rather than presupposing the conclusion.
 
 ## Reflexive obligation for reconstructing Talleyrand
 
@@ -175,21 +182,27 @@ Under Keel Principle 11, this unit also becomes a research instruction for Talle
 
 ## Build harvest
 
-- **USE POLITICAL LIVES TO TEST GENERAL HISTORY.**
-- **USE A WELL-PLACED PERSON AS A PROBE INTO THE OPERATING REGIME.**
-- **DO NOT COLLECT PERSONAL DETAIL WITHOUT POLITICAL USE.**
-- **PLACE THE PERSON INSIDE ADVANTAGES, OBLIGATIONS, CONSTRAINTS, AND REAL ALTERNATIVES.**
-- **DO NOT READ ADULT DESTINY BACKWARD INTO CHILDHOOD SIGNS.**
-- **DO NOT SUBSTITUTE REPUTATION FOR FORMATION.**
-- **MAP THE INFORMATION ENVIRONMENT AROUND POWER.**
-- **MAP THE SECOND EDUCATION.**
-- **DO NOT TREAT STATUS-PRESSURED ASSENT AS CONVICTION.**
-- **LET DEEDS EARN ANY UNIFYING PRINCIPLE.**
+- **USE POLITICAL LIVES TO TEST AND FILL OUT GENERAL HISTORY, NOT MERELY TO DECORATE IT.** — Ground 1.
+- **A WELL-PLACED POLITICAL LIFE CAN BE USED AS A PROBE INTO THE OPERATING REGIME.** — Ground 2.
+- **DO NOT PRESERVE PERSONAL DETAIL MERELY TO GRATIFY CURIOSITY; REQUIRE A USEFUL HISTORICAL OR POLITICAL END.** — Ground 3.
+- **PLACE THE PERSON AMONG HIS ADVANTAGES AND CONFRONT HIM WITH HIS OBLIGATIONS.** — Ground 4.
+- **DO NOT READ ADULT DESTINY BACKWARD INTO CHILDHOOD SIGNS.** — Ground 5.
+- **DO NOT LET AN ASSUMED VIRTUE SUBSTITUTE FOR FORMATION.** — Ground 6.
+- **DO NOT GIVE LARGE DISCRETION BEFORE THE PERSON HAS DEVELOPED ENOUGH SELF-COMMAND TO USE IT.** — Ground 7.
+- **MAP WHETHER THE PERSON’S POSITION PUNISHES CANDOR AND REWARDS FLATTERY.** — Ground 8.
+- **MAP THE SECOND EDUCATION: WHO FORMED THE ACTOR AFTER FORMAL SCHOOLING ENDED?** — Ground 9.
+- **DO NOT TREAT ASSENT UNDER STATUS PRESSURE AS CONVICTION.** — Ground 10.
+- **ASK WHAT IT COSTS SOMEONE IN THE ROOM TO SAY “I DO NOT UNDERSTAND.”** — Ground 10.
+- **WHEN ONE PRINCIPLE IS CLAIMED TO REAPPEAR IN DIVERSE ACTIONS, TEST THE CLAIM AGAINST THE LATER ACTIONS.** — Ground 11.
 
 ### Compression
 
-**TO UNDERSTAND A POLITICAL PERSON, DO NOT BEGIN WITH THE ADJECTIVE. RECONSTRUCT POSITION, FORMATION, SECOND EDUCATION, INFORMATION ENVIRONMENT, PROFESSED BELIEF, AND CONDUCT UNDER COST.**
+For audit purposes, no new compressed abstraction is introduced here. Later synthesis must be built only from the numbered quotation-grounded findings above.
+
+### Audit disposition
+
+Every retained abstraction in this unit is repeated in the Build harvest with its Ground number. No Build-harvest wording is allowed to create an additional independent finding.
 
 ### Backfill disposition
 
-All surviving abstractions below are retained only because the quoted ground in this unit earns them. Earlier unquoted formulations not reproduced here are not carried forward as independent findings.
+All surviving abstractions are retained only because the quoted ground in this unit earns them. Earlier formulations not reproduced as numbered quotation-grounded findings are not carried forward as independent findings.
