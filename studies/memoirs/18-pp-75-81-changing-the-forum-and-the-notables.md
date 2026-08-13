@@ -5,23 +5,23 @@
 
 **Witness condition:** English translation, not quotation-grade French. All quoted wording is `[V]`: exact wording of the current English project witness, usable to ground sequence, distinctions, and abstraction, but not to license exact French voice imitation.
 
-**Quotation status:** `QUOTATION_GROUNDED`
+**Quotation status:** `AUDITED_QUOTATION_GROUNDED`
 
 **Evidence status:** Independent Memoirs reconstruction. No preexisting deed was consulted or cross-referenced.
 
 ## 1. Textual ground
 
-> “by this unexpected appeal, to replace the national sanction, the registration of the parlement, which had been refused him, and to regain the opinion of the public…”
+> “He formed the project of summoning an Assembly of Notables; he hoped, by this unexpected appeal, to replace the national sanction, the registration of the parlement, which had been refused him, and to regain the opinion of the public, before which he was confident he could appear with advantage.”
 >
-> — printed p. 75 `[V]`
+> — printed pp. 75–76 `[V]`
 
 ### Local reading
 
-Calonne changes the forum because the ordinary authorization route is blocked and because he also needs public credit.
+Calonne seeks another forum because parlementary registration has failed and he hopes the Notables can supply national sanction and recover public opinion.
 
 ### Abstraction
 
-**WHEN AN AUTHORIZATION ROUTE IS BLOCKED, ASK WHETHER ANOTHER LEGITIMATE FORUM CAN ACTUALLY SUPPLY THE MISSING THING.**
+**WHEN ONE AUTHORIZATION ROUTE IS BLOCKED, ASK WHETHER ANOTHER FORUM CAN SUPPLY THE MISSING SANCTION.**
 
 ## 2. Textual ground
 
@@ -37,6 +37,7 @@ An impressive body is not the same as a body with executable authority.
 
 **DO NOT CONFUSE AN IMPRESSIVE FORUM WITH EXECUTABLE AUTHORIZATION.**
 
+
 ## 3. Textual ground
 
 > “of which their tithes had taught them the weak side.”
@@ -45,11 +46,12 @@ An impressive body is not the same as a body with executable authority.
 
 ### Local reading
 
-Direct stake can create bias but also domain knowledge. The clergy’s material exposure has taught them vulnerabilities in the proposal.
+The clergy’s direct material exposure through their tithes had taught them where the proposal was weak. The passage supports knowledge from exposure; it does not itself establish the separate claim of bias.
 
 ### Abstraction
 
-**DIRECT STAKE CAN PRODUCE KNOWLEDGE AS WELL AS BIAS.**
+**DIRECT MATERIAL EXPOSURE CAN TEACH AN ACTOR WHERE A PROPOSAL IS WEAK.**
+
 
 ## 4. Textual ground
 
@@ -59,11 +61,11 @@ Direct stake can create bias but also domain knowledge. The clergy’s material 
 
 ### Local reading
 
-A setback can become a cascade because it changes expectations about what can now be resisted or defeated.
+Talleyrand’s sentence directly warns that one check tends to produce further checks.
 
 ### Abstraction
 
-**A SETBACK BECOMES A CASCADE WHEN IT CHANGES BELIEFS ABOUT WHAT CAN NOW BE DEFEATED.**
+**EXPECT ONE CHECK TO ENABLE OR INVITE FURTHER CHECKS.**
 
 ## 5. Textual ground
 
@@ -79,6 +81,7 @@ Ordinary-times tactics have lost their leverage because the structure of the cri
 
 **DO NOT ANSWER STRUCTURAL CRISIS WITH ORDINARY-TIMES TACTICS.**
 
+
 ## 6. Textual ground
 
 > “The Assembly of the Notables had been an expedient, and he needed an expedient for the Assembly of the Notables. He had none.”
@@ -87,11 +90,11 @@ Ordinary-times tactics have lost their leverage because the structure of the cri
 
 ### Local reading
 
-An instrument created to escape one blocked board can become the next political problem.
+The Assembly itself becomes a problem for the minister who created it as an expedient; the first expedient now requires another.
 
 ### Abstraction
 
-**BEFORE CREATING A POLITICAL INSTRUMENT, ASK WHAT HAPPENS WHEN IT ACQUIRES A POLITICAL LIFE OF ITS OWN.**
+**AN EXPEDIENT CAN CREATE A NEW PROBLEM THAT REQUIRES ITS OWN REMEDY.**
 
 ## 7. Textual ground
 
@@ -101,11 +104,11 @@ An instrument created to escape one blocked board can become the next political 
 
 ### Local reading
 
-The deliberative body continues to act through networks outside its session and feeds back into public opinion.
+Opposition inside the forum is strengthened by the opinion it encounters outside it.
 
 ### Abstraction
 
-**MAP THE FEEDBACK LOOP BETWEEN ELITE DELIBERATION AND PUBLIC OPINION.**
+**TRACK HOW OPPOSITION BROUGHT INTO A FORUM CAN BE STRENGTHENED BY THE OPINION IT FINDS OUTSIDE IT.**
 
 ## 8. Textual ground
 
@@ -121,19 +124,20 @@ Brilliance and trust are separate political assets.
 
 **DO NOT CONFUSE BRILLIANCE WITH TRUST.**
 
+
 ## 9. Textual ground
 
 > “not a line of this work had yet been written… We divided among us this immense labour”
 >
-> — printed pp. 80–81 `[V]`
+> — printed p. 80–81 `[V]`
 
 ### Local reading
 
-Decision forums should not be summoned before the substantive case, text, and analytical labor are ready.
+The forum was summoned before the work it had to judge had been adequately prepared; Talleyrand stresses that not even a line had yet been written.
 
 ### Abstraction
 
-**DO NOT SUMMON THE DECISION FORUM BEFORE THE ARGUMENT, EVIDENCE, TEXT, AND IMPLEMENTATION ARE READY.**
+**DO NOT SUMMON A DECISION FORUM BEFORE THE CASE IT MUST CONSIDER HAS BEEN PREPARED.**
 
 ## Reflexive obligation for reconstructing Talleyrand
 
@@ -141,20 +145,24 @@ Under Keel Principle 11, this unit also becomes a research instruction for Talle
 
 ## Build harvest
 
-- **CHANGE FORUM ONLY IF THE NEW FORUM CAN SUPPLY THE MISSING AUTHORIZATION.**
-- **DO NOT CONFUSE PRESTIGE WITH POWER TO ACT.**
-- **DIRECT STAKE CAN PRODUCE KNOWLEDGE AS WELL AS BIAS.**
-- **SETBACKS CAN CASCADE THROUGH EXPECTATIONS.**
-- **DO NOT ANSWER STRUCTURAL CRISIS WITH ORDINARY-TIMES TACTICS.**
-- **ASK WHAT A NEW INSTRUMENT MAY BECOME ONCE CREATED.**
-- **MAP ELITE–PUBLIC FEEDBACK.**
-- **BRILLIANCE AND TRUST ARE DIFFERENT ASSETS.**
-- **DO NOT SUMMON A DECISION FORUM BEFORE THE WORK IS READY.**
+- **WHEN ONE AUTHORIZATION ROUTE IS BLOCKED, ASK WHETHER ANOTHER FORUM CAN SUPPLY THE MISSING SANCTION.** — Ground 1.
+- **DO NOT CONFUSE AN IMPRESSIVE FORUM WITH EXECUTABLE AUTHORIZATION.** — Ground 2.
+- **DIRECT MATERIAL EXPOSURE CAN TEACH AN ACTOR WHERE A PROPOSAL IS WEAK.** — Ground 3.
+- **EXPECT ONE CHECK TO ENABLE OR INVITE FURTHER CHECKS.** — Ground 4.
+- **DO NOT ANSWER STRUCTURAL CRISIS WITH ORDINARY-TIMES TACTICS.** — Ground 5.
+- **AN EXPEDIENT CAN CREATE A NEW PROBLEM THAT REQUIRES ITS OWN REMEDY.** — Ground 6.
+- **TRACK HOW OPPOSITION BROUGHT INTO A FORUM CAN BE STRENGTHENED BY THE OPINION IT FINDS OUTSIDE IT.** — Ground 7.
+- **DO NOT CONFUSE BRILLIANCE WITH TRUST.** — Ground 8.
+- **DO NOT SUMMON A DECISION FORUM BEFORE THE CASE IT MUST CONSIDER HAS BEEN PREPARED.** — Ground 9.
 
 ### Compression
 
-**WHEN YOU CHANGE THE FORUM TO ESCAPE A BLOCKED POSITION, ASK BOTH WHAT THE NEW FORUM CAN ACTUALLY DO AND WHAT IT MAY BECOME ONCE CONVENED.**
+For audit purposes, no new compressed abstraction is introduced here. Later synthesis must be built only from the numbered quotation-grounded findings above.
+
+### Audit disposition
+
+Every retained abstraction in this unit is repeated in the Build harvest with its Ground number. No Build-harvest wording is allowed to create an additional independent finding.
 
 ### Backfill disposition
 
-All surviving abstractions below are retained only because the quoted ground in this unit earns them. Earlier unquoted formulations not reproduced here are not carried forward as independent findings.
+All surviving abstractions are retained only because the quoted ground in this unit earns them. Earlier formulations not reproduced as numbered quotation-grounded findings are not carried forward as independent findings.

@@ -5,7 +5,7 @@
 
 **Witness condition:** English translation, not quotation-grade French. All quoted wording is `[V]`: exact wording of the current English project witness, usable to ground sequence, distinctions, and abstraction, but not to license exact French voice imitation.
 
-**Quotation status:** `QUOTATION_GROUNDED`
+**Quotation status:** `AUDITED_QUOTATION_GROUNDED`
 
 **Evidence status:** Independent Memoirs reconstruction. No preexisting deed was consulted or cross-referenced.
 
@@ -23,6 +23,7 @@ Talleyrand notices that his own category is too vague and stops before allowing 
 
 **WHEN EVIDENCE RESISTS A CATEGORY, REPAIR THE CATEGORY BEFORE USING IT AS EXPLANATION.**
 
+
 ## 2. Textual ground
 
 > “If the philosophers… had formed a sect, their doctrine would be easy to understand; but modern philosophy has nothing in common with the spirit of a sect.”
@@ -37,15 +38,16 @@ A shared label does not establish doctrinal unity.
 
 **DO NOT INFER DOCTRINAL UNITY FROM A SHARED LABEL.**
 
+
 ## 3. Textual ground
 
-> “Doubt… its danger lies in this, being the aim… its advantage, in this being the point of departure.”
+> “Doubt … its danger lies in this, being the aim to which one tends; its advantage, in this being the point of departure.”
 >
 > — printed p. 63 `[V]`
 
 ### Local reading
 
-Doubt is methodologically useful only if it initiates inquiry rather than terminates it.
+Talleyrand distinguishes doubt used as a destination from doubt used as the beginning of inquiry.
 
 ### Abstraction
 
@@ -59,13 +61,13 @@ Doubt is methodologically useful only if it initiates inquiry rather than termin
 
 ### Local reading
 
-His preferred causal method proceeds incrementally from observed phenomena rather than leaping from sign to total cause.
+The method he praises proceeds gradually from examination through phenomena toward causes.
 
 ### Abstraction
 
 **MOVE SLOWLY FROM PHENOMENA TOWARD CAUSES.**
 
-**DO NOT LEAP FROM SIGN TO CAUSE.**
+**DO NOT JUMP DIRECTLY TO CAUSES.**
 
 ## 5. Textual ground
 
@@ -83,6 +85,7 @@ The same method changes value when moved across objects.
 
 **DO NOT GIVE A SUCCESSFUL METHOD UNIVERSAL JURISDICTION.**
 
+
 ## 6. Textual ground
 
 > “the object to which the method of analysis shall be applied will point out…”
@@ -91,11 +94,11 @@ The same method changes value when moved across objects.
 
 ### Local reading
 
-The object itself helps determine how far the method can legitimately go.
+Talleyrand makes the object to which analysis is applied part of the judgment of the analyst’s method and title.
 
 ### Abstraction
 
-**RETURN ABSTRACTION TO THE HUMAN OR INSTITUTIONAL MATERIAL IT MUST ACT UPON.**
+**LET THE OBJECT OF ANALYSIS HELP DETERMINE HOW THE METHOD IS JUDGED.**
 
 ## Reflexive obligation for reconstructing Talleyrand
 
@@ -103,17 +106,23 @@ Under Keel Principle 11, this unit also becomes a research instruction for Talle
 
 ## Build harvest
 
-- **REPAIR THE CATEGORY BEFORE USING IT AS EXPLANATION.**
-- **DO NOT INFER UNITY FROM A SHARED LABEL.**
-- **USE DOUBT AS A POINT OF DEPARTURE.**
-- **MOVE SLOWLY FROM PHENOMENA TOWARD CAUSES.**
-- **LET METHOD ANSWER TO THE OBJECT.**
-- **DO NOT GIVE A SUCCESSFUL METHOD UNIVERSAL JURISDICTION.**
+- **WHEN EVIDENCE RESISTS A CATEGORY, REPAIR THE CATEGORY BEFORE USING IT AS EXPLANATION.** — Ground 1.
+- **DO NOT INFER DOCTRINAL UNITY FROM A SHARED LABEL.** — Ground 2.
+- **USE DOUBT AS A POINT OF DEPARTURE, NOT AS THE AIM.** — Ground 3.
+- **MOVE SLOWLY FROM PHENOMENA TOWARD CAUSES.** — Ground 4.
+- **DO NOT JUMP DIRECTLY TO CAUSES.** — Ground 4.
+- **LET METHOD ANSWER TO THE OBJECT.** — Ground 5.
+- **DO NOT GIVE A SUCCESSFUL METHOD UNIVERSAL JURISDICTION.** — Ground 5.
+- **LET THE OBJECT OF ANALYSIS HELP DETERMINE HOW THE METHOD IS JUDGED.** — Ground 6.
 
 ### Compression
 
-**BEGIN IN DOUBT; DEFINE THE THING; MOVE FROM PHENOMENA TOWARD CAUSES; LET EACH METHOD ANSWER ONLY FOR THE OBJECT IT CAN ACTUALLY KNOW.**
+For audit purposes, no new compressed abstraction is introduced here. Later synthesis must be built only from the numbered quotation-grounded findings above.
+
+### Audit disposition
+
+Every retained abstraction in this unit is repeated in the Build harvest with its Ground number. No Build-harvest wording is allowed to create an additional independent finding.
 
 ### Backfill disposition
 
-All surviving abstractions below are retained only because the quoted ground in this unit earns them. Earlier unquoted formulations not reproduced here are not carried forward as independent findings.
+All surviving abstractions are retained only because the quoted ground in this unit earns them. Earlier formulations not reproduced as numbered quotation-grounded findings are not carried forward as independent findings.
