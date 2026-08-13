@@ -5,7 +5,7 @@
 
 **Witness condition:** English translation. All wording is `[V]`. Reported Talleyrand speech remains reported speech; it is not silently promoted to a contemporaneous verbatim transcript.
 
-**Quotation status:** `QUOTATION_GROUNDED`
+**Quotation status:** `AUDITED_QUOTATION_GROUNDED`
 
 **Evidence status:** Second retrospective witness sequence kept separate from Talleyrand’s Memoirs narrative. No preexisting deed was consulted or cross-referenced.
 
@@ -23,6 +23,7 @@ Bacourt’s account presents the proposed policy as a combination of retained co
 
 **DISTINGUISH WHAT HAS ALREADY BEEN CONCEDED FROM WHAT STILL MUST BE DEFENDED.**
 
+
 ## 2. Textual ground
 
 > “was resolved to yield rather than to cause a single drop of blood to be shed by resisting the popular outbreaks.”
@@ -37,6 +38,7 @@ The proposed coercive instrument may formally exist, but the principal will not 
 
 **AN INSTRUMENT IS NOT EXECUTABLE IF THE PRINCIPAL WILL NOT BEAR ITS REQUIRED COST.**
 
+
 ## 3. Textual ground
 
 > “Then, Monseigneur, it only remains for each of us to think of his own interests, since the king and the princes desert theirs and those of the monarchy.”
@@ -45,11 +47,12 @@ The proposed coercive instrument may formally exist, but the principal will not 
 
 ### Local reading
 
-Reported Talleyrand treats the king’s refusal as a threshold that changes the advisers’ practical obligations and option set.
+After the king refuses the proposed course and the prince announces his departure, reported Talleyrand says that the king and princes are deserting their own interests and those of the monarchy; he then repositions himself.
 
 ### Abstraction
 
-**WHEN COOPERATION DEPENDS ON A CONDITION, STATE OR IDENTIFY THE THRESHOLD AT WHICH THE BOARD CHANGES.**
+**WHEN THE PRINCIPAL ABANDONS THE INTEREST THE ADVISER WAS TRYING TO SERVE, REASSESS THE ADVISER’S POSITION.**
+
 
 ## 4. Textual ground
 
@@ -59,11 +62,15 @@ Reported Talleyrand treats the king’s refusal as a threshold that changes the 
 
 ### Local reading
 
-The Comte d’Artois’s reported confirmation materially strengthens the event-level corroboration of the 1789 interview.
+The reported confirmation strongly corroborates the occurrence and substance of the remembered conversation. It does not, by itself, prove every later interpretation Talleyrand or Vitrolles attaches to that event.
 
 ### Abstraction
 
-**CORROBORATION OF THE EVENT DOES NOT BY ITSELF SETTLE THE INTERPRETATION OF THE EVENT.**
+**CORROBORATION OF AN EVENT DOES NOT BY ITSELF SETTLE THE INTERPRETATION OF THE EVENT.**
+
+### Limit / alternative
+
+This is an evidentiary safeguard of the repository derived from the witness structure; it is not presented as a maxim spoken by Talleyrand.
 
 ## 5. Textual ground
 
@@ -79,6 +86,7 @@ Vitrolles reports Talleyrand distinguishing further concession from a controlled
 
 **CONNECT A CLAIMED REMEDY TO THE KIND OF POWER IT REQUIRES, BUT DO NOT INVENT THE MISSING EXECUTION PLAN.**
 
+
 ## 6. Textual ground
 
 > “We know the ways and the means and the position which would enable us to undertake this, and guarantee our succeeding, if the confidence of the king should entrust us with it.”
@@ -93,11 +101,12 @@ The counsel is offered with a claim of means, position, and willingness to execu
 
 **WHEN YOU CLAIM A REMEDY EXISTS, CONNECT THE CLAIM TO MEANS, RESPONSIBILITY, AND EXECUTION.**
 
+
 ## 7. Textual ground
 
 > “had only been instructed by the king to hear us, and to report… he had no answer to give us, and no power to engage the will or the word of the king.”
 >
-> — Vitrolles’s account, printed pp. 107–108 `[V]`
+> — Vitrolles’s account, printed p. 107–108 `[V]`
 
 ### Local reading
 
@@ -107,19 +116,24 @@ The Comte d’Artois has access and transmission authority but not commitment au
 
 **SEPARATE ACCESS TO THE PRINCIPAL FROM AUTHORITY TO BIND THE PRINCIPAL.**
 
+
 ## 8. Textual ground
 
-> “we should support the new state of affairs.”
+> “if the application we now made conscientiously and in good faith was not appreciated, if it had no effect and led to no result … if, not being able to resist the torrent which threatened to carry all before it, we should support the new state of affairs.”
 >
 > — Vitrolles reporting Talleyrand and companions, printed p. 108 `[V]`
 
 ### Local reading
 
-Vitrolles reports that Talleyrand and his companions stated in advance a possible shift if the proposal failed and the movement could no longer be resisted.
+Vitrolles reports that Talleyrand and his companions stated the condition before the contemplated change of position: if their good-faith application produced no result and resistance became impossible, they might support the new state of affairs.
 
 ### Abstraction
 
 **WHEN A POLITICAL COMMITMENT IS CONDITIONAL, STATE THE CONDITION BEFORE ITS FAILURE WHEN CIRCUMSTANCES ALLOW.**
+
+### Limit / alternative
+
+This is reported speech in Vitrolles’s later testimony, not a contemporaneous verbatim transcript.
 
 ## Reflexive obligation for reconstructing Talleyrand
 
@@ -127,13 +141,23 @@ Under Keel Principle 11, this unit also becomes a research instruction for Talle
 
 ## Build harvest
 
-- **DISTINGUISH RETAINED CONCESSIONS FROM THE BOUNDARY STILL TO BE DEFENDED.**
-- **AN INSTRUMENT IS NOT EXECUTABLE IF THE PRINCIPAL WILL NOT BEAR ITS COST.**
-- **SEPARATE ACCESS FROM AUTHORITY TO BIND.**
-- **CONNECT REMEDY TO MEANS, RESPONSIBILITY, AND EXECUTION.**
-- **WHEN COMMITMENT IS CONDITIONAL, IDENTIFY THE THRESHOLD BEFORE FAILURE WHEN POSSIBLE.**
-- **CORROBORATION OF EVENT AND INTERPRETATION OF EVENT REMAIN SEPARATE.**
+- **DISTINGUISH WHAT HAS ALREADY BEEN CONCEDED FROM WHAT STILL MUST BE DEFENDED.** — Ground 1.
+- **AN INSTRUMENT IS NOT EXECUTABLE IF THE PRINCIPAL WILL NOT BEAR ITS REQUIRED COST.** — Ground 2.
+- **WHEN THE PRINCIPAL ABANDONS THE INTEREST THE ADVISER WAS TRYING TO SERVE, REASSESS THE ADVISER’S POSITION.** — Ground 3.
+- **CORROBORATION OF AN EVENT DOES NOT BY ITSELF SETTLE THE INTERPRETATION OF THE EVENT.** — Ground 4.
+- **CONNECT A CLAIMED REMEDY TO THE KIND OF POWER IT REQUIRES, BUT DO NOT INVENT THE MISSING EXECUTION PLAN.** — Ground 5.
+- **WHEN YOU CLAIM A REMEDY EXISTS, CONNECT THE CLAIM TO MEANS, RESPONSIBILITY, AND EXECUTION.** — Ground 6.
+- **SEPARATE ACCESS TO THE PRINCIPAL FROM AUTHORITY TO BIND THE PRINCIPAL.** — Ground 7.
+- **WHEN A POLITICAL COMMITMENT IS CONDITIONAL, STATE THE CONDITION BEFORE ITS FAILURE WHEN CIRCUMSTANCES ALLOW.** — Ground 8.
 
 ### Compression
 
-**REACH THE ACTUAL DECISION-MAKER, OFFER A REMEDY WITH MEANS AND RESPONSIBILITY, DISCOVER WHETHER THE PRINCIPAL WILL BEAR ITS COST, AND KEEP THE WITNESS CHAIN VISIBLE WHEN LATER MEMORY IS USED TO EXPLAIN THE BREAK.**
+For audit purposes, no new compressed abstraction is introduced here. Later synthesis must be built only from the numbered quotation-grounded findings above.
+
+### Audit disposition
+
+Every retained abstraction in this unit is repeated in the Build harvest with its Ground number. No Build-harvest wording is allowed to create an additional independent finding.
+
+### Backfill disposition
+
+All surviving abstractions are retained only because the quoted ground in this unit earns them. Earlier formulations not reproduced as numbered quotation-grounded findings are not carried forward as independent findings.

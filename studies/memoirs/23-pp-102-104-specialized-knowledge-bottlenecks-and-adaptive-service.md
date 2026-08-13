@@ -5,7 +5,7 @@
 
 **Witness condition:** English translation, not quotation-grade French. All quoted wording is `[V]`: exact wording of the current English project witness, usable to ground sequence, distinctions, and abstraction, but not to license exact French voice imitation.
 
-**Quotation status:** `QUOTATION_GROUNDED`
+**Quotation status:** `AUDITED_QUOTATION_GROUNDED`
 
 **Evidence status:** Independent Memoirs reconstruction. No preexisting deed was consulted or cross-referenced.
 
@@ -17,27 +17,27 @@
 
 ### Local reading
 
-The posture after losing control of the whole is selective: abstain where intervention is useless, act where a bounded consequence remains reachable.
+After describing a passive role on most questions, Talleyrand immediately names bounded domains in which he still intervened.
 
 ### Abstraction
 
-**WHEN CONTROL OF THE WHOLE IS LOST, ACT WHERE A BOUNDED EFFECT REMAINS POSSIBLE.**
+**SELECTIVE PASSIVITY CAN COEXIST WITH BOUNDED INTERVENTION.**
 
 ## 2. Textual ground
 
-> “To accomplish this great work, I consulted the most learned men, and the most prominent scholars of the time…”
+> “To accomplish this great work, I consulted the most learned men, and the most prominent scholars of the time, amongst whom I may mention M. de Lagrange, M. de Lavoisier, M. de la Place, M. Monge, M. de Condorcet, M. Vicq d’Azyr, and M. de la Harpe. All assisted me.”
 >
-> — printed p. 102 `[V]`
+> — printed pp. 102–103 `[V]`
 
 ### Local reading
 
-For public instruction he builds a knowledge field larger than his own competence instead of pretending one mind can own all component truths.
+Talleyrand does not present himself as intellectually self-sufficient. For the public-instruction project he deliberately consults and names multiple leading scholars whose assistance enters the work.
 
 ### Abstraction
 
 **BUILD THE KNOWLEDGE FIELD TO MATCH THE QUESTION.**
 
-**CALL DIFFERENT FORMS OF SUPERIOR KNOWLEDGE WHEN THE PROBLEM CROSSES JURISDICTIONS.**
+**CONSULT MULTIPLE LEADING SCHOLARS RATHER THAN TREATING ONE EXPERT AS SUFFICIENT.**
 
 ## 3. Textual ground
 
@@ -53,6 +53,7 @@ Political ownership of the final work does not erase intellectual provenance.
 
 **DO NOT LET POLITICAL OWNERSHIP ERASE CONTRIBUTOR PROVENANCE.**
 
+
 ## 4. Textual ground
 
 > “could not do without the episcopal character which could only be conferred upon them by men who had received it.”
@@ -67,19 +68,20 @@ The enormous church conflict narrows to an operational bottleneck: the capacity 
 
 **WHEN A LARGE TRANSFORMATION TURNS ON ONE NARROW CONDITION, FIND THE BOTTLENECK.**
 
+
 ## 5. Textual ground
 
-> “I lent, therefore, my services to consecrate one of the newly-elected bishops, who in his turn, consecrated the others.”
+> “they could not do without the episcopal character which could only be conferred upon them by men who had received it. … it was greatly to be feared … that France could not be drawn back to Catholicism … I lent, therefore, my services to consecrate one of the newly-elected bishops, who in his turn, consecrated the others.”
 >
 > — printed p. 103 `[V]`
 
 ### Local reading
 
-A single intervention at a transmission bottleneck preserves a line of institutional capacity.
+Talleyrand identifies a narrow transmission bottleneck: episcopal character can be conferred only by someone who already possesses it. His stated reason for acting is fear that breaking this line would make later return to Catholicism harder. The correctness of that counterfactual remains his retrospective judgment.
 
 ### Abstraction
 
-**IF FUTURE RECOVERABILITY DEPENDS ON AN UNBROKEN LINE OF CAPACITY, IDENTIFY AND PRESERVE THAT LINE WHEN THE COST IS PRUDENTLY BEARABLE.**
+**IDENTIFY THE NARROW CAPACITY WHOSE LOSS WOULD MAKE LATER INSTITUTIONAL RECOVERY HARDER.**
 
 ### Limit / alternative
 
@@ -93,13 +95,14 @@ The act also helps make the new constitutional church operational; its net polit
 
 ### Local reading
 
-Office is treated as an instrument rather than the enduring object of loyalty. The claimed fixed object is being French while roles change.
+Once the act he has just described is done, Talleyrand resigns the bishopric and says that remaining a Frenchman is enough while he places himself at the disposition of events. The text separates retention of office from his stated national identity.
 
 ### Abstraction
 
-**DO NOT MAKE A CAREER AN END AFTER ITS FUNCTION HAS CHANGED.**
+**DO NOT TREAT RETENTION OF OFFICE AS AN END IN ITSELF.**
 
-**DISTINGUISH LOYALTY TO COUNTRY FROM ATTACHMENT TO OFFICE.**
+**DISTINGUISH NATIONAL IDENTITY FROM ATTACHMENT TO A PARTICULAR OFFICE.**
+
 
 ## 7. Textual ground
 
@@ -109,15 +112,16 @@ Office is treated as an instrument rather than the enduring object of loyalty. T
 
 ### Local reading
 
-This is a mature self-description of the enduring object he claims across regime and career changes.
+This is a mature self-description of the object of service he claims across subsequent entries and re-entries into public life.
 
 ### Abstraction
 
-**ADAPT THE ROLE TO EVENTS WITHOUT MAKING EVENTS THEMSELVES THE OBJECT OF LOYALTY.**
+**MAKE THE COUNTRY ITSELF THE STATED OBJECT OF SERVICE ACROSS CHANGES OF ROLE.**
 
 ### Limit / alternative
 
 The claim is `[HT]` and must be tested against conduct; it is not self-certifying evidence that every later adaptation served France.
+
 
 ## Reflexive obligation for reconstructing Talleyrand
 
@@ -125,18 +129,24 @@ Under Keel Principle 11, this unit also becomes a research instruction for Talle
 
 ## Build harvest
 
-- **WHEN CONTROL OF THE WHOLE IS LOST, ACT WHERE A BOUNDED EFFECT REMAINS.**
-- **BUILD THE KNOWLEDGE FIELD TO MATCH THE QUESTION.**
-- **DO NOT ERASE CONTRIBUTOR PROVENANCE.**
-- **FIND THE NARROW BOTTLENECK.**
-- **PRESERVE NECESSARY LINES OF CONTINUITY WHILE PRICING WHAT YOUR PARTICIPATION ALSO GIVES THE NEW ORDER.**
-- **DO NOT MAKE CAREER THE END.**
-- **DISTINGUISH COUNTRY FROM OFFICE.**
+- **SELECTIVE PASSIVITY CAN COEXIST WITH BOUNDED INTERVENTION.** — Ground 1.
+- **BUILD THE KNOWLEDGE FIELD TO MATCH THE QUESTION.** — Ground 2.
+- **CONSULT MULTIPLE LEADING SCHOLARS RATHER THAN TREATING ONE EXPERT AS SUFFICIENT.** — Ground 2.
+- **DO NOT LET POLITICAL OWNERSHIP ERASE CONTRIBUTOR PROVENANCE.** — Ground 3.
+- **WHEN A LARGE TRANSFORMATION TURNS ON ONE NARROW CONDITION, FIND THE BOTTLENECK.** — Ground 4.
+- **IDENTIFY THE NARROW CAPACITY WHOSE LOSS WOULD MAKE LATER INSTITUTIONAL RECOVERY HARDER.** — Ground 5.
+- **DO NOT TREAT RETENTION OF OFFICE AS AN END IN ITSELF.** — Ground 6.
+- **DISTINGUISH NATIONAL IDENTITY FROM ATTACHMENT TO A PARTICULAR OFFICE.** — Ground 6.
+- **MAKE THE COUNTRY ITSELF THE STATED OBJECT OF SERVICE ACROSS CHANGES OF ROLE.** — Ground 7.
 
 ### Compression
 
-**KNOW WHOM TO ASK, KNOW WHAT ONLY THEY CAN KNOW, AND KNOW WHAT JUDGMENT STILL CANNOT BE DELEGATED.**
+For audit purposes, no new compressed abstraction is introduced here. Later synthesis must be built only from the numbered quotation-grounded findings above.
+
+### Audit disposition
+
+Every retained abstraction in this unit is repeated in the Build harvest with its Ground number. No Build-harvest wording is allowed to create an additional independent finding.
 
 ### Backfill disposition
 
-All surviving abstractions below are retained only because the quoted ground in this unit earns them. Earlier unquoted formulations not reproduced here are not carried forward as independent findings.
+All surviving abstractions are retained only because the quoted ground in this unit earns them. Earlier formulations not reproduced as numbered quotation-grounded findings are not carried forward as independent findings.
