@@ -135,7 +135,7 @@ Talleyrand says his superiors “cannot have failed” to suspect the source of 
 
 ### Reflexive obligation
 
-When reconstructing Talleyrand’s rise, record not only the rules formally applied to him but **where others relaxed, deferred, or redirected enforcement because they expected him to become useful or powerful.** Such indulgence is part of the opportunity structure around the person.
+Do **not** preserve this episode in order to build an opportunity structure around Talleyrand. Preserve it because it may reveal something about **how Talleyrand habitually sees institutions and men**: present enforcement can bend before anticipated future power. The later test is whether this same way of seeing recurs across different circumstances, whether he notices it in others, and how he acts when confronted with it. The target is the recurrent judgment, not the map of advantages available to him.
 
 ---
 
@@ -183,18 +183,17 @@ No abstraction is harvested from Bacourt’s report in this unit.
 
 ## Reflexive obligation for reconstructing Talleyrand
 
-Unit 04 gives unusually direct formation instructions. The future reconstruction must test:
+Unit 04 gives unusually direct material for the reconstruction of essence. The future reading must test:
 
-- where Talleyrand’s outward reserve was read as pride, arrogance, indifference, or calculation, and whether the available evidence supports the attributed motive;
-- which books and genres actually changed his judgments rather than merely appearing in his library;
-- whether he maintained the claimed independence of judgment when confronted by celebrated authors, experts, patrons, friends, fashion, or office;
-- where adversity strengthened capacity and where it may instead have produced resentment or distortion;
-- which relationships gained unusual confidence because the parties recognized a shared constraint or unwanted role;
-- where private relationships changed his ability to endure or operate inside an institution without proving attachment to that institution;
-- where institutions tolerated or protected him because they expected future rank, utility, or power from him;
-- how Talleyrand’s own testimony, Bacourt, friends, editors, and other witnesses differ when describing his interior life.
+- whether the distinction between outward manner and inward motive recurs in how Talleyrand reads himself and others;
+- whether his refusal to surrender judgment to books, prestige, experts, friendship, fashion, or office remains stable across later life;
+- whether adversity repeatedly strengthens judgment, or whether resentment and distortion sometimes win instead;
+- whether shared constraint repeatedly creates a privileged channel of confidence for him;
+- whether private attachment can alter his conduct without changing his underlying judgment of an institution or regime;
+- whether he repeatedly notices that present rules bend before anticipated future power, and what that recurring perception reveals about his view of institutions and men;
+- how his own testimony and other witnesses differ when describing his interior life.
 
-The method transfers; no later conclusion is pre-written.
+The question is not what advantages surrounded him. The question is **what remains recognizably Talleyrand when the surrounding circumstances change.**
 
 ---
 
