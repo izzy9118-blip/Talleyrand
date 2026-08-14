@@ -163,6 +163,32 @@ None of these facts may be used to pre-write the adult Talleyrand. They become e
 
 ---
 
+## Longitudinal juxtaposition to test — not yet a finding
+
+Unit 01 presents a structural hierarchy that may become highly important later in the life: affection for, or the interest of, an individual child is subordinated to what the family understands as the interest of the continuing family body. Talleyrand suffered that hierarchy personally and remembered it painfully.
+
+A later political structure may be juxtaposed with it, but must not yet be inferred from it. We should test whether mature Talleyrand repeatedly distinguishes **attachment to a particular ruler, dynasty, constitution, or regime** from a higher object he regards as continuing through regime change — first **France**, and perhaps at another level the stability, peace, or political order of **Europe**.
+
+If later textual ground establishes that hierarchy, an important structural comparison would become available:
+
+**individual child : family :: particular regime or ruler : France :: France : European order**
+
+The comparison concerns the ranking of objects of attachment and obligation. It does **not** establish that Talleyrand’s later statecraft was psychologically caused by his childhood treatment. Juxtaposition is permitted before causation is earned.
+
+The later reading must therefore ask:
+
+- Does Talleyrand explicitly identify France as a political object that survives governments, dynasties, or constitutions?
+- Does he distinguish affection, gratitude, fidelity, or personal attachment to a ruler from judgment about France’s larger interest?
+- When he withdraws support from a regime, does the evidence show that he believes the regime has ceased to serve France, or are other explanations stronger?
+- Does he ever place the European balance, peace, or common order above a narrower French advantage, and under what conditions?
+- Is there a repeated hierarchy of **particular attachment → continuing whole**, or would such a pattern merely be imposed retrospectively by us?
+
+The governing safeguard is:
+
+**JUXTAPOSE THE STRUCTURE; DO NOT YET CLAIM THE CAUSE. LET LATER DEEDS AND WORDS SHOW WHETHER TALLEYRAND HIMSELF RANKS THE CONTINUING WHOLE ABOVE THE REGIME THAT TEMPORARILY SERVES IT.**
+
+---
+
 ## Build harvest — passage-scale grounded only
 
 - **PRICE POSITION BY WHAT IT CAN BE CONVERTED INTO, NOT BY NOMINAL PRESTIGE ALONE.** — Ground 1.
