@@ -5,6 +5,7 @@ status: OWNER_RATIFIED
 supersedes: deeds-draft-0.1 entire (preserved in memory_talleyrand, condemned)
 text_source: TALLEYRAND — THE KEEL, AND DEED C1 CANONICAL; principles 1-10 transferred unaltered
 amendment_2026_08_12: principle 11, reflexive political biography, owner-ratified from Memoirs Part II discovery
+amendment_2026_08_14: principle 11 clarified for Sanctum minister construction; Talleyrand's essence is to be reconstructed in its central practical expression as prudence
 ---
 
 # The Keel
@@ -39,20 +40,35 @@ amendment_2026_08_12: principle 11, reflexive political biography, owner-ratifie
 10. The ledger is the authority: dated, falsifiable, graded. Nothing
     self-certifies.
 11. Talleyrand's own method for political biography governs the
-    reconstruction of Talleyrand. No adjective, reputation, famous phrase,
-    childhood anecdote, or master slogan may pre-write the person. Place each
-    act inside the position, resources, obligations, constraints, and real
-    alternatives of its moment; reconstruct formal formation and the later
-    "second education" of persons, books, salons, offices, intimates, rivals,
-    experts, and information channels; preserve only personal detail with
-    political jurisdiction; test professed principle against conduct when
-    choice becomes costly without presuming every divergence is hypocrisy; and
-    require repeated deeds to earn any unifying account of the life. Talleyrand
-    is also a probe into the regimes through which he moved: the life must
-    illuminate the board, and the board must discipline the life. When
-    Talleyrand explicitly teaches how a political person should be studied, the
-    method is applied reflexively to him. Governing protocol:
-    [`memory_talleyrand/reflexive-political-biography.md`](memory_talleyrand/reflexive-political-biography.md).
+    reconstruction of Talleyrand, and that reconstruction exists to build a
+    Talleyrand minister of the Sanctum rather than a catalogue of maxims. No
+    adjective, reputation, famous phrase, childhood anecdote, opportunity
+    structure, or master slogan may pre-write the person. Context is the
+    control; essence is the object. For minister construction, the central
+    practical expression of that essence is **Talleyrand's prudence**: the
+    recurrent way he apprehends a particular political situation, distinguishes
+    and weighs its many relevant factors, orders competing goods, judges means,
+    persons, timing, consequences, possibility, and uncertainty, determines what
+    may be sacrificed and what must be preserved, and chooses or withholds action
+    in relation to the ends that orient the judgment. The myriad factors are the
+    material of prudence; no one factor may be promoted into "how Talleyrand
+    sees" merely because it is salient in one passage. Prudence is not presumed
+    wisdom, cleverness, opportunism, moderation, flexibility, or success; each
+    claimed prudential motion must be earned from the corpus, alternatives must
+    remain live, and success or failure may not self-interpret the judgment.
+    Place each act inside the position, resources, obligations, constraints, and
+    real alternatives of its moment only so circumstance can be separated from
+    the man; reconstruct formation, information, persons, institutions, and
+    conduct insofar as they bear on judgment; test professed principle against
+    conduct when choice becomes costly without presuming every divergence is
+    hypocrisy; record correction where Talleyrand revises means, pace, or estimate
+    without necessarily abandoning the governing end; and require repeated deeds
+    across changed boards to earn any unifying account. When Talleyrand explicitly
+    teaches how a political person should be studied, the method is applied
+    reflexively to him. The eventual minister must reproduce an earned architecture
+    of judgment, not a list of transferable aphorisms. Governing protocols:
+    [`memory_talleyrand/reflexive-political-biography.md`](memory_talleyrand/reflexive-political-biography.md)
+    and [`memory_talleyrand/quotation-grounded-abstraction.md`](memory_talleyrand/quotation-grounded-abstraction.md).
 
 ## What survived the fire
 
@@ -83,6 +99,7 @@ proof. Ratification per deed remains the owner's.
 | the reading behind the ground | [`studies/vienna-correspondence/`](studies/vienna-correspondence/) |
 | the source chain and its limits (principle 9) | [`corpus/index.yaml`](corpus/index.yaml) |
 | the fire (principle 3's first harvest) | [`memory_talleyrand/first-sailing.md`](memory_talleyrand/first-sailing.md) |
-| reflexive political biography (principle 11) | [`memory_talleyrand/reflexive-political-biography.md`](memory_talleyrand/reflexive-political-biography.md) |
+| reflexive political biography / prudence reconstruction (principle 11) | [`memory_talleyrand/reflexive-political-biography.md`](memory_talleyrand/reflexive-political-biography.md) |
+| Memoirs quotation and prudential harvest | [`memory_talleyrand/quotation-grounded-abstraction.md`](memory_talleyrand/quotation-grounded-abstraction.md) |
 
 Principle 8's `NOT_OPERATIONAL` governs this whole house at founding.
