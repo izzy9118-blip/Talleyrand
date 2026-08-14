@@ -9,7 +9,7 @@
 
 **Evidence status:** Independent Memoirs reconstruction. No preexisting deed was consulted or cross-referenced.
 
-**Essence rule for this rebuild:** context is used only to separate what belongs to the moment from what may belong to Talleyrand. The object is the recurring structure of his judgment. A single episode can supply an **essence signal**; only recurrence across unlike situations can earn an essence conclusion.
+**Essence rule for this rebuild:** context is used only to separate what belongs to the moment from what may belong to Talleyrand. The object is the recurring structure of his judgment. No single analytic factor — interest, motive, rhetoric, evidence, position, timing, personality, doctrine, or any other — is allowed to stand for “how Talleyrand sees.” A single episode can supply an **essence signal**; only recurrence in the way multiple factors are noticed, weighed, ordered, and judged across unlike situations can earn an essence conclusion.
 
 **Natural boundary:** The unit begins when the young Talleyrand enters the assembly of the clergy and deliberately studies how business is actually conducted. It ends when the legal-property controversy reaches the brink of an adverse decision and is interrupted by the States-General. The next paragraph on printed p. 21 begins a new movement concerning reform of religious orders.
 
@@ -31,7 +31,7 @@ The decisive opening verb is not *believed*, *approved*, or *joined*. Talleyrand
 
 He first lists the elevated languages available inside the assembly — religion, humanity, patriotism, philosophy — and then asks what happens when something concrete becomes costly. At the moment the clergy’s pecuniary interest is threatened, the members converge in action. Yet Talleyrand does not flatten them into one motive. He immediately disaggregates the coalition: the pious speak of the poor; aristocrats fear innovation; openly ambitious men argue for the clergy’s administrative supremacy.
 
-This is stronger than a cynical maxim that every principle is a disguise. Talleyrand’s method is comparative. He notices the **common action**, the **common threatened interest**, and the **different arguments and dispositions** by which different men arrive there.
+This is stronger than a cynical maxim that every principle is a disguise. Talleyrand’s analysis here includes the **common action**, the **common threatened interest**, and the **different arguments and dispositions** by which different men arrive there. These are several factors among others, not a complete account of his political vision.
 
 ### Abstractions
 
@@ -47,7 +47,7 @@ Talleyrand’s phrase “various disguises” is his mature interpretation of th
 
 ### Essence signal
 
-A possible recurrent feature of Talleyrand is already visible: **he looks for what remains operative when language changes and cost appears.** That is not yet an essence conclusion. Later, unlike situations must show whether he repeatedly tests men, institutions, and himself in this way.
+One possible recurrent factor in Talleyrand’s analysis is visible here: **he attends to what remains operative when language changes and cost appears.** That is only one factor among many that may enter his judgment. Later, unlike situations must show how this factor is weighed against others before it can contribute to an essence conclusion.
 
 ---
 
@@ -67,7 +67,7 @@ Talleyrand refuses to let the sacred language change the object of the dispute. 
 
 The passage therefore keeps two levels simultaneously visible: the material object being defended and the moral or sacred vocabulary through which the defense acquires force.
 
-That is important for reconstructing Talleyrand’s essence. His characteristic move may not be “interest is the truth and principle is false.” The more exact possibility is that he separates layers which political actors themselves may fuse.
+This supplies another factor for reconstructing Talleyrand’s judgment. It does not mean that “interest is the truth and principle is false.” The more exact point is that he can separate layers which political actors themselves may fuse, while leaving open the possibility that more than one layer is genuinely operative.
 
 ### Abstraction
 
@@ -79,7 +79,7 @@ The phrase “interference of conscience” is ironic in tone, but the passage d
 
 ### Essence signal
 
-The emerging question is whether Talleyrand characteristically **separates things others present as one**: interest from argument, motive from language, temporal object from sacred justification. Later units must test whether this separating intelligence persists across religion, finance, diplomacy, regime, loyalty, and peace.
+A further possible factor is Talleyrand’s capacity to **separate things others present as one**: interest from argument, motive from language, temporal object from sacred justification. This too is only one element of a larger analysis. Later units must show how such distinctions interact with timing, institutional structure, character, evidence, loyalty, force, prudence, and other considerations.
 
 ---
 
@@ -101,7 +101,7 @@ The government concedes one question — possession — and attacks another — 
 
 Talleyrand appears to have participated in that advocacy: one of the memoirs, he says, **“I believe, I am the author.”** Yet participation does not prevent him from preserving the weak points. He admits that he does not remember how the argument overcame the difficulty of spiritual peerages, and he records that evidence from the Chamber of Accounts was about to produce a decision against the clergy when the political world changed.
 
-This is especially important for the search for essence. Here Talleyrand is not merely standing outside another faction and exposing it. He is describing a cause in which he himself participated, while still naming its interest, its lack of documentary proof, an unresolved difficulty in its reasoning, and the evidence that nearly defeated it.
+This matters for the search for essence because Talleyrand is not merely standing outside another faction and exposing it. He is describing a cause in which he himself participated, while still naming its interest, its lack of documentary proof, an unresolved difficulty in its reasoning, and the evidence that nearly defeated it. But even this combination is not “the essence” by itself; it is another datum to be tested against later, unlike situations.
 
 ### Abstractions
 
@@ -119,26 +119,30 @@ Talleyrand is writing retrospectively, and the passage does not tell us exactly 
 
 ---
 
-## Essence inquiry — what may belong to Talleyrand rather than merely to this clerical controversy?
+## Essence inquiry — a plurality of factors, not a single lens
 
-This unit gives us a stronger essence question than the earlier language of “opportunity structure.” The assembly is only the testing ground. What matters is the mental operation that may recur after the assembly disappears.
+This unit does **not** authorize the statement that interest, cost, motive, or any other one consideration is “how Talleyrand sees.” Rather, it gives several elements within a much larger analytic field.
 
 Four possible continuities now deserve to be carried forward without being prematurely ratified:
 
-1. **He tests words by what men do when a concrete interest is threatened.**
-2. **He separates common action from common motive.**
+1. **He includes conduct under cost among the factors by which declared principle is tested.**
+2. **He distinguishes common action from common motive.**
 3. **He distinguishes the object being defended from the language used to defend it without automatically treating the language as false.**
 4. **He can participate in a cause while retaining enough distance to see the weakness of the cause’s own argument.**
 
-The fourth is especially important. In Unit 04 Talleyrand described books as enlightening without enslaving his judgment. Unit 05 may show the political analogue: membership in a body need not enslave the verdict either. This is a **longitudinal hypothesis**, not yet an essence conclusion.
+The proper essence question is therefore broader:
+
+**WHAT FACTORS DOES TALLEYRAND NOTICE, HOW DOES HE WEIGH THEM AGAINST ONE ANOTHER, WHICH DOES HE TREAT AS DECISIVE IN DIFFERENT CIRCUMSTANCES, AND WHAT ORDERING OF THOSE FACTORS RECURS ACROSS HIS LIFE?**
+
+One longitudinal hypothesis remains worth testing. In Unit 04 Talleyrand described books as enlightening without enslaving his judgment. Unit 05 may show a political analogue: membership in a body need not enslave the verdict either. This is a **longitudinal hypothesis**, not yet an essence conclusion.
 
 A possible formulation to test across the life is:
 
 **BELONG TO THE BODY WITHOUT SURRENDERING THE VERDICT TO THE BODY.**
 
-If this recurs under the monarchy, Revolution, Directory, Consulate, Empire, Restoration, and European diplomacy, it may approach the essence we are seeking. If it appears only here, it remains a local feature of this episode.
+If this recurs under unlike governments and political circumstances, and if it survives serious rival explanations, it may contribute to the essence we are seeking. If it appears only here, it remains a local feature of this episode.
 
-This question also bears directly on the larger loyalty problem already opened by the childhood material. If Talleyrand repeatedly distinguishes the enduring object from the temporary body that claims to represent it, then later changes of allegiance must be examined by asking what he thought was the body, what he thought was the enduring object, and whether his conduct actually served that object. The text has **not yet established** that the enduring object is France, still less Europe. That must be earned by later words and deeds.
+This question also bears on the larger loyalty problem already opened by the childhood material. If Talleyrand repeatedly distinguishes the enduring object from the temporary body that claims to represent it, then later changes of allegiance must be examined by asking what he thought was the body, what he thought was the enduring object, and whether his conduct actually served that object. The text has **not yet established** that the enduring object is France, still less Europe. That must be earned by later words and deeds.
 
 ---
 
@@ -157,7 +161,7 @@ This question also bears directly on the larger loyalty problem already opened b
 
 **BELONG TO THE BODY WITHOUT SURRENDERING THE VERDICT TO THE BODY.**
 
-This candidate is not a Build-Harvest principle earned by one sentence. It is a longitudinal hypothesis generated by the relation between Talleyrand’s membership in the clergy, his participation in its advocacy, and his continued ability to describe its interest and weaknesses. It requires recurrence across unlike later situations.
+This candidate is not a Build-Harvest principle earned by one sentence. It is a longitudinal hypothesis generated by the relation between Talleyrand’s membership in the clergy, his participation in its advocacy, and his continued ability to describe its interest and weaknesses. It requires recurrence across unlike later situations and must be weighed alongside the many other factors that enter his judgment.
 
 ### Supersession note
 
