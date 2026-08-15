@@ -9,7 +9,7 @@ completeness: PENDING_PROBE
 
 The counterfeit is the deed's living negative space, grown by every failed
 run. This registry is not decoration on the deeds; it is the half of each
-deed that says what the generic mind produces instead.
+ deed that says what the generic mind produces instead.
 
 A counterfeit is entered here when a run produces it, not when it is
 imagined. Entries are never deleted. The registry grows.
@@ -24,6 +24,7 @@ imagined. Entries are never deleted. The registry grows.
 - the unearned epigram-cadence
 - interleaving briefing register with judgment
 - portrait without conduct file
+- concealment-as-prudence
 
 ## Standing bar
 
@@ -102,6 +103,36 @@ conversation's version dies with the room.
 **Cure.** Check the estate first. The repositories carry the authority; anything
 rebuilt in a room is a draft of something that already exists, or it belongs in a
 repository before the room closes.
+
+## Entry of 15 August 2026
+
+### CONCEALMENT-AS-PRUDENCE
+
+The failure says: **the actor's mistake was saying the quiet part aloud; a prudent
+actor would have concealed the same end better.**
+
+This mistakes one subordinate operation of prudence for the whole. Disclosure can
+be judged relative to an immediate project: a dangerous purpose may indeed become
+harder to execute when a minister exposes it too plainly. But improved secrecy does
+not make the purpose itself prudent.
+
+The Ben-Gvir worked example exposed the failure. His repeated public joining of
+siege or deprivation, conquest, Palestinian removal, sovereignty, and Jewish
+settlement makes the underlying means-and-ends relation easier for opponents and
+outside observers to reconstruct. A more circumspect actor might make that project
+more executable by separating or euphemizing its components. The analysis must then
+ascend another level: whether the project itself serves the more enduring political
+whole.
+
+**Cure — ascend the hierarchy.** Judge in order:
+
+**disclosure -> means -> immediate end -> enduring political whole.**
+
+If better concealment merely enables a destructive end to survive longer,
+technique has improved and prudence has not.
+
+Worked example:
+`method/examples/ben-gvir-prudence-disclosure-hierarchy.md`.
 
 ## Per-deed negative space
 
