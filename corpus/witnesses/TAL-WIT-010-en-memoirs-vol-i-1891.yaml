@@ -1,0 +1,84 @@
+record_type: talleyrand_source_witness_record
+version: 1.0.0
+source_id: TAL-SRC-010
+witness_id: TAL-WIT-010
+registered_on: "2026-09-11"
+registration_state: REGISTERED_FROM_EXISTING_READING_RECORDS_COPY_BINDING_PENDING
+completeness: PENDING_PROBE
+certification: NONE_SELF_CERTIFICATION_PROHIBITED
+path_convention: Repository-relative paths unless explicitly stated otherwise.
+identity:
+  title: Memoirs of the Prince de Talleyrand
+  volume: I
+  author: Talleyrand
+  editor: Duc de Broglie
+  translator: Raphael Ledos de Beaufort
+  publisher: G. P. Putnam's Sons
+  publication_year: 1891
+  language: en
+  french_alignment: NOT_ESTABLISHED_BY_THIS_RECORD
+registration_basis:
+  repository: izzy9118-blip/Talleyrand
+  repository_commit: aee9d9e676a6244f132357f89dae649e3fd1d42c
+  records:
+    - path: memory_talleyrand/quotation-grounded-abstraction.md
+      git_blob_sha: 8adaf5feed362d8cb8365c5d48a0b4def669c0a7
+      establishes: Reading-witness identity, passage-scale method, and V/HT distinctions.
+    - path: studies/memoirs/quotation-grounding-audit-01-28.md
+      git_blob_sha: d8a953fcf1e007cbd317a851da13c2f001fe27b9
+      establishes: Bibliographic identity and the repository's historical quotation-audit claim.
+  mode: RETROSPECTIVE_CATALOGUE_REGISTRATION_NOT_NEW_ACQUISITION
+copy_binding:
+  state: NOT_ESTABLISHED_BY_THIS_REGISTRATION
+  exact_scan_identifier: null
+  source_repository_path: null
+  source_sha256: null
+  acquisition_date: null
+  pdf_page_count: null
+  printed_to_pdf_page_map: null
+  reason: >-
+    The registration is grounded in the existing repository protocol and audit.
+    The exact scan bytes and page map were not acquired or verified in this
+    production unit. Null fields are unresolved metadata, not proof of nonexistence.
+  before_source_level_reverification: >-
+    Recover the project scan or record a separately identified replacement;
+    preserve its identity, bytes/hash or reproducible acquisition reference,
+    and printed-to-digital locators before asserting a new source comparison.
+historical_audit:
+  path: studies/memoirs/quotation-grounding-audit-01-28.md
+  audit_date_as_recorded: "2026-08-13"
+  status_as_recorded: COMPLETE
+  scope_as_recorded: Units 01-28 in the audited state.
+  quotation_groups_as_recorded: 185
+  abstractions_as_recorded: 212
+  current_registration_repeats_audit: false
+  limit: >-
+    This preserves an earlier audit claim; it does not independently repeat it,
+    certify historical truth, or automatically verify enlarged or revised
+    quotations introduced after that audit.
+textual_jurisdiction:
+  permitted_existing_study_use:
+    - English-witness passages preserved in the reading units, with their recorded verification status.
+    - Sequence, distinctions, local reasoning, and interpretation within the evidence actually supplied.
+    - Retrospective testimony as evidence of the retrospective judgment, without disqualification for its date.
+  marks:
+    V: English-witness wording does not certify the corresponding French diction.
+    HT: Retrospective self-testimony does not alone establish contemporaneous knowledge or intention.
+  separate_speakers:
+    - Talleyrand
+    - Duc de Broglie and other editorial voices
+    - Raphael Ledos de Beaufort as translator
+    - Bacourt, Vitrolles, and other reported witnesses where present
+  prohibitions:
+    - Do not treat an editorial note or another witness's speech as Talleyrand's own words.
+    - Do not count later repetition of this witness as independent corroboration.
+    - Do not use TAL-SRC-005's Vienna page pin as verification of this Memoirs witness.
+    - Do not silently replace missing source bytes with another edition or an unmarked reconstruction.
+    - Do not promote study hypotheses into operational doctrine through source registration.
+runtime_boundary:
+  admission: NOT_AUTHORIZED_BY_REGISTRATION
+  house_runtime: NOT_OPERATIONAL
+  voice_license_granted: false
+  declared_load_order_changed: false
+  study_root: studies/memoirs/
+  preparation_contract: method/corpus-to-runtime-contract.md

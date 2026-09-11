@@ -1,0 +1,52 @@
+record_type: talleyrand_owner_direction_record
+id: TAL-DIRECTION-CORPUS-RUNTIME-2026-09-11
+version: 1.0.0
+recorded_on: "2026-09-11"
+status: OWNER_DIRECTION_RECORDED_IMPLEMENTATION_PENDING_REVIEW
+owner_statement:
+  verbatim: "Agreed"
+  context: >-
+    Agreement with continuing passage-scale reconstruction while making the
+    passage-to-finding-to-authorized-use chain explicit; reconciling entry
+    points, registering the English Memoirs witness, and defining how complete
+    episodes and limits will reach a future sovereign adapter.
+scope:
+  repository: izzy9118-blip/Talleyrand
+  baseline_commit: aee9d9e676a6244f132357f89dae649e3fd1d42c
+  authorized_direction:
+    - Preserve sequential close reading and the existing units.
+    - Reconcile navigation with existing manifest, deed-index, and voice-license records.
+    - Register the existing English Memoirs Volume I witness without inventing missing custody metadata.
+    - Define passage-scale context preparation and a separate path to authorized operational use.
+    - Preserve Talleyrand's native unity of judgment, candor to Sanctum, alternatives, and uncertainty.
+  not_authorized_by_this_agreement:
+    - Admission of Talleyrand to Sanctum.
+    - Runtime activation, a live ministerial inquiry, or generalized voice imitation.
+    - Automatic promotion of Memoirs studies or candidates into the live deed index.
+    - Changes to other repositories, certified minister pins, or transport overlays.
+    - Certification of historical truth, semantic completion, or unseen implementation details.
+implementation:
+  review_state: PENDING_REVIEW_OF_EXACT_DIFF
+  strategy: BOUNDED_BRANCH_AND_PULL_REQUEST
+  merge_performed_by_this_record: false
+  records:
+    - README.md
+    - corpus/index.yaml
+    - corpus/witnesses/TAL-WIT-010-en-memoirs-vol-i-1891.yaml
+    - method/corpus-to-runtime-contract.md
+  existing_manifest_modified: false
+  existing_load_order_modified: false
+  existing_study_units_modified: false
+  existing_deeds_modified: false
+  runtime_authorized: false
+  corpus_promotion_authorized: false
+  voice_license_granted: false
+  executable_adapter_implemented: false
+  live_inquiry_performed: false
+  next_bounded_unit: >-
+    Prepare a source-bound access record for Unit 21 without rewriting it;
+    retain the full required textual windows, findings, alternatives, and
+    unresolved copy binding. Test documentary resolution before proposing
+    any operational admission or substantive ministerial test.
+completeness: PENDING_PROBE
+certification: NONE_SELF_CERTIFICATION_PROHIBITED

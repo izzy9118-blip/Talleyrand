@@ -1,6 +1,6 @@
 record_type: talleyrand_corpus_index
 house: talleyrand
-version: 1.4.0
+version: 1.5.0
 status: FOUNDING
 completeness: PENDING_PROBE
 governing_rule: >-
@@ -8,14 +8,16 @@ governing_rule: >-
   Voice imitation licenses only from quotation-grade ground (keel principle 9).
   A silence in this registry means NOT ACQUIRED, never "nothing there."
 quotation_grade_ground:
-  status: ACQUIRED_PENDING_PAGE_PINNING
+  status: ACQUIRED_WITH_ONE_VERIFIED_PAGE_PIN
   source_id: TAL-SRC-005
   target: Pallain (ed.), Correspondance inédite du prince de Talleyrand et du roi Louis XVIII pendant le Congrès de Vienne. Paris, 1881. French third edition.
   acquisition_record: acquisitions/TAL-SRC-005-french-1881.yaml
+  page_pin: ../speech/page-pins/TAL-VOICE-PIN-001.yaml
+  status_authority: ../speech/voice-license.yaml
   consequence: >-
-    No voice imitation is licensed yet. Exact formulations remain provisional until
-    the printed page and scan page actually relied upon are pinned and checked,
-    followed by the owner's ruling.
+    One formulation has a verified French page pin. Other wording remains subject
+    to its own page-level verification. No generalized voice imitation is licensed,
+    and this Vienna pin does not upgrade the English Memoirs witness.
 sources:
   - id: TAL-SRC-001
     title: The Correspondence of Prince Talleyrand and King Louis XVIII during the Congress of Vienna
@@ -53,7 +55,7 @@ sources:
     edition: French, troisième édition, Paris, E. Plon et cie, 1881
     language: fr
     role: QUOTATION_GRADE_PAGE_IMAGE_WITNESS
-    status: ACQUIRED_PENDING_PAGE_PINNING
+    status: ACQUIRED_WITH_ONE_VERIFIED_PAGE_PIN
     authority: AUTHORITATIVE_FOR_WORDING_ONLY_AT_PINNED_PAGE_LOCATORS
     acquisition_record: acquisitions/TAL-SRC-005-french-1881.yaml
     stable_identifiers:
@@ -117,14 +119,46 @@ sources:
       Separate Directoire-period documentary ground. It enlarges the corpus and may
       test deeds across an earlier ministry, but it is not the French Vienna witness
       and may never substitute for TAL-SRC-005 page-image pinning.
+  - id: TAL-SRC-010
+    title: Memoirs of the Prince de Talleyrand
+    volume: I
+    author: Talleyrand
+    editor: Duc de Broglie
+    translator: Raphael Ledos de Beaufort
+    edition: G. P. Putnam's Sons, 1891
+    language: en
+    role: ENGLISH_MEMOIRS_READING_WITNESS
+    status: REGISTERED_FROM_EXISTING_READING_RECORDS_COPY_BINDING_PENDING
+    authority: ENGLISH_WITNESS_READING_GROUND_NOT_FRENCH_DICTION
+    witness_ids: [TAL-WIT-010]
+    witness_record: witnesses/TAL-WIT-010-en-memoirs-vol-i-1891.yaml
+    study: ../studies/memoirs/
+    governing_protocol: ../memory_talleyrand/quotation-grounded-abstraction.md
+    historical_audit: ../studies/memoirs/quotation-grounding-audit-01-28.md
+    runtime_admission: NOT_AUTHORIZED_BY_REGISTRATION
+    note: >-
+      Registers the Volume I English witness already identified in the reading
+      protocol and historical quotation audit. This is not a new acquisition or
+      verification of its scan. It is distinct from TAL-SRC-006, the French
+      volumes II-III Vienna correspondence witness. Retrospective testimony,
+      translation, editorial material, and later interpretation remain distinct.
 evidence_types:
   DF: documented finding
   HT: his testimony, awaiting corroboration where material
   SI: supported inference
   WH: working hypothesis
   UU: unresolved uncertainty
-  V: verbal - provisional until checked and page-pinned against TAL-SRC-005
+  V: verbal - qualification follows the relevant source and its wording-verification record
   ED-PRIMARY: primary matter transmitted through editorial apparatus
+wording_jurisdictions:
+  vienna: >-
+    TAL-SRC-005 page-image verification governs Vienna formulations. One verified
+    page pin does not upgrade other locators or grant generalized voice imitation.
+  memoirs_volume_i: >-
+    TAL-SRC-010 / TAL-WIT-010 is the English reading witness. Preserve V where
+    wording matters until the relevant French Memoirs text is acquired and aligned;
+    the unrelated Vienna page pin cannot satisfy that requirement. The historical
+    English quotation audit is preserved but is not rerun by this registration.
 corroboration_state:
   discovery_protocol: TAL-DISCOVERY-001
   record: ../studies/vienna-correspondence/9-high-value-discovery-record.yaml
