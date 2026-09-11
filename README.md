@@ -77,6 +77,8 @@ authorized-use chain explicit. The bounded implementation is recorded in
 [`ratification/2026-09-11-corpus-runtime-direction.yaml`](ratification/2026-09-11-corpus-runtime-direction.yaml).
 The implementation specification is
 [`method/corpus-to-runtime-contract.md`](method/corpus-to-runtime-contract.md).
+Its compatibility review and exact repository baselines are recorded in
+[`governance/reviews/2026-09-11-corpus-runtime-contract-review.yaml`](governance/reviews/2026-09-11-corpus-runtime-contract-review.yaml).
 
 This is preparation, not an operational adapter. The specification requires
 complete passage-scale ground, visible interpretation and limits, source identity,

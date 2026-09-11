@@ -1,0 +1,139 @@
+record_type: talleyrand_corpus_runtime_contract_review
+id: TAL-CORPUS-RUNTIME-REVIEW-2026-09-11
+version: 1.0.0
+recorded_on: '2026-09-11'
+status: IMPLEMENTATION_SPECIFICATION_PENDING_REVIEW
+completeness: PENDING_PROBE
+certification: NONE_SELF_CERTIFICATION_PROHIBITED
+subject:
+  path: method/corpus-to-runtime-contract.md
+  record_id: TAL-CORPUS-RUNTIME-001
+  version: 1.1.0
+continuation:
+  pull_request: https://github.com/izzy9118-blip/Talleyrand/pull/36
+  branch: preparation/corpus-runtime-boundary-2026-09-11
+  predecessor_commit: 0323164678eea51c55a8d0e730a352bf073fadc4
+  predecessor_contract:
+    path: method/corpus-to-runtime-contract.md
+    git_blob_sha1: 8b8158fc9e50a072f23db77d4e23cc2330a5cea2
+    role: Preserved contract version 1.0.0; this revision continues the same proposal.
+  previous_owner_direction_record: ratification/2026-09-11-corpus-runtime-direction.yaml
+  previous_owner_direction_modified: false
+current_instruction:
+  owner_statement_verbatim: Lets do it
+  context: Proceed with the narrow Talleyrand corpus-to-runtime contract described in the supplied architectural
+    review.
+  implemented_scope: Specify delivered ground, provisional authority, complete retrieval and operational
+    authorization using the existing governing records and adopted Sanctum adapter boundary.
+  exact_implementation_ratified: false
+  operational_admission_authorized: false
+inspected_baselines:
+- repository: izzy9118-blip/Talleyrand
+  commit: aee9d9e676a6244f132357f89dae649e3fd1d42c
+  role: Governing house baseline; not a certified minister pin.
+  records:
+  - path: manifest.yaml
+    git_blob_sha1: 63d85a9ffa6122611ca31f6683d437b4deec60f3
+    role: Current lifecycle, live load order and admission boundary; version 1.31.0.
+  - path: keel.md
+    git_blob_sha1: 4a190d80a1a06f37ca94cb4cd9b53d24c60665a1
+    role: Indivisible judgment, Sanctum-only runtime, voice limits and reflexive reconstruction.
+  - path: memory_talleyrand/manner-of-reading.md
+    git_blob_sha1: 295e251fdbee1b1319db9e7d76afebaecc1e43ca
+    role: Studies are readings, not rulings; no imported permanent-problems structure.
+  - path: memory_talleyrand/reflexive-political-biography.md
+    git_blob_sha1: 3478ca3295c3616491ea25f03d5353dcc2368fcd
+    role: Prudence must be earned across changing circumstances; no preselected master factor.
+  - path: memory_talleyrand/quotation-grounded-abstraction.md
+    git_blob_sha1: 8adaf5feed362d8cb8365c5d48a0b4def669c0a7
+    role: Passage-scale ground, translation and retrospective jurisdiction, Build Harvest distinctions.
+  - path: studies/memoirs/corrections/2026-08-10-learning-and-principles-before-deeds.md
+    git_blob_sha1: 73ea874d17f111637cfb930473740b06893cdd86
+    role: Independent Memoirs harvest before deed cross-reference; broad learning preserves source function.
+  - path: deeds/index.yaml
+    git_blob_sha1: b98b9cbf59aacf3d744c69b56739a6ae6f28508a
+    role: Twenty live deeds in corpus 2.12.0; no unresolved ore in the live set.
+  - path: ratification/live-owner-ratifications.yaml
+    git_blob_sha1: 05309dc69bc3b42f475006aa2aa713e2497b29a5
+    role: Effective owner acts and exact live ratification bindings.
+  - path: method/discovery-protocol.yaml
+    git_blob_sha1: 74d17b979a99662f3daa240e34207c9b65220ba4
+    role: Attributable discovery boundary, source-selection independence and evidence limits; effective
+      adoption is recorded separately.
+  - path: method/deep-analysis-rule.yaml
+    git_blob_sha1: 7910aa7e67f24db963374ec91ce25b842a79c1b5
+    role: Deep reconstruction before inference and discriminating probes.
+  - path: speech/voice-license.yaml
+    git_blob_sha1: 8cd02127b4a1ae12e8144586460cfaa12a9cf9f0
+    role: One page-pinned formulation; generalized voice license remains ungranted.
+  - path: studies/memoirs/21-pp-94-98-yielding-emigration-and-preserving-position.md
+    git_blob_sha1: 7f4e5291af8507fa084bd9e21ecef44373888707
+    role: Illustrative conditional judgment and its limits; unchanged study, not an executed transfer
+      test.
+- repository: izzy9118-blip/Talleyrand
+  commit: 0323164678eea51c55a8d0e730a352bf073fadc4
+  role: Existing PR proposal retained as the base of this continuation.
+  records:
+  - path: corpus/index.yaml
+    git_blob_sha1: 55a3c1956dcbcf6cb7f1cd9928cde618c23a69b6
+    role: Proposed source registration and source-specific wording jurisdictions.
+  - path: corpus/witnesses/TAL-WIT-010-en-memoirs-vol-i-1891.yaml
+    git_blob_sha1: 48810f6617721651a618831104805f1f5c27dd63
+    role: English witness registration; exact scan and page mapping explicitly unresolved.
+  - path: ratification/2026-09-11-corpus-runtime-direction.yaml
+    git_blob_sha1: 7fa44dac966c425bf87fe7702526ceb26296b636
+    role: Historical owner-direction record carried forward without rewriting.
+- repository: izzy9118-blip/Sanctum
+  commit: b26a16f4c94849c3a25d90239e907665086282b2
+  role: Read-only external compatibility baseline.
+  records:
+  - path: registry/ministers.yaml
+    git_blob_sha1: f31aaeeb409fba7377691c0077286eb7151f14b5
+    role: Established minister pins and Talleyrand future-repository status.
+  - path: registry/adapters.v1.yaml
+    git_blob_sha1: fa604786ec5f77747dbf7d5c692f96951fa29c35
+    role: Adopted base/overlay separation and permitted adapter path.
+  - path: contracts/sanctum-adapter.schema.v1.json
+    git_blob_sha1: c0ec78bb109bd7bc58c5425b576a3872a884cc40
+    role: Common protocol operations and open minister-local context object.
+  - path: universal_dispatch.py
+    git_blob_sha1: b33c39713c0e2b54ddbb889aaffd099076d18012
+    role: Actual pin, ancestry, changed-path and briefing checks.
+  - path: federated_proving.py
+    git_blob_sha1: d7cd228ca5f69303826df521f0e43d87faf49588
+    role: Actual stage inputs, Horus exchanges and model-call journal; remaining delivery dependencies.
+current_code_observations:
+- record: Sanctum universal_dispatch.py
+  observation: The common request and prepared repository commits name the overlay; the dispatcher adds
+    certified_base_commit separately.
+  contract_effect: Preserve both identities and the minister-local context object; do not redesign the
+    external protocol.
+- record: Sanctum federated_proving.py::_prompt and _journal_model_call
+  observation: The prompt serializes inquiry, prepared context and Horus exchanges; the journal stores
+    a prompt hash and output metadata, not prompt text or item coverage.
+  contract_effect: Require a reconstructible submitted input and item-level coverage for each future call.
+    Do not equate preparation with delivery or delivery with understanding.
+- record: Sanctum federated_proving.py::_run_minister
+  observation: The same prepared context and Horus exchanges are passed to the final and native-report
+    prompts; the provisional judgment and final package are not explicitly included by those calls.
+  contract_effect: Require delivery of preceding judgment products and consistency across stages before
+    claiming this contract is implemented.
+deferred_implementation:
+- Source-bound Unit 21 access record; enlarged quotation verification requires its identified source witness.
+- Minister-local context builder and structural delivery/authority validation.
+- Host-side submitted-input receipts, stage-product delivery and consistency checks; separate Sanctum
+  implementation review.
+- Owner-scoped house authorization, certified minister base and adopted adapter overlay.
+- Authorized behavioral tests that distinguish material evidence changes from wording changes.
+preserved_boundaries:
+  manifest_modified: false
+  declared_load_order_modified: false
+  memoirs_units_modified: false
+  deeds_modified: false
+  source_registration_reaudited: false
+  voice_license_granted: false
+  adapter_implemented: false
+  minister_invoked: false
+  other_repositories_modified: false
+  sanctum_admission_performed: false
+  merge_performed: false
